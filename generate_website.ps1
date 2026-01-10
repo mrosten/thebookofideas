@@ -44,7 +44,8 @@ function New-SectionHTML {
         [array]$SectionList,
         [array]$ChapterList,
         [array]$PartList,
-        [hashtable]$Footnotes
+        [hashtable]$Footnotes,
+        [string]$SidebarContent = ""
     )
     
     # Extract Title if present
@@ -155,22 +156,13 @@ function New-SectionHTML {
     <link rel="stylesheet" href="${depth}styles.css">
 </head>
 <body>
-    <!-- Sidebar -->
-    <div id="sidebar-container"></div>
+    <!-- Sidebar - Content Embedded -->
+    <div id="sidebar-container">$SidebarContent</div>
     <div id="sidebar-overlay"></div>
-
-    <!-- Search Modal -->
-    <div id="search-modal" style="display:none;">
-        <div class="search-backdrop"></div>
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search the Book of Ideas...">
-            <div id="search-results"></div>
-        </div>
-    </div>
 
     <header>
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
-        <button id="search-toggle" aria-label="Search" style="font-size:1.2rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">🔍</button>
+        <a href="${depth}search.html" id="search-link" aria-label="Search" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
         <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">$PartTitle</p>
@@ -327,7 +319,8 @@ function New-PartIndexHTML {
         [string]$PartName,
         [string]$PartTitle,
         [array]$Chapters,
-        [array]$PartList
+        [array]$PartList,
+        [string]$SidebarContent = ""
     )
     
     $chapterLinks = ""
@@ -360,8 +353,8 @@ $sectionLinks
     <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
-    <!-- Sidebar -->
-    <div id="sidebar-container"></div>
+    <!-- Sidebar - Content Embedded -->
+    <div id="sidebar-container">$SidebarContent</div>
     <div id="sidebar-overlay"></div>
 
     <!-- Search Modal -->
@@ -781,7 +774,8 @@ $fullContents
 
 function New-SidebarContent {
     param(
-        [array]$PartDataList
+        [array]$PartDataList,
+        [string]$RootPath = ""  # e.g., "../../../" for section pages
     )
     
     $sidebarSelect = @"
@@ -806,7 +800,8 @@ function New-SidebarContent {
                         <ul class="sidebar-section-list">
 "@
             foreach ($sec in $ch.Sections) {
-                $sidebarSelect += "                            <li><a href='parts/$($part.Target)/$($ch.Folder)/$($sec.Filename)' data-path='parts/$($part.Target)/$($ch.Folder)/$($sec.Filename)'>$($sec.Title)</a></li>`n"
+                $linkPath = "${RootPath}parts/$($part.Target)/$($ch.Folder)/$($sec.Filename)"
+                $sidebarSelect += "                            <li><a href='$linkPath'>$($sec.Title)</a></li>`n"
             }
             $sidebarSelect += @"
                         </ul>
@@ -1191,7 +1186,9 @@ $(
             }
             
             # Generate HTML
-            $html = New-SectionHTML -PartName $part.Target -PartTitle $part.Title -ChapterNum $chapterNum -ChapterTitle $chapterTitle -SectionNum $sectionNum -Content $content -PrevLink $prevLink -PrevLabel $prevLabel -NextLink $nextLink -NextLabel $nextLabel -SectionList $chapterSectionList -ChapterList $chapterList -PartList $partMappings -Footnotes $footnotes
+            # Generate sidebar content with correct relative path for sections (3 levels deep)
+            $sectionSidebarContent = New-SidebarContent -PartDataList $allPartsData -RootPath "../../../"
+            $html = New-SectionHTML -PartName $part.Target -PartTitle $part.Title -ChapterNum $chapterNum -ChapterTitle $chapterTitle -SectionNum $sectionNum -Content $content -PrevLink $prevLink -PrevLabel $prevLabel -NextLink $nextLink -NextLabel $nextLabel -SectionList $chapterSectionList -ChapterList $chapterList -PartList $partMappings -Footnotes $footnotes -SidebarContent $sectionSidebarContent
             
             $outputFile = Join-Path $chapterPath $section.Name.Replace('.txt', '.html')
             $html | Set-Content $outputFile -Encoding UTF8
@@ -1201,7 +1198,8 @@ $(
     }
     
     # Generate part index
-    $partIndexHtml = New-PartIndexHTML -PartName $part.Target -PartTitle $part.Title -Chapters $chapterList -PartList $partMappings
+    $partSidebarContent = New-SidebarContent -PartDataList $allPartsData -RootPath "../../"
+    $partIndexHtml = New-PartIndexHTML -PartName $part.Target -PartTitle $part.Title -Chapters $chapterList -PartList $partMappings -SidebarContent $partSidebarContent
     $partIndexHtml | Set-Content (Join-Path $targetPath "index.html") -Encoding UTF8
     
     Write-Host "Processed $($part.Title): $($chapters.Count) chapters" -ForegroundColor Cyan
@@ -1251,7 +1249,115 @@ foreach ($part in $allPartsData) {
     }
 }
 
-$searchIndex | ConvertTo-Json -Depth 3 | Set-Content (Join-Path $websitePath "search_index.json") -Encoding UTF8
+$searchIndexJson = $searchIndex | ConvertTo-Json -Depth 3 -Compress
+$searchIndexJson | Set-Content (Join-Path $websitePath "search_index.json") -Encoding UTF8
+
+# Generate Search Page with embedded index
+Write-Host "Generating Search Page..." -ForegroundColor Cyan
+$searchSidebarContent = New-SidebarContent -PartDataList $allPartsData -RootPath ""
+$searchPageHtml = @"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search — The Torah Book of Ideas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar - Content Embedded -->
+    <div id="sidebar-container">$searchSidebarContent</div>
+    <div id="sidebar-overlay"></div>
+
+    <header>
+        <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+        <h1>The Torah Book of Ideas</h1>
+        <p class="subtitle">Search</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contents.html">Contents</a>
+        <a href="search.html" class="active">Search</a>
+    </nav>
+    <main class="container">
+        <div class="content-card">
+            <h3>Search the Book of Ideas</h3>
+            <input type="text" id="search-input" placeholder="Type to search..." style="width:100%; padding:1rem; font-size:1.1rem; border:2px solid var(--accent-gold); border-radius:8px; margin-bottom:1rem; font-family:'Lora',serif;">
+            <div id="search-results"></div>
+        </div>
+    </main>
+    <footer>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+    </footer>
+    <script src="sidebar.js"></script>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Embedded Search Index
+        const searchIndex = $searchIndexJson;
+
+        // Search Logic
+        const searchInput = document.getElementById('search-input');
+        const searchResults = document.getElementById('search-results');
+
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            if (query.length < 2) {
+                searchResults.innerHTML = '<p style="color:#999;">Type at least 2 characters to search...</p>';
+                return;
+            }
+
+            const results = searchIndex.filter(item =>
+                item.title.toLowerCase().includes(query) ||
+                (item.content && item.content.toLowerCase().includes(query))
+            ).slice(0, 15);
+
+            if (results.length === 0) {
+                searchResults.innerHTML = '<p style="color:#999;">No results found.</p>';
+            } else {
+                searchResults.innerHTML = results.map(item => {
+                    let snippet = '';
+                    if (item.content) {
+                        const idx = item.content.toLowerCase().indexOf(query);
+                        const start = Math.max(0, idx - 40);
+                        const end = Math.min(item.content.length, idx + 100);
+                        snippet = item.content.substring(start, end) + '...';
+                        snippet = snippet.replace(new RegExp(query, 'gi'), match => '<mark>' + match + '</mark>');
+                    }
+                    return '<div class="search-result-item"><a href="' + item.url + '"><strong>' + item.title + '</strong><span class="result-path">' + item.part + ' > ' + item.chapter + '</span><p>' + snippet + '</p></a></div>';
+                }).join('');
+            }
+        });
+
+        // Auto-focus
+        searchInput.focus();
+    </script>
+</body>
+</html>
+"@
+$searchPageHtml | Set-Content (Join-Path $websitePath "search.html") -Encoding UTF8
 
 # Generate Sidebar Content
 Write-Host "Generating Sidebar Content..." -ForegroundColor Cyan
