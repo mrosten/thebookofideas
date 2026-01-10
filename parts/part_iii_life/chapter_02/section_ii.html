@@ -23,28 +23,84 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part III — Life</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part III — Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' >Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' class='active'>Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 2: Marriage</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 2: Marriage</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Family</a><a href='../chapter_02/section_i.html' class='active'>Chapter 2: Marriage</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section II
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section II</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
-                        <a href='section_i.html' >I</a><a href='section_ii.html' class='active'>II</a><a href='section_iii.html' >III</a><a href='section_iv.html' >IV</a><a href='section_v.html' >V</a><a href='section_vi.html' >VI</a>
+                        <a href='section_i.html' >I</a><a href='section_ii.html' class='active'>II</a><a href='section_iii.html' >III</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="content-card">
-            <h3>Section II</h3>
-            <p>Rashi and Tospot but not the Rambam who requires three judges. Many times, one suffers because of one's mate. He should know that the suffering would come upon him anyway even without the mate and therefore getting rid of them won't help. It will only make things worse. But in a harsher form. A Word to Women A. All men are either eccentric or evil. So, if you notice your husband is bit different, be pleased you didn't get the other type. This is because truth nowadays is afraid to show its face, so it hides itself in weird personality traits. Evil isn't afraid of anything, so they seem absolutely normal.</p>
-            <p>B. Men usually cease to be men after they are married and become “husbands”, so don't be surprised when it happens. As you know, you put out a special effort to be nice during the dating dance, so does he. Men, by nature, put out a tremendous amount of energy in the wooing process, but after they are married that energy just doesn't exist. And a man will always fall back on whatever he was in the first place with all the same quirks and weaknesses that he strove to hide while he was wooing you… This is not an act of deception any more than the mating dance of the bees. It's just a part of nature.</p>
-            <p>But there may be many right ones like Rachel and Leah where Leah wasn't really meant for Yaakov, but still it worked out well because there was still a true connection. But his real mate was Rachel. [Since true mate is a matter of percentage, one person might be 20% a true-mate and another 50%. As Rabbi Nachman explains, every person may have many people that are connected with him in this way.] Though the Rambam apparently disagrees with the idea of a true mate, this idea of percentages explains it.] The problem of not finding one's proper mate is the modern-day plague on the entire world. Just like 55 years ago World War II was the plague of the world for no known reason except an inexplicable judgement that came into the world, so today judgement of never finding one’s proper mate has come into the world.</p>
-            <p>(This is how today people are punished for their sins from previous lives.) The more sex is idolized the more the newspapers around the world are filled with “personals” of women who can't find any men and men who can't find any woman. The exception is only the very wicked who God rewards their few good deeds with sexual pleasure in this world in order that they should have no reward in the next. The other exception is the very righteous who sanctify themselves at the time of sex in which case the sexual act becomes a part of their Divine</p>
+            <h3>Section II — The Search for the Soul-Mate</h3>
+            <h4>The Soul-Mate Percentage</h4>
+            <p>The concept of a "true mate" is not binary, but a matter of percentage. While the Rambam suggests that choice is the primary factor, the Kabbalistic view is that every person has several potential mates with varying degrees of spiritual connection—20%, 50%, or 100%. Finding a mate is a deep sifting process, often serving as a correction for mistakes in previous lives.</p>
+            <div class="justice-balance">
+            <input type="radio" name="marriage-type" id="spiritual" class="balance-toggle" checked>
+            <input type="radio" name="marriage-type" id="practical" class="balance-toggle">
+            <input type="radio" name="marriage-type" id="curious" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="spiritual" class="balance-label label-righteous">Spiritual</label>
+            <label for="practical" class="balance-label label-wicked">Practical</label>
+            <label for="curious" class="balance-label label-wicked">Curiosity</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="type-spiritual">
+            <h5>The Spiritual Marriage</h5>
+            <p>The revelation of an already existing eternal bond. This union can weather any obstacle, as its essence predates the physical world.</p>
+            <span class="status-badge badge-reward">Eternal</span>
+            </div>
+            <div id="type-practical" style="display:none">
+            <h5>The Community Marriage</h5>
+            <p>Kept together by social honor and community support. It is purely biological and social; while stable, it lacks the "Holy" spark of the spirit.</p>
+            <span class="status-badge badge-punish">Temporal</span>
+            </div>
+            <div id="type-curious" style="display:none">
+            <h5>The Scientific Marriage</h5>
+            <p>Driven by curiosity, creativity, and the desire to build something new. It is the marriage of the philosopher and the creator.</p>
+            <span class="status-badge badge-reward">Creative</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="marriage-type"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const types = ['spiritual', 'practical', 'curious'];
+            types.forEach(type => {
+            document.getElementById('type-' + type).style.display = document.getElementById(type).checked ? 'block' : 'none';
+            });
+            });
+            });
+            </script>
+            <h4>The Modern Plague</h4>
+            <p>The inability to find a proper mate has become a "modern-day plague," much like the inexplicable judgments of history. This challenge often stems from the idolization of sex over the sanctification of the act. When the sexual act is made part of Divine worship, it transitions from a mere physical biological drive into a part of the soul's vertical ascent.</p>
+            <div class="concept-box">
+            <strong>The Character Test</strong>
+            Kindness is the ultimate litmus test for a potential mate. As seen in the story of <em>Titanic</em>, Jack's willingness to give his life for Rose was rooted in his general kind character—he was a person who would jump into the water for anyone. A kind person will be kind to their mate, while an selfish person will eventually turn that selfishness inward.
+            </div>
+            <blockquote class="fancy-quote">
+            "There is such a thing as finding the right person and knowing that it is so. But if the love isn't a readiness for self-sacrifice, it is best to wait until the true tested spirit is revealed."
+            </blockquote>
             
             
         </div>

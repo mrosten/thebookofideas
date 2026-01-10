@@ -23,27 +23,84 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part III — Life</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part III — Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' >Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' class='active'>Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 6: Success</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 6: Success</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Family</a><a href='../chapter_02/section_i.html' >Chapter 2: Marriage</a><a href='../chapter_03/section_i.html' >Chapter 3: Sex</a><a href='../chapter_04/section_i.html' >Chapter 4: Ways Of Life</a><a href='../chapter_05/section_i.html' >Chapter 5: Friendship</a><a href='../chapter_06/section_i.html' class='active'>Chapter 6: Success</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section I
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section I</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
-                        <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a><a href='section_iii.html' >III</a><a href='section_iv.html' >IV</a>
+                        <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="content-card">
-            <h3>Section I</h3>
-            <p>“Beware of any activity that requires the purchase of new clothes,” [ Thoreau ] because the clothes reflect the character and if the new activity involves different clothes, then it's not for you. Every person was created with a certain Tzelem {form} {world line in time and space} that he grows into. Therefore, any attempt to impose an external order on his life will fail. He can make plans, put in much effort and try with all his might, but if that order is not a part of his nature, and the nature of his world-line, it won't be successful.</p>
-            <p>This is what Socrates meant by know yourself. Most people waste years of their lives and sometimes all of it trying to force some type of external order on themselves that they have been taught is right for them but really isn't. Christopher Morley said, 'There is only one success -- to be able to spend your life in your own way. [quoted in the New York Post by Nelson and Dauten]. But even so, happiness is having worthwhile goals and accomplishing them relative to this. CHARACTERISTICS OF LOSERS 1) Interrupting work to answer the phone.</p>
-            <p>2) Not learning a useful skill. 3) Punishing friends and being nice to enemies. 4) Bad manners, e.g., not thanking for gifts. — Readers Digest 5) Dressing inappropriately 6) Coming late for an appointment CHARACTERISTICS OF WINNERS 1) Maximizing the number of minimum (small guaranteed) gains, as opposed to big non-guaranteed gains (as in Game Theory). This is like Rabbi Nachman's way of learning quickly to gain as many small points as possible as opposed to learning one part of the subject really well</p>
+            <h3>Section I — The Nature of Success</h3>
+            <blockquote class="fancy-quote">
+            “Beware of any activity that requires the purchase of new clothes.” — Thoreau
+            </blockquote>
+            <h4>The Tzelem of Greatness</h4>
+            <p>Every person is born with a certain <em>Tzelem</em> (Form)—a unique world-line in time and space that they are destined to grow into. Real success is not about imposing an external order on your life, but about discovering and honoring that internal form. Most people waste years trying to force themselves into a mold that was never meant for them. As Christopher Morley said: "There is only one success—to be able to spend your life in your own way."</p>
+            <div class="justice-balance">
+            <input type="radio" name="success-path" id="loser-traits" class="balance-toggle" checked>
+            <input type="radio" name="success-path" id="winner-traits" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="loser-traits" class="balance-label label-wicked">The Loser's Loop</label>
+            <label for="winner-traits" class="balance-label label-righteous">The Winner's Way</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-losers">
+            <h5>Fragmented Attention</h5>
+            <ul>
+            <li>Interrupting deep work for trivial distractions.</li>
+            <li>Punishing friends while trying to appease enemies.</li>
+            <li>Ignoring the acquisition of useful, vertical skills.</li>
+            </ul>
+            <p><span class="status-badge badge-punish">Entropy</span> </div></p>
+            <div id="view-winners" style="display:none">
+            <h5>Maximum Minimum Gains</h5>
+            <ul>
+            <li>Accumulating many small, guaranteed "points" daily.</li>
+            <li>The Noam Elimelech Way: A little bit of everything, every day.</li>
+            <li>The Michelangelo Obsession: Satisfying the Art, not the clock.</li>
+            </ul>
+            <p><span class="status-badge badge-reward">Accumulation</span> </div> </div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="success-path"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isLoser = document.getElementById('loser-traits').checked;
+            document.getElementById('view-losers').style.display = isLoser ? 'block' : 'none';
+            document.getElementById('view-winners').style.display = isLoser ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>The Hunger for Perfection</h4>
+            <p>Success requires an obsession with truth. When Pope Julius II asked Michelangelo when the Sistine Chapel would be done, he replied: "When I shall have done all that I believe required to satisfy art." This is the same spirit that drove the production of <em>Titanic</em>—not a concern for deadlines or cost, but a sacred goal to honor the facts without compromise. Success is the outer light that surrounds a person when they have polished their inner details to match the higher vision.</p>
+            <div class="concept-box">
+            <strong>Addiction in Conversation</strong>
+            Watch the particular "loops" in a person's conversation—the ideas or body parts they continuously return to. These are the indicators of where their "Outer Light" is constricted. These hang-ups are the true anchors that prevent a person from achieving their destiny.
+            </div>
+            <blockquote class="fancy-quote">
+            “Happiness is having worthwhile goals and accomplishing them relative to your Tzelem.”
+            </blockquote>
             
             
         </div>

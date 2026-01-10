@@ -1,92 +1,25 @@
+[TITLE: The Circle of Generations]
+<h4>The Taylor Series of Life</h4>
+<p>A person whose life-function is analytic—one that flows smoothly and logically—can be expanded through their children like a <strong>Taylor Series</strong>. Each child is a new term in the expansion, carrying the essence of the previous generations while adding their own unique frequency.</p>
 
-that they didn't make things worse.]
+<div class="feature-image">
+    <img src="../../../images/taylor_series_generations.png" alt="The Taylor Series of Life Visual">
+</div>
 
-For Parents
+<p>Because the life-force drawn into our world is an oscillating AC current, human lives function like <strong>Sine and Cosine waves</strong>. We can be represented by a Fourier expansion:
+<br><br>
+\[ f(x) = A + \sum_{n=1}^{\infty} (a_n \sin nx + b_n \cos nx) \]
+<br>
+In this spiritual mathematics, the first term is what God gives, while the subsequent terms represent the souls of the mother, the father, and the infinite lineage that precedes us.</p>
 
-·
+<div class="concept-box">
+<strong>The Debt of Light</strong>
+While the great saints like Jesus or Rabbi Nachman provided the "general map" of the road, your parents "bought and paid for" your specific vehicle and gasoline. The saints deserve praise for the general illumination of the path, but you owe your parents for your specific light.
+</div>
 
-Rabbi
+<h4>Honoring the Root</h4>
+<p>The worst thing a child can do is cause their parents emotional pain. Even with "bad" parents, the general rule is to maintain their happiness, for a person standing alone without their family is easy prey for the fanatics and "traps" of the world.</p>
 
-Nachman said, “He who doesn't have compassion on his children has no portion in
-
-the intelligence of holiness.” Somehow it strikes me that Einstein gave up his
-
-family to advance his career and it's that which did him no good. He had
-
-already developed the principles of the general theory of gravitation, and
-
-never after that developed another viable theory. And he went to Germany to
-
-accept a fancy position there, and eventually they were about to expel him, so
-
-the day before that he resigned. Now who are we to judge? Yet it is a bit odd.
-
-Maybe he would have made more progress if he had stuck with his wife and kids.
-
-·
-
-Give your
-
-children a relationship, especially when they are teenagers. If you don't get
-
-along with them at that age, be rest assured, they will find someone else to
-
-get along with and fall into some stupid cult which will be their parent
-
-figure. Don't ignore religion and philosophy so your children who will search
-
-will be able to talk with you about it.
-
-·
-
-Your
-
-children are your life. You receive flow only to the degree you give flow. In
-
-Akudim, Zeir and Nukbah are greater than Abba and Imma, so as we progress
-
-towards the final correction many times the children are better than the
-
-parents.
-
-·
-
-There is
-
-no such thing as children. Children are just adults that look small, and adults
-
-are children who look big.
-
-·
-
-The only
-
-way to rebuke your children is if it hurts you more than it hurts them to do
-
-so. Children don't respond to words or deeds but to feelings. Feelings are all
-
-that matter in human relationships, therefore there are no rules. If a parent
-
-who has no love raises children according to all the rules, the result will not
-
-be good. If a parent with love raises his/her children even if he breaks all
-
-the rules, the result will be good. Giving a child in to the hands of a parent
-
-or guardian who doesn't love the child - is murder.
-
-·
-
-The force
-
-that holds the children around the parents as the Coulomb attraction
-
-[IMAGE: image009.gif]
-
-.
-
-For more
-
-children, the parents need to include more power from the name 45 and 52, i.e.,
-
-to include more male and female flow. For seven children, the family gains the
+<blockquote class="fancy-quote">
+"One’s best friend will always be one’s parents in the natural scheme of things. Hold on to their interests, honor their profession in your own spiritual way, and remain part of the analytic expansion of life."
+</blockquote>

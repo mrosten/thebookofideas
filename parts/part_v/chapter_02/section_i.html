@@ -23,27 +23,79 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part V — Christianity</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part V — Christianity</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' >Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' >Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' class='active'>Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 2: Christianity</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 2: Christianity</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Jesus Christ</a><a href='../chapter_02/section_i.html' class='active'>Chapter 2: Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section I
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section I</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
-                        <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a><a href='section_iii.html' >III</a><a href='section_iv.html' >IV</a><a href='section_v.html' >V</a>
+                        <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="content-card">
-            <h3>Section I</h3>
-            <p>Western civilization grew on the ruins of the Roman Empire, since, according to Rabbi Abulafia, the vertical part of the cross signifies Hebrew and the horizontal part Latin and Greek. Therefore Christendom which had to contain all these three elements in order to become Western civilization, is significantly different than the rest of the world which remains in the Dark Ages until they become westernized. Christianity just got too moral, and secularism just has got too immoral after Kant. Nowadays, we base laws on science which are unproven and unfounded and only barely out of the crib. Christianity has to first throw out all the laws of the Bible, as Paul said to do. Then they have to make up their own morality.</p>
-            <p>Secularism first throws out the Bible, then logic and reason as per Kant . Then they have to find their own things to fight like tobacco. (I would guess that alcohol kills a lot more people on the road than tobacco but America found out then the wise statement of Einstein, “You can't make illegal what people are going to do anyway.”) I don't know the reason God forbade certain things in the Bible and permitted others, but I suspect He knew what He was doing. The path to knowledge for the Jew and Christian has apparently taken the long and hard paths. Getting out of religious thought and going to Aristotle and humanism seems to have done much more for knowledge in general. Yet Jesus and Baba Sali are also realities I must resort to the idea of drawing the light of the circular sephirot (humanism) into the vessels of correction (Jewish people) Jewish soul).</p>
-            <p>In the opinion of the Meiri and the Rashba Christians aren't idol worshippers but in the category of gerai toshav [proseleties of the gates] . In the opinion of Rabbi Joseph Karo they are Gerai Hashaar (proselytes of the gate) which is on even a higher level than gerai toshav (proselytes of dwelling who have legal status and rights in Judaism though they aren't Jewish, since they keep the seven Noaide laws) Rabbi Yaakov Emden writes “Christianity has been given to the Gentile world by the Apostles as part of the Jewish religion and its founder has made the moral laws stricter than those contained in the law of Moses.” Rabbi Nachman said when one starts to come into the realm of holiness, judgements are awoken against him. Thus, you could explain the problems Rome had after</p>
+            <h3>Section I — The Cross of Civilization</h3>
+            <blockquote class="fancy-quote">
+            "The vertical part of the cross signifies Hebrew; the horizontal signifies Latin and Greek." — The West's Geometric Root.
+            </blockquote>
+            <h4>The Synthesis of the Manifold</h4>
+            <p>Western civilization was built upon the ruins of the Roman Empire through a specific Kabbalistic integration. According to Rabbi Abulafia, the cross itself acts as a geometric representation of the synthesis that formed the West: the vertical axis represents the "Hebrew" depth of Divine revelation, while the horizontal axis represents the "Latin and Greek" breadth of logic, law, and philosophy. Christendom was the vessel required to contain these three elements. Without this integration, the world would have remained in the "Dark Ages" of fragmented tribal gods. By accepting the God of Israel, the Western world moved from a multiplicity of local deities to a unified, albeit filtered, recognition of the Infinite.</p>
+            <div class="justice-balance">
+            <input type="radio" name="cross-logic" id="view-religious" class="balance-toggle" checked>
+            <input type="radio" name="cross-logic" id="view-secular" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="view-religious" class="balance-label label-righteous">Religious Morality</label>
+            <label for="view-secular" class="balance-label label-righteous">Secular Ethics</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-religious">
+            <h5>The Stricter Law</h5>
+            <p>Christianity, in its original form, attempted to bake the moral laws stricter than those of the Mosaic code, emphasizing internal purity over external action. As Rabbi Yaakov Emden noted, the Apostles gave the Gentile world a "part" of the Jewish religion tailored to their needs, acting as the *Gerei Toshav* (Proselytes of the Gate).</p>
+            <span class="status-badge badge-reward">Internal Purity</span>
+            </div>
+            <div id="panel-secular" style="display:none">
+            <h5>The Kantian Void</h5>
+            <p>Secularism, following the philosophical shifts of Kant, threw out both the Bible and traditional logic, attempting to build morality on the shifting sands of "Scientific" adjustment. This has led to a digital morality where laws are based on unproven theories, creating a society that is often more oppressive in its "tolerance" than the religion it replaced.</p>
+            <span class="status-badge badge-reward">Rational Flux</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="cross-logic"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isSec = document.getElementById('view-secular').checked;
+            document.getElementById('panel-religious').style.display = isSec ? 'none' : 'block';
+            document.getElementById('panel-secular').style.display = isSec ? 'block' : 'none';
+            });
+            });
+            </script>
+            <h4>The Socrates of Nazareth</h4>
+            <p>In his emphasis on private prayer, universal love, and the primacy of righteous action over institutional ritual, Jesus often sounds more like Socrates than a medieval Pope. This "Socratic" core is what the Kabbalists—the Baal Shem Tov, the Gra, and Rabbi Nachman—also emphasized: a direct, heart-centered connection to the Divine. The failure of Christianity to convey this inner essence to its disciples mirrors the failure of the Jewish establishment to convey the true depth of the Sephirot to the masses. Both systems struggle to prevent the "Vessel" of tradition from becoming an idol that obscures the "Light" of the intention.</p>
+            <div class="concept-box">
+            <strong>Proselytes of the Gate</strong>
+            The major medieval authorities (Meiri, Rashba, Karo) recognized that Christians are not idol worshipers. They occupy the category of *Gerai HaShaar*—those who have accepted the moral structure of Judaism without becoming subject to the 613 laws. This legal status acknowledges that Christianity is a preparatory stage, spreading the "Law of Truth" as a precursor to the final messianic re-unification.
+            </div>
+            <blockquote class="fancy-quote">
+            “He who increases knowledge, increases pain.” — On the Judgments of Progress.
+            </blockquote>
             
             
         </div>

@@ -23,27 +23,82 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part III — Life</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part III — Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' >Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' class='active'>Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 4: Ways Of Life</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 4: Ways Of Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Family</a><a href='../chapter_02/section_i.html' >Chapter 2: Marriage</a><a href='../chapter_03/section_i.html' >Chapter 3: Sex</a><a href='../chapter_04/section_i.html' class='active'>Chapter 4: Ways Of Life</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section I
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section I</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
-                        <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a><a href='section_iii.html' >III</a><a href='section_iv.html' >IV</a><a href='section_v.html' >V</a><a href='section_vi.html' >VI</a><a href='section_vii.html' >VII</a><a href='section_viii.html' >VIII</a><a href='section_ix.html' >IX</a><a href='section_x.html' >X</a><a href='section_xi.html' >XI</a>
+                        <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a><a href='section_iii.html' >III</a><a href='section_iv.html' >IV</a><a href='section_v.html' >V</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="content-card">
-            <h3>Section I</h3>
-            <p>(or Principles of Life) “One needs no cause. Whatever is decreed to come to one, will come without any cause at all. -Madregas Ha Adam (Rabbi Joseph Yozel Horwitz ) “Not he who fasts and prays is acceptable, rather he who knows HIM. -The Rambam in the Guide for the Perplexed , chapter 53.) One should have absolute trust in God to give him a living and all his needs in spiritual and physical matters. Still, one should do something for a living which is a part of serving God. “Great is work, for God himself has commanded that one should do some minimal amount of work” — Sefer HaMidot (by Rabbi Nachman).</p>
-            <p>God runs the world between two poles, trust in God and self-reliance: and as with the uncertainty principle the exact location between those two poles you belong at any one instant isn’t determinate. This comes from the dichotomy between the circular and straight sephirot . Rabbi Nachman said one should do just enough effort to make a vessel to receive God's blessing (in a natural way) if he so desires to give it. The idea of the natural vessel is the name Elohim which has the numerical value of the word for nature which reflects the circular sephirot. In that vessel then can come the blessing from the Inflammable Name which reflects the straight sephirot.</p>
-            <p>In general, the evil inclination can be broken only by an oath to do the right thing. This applies also to any evil habit like masturbation — however its also good not to eat anything in the morning until 12:00 pm, in order to break that evil inclination. Many times, advice you receive in a dream will be much more accurate than even what good friends give. The Rambam held that the statement of the Sages that prophecy was taken from Israel meant only until the year 1240 and that in that year prophecy would return to Israel. He had this tradition from his father who received it from his father and so on. The Rambam also says that all prophets</p>
+            <h3>Section I — The Physics of Trust and Dreams</h3>
+            <blockquote class="fancy-quote">
+            “One needs no cause. Whatever is decreed to come to one, will come without any cause at all.” — Madregas Ha Adam
+            </blockquote>
+            <h4>The Uncertainty Principle of Trust</h4>
+            <p>God runs the world between two poles: absolute <strong>Trust in God</strong> and <strong>Self-Reliance</strong>. Like the uncertainty principle in physics, the exact point where you belong at any given moment is indeterminate. It is a dynamic tension between the <em>Circular Sephirot</em> (Nature/Elohim) and the <em>Straight Sephirot</em> (Infinite Light).</p>
+            <div class="justice-balance">
+            <input type="radio" name="trust-pole" id="trust-god" class="balance-toggle" checked>
+            <input type="radio" name="trust-pole" id="self-reliance" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="trust-god" class="balance-label label-righteous">Trust in God</label>
+            <label for="self-reliance" class="balance-label label-wicked">Self-Reliance</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-trust-god">
+            <h5>The Circular Vessel</h5>
+            <p>One does the minimal "natural" effort to create a vessel. The name <em>Elohim</em> (Nature) is the boundary; the heart is fixed on the source of the blessing, not the tool.</p>
+            <span class="status-badge badge-reward">Infinite Light</span>
+            </div>
+            <div id="view-self-reliance" style="display:none">
+            <h5>The Straight Line</h5>
+            <p>One exerts maximum physical effort, often forgetting the source. While necessary for the "World of Action," it lacks the protective light of the <em>Makif</em>.</p>
+            <span class="status-badge badge-punish">Temporal Effort</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="trust-pole"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isGod = document.getElementById('trust-god').checked;
+            document.getElementById('view-trust-god').style.display = isGod ? 'block' : 'none';
+            document.getElementById('view-self-reliance').style.display = isGod ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>Prophecy in the Night</h4>
+            <p>Prophecy did not end with the Temple; it shifted into the realm of the unconscious. As the Rambam notes, almost all prophets (except Moses) received their messages while asleep. In our era, a dream is often "more than a dream"—it is the voice of the soul speaking when the static of the ego is silenced.</p>
+            <div class="feature-image">
+            <img src="../../../images/prophetic_dream.png" alt="The Prophetic Dream Visual">
+            </div>
+            <div class="concept-box">
+            <strong>The Midnight Prayer</strong>
+            Dreams can provide specific, daily guidance—identifying a need for cleanliness, a shift in priorities, or a warning of danger. Those who "give up hope" in their own cleverness often find that this is exactly when the Divine Step-In occurs. Hope begins at the point of surrender.
+            </div>
+            <blockquote class="fancy-quote">
+            “Not he who fasts and prays is acceptable, rather he who knows HIM.” — The Rambam
+            </blockquote>
             
             
         </div>

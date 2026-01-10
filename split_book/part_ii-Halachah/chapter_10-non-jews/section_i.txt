@@ -1,0 +1,54 @@
+[TITLE: The Nations and the Light]
+<blockquote class="fancy-quote">
+"Christians aren't idolaters." — The Common Ground.
+</blockquote>
+
+<h4>The Category of the Nations</h4>
+<p>The Halachic view of non-Jewish nations is nuanced and evolves with history. Major authorities like the Rashba, Meiri, and even the Rambam and Tosphot agree that Christians and the general population of modern nations like the USA are not idol worshipers. They are often classified as "Gerei Toshav" (resident strangers) or at least as people who follow the ethical monotheism of the Noahide laws. This recognition is critical because the Rabbinical decrees against intermarriage and social distance were primarily designed to guard against the "Seven Canaanite Nations" and active idolatry, which no longer exist in our current socio-political landscape.</p>
+
+<div class="justice-balance">
+    <input type="radio" name="nation-view" id="view-shimon" class="balance-toggle" checked>
+    <input type="radio" name="nation-view" id="view-rabbis" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="view-shimon" class="balance-label label-righteous">Idolatry Path</label>
+        <label for="view-rabbis" class="balance-label label-righteous">National Path</label>
+    </div>
+
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-shimon">
+                <h5>The Vertical Severity</h5>
+                <p>To Rabbi Shimon Bar Yochai, the law focuses specifically on those who worship idols. In his view, there is no Biblical law against marrying a non-Jew who does not worship idols. The Rabbinical ban exists simply to increase the "degree of strictness" rather than to expand the law to new groups of people.</p>
+                <span class="status-badge badge-reward">Intent Focus</span>
+            </div>
+            <div id="panel-rabbis" style="display:none">
+                <h5>The Horizontal Boundary</h5>
+                <p>The majority of Rabbis in the Talmud focus on the "Seven Nations." Since these nations are no longer common, the situation the original decrees were made to guard against has fundamentally changed. To this view, many of the ancient prohibitions are now legally null and void in the context of the modern, non-idolatrous world.</p>
+                <span class="status-badge badge-reward">Contextual Law</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('input[name="nation-view"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isShimon = document.getElementById('view-shimon').checked;
+            document.getElementById('panel-shimon').style.display = isShimon ? 'block' : 'none';
+            document.getElementById('panel-rabbis').style.display = isShimon ? 'none' : 'block';
+        });
+    });
+</script>
+
+<h4>The Idolatry of the Heart</h4>
+<p>True idolatry is not limited to statues. The Baal Shem Tov and the Chassidic masters teach that an obsessive desire for money is the modern equivalent of an idol. This "Idolatry of the Heart" can affect even the most religious individuals, as it shifts the focus from the Infinite Light to a physical vessel of exchange. Conversely, physical beauty or art — even statues in a secular context (like those seen by the father of Shmuel in a synagogue) — are not inherently forbidden if they are recognized as decorative rather than objects of worship.</p>
+
+<div class="concept-box">
+<strong>The Samaritans and the Fence</strong>
+The specific decree against marrying Samaritans (Kutim) exists because, while they are legally Jewish, their failure to keep menstrual laws created a unique social "fence." This illustrates that the Law is often concerned with the practical integrity of the community rather than simple ethnic exclusion.
+</div>
+
+<blockquote class="fancy-quote">
+“The desire for money is equivalent to idolatry.”
+</blockquote>

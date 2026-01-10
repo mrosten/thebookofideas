@@ -1,92 +1,50 @@
+[TITLE: Choice and Destiny]
+<h4>The Echo of the Curse</h4>
+<p>In the architecture of prayer, there is a dangerous blessing: the one intended to curse slanderes and enemies. While tradition records it, the mystical warning is clear: do not pray for the destruction of another. A curse, if the recipient is not fully deserving on that specific day, has a "Strange Loop" habit of returning to the one who uttered it. It is far better to pray for the elevation of the situation than the downfall of the individual.</p>
 
-opinions brought in the
+<div class="justice-balance">
+    <input type="radio" name="destiny-mode" id="mode-will" class="balance-toggle" checked>
+    <input type="radio" name="destiny-mode" id="mode-fate" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="mode-will" class="balance-label label-righteous">Man's Choice</label>
+        <label for="mode-fate" class="balance-label label-wicked">Heaven's Hand</label>
+    </div>
 
-Shulchan Aruch
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-will">
+                <h5>The Arena of Action</h5>
+                <p>According to the Rambam and Rabbi Nachman, man has <strong>total free will</strong> in what he does. This includes the choice of a marriage partner. There is no "predestined" soulmate; you choose your partner, and that choice becomes your reality.</p>
+                <span class="status-badge badge-reward">Agency</span>
+            </div>
+            <div id="view-fate" style="display:none">
+                <h5>The Resulting World</h5>
+                <p>While you choose your actions, you do <strong>not</strong> choose what happens to you as a result. The circumstances, the outcomes, and the "destiny" of your environment are the domain of God. We pray to align our choices with the highest possible outcome.</p>
+                <span class="status-badge badge-reward">Providence</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-one who is not married is not
+<script>
+    document.querySelectorAll('input[name="destiny-mode"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isWill = document.getElementById('mode-will').checked;
+            document.getElementById('view-will').style.display = isWill ? 'block' : 'none';
+            document.getElementById('view-fate').style.display = isWill ? 'none' : 'block';
+        });
+    });
+</script>
 
-required to wear teffilin. Yet because the Baal Shem Tov in his will did emphasize
+<h4>The Soulmate Paradox</h4>
+<p>One should not pray for a "true soulmate," for such a concept implies a lack of free will. If marriage were predestined, the commandment and the effort would be hollow. Instead, we pray for the wisdom to choose correctly and the merit to build a home of peace. Marriage is a construction of the will, not an accident of fate. By choosing a partner and dedicating oneself to them, one <em>becomes</em> their soulmate through the shared integration of their lights.</p>
 
-saying the Shema exactly as the commandment was meant to be I think one should
+<div class="concept-box">
+<strong>The Prayer of the Wise</strong>
+The wise person prays not for God to change His mind, but for their own mind to be changed—to be elevated to a level where the current "judgment" is no longer relevant. This is the secret of the 18 blessings: they are eighteen steps of ascent into the higher worlds.
+</div>
 
-try to do so. [The five things mentioned in the will of the Baal Shem Tov were:
-
-a.
-
-Learning books of ethics every day.
-
-b.
-
-Carefulness in keeping Shabbat.
-
-c.
-
-Carefulness in saying the Shema.
-
-d.
-
-Going to the mikvah for with the kabalistic
-
-intentions.
-
-e.
-
-Doing a kindness for someone every day.
-
-·
-
-To Rav
-
-Yehuda in the name of Shmuel saying the Shema is a rabbinical mitzva. It seems
-
-the authorities hold it is Biblical because of the Gemara in Sucah. However, it
-
-would seem that since Brachot is the main place of the subject we ought to
-
-follow the conclusion of the Gemara there that it is rabbinical.
-
-·
-
-Grace
-
-after bread is possible to shorten. For the first blessing only the first and
-
-last sentence are required. [As the Sages said if one says “blessed is the
-
-Master of this bread”, he had fulfilled his obligation. However, since a
-
-blessing that starts and ends with a blessed can't be changed from that form,
-
-one must say as I have said.] For the second one needs to mention only the
-
-covenant and the Torah and then the final blessing. For the third one, one
-
-needs to mention only the kingdom of David and the last blessing. The fourth
-
-needs only the three mentions of goodness and the three mentions of abundance.
-
-·
-
-The short
-
-prayer
-
-Havinanu
-
-in
-
-Brachot
-
-can be substituted for the 18
-
-blessings for the evening and afternoon service. The
-
-Halachah
-
-is like
-
-Rabban Gamliel only in so much that one must
-
-pray
-
-the entire
+<blockquote class="fancy-quote">
+“The path of man is his own; the result of the path is God's.”
+</blockquote>

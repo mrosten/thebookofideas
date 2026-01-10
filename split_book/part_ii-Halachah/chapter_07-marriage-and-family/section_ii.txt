@@ -1,92 +1,54 @@
+[TITLE: The Choice of Attachment]
+<blockquote class="fancy-quote">
+"A mistress is allowed; one need not be married to have sex." — The Open Path.
+</blockquote>
 
-redemption and he said if he would have the strength, he would go from
+<h4>The Mistress vs. The Covenant</h4>
+<p>The Halachic structure of relationship covers a wider range than modern religious social norms often admit. According to the majority of early authorities (Ramban, Raavad, Rosh), a stable, non-promiscuous relationship (a "girlfriend" or "mistress") is permitted without the formal status of legal Kiddushin. While Kabbalah suggests it is better to be married—as a mistress sits on the level of the Tree of Knowledge of Good and Evil where the "shells" (klipot) can more easily take hold—the legal framework acknowledges the human need for connection outside the formal bounds of the contract.</p>
 
-congregation to congregation to tell them this.
+<div class="justice-balance">
+    <input type="radio" name="relationship-path" id="view-mistress" class="balance-toggle" checked>
+    <input type="radio" name="relationship-path" id="view-kiddushin" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="view-mistress" class="balance-label label-righteous">The Mistress</label>
+        <label for="view-kiddushin" class="balance-label label-righteous">The Kiddushin</label>
+    </div>
 
-·
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-mistress">
+                <h5>The Flexible Bond</h5>
+                <p>Permitted by the majority of first authorities. It avoids the legal complexities of divorce (get) and allows for a stable union based on mutual consent without the formal "purchase" or covenant of Kiddushin. However, it is more prone to the "klipot" of casual sensory attachment.</p>
+                <span class="status-badge badge-reward">Personal Liberty</span>
+            </div>
+            <div id="panel-kiddushin" style="display:none">
+                <h5>The Eternal Sanctity</h5>
+                <p>A formal Kiddushin creates a permanent spiritual bond between husband and wife, recognized in the Upper Worlds. It provides a more protected "vessel" for the Divine Light, though it requires a formal, legal exit strategy (Get) should the union fail.</p>
+                <span class="status-badge badge-reward">Spiritual Armor</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-A
+<script>
+    document.querySelectorAll('input[name="relationship-path"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isMistress = document.getElementById('view-mistress').checked;
+            document.getElementById('panel-mistress').style.display = isMistress ? 'block' : 'none';
+            document.getElementById('panel-kiddushin').style.display = isMistress ? 'none' : 'block';
+        });
+    });
+</script>
 
-swimming pool is a good
+<h4>The Ethics of the Seed</h4>
+<p>The discussion of birth control revolves around the prohibition of "spilling seed in vain" versus the positive commandment to be fruitful. While Rabbeinu Tam and the majority opinion are stringent regarding condoms (viewing them as a direct barrier to a natural act), others like Rashi suggest that in cases of health or specific necessity, a temporary barrier or method like the pill is permitted. The fundamental debate is whether the prohibition is a physical act or a failure of the spiritual command to build the world.</p>
 
-mikveh
+<div class="concept-box">
+<strong>The Secret of Rashi</strong>
+If a condom were purely the sin of "spilling seed," why would Rashi permit its use for the "three women" at risk of death? He suggests they simply should not have sex. From this, we infer that the core issue is the Command to Multiply; when that command is suspended by necessity, the physical act becomes a subject of debate between the Great Authorities, with room for individual permit in cases of emergency.
+</div>
 
-if it's plugged up so that nothing leaks
-
-- this is biblically speaking, but rabbinically, a natural body of water is
-
-better.
-
-·
-
-Extra-marital
-
-sex is allowed as long as it is in the boyfriend-girlfriend form, not one-night
-
-stands.
-
-A
-
-mistress (i.e., girlfriend) is allowed according to the majority of the first
-
-authorities (i.e., one need not be married to have sex - Ramban, Raavad, Rosh,
-
-the Rambam according to the Ramban). There is
-
-teshuva
-
-of a later
-
-authority that allows it. However, kabbalistically speaking, it’s better to be
-
-married, because a mistress is on the level of the tree of knowledge of good
-
-and evil upon which the klipot can take hold -- which they do anyway for
-
-sensual sex even in marriage, but not being married makes the sex a bit more
-
-prone to them.
-
-·
-
-Birth
-
-control like the pill is allowed. The condom is forbidden according to Rabbenu
-
-Tam. For the Gemara (Yevamot) says “three women have sex with a thick cloth in
-
-order not to become pregnant” since it could result in their death if they
-
-would become pregnant. Rashi explains they can put the towel there before sex.
-
-Rabbenu Tam says after sex. Rashi says they are allowed to while Rabbenu Tam
-
-says they must.
-
-So far
-
-for other women there is no permission to use a cloth at the time of sex. Those
-
-that are looking for a permission want to explain the Ritvah as meaning the
-
-towel is there at the time of sex and they must, implying that other women can.
-
-(See the Tshuva of Rabbi Abraham Shneur Zalman and the New edition of the
-
-Ritvah.) But the Ritva it says clearly that the three are required while others
-
-are sometimes allowed, eg. before they are twelve years old, and others are
-
-forbidden, e.g., girls older than twelve and a half. However, it seems to me to
-
-ask a simple question according to the opinion of Rashi: If a condom would be
-
-under the prohibition of spilling seed in vain then how could sex be allowed
-
-even for those three women? Shouldn't they simply not have sex? It seems to me
-
-from this that the prohibition isn't that of spilling seed but of the positive
-
-command to be fruitful and multiply and that is why the whole discussion in
-
-Tosphot revolves around that. So even though this whole thing is only like
+<blockquote class="fancy-quote">
+“Rabbi Meir is great enough to depend on in an emergency.”
+</blockquote>

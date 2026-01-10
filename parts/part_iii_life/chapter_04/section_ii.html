@@ -23,28 +23,78 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part III — Life</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part III — Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' >Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' class='active'>Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 4: Ways Of Life</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 4: Ways Of Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Family</a><a href='../chapter_02/section_i.html' >Chapter 2: Marriage</a><a href='../chapter_03/section_i.html' >Chapter 3: Sex</a><a href='../chapter_04/section_i.html' class='active'>Chapter 4: Ways Of Life</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section II
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section II</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
-                        <a href='section_i.html' >I</a><a href='section_ii.html' class='active'>II</a><a href='section_iii.html' >III</a><a href='section_iv.html' >IV</a><a href='section_v.html' >V</a><a href='section_vi.html' >VI</a><a href='section_vii.html' >VII</a><a href='section_viii.html' >VIII</a><a href='section_ix.html' >IX</a><a href='section_x.html' >X</a><a href='section_xi.html' >XI</a>
+                        <a href='section_i.html' >I</a><a href='section_ii.html' class='active'>II</a><a href='section_iii.html' >III</a><a href='section_iv.html' >IV</a><a href='section_v.html' >V</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="content-card">
-            <h3>Section II</h3>
-            <p>besides Moses receive their prophecy only asleep and in dreams. He even says that if the prophet is awake, a deep sleep has to fall upon him before he can prophesize. This would seem to indicate nowadays there is reason to at least consider the possibility that a dream may be more than a dream. I have had dreams telling me what to do or telling me to follow certain daily rules [e.g., “You have no hope except to say the midnight prayer”, or cleanliness in the garments to the degree of changing even if there is a little perspiration; and.</p>
-            <p>“You learn Torah. Physics is a side thing”, etc...] and I have regretted not following them. In Safed there was a fellow named Mordechai Shebabo who was a physical education teacher in the public high school. He also happened to be an expert fencer. He was on the Israeli Olympic team as a fencer. A few nights before he had to leave for the Olympics in Munich, he had a dream of Rabbi Moshe Alkebetz telling him, “Don't go to the Olympics. Come to my grave to fix it and to clean the area.” He of course paid no attention to it, but then on the next night he had the same dream. After the second or third night he had already decided there was something to it. He went down the next day to the Cave of Rabbi. Moshe Alshich and began cleaning it. In the meantime, the rest of the team went to Munich, and were all massacred by Palestinian terrorists.</p>
-            <p>One should go to the shrine of Rabbi Nachman in Uman every Rosh Hashanah, in order to fix the trait of power during the year, for the vertical line of light of power is located there. When one gives up hope, that's when hope begins. God doesn't step in until one gives up -- to show that it's not your prayers or efforts that count, only his Will. Don't own anything too much. (i.e., don't be attached to anything too much. Don't consider it yours too much.) God has a way of running things which show one that which he thinks is his, really isn't his at all.</p>
-            <p>In any disagreement between the mind and the heart, one must go after the heart. “Trust in the Lord with all your heart and upon your understanding do not depend.” (Mishle) i.e., don't depend on your logic, but the voice of God in the inner heart. (But not the desires of the outer heart. This is because human relationships are in the spiritual realm which isn't subject to logic). The Toldos Yakov Yoseph explains that the difference between the side of good and</p>
+            <h3>Section II — The Mirror of the Soul</h3>
+            <h4>The Paradox of the Enemy</h4>
+            <p>One of life's most difficult principles is that we often receive our most vital truths from our arch-enemies. Judaism, for instance, often overlooked the literal oneness of God until it was reflected back through the lens of external philosophies. We learn love from those who speak of it when we are silent; we learn discipline from those who impose it upon us. The world you live in is a reflection of your own personality; your friends, family, and enemies all represent different fragments of your own internal landscape.</p>
+            <div class="justice-balance">
+            <input type="radio" name="spirit-view" id="good-view" class="balance-toggle" checked>
+            <input type="radio" name="spirit-view" id="evil-view" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="good-view" class="balance-label label-righteous">The Side of Good</label>
+            <label for="evil-view" class="balance-label label-wicked">The Side of Evil</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-good">
+            <h5>Subdue and Integrate</h5>
+            <p>The side of good does not seek to destroy the "other" totally. Its goal is to <strong>subdue</strong> and allow the other to exist within a controlled boundary, recognizing the spark of light even in the shadow.</p>
+            <span class="status-badge badge-reward">Integration</span>
+            </div>
+            <div id="view-evil" style="display:none">
+            <h5>Destruction and Chaos</h5>
+            <p>The side of evil seeks the total destruction of the good. It cannot coexist with plurality; it demands the absolute erasure of any light that it cannot possess.</p>
+            <span class="status-badge badge-punish">Exclusion</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="spirit-view"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isGood = document.getElementById('good-view').checked;
+            document.getElementById('view-good').style.display = isGood ? 'block' : 'none';
+            document.getElementById('view-evil').style.display = isGood ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>The Literal Oneness</h4>
+            <p>When the Sages say "there is nothing besides Him," they mean it literally. The actual substance of matter is the condensed light of God. There is no "empty space" in reality; there is only the Infinite Light in various stages of solidification. To conceive of the world as anything other than God manifesting Himself to us is the beginning of idolatry.</p>
+            <div class="concept-box">
+            <strong>Levels of Expression</strong>
+            People exist on three primary levels: <strong>Action</strong>, <strong>Words</strong>, and <strong>Thought</strong>. A way of life that works for one level cannot be blindly applied to another. Each level has its own unique path to discovery, yet they are all part of the same vertical ascent toward the Source.
+            </div>
+            <h4>The Transformation of Age</h4>
+            <p>Forty is the age of understanding. In middle age, a transformation occurs—a "mid-life" sifting where one must decide whether to stay on the path of their previous successes or pivot toward a new, higher point of descent. Many leaders ruin their legacy by staying too long in a role they have outgrown. Knowing when to give up is as vital as knowing when to fight.</p>
+            <blockquote class="fancy-quote">
+            “The reality of good lies in what is in our power. There is but one way to freedom: to despise what is not in our power.” — Epictetus
+            </blockquote>
             
             
         </div>

@@ -1,91 +1,63 @@
-Chapter 7 – Saints
+[TITLE: The Measure of the Saint]
+<blockquote class="fancy-quote">
+“The proof of his being a man of God was his ability to do a miracle.” — The Test of Elijah
+</blockquote>
 
-·
+<h4>The Necessity of Connection</h4>
+<p>Even with perfect virtue and study, a soul remains disconnected from God unless the Divine Light is specifically shone upon it. To bridge this gap, one must be attached to a human vessel that is already connected to that vertical Light—a <strong>Saint</strong>. This is the root of the commandment to "attach yourself to God"; since God is a "consuming fire," we attach ourselves to Him through those who house His presence.</p>
 
-The
+<div class="feature-image">
+    <img src="../../../images/event_horizon_saints.png" alt="The Event Horizon of Holiness Visual">
+</div>
 
-reason one needs to be connected to a saint is that even with all the
+<div class="justice-balance">
+    <input type="radio" name="saint-type" id="visible-saint" class="balance-toggle" checked>
+    <input type="radio" name="saint-type" id="hidden-saint" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="visible-saint" class="balance-label label-righteous">Visible Saint</label>
+        <label for="hidden-saint" class="balance-label label-wicked">Hidden Saint</label>
+    </div>
 
-preparation of virtue and study unless God shines his light on one then he
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-visible">
+                <h5>The Beacon</h5>
+                <p>Their holiness permeates the area around them. You feel "good" in their presence because their aura is a gift to the world. They are the fixed points of tradition.</p>
+                <span class="status-badge badge-reward">Public Light</span>
+            </div>
+            <div id="view-hidden" style="display:none">
+                <h5>The Event Horizon</h5>
+                <p>These are the <em>Lamed Vav</em>. They are accelerating so fast toward God that they become invisible to inertial observers. Their world-line is a hyperbola—the "Event Horizon" of holiness.</p>
+                <span class="status-badge badge-reward">Absolute Velocity</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-simply isn't connected with God [even though God is still connected with him by
+<script>
+    document.querySelectorAll('input[name="saint-type"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isVisible = document.getElementById('visible-saint').checked;
+            document.getElementById('view-visible').style.display = isVisible ? 'block' : 'none';
+            document.getElementById('view-hidden').style.display = isVisible ? 'none' : 'block';
+        });
+    });
+</script>
 
-the contracting light. And without that light one's spiritual life is simply
+<h4>The Three Keys to Ascent</h4>
+<p>How does one reach the level of a Saint? According to the testimony of the masters, there are three primary keys that polish the vessel for the Divine Shine:</p>
+<ul>
+    <li><strong>The Mikvah:</strong> Immersion in a natural body of water to neutralize judgments (as practiced by the Baal Shem Tov).</li>
+    <li><strong>The Unifications:</strong> Meditating on the Divine Names and the "Intentions" of the morning prayers.</li>
+    <li><strong>Private Prayer (Hitbodedut):</strong> Honest, heartfelt conversation with God in a secluded place (Rabbi Nachman’s primary way).</li>
+</ul>
 
-self-delusion. There is no such thing as spirituality except for that light.
+<div class="concept-box">
+<strong>The Proximal Saint</strong>
+One should not overlook the "Saints" in their own life: parents and true friends. While they may not do global miracles, their love for you is a form of small prophecy. In naming a child or advising a loved one, they can see outcomes that logic cannot reach. Honoring your parents is a primary commandment; honoring a distant sage must never contradict this fundamental bond.
+</div>
 
-[However, there are different levels of it so on the level of royalty or the
-
-contraction God is still looking at one and he still must be careful in what he
-
-says thinks and does. At any rate, because of this one must be connected with a
-
-saint that is connected to the light. This is in fact one of the 613
-
-commandments as it says in the Torah to be attached to God and the Sages ask
-
-how is it possible to be attached to God? Isn't he a burning Fire? And they
-
-answer to be attached to students of the wise men, i.e., do business with them
-
-and to give to one of them your daughter.
-
-However,
-
-it is hard to know who is a saint. Rabbi Yaakov Abuchatzara gave the criteria
-
-[in Maaglai Tzedek]. If you see two people serving God; one can do miracles and
-
-the other can't, know that the one who can, is a greater saint that the other.
-
-We see this in the Bible, for Eliyahu said to the head of the troop “If I am a
-
-man of God let fire come down from Heaven...” Thus, we see that the proof of
-
-his being a man of God was his ability to do a miracle. HE could have done the
-
-miracle without saying “If I am a man of God”, but he added those words to
-
-teach us this lesson. Also, the Bible teaches us how to discover if someone is
-
-a true or false prophet. If they say any good thing will come to pass, and it
-
-doesn't, or if he says to serve false gods or to stop keeping the commandments
-
-then he is a false prophet.
-
-This may
-
-seem to contradict what I have said elsewhere about the importance of listening
-
-to one's family and friends, not to rabbis. However, the answer to this is as
-
-follows.
-
-At any
-
-there is a level of saint that applies to each individual in a spiritual way,
-
-that is his parents and friends for though they may not be saints in terms of
-
-the rest of the world they are in general   the level of “saint” in relation to
-
-each individual. The test is if they have actually helped the individual in
-
-some tangible physical way. If not, then they are just a lot of hot air. For
-
-what they do for is on the level of a miracle, and by their love for you they
-
-can have “Small Prophecy” to know the outcome of a course of action. This is
-
-like what the Sages say that in naming ones child one has small prophecy.
-
-Honor of
-
-ones parents is in the Ten Commandments and honoring a rabbi is not even
-
-mentioned in the Bible. Thus, even though the Sages tell us the importance of
-
-honoring a true saint or sage this prescription has to be taken with a grain of
-
-salt and in such a way that wouldn't contradict the open command of the Torah.
+<blockquote class="fancy-quote">
+“He who is pushed away by the hour, the hour stands for him.” — The Rhythm of the Saint.
+</blockquote>

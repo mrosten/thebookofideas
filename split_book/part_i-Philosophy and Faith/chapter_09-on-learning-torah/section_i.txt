@@ -1,28 +1,54 @@
-Chapter 9 – On Learning Torah
-
-·
-
-It is clear that the Torah puts learning on a higher level than doing good deeds. The actual idea is that deeds create the vessels to receive the light. Since all Israel in their higher root are one, if someone whose root is from the world of Action is available to do the good deed and create the vessel, it's better for one whose root is in learning to sit and learn and to draw the light. The philosophy of the Torah puts learning Torah above prayer. The way to explain Rabbi Nachman is that speaking with God in a personal way isn't the same thing as prayer, rather it is fulfilling the command of being attached to God which is higher than Torah, prayer and good deeds and it is the light of the name 72.
-
-·
-
-<div class="concept-box">
-<strong>The Method of Learning</strong>
-In learning Torah, or all learning in general, it's best to speak out the words quickly and to say them in order with no repeats or interruptions. Only when one has finished the whole book should he then to go back and review it (as Rabbi Nachman said). It's also helpful to say the words forward and backwards [i.e., to go to the end of the page and then to go backwards] as is clear in the <em>Annulment of Judgements</em> of the Baal Shem Tov HaKadosh and in the unifications of Rabbi Luria to remove bad spirits in the <em>Shaar Ruach Hakodesh</em> and in the corrections of Rabbi Yehudah HaCHasid and the reason this helps is stated in the <em>Tikunim HaChadashim</em> of the Ramchal and the <em>Eitz Chayim</em> of Rabbi Luria.
-</div>
-
-[I have also found it useful for me to learn lying down on my back for light books and on my stomach with the book on a lower surface for heavy books]. Rabbi Nachman noticed an important part of human intelligence: its unique ability to see over-all patterns. This is largely a subconscious process — and thus Rabbi Nachman knew that the main absorption of learning is simply by reading — whether one is aware of his understanding or not.
-
+[TITLE: The Wavelength of Wisdom]
 <blockquote class="fancy-quote">
-"This is dependent however on the type of light contained in what one is learning. For Hebrew only contains inner light. The outer surrounding-light of Hebrew was lost and has gone into other languages."
+"It is better for one whose root is in learning to sit and draw the light." — The Primacy of Torah
 </blockquote>
 
-Thus, for instance, only people that learn the Bible in English get a feeling of the story line and the inner ideas contained in the outer light. Another example is for instance the simple meaning of the words “love your neighbor like yourself,” which has an impact in English of actual love while in Hebrew the feeling of it is more like a slogan. Fearing God or loving God are the same, for in Hebrew the connotation is more like going to the minyan or not turning on a light on Shabbat, while in English it means loving God.
+<h4>The Dynamics of Learning</h4>
+<p>The Torah places learning on a higher plane than direct action. While deeds create the physical vessels, learning draws the vertical light from the higher worlds. Since all of Israel is spiritually connected, one who is dedicated to learning acts as a generator of light for those whose root is in the world of Action. Even prayer is subordinate to this flow, for while prayer is a call from below, Torah is the response from above.</p>
 
-·
+<div class="justice-balance">
+    <input type="radio" name="learning-view" id="view-hebrew" class="balance-toggle" checked>
+    <input type="radio" name="learning-view" id="view-english" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="view-hebrew" class="balance-label label-righteous">Hebrew: Inner Light</label>
+        <label for="view-english" class="balance-label label-righteous">English: Outer Light</label>
+    </div>
 
-Rabbi Lutzato hints to the idea that Torah only has power when said forwards and backwards. The Baal Hatanya explains the root in holiness of non-Hebrew letters in <em>Torah Or</em> (and a hint to this is found in Rabbi Abulafia) and therefore the same principle applies when learning whether in Hebrew or not.
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-hebrew">
+                <h5>The Nucleus of Truth</h5>
+                <p>Hebrew contains the <strong>Inner Light</strong>. It is precise and technical, similar to the source code of reality. However, the "Surrounding Light" of Hebrew was lost and scattered into other languages.</p>
+                <span class="status-badge badge-reward">Precision</span>
+            </div>
+            <div id="panel-english" style="display:none">
+                <h5>The Narrative Glow</h5>
+                <p>Other languages, like English, contain the <strong>Outer Light</strong>. They provide the emotional impact and the overarching story-line that is often lost in technical Hebrew study. "Love your neighbor" feels like a slogan in Hebrew, but a movement in English.</p>
+                <span class="status-badge badge-reward">Impact</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-·
+<script>
+    document.querySelectorAll('input[name="learning-view"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isHebrew = document.getElementById('view-hebrew').checked;
+            document.getElementById('panel-hebrew').style.display = isHebrew ? 'block' : 'none';
+            document.getElementById('panel-english').style.display = isHebrew ? 'none' : 'block';
+        });
+    });
+</script>
 
-The true value of learning Torah is only when the intention is to serve God, not to become a rabbi or use it make a living. When it is learned with the wrong intention, it of necessity leads one to the wrong conclusions. Rabbis nowadays can only be rabbis if they have learned the laws of how to kill animals and taken tests to show that they know that subject well. Therefore, they have used their Torah knowledge to get a piece of paper that would qualify them for a position to make money. Therefore, they have learned at least some Torah for the intent of making money. Therefore, in general it is forbidden to ask a rabbi for guidance since that guidance will be incorrect. [This fact is hinted to in the Talmud (Shabbat 139a), that all the troubles of the world come only because of the judges of Israel).
+<h4>The Rabbi Nachman Method</h4>
+<p>There is a unique speed to wisdom. Rabbi Nachman taught that the best way to absorb learning is to speak the words quickly and in sequence, without repeats or interruptions. This taps into the subconscious mind's power of pattern recognition. When learning is approached as a continuous flow—even learning "backwards" from the end of a page—it shatters stagnant spiritual judgments and allows the mind to absorb the "Idea Space" of the text regardless of immediate conscious understanding.</p>
+
+<div class="concept-box">
+<strong>The Integrity of Intention</strong>
+Torah study has power only when the intention is pure service to the Divine. When Torah is used as a tool for status or income—such as qualifying for a professional position to make money—the conclusions reached will inevitably be flawed. This is why many "modern judges" inadvertantly contribute to the troubles of the world; their lens is tinted by the need for a certificate rather than a connection.
+</div>
+
+<blockquote class="fancy-quote">
+“Learning is the shredding of the higher wisdom into a form that man can hold.”
+</blockquote>

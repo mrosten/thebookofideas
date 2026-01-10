@@ -23,15 +23,27 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part II — Halachah</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part II — Halachah</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' class='active'>Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' >Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 5: Kashrut</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 5: Kashrut</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Principles Of Halacha</a><a href='../chapter_02/section_i.html' >Chapter 2: Prayer</a><a href='../chapter_03/section_i.html' >Chapter 3: Shabbat</a><a href='../chapter_04/section_i.html' >Chapter 4: Festivals</a><a href='../chapter_05/section_i.html' class='active'>Chapter 5: Kashrut</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section I
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section I</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
                         <a href='section_i.html' class='active'>I</a>
                     </div>
@@ -40,10 +52,53 @@
         </div>
 
         <div class="content-card">
-            <h3>Section I</h3>
-            <p>The Rashba in a tshuva was asked about a certain food that was specifically mixed with something not Kosher but the amount of the non-Kosher stuff in it was less than</p>
-            <div class='image-container'><img src='../../../images/image008.gif' alt='Book Image' class='book-image'></div>
-            <p>. He wrote that it is permitted. This gets rid of the need for a stamp of Kashrut on a lot of products. The Gemara in Avoda Zara says that the cheese of idolators is permitted and this is brought down as the halachah by the Rif Rambam Tur Shulchan Aruch. Concerning the vessels, it was prepared in, the Rosh in Chulin Chap. 8, Sec. 42 says there is nothing to worry about. Meat biblically does need to be prepared in a kosher manner. Chicken also needs to be prepared in a kosher manner, but it is only by rabbinical decree.</p>
+            <h3>Section I — The Alchemy of Consumption</h3>
+            <blockquote class="fancy-quote">
+            "One who eats in holiness elevates the sparks from the shell." — The Mechanics of the Plate.
+            </blockquote>
+            <h4>The Measure of Nullification</h4>
+            <p>Kashrut is not merely a list of forbidden substances; it is a science of proportions. The principle of nullification (Bitul) acknowledges that reality is rarely pure. If a non-kosher element is mixed into a volume sixty times its size (1/60th), the smaller part is spiritually subsumed into the greater whole. The Rashba established that even when mixed intentionally, if the proportion remains below the threshold of significance ($1/60$), the food remains permitted. This understanding shifts the focus from anxiety to the governing laws of spiritual chemistry.</p>
+            <div class="feature-image">
+            <img src="../../../images/kashrut_alchemy.png" alt="Alchemy of Kashrut Visual">
+            </div>
+            <div class="justice-balance">
+            <input type="radio" name="kashrut-logic" id="view-vessels" class="balance-toggle" checked>
+            <input type="radio" name="kashrut-logic" id="view-origins" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="view-vessels" class="balance-label label-righteous">The Vessels</label>
+            <label for="view-origins" class="balance-label label-righteous">The Hierarchy</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-vessels">
+            <h5>The Heat of Interaction</h5>
+            <p>To the Rosh (Chulin 8:42), the vessels in which food is prepared—even those belonging to non-believers—do not carry a permanent spiritual taint if the food itself is kosher. The "flavor" absorbed by the vessel is secondary to the immediate act of consumption with holy intent.</p>
+            <span class="status-badge badge-reward">Structural Clarity</span>
+            </div>
+            <div id="panel-origins" style="display:none">
+            <h5>Biblical vs. Rabbinical</h5>
+            <p>The Torah explicitly defines mammals and fish as Biblical categories of food. Chicken, however, sits in a unique node: its status as a forbidden mixture with milk is a Rabbinical safeguard to prevent confusion with larger animals, creating a "fence" around the law.</p>
+            <span class="status-badge badge-reward">Protective Law</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="kashrut-logic"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isVessels = document.getElementById('view-vessels').checked;
+            document.getElementById('panel-vessels').style.display = isVessels ? 'block' : 'none';
+            document.getElementById('panel-origins').style.display = isVessels ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>The Sovereignty of Design</h4>
+            <p>The permissibility of certain processed foods, like the "cheese of idolators," has been a subject of intense debate throughout history. From the Rif to the Rambam and the Shulchan Aruch, the consensus remains that the specific chemical and technical requirements of the food outweigh the social context of its production. Kashrut is a system that allows the human soul to interact with the world of Action without being dragged down by the "Klipot" (shells), ensuring that every morsel consumed is a potential fuel for the higher soul.</p>
+            <div class="concept-box">
+            <strong>The Digital Stamp</strong>
+            The need for a physical "stamp of Kashrut" (Hechsher) is often a social convenience rather than a strict legal requirement. By applying the principles of the Rashba and the Rosh, one can discern the spiritual status of a product through its ingredients and its technical production path, reclaiming the individual's role in the sanctification of their physical life.
+            </div>
+            <blockquote class="fancy-quote">
+            “The purpose of labels is to assist the eye; the purpose of Law is to assist the soul.”
+            </blockquote>
             
             
         </div>

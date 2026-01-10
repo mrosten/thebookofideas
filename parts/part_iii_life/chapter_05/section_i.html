@@ -23,15 +23,27 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part III — Life</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part III — Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' >Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' class='active'>Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 5: Friendship</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 5: Friendship</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Family</a><a href='../chapter_02/section_i.html' >Chapter 2: Marriage</a><a href='../chapter_03/section_i.html' >Chapter 3: Sex</a><a href='../chapter_04/section_i.html' >Chapter 4: Ways Of Life</a><a href='../chapter_05/section_i.html' class='active'>Chapter 5: Friendship</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section I
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section I</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
                         <a href='section_i.html' class='active'>I</a>
                     </div>
@@ -40,12 +52,50 @@
         </div>
 
         <div class="content-card">
-            <h3>Section I</h3>
-            <p>“Men of notorious depravity or obvious deceit yield nothing in nastiness to hypocritical pseudo-philosophers and treacherous friends.” —Tacitus, The Annals of Imperial Rome People you think are your friends never are, and those who you think aren't usually. A true friend is someone who will help you when you are down and out, and that's impossible to know until it happens. In a far-off Arabic land, a long time ago there was a Jew who had a son who was neglecting the daily prayers and spending every evening at a different friend’s house partying. The father asked his son, “How many friend do you have?” “About 50 or 60”, he answered. The father said, “that is amazing for I am an old man and after so many years all I have is one friend and one half-friend. How is it possible that you have fifty or sixty already and you are just a young man?”.</p>
-            <p>“Let's try a test. I'll spread some ketchup on you and give you a long knife and go to each of your friend house saying you were attacked, and you fought off your attacker and grabbed the knife from him and killed him and now you need to be hidden from the police.” In the early evening he went to the first house, the friend opened the door, he told his story and the “friend” yelled “Get out of here, demon” and slammed the door on his face. The second house barely opened the door and immediately slammed it shut after seeing him. And thus, the evening went. From house to house he went until 11:00 pm when he returned home. No one had helped. The father said “Now let's try a different experiment. Let's send you to my half friend who barely knows you”.</p>
-            <p>As soon as the half friend saw him covered with blood, he immediately grabbed him inside and without waiting to hear what he had to say, he immediately stripped off the clothes burned them, threw him in the bathtub, got rid of the knife, and locked the front door and pocketed the key. The son then tried to explain that now that he was cleaned up, he could go home, but the half friend said “you aren't going anywhere tonight”. And so, the son was stuck there until the morning. Then the “half-friend” took him by stealth to the fathers home and the father explained what had really happened. The son knew then what a real friend is.</p>
-            <p>In an ideal world we would all be true friends like this (or like Jack and Rose, “If you jump, I jump” - Titanic, the movie ), however we don't live in that ideal world. But we still should try to be the best friend we can, and value our half-or quarter friends as long as that small percentage of friends in them is real. Someone who has done you one favor is much more likely to do a you another than someone you have done a favor for, since its already revealed they have the level of giving flow in relation to your level. (That is in that subject they occupy a higher plane and water flows from up to down).</p>
-            <p>One who has reneged on a promise once will definitely do it again. One who has let you down and shown him or herself to be untrustworthy once will do the same again if given the chance.</p>
+            <h3>Section I — The Anatomy of a Friend</h3>
+            <blockquote class="fancy-quote">
+            “Men of notorious depravity or obvious deceit yield nothing in nastiness to hypocritical pseudo-philosophers and treacherous friends.” — Tacitus
+            </blockquote>
+            <h4>The Test of the Half-Friend</h4>
+            <p>A true friend is a rarity that can only be identified in the furnace of adversity. As the ancient Arabic parable suggests, a young man may believe he has fifty friends, but his father—with all his years—claims only "one friend and one half-friend." A true friend is the one who, seeing you in a moment of extreme danger or disgrace, immediately pulls you inside, burns the evidence of your shame, and locks the door without requiring a single word of explanation.</p>
+            <div class="justice-balance">
+            <input type="radio" name="friend-type" id="pseudo-friend" class="balance-toggle" checked>
+            <input type="radio" name="friend-type" id="true-friend" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="pseudo-friend" class="balance-label label-wicked">Pseudo-Friend</label>
+            <label for="true-friend" class="balance-label label-righteous">True Friend</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-pseudo">
+            <h5>The Fair-Weather Guest</h5>
+            <p>Present at the party, absent at the trial. When blood is on the hands, the door is slammed and the name is forgotten. They are the "Solidified Neurons" of social convenience.</p>
+            <span class="status-badge badge-punish">Exclusion</span>
+            </div>
+            <div id="view-true" style="display:none">
+            <h5>The Vertical Bond</h5>
+            <p>The one who jumps when you jump. They ask no questions until the vessel is safe. They operate on the level of the <strong>Heart</strong>, where loyalty exceeds logic.</p>
+            <span class="status-badge badge-reward">Sacrifice</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="friend-type"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isPseudo = document.getElementById('pseudo-friend').checked;
+            document.getElementById('view-pseudo').style.display = isPseudo ? 'block' : 'none';
+            document.getElementById('view-true').style.display = isPseudo ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>The Flow of Favor</h4>
+            <p>There is a spiritual "waterfall" to relationships. Someone who has already done you a favor is statistically more likely to do you another than someone you have done a favor for. This is because they have already established a "Giving Flow" toward your level; they occupy a higher spiritual plane in that specific context, and energy flows naturally from High to Low.</p>
+            <div class="concept-box">
+            <strong>Consistency of Character</strong>
+            One who has reneged on a promise once will almost certainly do it again. Trust is a vessel that, once broken, requires a radical change in personality to repair. In an ideal world, we would all be "full friends," but in our reality, we must value the small percentages of real connection wherever they manifest.
+            </div>
+            <blockquote class="fancy-quote">
+            “If you jump, I jump.” — Jack Dawson (Titanic)
+            </blockquote>
             
             
         </div>

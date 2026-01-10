@@ -23,28 +23,76 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part III — Life</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part III — Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' >Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' class='active'>Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 1: Family</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 1: Family</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' class='active'>Chapter 1: Family</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section I
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section I</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
-                        <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a><a href='section_iii.html' >III</a><a href='section_iv.html' >IV</a><a href='section_v.html' >V</a>
+                        <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a><a href='section_iii.html' >III</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="content-card">
-            <h3>Section I</h3>
-            <p>“Parents, do not irritate your children or they will lose heart.” -- Colossians 3:21 Ones close friends and family are part of one's soul. To cut them off is to put oneself at risk of cutting off a vital organ. Children leaving their parents home at the age of 18 are in general making a mistake, for the soul isn't ripe then and should still be attached to the tree. Every family is a tree. One can't cut himself off from any part of it without dire danger to himself. This refers to spiritual families where there is love, not to merely physical families.</p>
-            <p>Families are the 10 sephirot: God, Father, Mother and the children. The true friends are the makifim (outer light). Enemies are the klipot caused by the breaking of the vessels, if they have some reason for their hatred. If not, they are from the empty space from which God removed his Presence in order to create the world. Eighteen is a very bad age to leave the home for the light from one's father which is the outer light doesn't come strongly until the age of twenty and it’s that outer light which is the strongest protection. Eighteen-year-olds don't realize they are considered a resource. So many institutions do everything possible to take them away from their parents physically and spiritually, which cuts them off from their roots and kills them (spiritually and sometimes physically), and sometimes that kills the parents also.</p>
-            <p>In general, if the two parents are living together for the reason of love, then the children should not leave the home to live in a different state. For two people living together from love have more to teach their children than all the schools put together. The root of not getting along with parents starts from the brothers and sisters. One must get along with his brothers and sisters with absolute self-sacrifice. Siblings aren't people who would automatically be friends. Usually they are completely different, but they have a common root. Therefore, they must try to go beneath surface appearance to that common root.</p>
-            <p>For major</p>
+            <h3>Section I — The Family Tree</h3>
+            <blockquote class="fancy-quote">
+            “Parents, do not irritate your children or they will lose heart.” — Colossians 3:21
+            </blockquote>
+            <h4>The Spiritual Root</h4>
+            <p>Every family is a tree. Your close friends and family are not merely social connections; they are vital organs of your own soul. To cut yourself off from your roots is to risk spiritual dehydration. The soul is not "ripe" at eighteen; like fruit, it needs to stay attached to the tree until it can draw its own strength from the sun.</p>
+            <div class="justice-balance">
+            <input type="radio" name="family-view" id="sephirot" class="balance-toggle" checked>
+            <input type="radio" name="family-view" id="friends" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="sephirot" class="balance-label label-righteous">The Core Family</label>
+            <label for="friends" class="balance-label label-wicked">Friends &amp; Enemies</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-sephirot">
+            <h5>The Ten Sephirot</h5>
+            <p>The family structure mirrors the Divine architecture: <strong>God, Father, Mother, and Children.</strong> They form the inner vessels through which spiritual light flows into the world.</p>
+            </div>
+            <div id="view-friends" style="display:none">
+            <h5>The Outer Lights</h5>
+            <p><strong>True Friends:</strong> Represent the <em>Makifim</em> (Outer Lights) that protect and enlighten us from without.</p>
+            <p><strong>Enemies:</strong> Represent the <em>Klipot</em> (Shells) formed either by broken vessels or the "Empty Space" where God concealed His presence.</p>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="family-view"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isSephirot = document.getElementById('sephirot').checked;
+            document.getElementById('view-sephirot').style.display = isSephirot ? 'block' : 'none';
+            document.getElementById('view-friends').style.display = isSephirot ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>The Protective Circle</h4>
+            <p>At age eighteen, a young person is often targeted as a "resource" by institutions seeking to harvest their energy. However, the protective light (<em>Makif</em>) of one’s father and the broader family circle does not reach its full strength until age twenty. Separation too early cuts the soul off from its primary source of defense.</p>
+            <div class="concept-box">
+            <strong>Makif: The Protective Commitment</strong>
+            Just as marriage provides an outer light that wards off negative forces, the commitment of family members to stick together through "ups and downs" creates a spiritual field of protection. This commitment is the root from which all successful political systems—monarchy, democracy, even socialism—draw their spiritual energy.
+            </div>
+            <p>When the storm comes, the family must "accept and exist"—lower the head, allow the wave to pass, and remain rooted together. The temptation to separate is often a test; true growth occurs by staying firm and refining the common root beneath surface differences.</p>
             
             
         </div>

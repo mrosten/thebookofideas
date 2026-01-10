@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 8: Learning Torah — Section I</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Torah Book of Ideas</h1>
+        <p class="subtitle">Part II — Halachah</p>
+    </header>
+    <nav>
+        <a href="../../../index.html">Home</a>
+        <a href="../../../contents.html">Contents</a>
+        <a href="../index.html" class="active">Part II — Halachah</a>
+    </nav>
+    <main class="container">
+        <div class="breadcrumb">
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
+            <span class="separator">›</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part II — Halachah</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' class='active'>Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' >Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
+            <span class="separator">›</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 8: Learning Torah</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Principles Of Halacha</a><a href='../chapter_02/section_i.html' >Chapter 2: Prayer</a><a href='../chapter_03/section_i.html' >Chapter 3: Shabbat</a><a href='../chapter_04/section_i.html' >Chapter 4: Festivals</a><a href='../chapter_05/section_i.html' >Chapter 5: Kashrut</a><a href='../chapter_06/section_i.html' >Chapter 6: Israel</a><a href='../chapter_07/section_i.html' >Chapter 7: Marriage And Family</a><a href='../chapter_08/section_i.html' class='active'>Chapter 8: Learning Torah</a>
+                </div>
+            </div>
+            <span class="separator">›</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section I</a>
+                <div class="breadcrumb-dropdown">
+                    <div class="section-grid">
+                        <a href='section_i.html' class='active'>I</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <h3>Section I — The Wavelength of Wisdom</h3>
+            <blockquote class="fancy-quote">
+            "It is better for words of the Torah to be burned than to be given into the hands of women." — The Severe Boundaries.
+            </blockquote>
+            <h4>Torah for its Own Sake</h4>
+            <p>The study of Torah is a communion with the Divine Mind, a process that requires absolute purity of intent. One is forbidden to learn Torah with the plan of using it to earn a living, as the wisdom is a gift that cannot be sold. While modern authorities like Rabbi Israel Salanter permitted being a Rabbi as a "need of the hour," the Rambam remains firm: one must learn and trust in God to provide, without receiving charity or a paycheck specifically for the words of the Torah. To use even a single verse for profit is to lose one's portion in the world to come.</p>
+            <div class="justice-balance">
+            <input type="radio" name="learning-logic" id="view-rambam" class="balance-toggle" checked>
+            <input type="radio" name="learning-logic" id="view-tashbatz" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="view-rambam" class="balance-label label-righteous">The Ideal (Rambam)</label>
+            <label for="view-tashbatz" class="balance-label label-righteous">The Need (Tashbatz)</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-rambam">
+            <h5>The Pure Flow</h5>
+            <p>The Torah is infinite and belongs to God. Using it for status or money turns a living light into a dead tool. One must work for a living and learn for the sake of the soul, ensuring the wisdom is never compromised by the needs of the body.</p>
+            <span class="status-badge badge-reward">Absolute Sanctity</span>
+            </div>
+            <div id="panel-tashbatz" style="display:none">
+            <h5>The Support of Wisdom</h5>
+            <p>The Tashbatz permits a scholar to depend on charity or a community paycheck so they may devote their entire life to learning. This is a leniency designed to preserve the continuity of the legal tradition in a world of physical distraction.</p>
+            <span class="status-badge badge-reward">Continuity Guard</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="learning-logic"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isRambam = document.getElementById('view-rambam').checked;
+            document.getElementById('panel-rambam').style.display = isRambam ? 'block' : 'none';
+            document.getElementById('panel-tashbatz').style.display = isRambam ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>The Rhythm of the Week</h4>
+            <p>The weekly cycle of Torah is reinforced by the personal requirement to read the *Parsha* (section) twice in Hebrew and once in the Aramaic translation (Targum). This method ensures that the wisdom is absorbed not only in its original state but also through the lens of interpretation. By saying the daily section and integrating the translation throughout the week, the individual aligns their mind with the cosmic rhythm of the Shabbat.</p>
+            <div class="concept-box">
+            <strong>The Gender of Knowledge</strong>
+            Traditional sources like Rabbi Eliezer and the subsequent Codifiers (Rif, Rosh, Tur, Shulchan Aruch) record a restriction on women learning the depths of the Torah. This is not a measure of capability, but of role distribution within the spiritual economy. The words of the Torah are "burned" if used outside their designated vessel, highlighting the intensity of the light and the requirement for specific structural containment.
+            </div>
+            <blockquote class="fancy-quote">
+            “No Gra means no Torah.”
+            </blockquote>
+            
+            
+        </div>
+
+        <div class="page-nav">
+            <a href="../index.html" class="nav-btn prev">Previous</a>
+            <a href="../chapter_09/section_i.html" class="nav-btn next">Next Chapter: Converts</a>
+        </div>
+    </main>
+    <footer>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+    </footer>
+</body>
+</html>

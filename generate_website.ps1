@@ -41,15 +41,25 @@ function Generate-SectionHTML {
         [string]$NextLink,
         [string]$NextLabel,
         [array]$SectionList,
+        [array]$ChapterList,
+        [array]$PartList,
         [hashtable]$Footnotes
     )
     
+    # Extract Title if present
+    $sectionTitleText = ""
+    if ($Content -match '\[TITLE:\s*(.*?)\]') {
+        $sectionTitleText = " — " + $matches[1].Trim()
+        $Content = $Content -replace '\[TITLE:\s*.*?\]', ''
+    }
+
     # Clean and format content
     $lines = $Content -split "`r?`n" | Where-Object { $_.Trim() -ne '' -and $_.Trim() -ne '·' -and $_.Trim() -ne '●' }
     $paragraphs = @()
     $currentPara = ""
     
     $pageFootnotes = @()
+    $inRawBlock = $false
     
     foreach ($line in $lines) {
         $trimmed = $line.Trim()
@@ -89,20 +99,30 @@ function Generate-SectionHTML {
             # Skip section headers
             continue
         }
-        elseif ($trimmed -match '^<(div|blockquote|aside|/div|/blockquote|/aside)') {
-            # Raw HTML pass-through for manual layout
+        elseif ($trimmed -match '^<(script|style|table|thead|tbody|tfoot|div|blockquote|h[1-6]|p|ul|ol|li|hr|section|aside|nav|header|footer|hr)') {
+            # Start of raw block
             if ($currentPara.Trim()) {
                 $paragraphs += "<p>$($currentPara.Trim())</p>"
                 $currentPara = ""
             }
+            $inRawBlock = $true
             $paragraphs += $trimmed
         }
         else {
-            $currentPara += "$trimmed "
+            if ($inRawBlock) {
+                $paragraphs += $trimmed
+            }
+            else {
+                $currentPara += "$trimmed "
+            }
+        }
+        
+        if ($trimmed -match '^</(script|style|table|div|blockquote|h[1-6]|p|ul|ol|li|section|aside|nav|header|footer)') {
+            $inRawBlock = $false
         }
         
         # Check for sentence endings to potentially break paragraphs
-        if ($currentPara.Length -gt 500 -and $trimmed -match '\.$') {
+        if (-not $inRawBlock -and $currentPara.Length -gt 500 -and $trimmed -match '\.$') {
             $paragraphs += "<p>$($currentPara.Trim())</p>"
             $currentPara = ""
         }
@@ -142,15 +162,45 @@ function Generate-SectionHTML {
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="${depth}index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="${depth}index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">$PartTitle</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">$PartTitle</a>
+                <div class="breadcrumb-dropdown">
+                    $(
+                        $pLinks = ""
+                        foreach ($p in $PartList) {
+                            $activeClass = if ($p.Target -eq $PartName) { "class='active'" } else { "" }
+                            # Path to part index from current section (depth is ../../../)
+                            $pPath = "${depth}parts/$($p.Target)/index.html"
+                            $pLinks += "<a href='$pPath' $activeClass>$($p.Title)</a>"
+                        }
+                        $pLinks
+                    )
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>$ChapterTitle</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">$ChapterTitle</a>
+                <div class="breadcrumb-dropdown">
+                    $(
+                        $cLinks = ""
+                        foreach ($c in $ChapterList) {
+                            $activeClass = if ($c.Num -eq $ChapterNum) { "class='active'" } else { "" }
+                            # Path to chapter index from current section is just index.html, but we want the first section
+                            $cPath = "../$($c.Folder)/section_i.html"
+                            $cLinks += "<a href='$cPath' $activeClass>$($c.Title)</a>"
+                        }
+                        $cLinks
+                    )
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section $SectionNum
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section $SectionNum</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
                         $(
                             $links = ""
@@ -166,7 +216,7 @@ function Generate-SectionHTML {
         </div>
 
         <div class="content-card">
-            <h3>Section $SectionNum</h3>
+            <h3>Section $SectionNum$sectionTitleText</h3>
             $contentHtml
             
             $(
@@ -200,12 +250,25 @@ function Generate-PartIndexHTML {
     param(
         [string]$PartName,
         [string]$PartTitle,
-        [array]$Chapters
+        [array]$Chapters,
+        [array]$PartList
     )
     
     $chapterLinks = ""
     foreach ($ch in $Chapters) {
-        $chapterLinks += "                    <a href=`"$($ch.Folder)/section_i.html`">$($ch.Title)</a>`n"
+        $sectionLinks = ""
+        foreach ($sec in $ch.Sections) {
+            $sectionLinks += "                        <li><a href=`"$($ch.Folder)/$($sec.Filename)`"><span class='sec-num'>$($sec.Num)</span> <span class='sec-title'>$($sec.Title)</span></a></li>`n"
+        }
+        
+        $chapterLinks += @"
+                <details class="chapter-folder">
+                    <summary class="chapter-header">$($ch.Title)</summary>
+                    <ul class="section-list">
+$sectionLinks
+                    </ul>
+                </details>
+"@
     }
     
     $html = @"
@@ -232,9 +295,24 @@ function Generate-PartIndexHTML {
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <span>$PartTitle</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">$PartTitle</a>
+                <div class="breadcrumb-dropdown">
+                    $(
+                        $pLinks = ""
+                        foreach ($p in $PartList) {
+                            $activeClass = if ($p.Target -eq $PartName) { "class='active'" } else { "" }
+                            $pPath = "../../parts/$($p.Target)/index.html"
+                            $pLinks += "<a href='$pPath' $activeClass>$($p.Title)</a>"
+                        }
+                        $pLinks
+                    )
+                </div>
+            </div>
         </div>
         <div class="content-card">
             <h2>$PartTitle</h2>
@@ -308,10 +386,7 @@ foreach ($part in $partMappings) {
         $chapterTitle = "Chapter $([int]$chapterNum): $chapterTitle"
         
         $chapterFolder = "chapter_$chapterNum"
-        $chapterPath = Join-Path $targetPath $chapterFolder
-        New-Item -ItemType Directory -Path $chapterPath -Force | Out-Null
-        
-        $chapterList += @{Folder = $chapterFolder; Title = $chapterTitle; Num = $chapterNum }
+        # We need to collect sections FIRST
         
         # Get sections and sort by roman numeral
         $sections = Get-ChildItem $chapter.FullName -Filter "section_*.txt" | Sort-Object { 
@@ -328,8 +403,75 @@ foreach ($part in $partMappings) {
             $secFile = $sections[$j]
             $secNumStr = if ($secFile.Name -match 'section_([ivx]+)\.txt') { $romanNumerals[$matches[1]] } else { "I" }
             $secFilename = $secFile.Name.Replace('.txt', '.html')
-            $chapterSectionList += @{ Num = $secNumStr; Filename = $secFilename }
+            
+            # Peek for title
+            $tmpContent = Get-Content $secFile.FullName -Raw -Encoding UTF8
+            $secTitle = "Section $secNumStr"
+            if ($tmpContent -match '\[TITLE:\s*(.*?)\]') {
+                $secTitle = $matches[1].Trim()
+            }
+            
+            $chapterSectionList += @{ Num = $secNumStr; Filename = $secFilename; Title = $secTitle }
         }
+        
+        $chapterList += @{Folder = $chapterFolder; Title = $chapterTitle; Num = $chapterNum; Sections = $chapterSectionList }
+        $chapterPath = Join-Path $targetPath $chapterFolder
+        New-Item -ItemType Directory -Path $chapterPath -Force | Out-Null
+        
+        # Generate Chapter Index
+        $chapterIndexHtml = @"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$ChapterTitle — Index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Torah Book of Ideas</h1>
+        <p class="subtitle">$PartTitle</p>
+    </header>
+    <nav>
+        <a href="../../../index.html">Home</a>
+        <a href="../../../contents.html">Contents</a>
+        <a href="../index.html" class="active">$PartTitle</a>
+    </nav>
+    <main class="container">
+        <div class="breadcrumb">
+            <a href="../../../index.html">Home</a>
+            <span class="separator">›</span>
+            <a href="../index.html">$PartTitle</a>
+            <span class="separator">›</span>
+            <span>$ChapterTitle</span>
+        </div>
+        <div class="content-card">
+            <h2>$ChapterTitle</h2>
+            <div class="chapter-toc">
+                <h3>Sections</h3>
+                <ul class="clean-list">
+$(
+    $idxLinks = ""
+    foreach ($sec in $chapterSectionList) {
+        $idxLinks += "                    <li><a href='$($sec.Filename)'><span class='sec-num'>$($sec.Num)</span> <span class='sec-title'>$($sec.Title)</span></a></li>`n"
+    }
+    $idxLinks
+)
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+    </footer>
+</body>
+</html>
+"@
+        $chapterIndexHtml | Set-Content (Join-Path $chapterPath "index.html") -Encoding UTF8
         
         for ($i = 0; $i -lt $sections.Count; $i++) {
             $section = $sections[$i]
@@ -384,7 +526,7 @@ foreach ($part in $partMappings) {
             }
             
             # Generate HTML
-            $html = Generate-SectionHTML -PartName $part.Target -PartTitle $part.Title -ChapterNum $chapterNum -ChapterTitle $chapterTitle -SectionNum $sectionNum -Content $content -PrevLink $prevLink -NextLink $nextLink -NextLabel $nextLabel -SectionList $chapterSectionList -Footnotes $footnotes
+            $html = Generate-SectionHTML -PartName $part.Target -PartTitle $part.Title -ChapterNum $chapterNum -ChapterTitle $chapterTitle -SectionNum $sectionNum -Content $content -PrevLink $prevLink -NextLink $nextLink -NextLabel $nextLabel -SectionList $chapterSectionList -ChapterList $chapterList -PartList $partMappings -Footnotes $footnotes
             
             $outputFile = Join-Path $chapterPath $section.Name.Replace('.txt', '.html')
             $html | Set-Content $outputFile -Encoding UTF8
@@ -394,7 +536,7 @@ foreach ($part in $partMappings) {
     }
     
     # Generate part index
-    $partIndexHtml = Generate-PartIndexHTML -PartName $part.Target -PartTitle $part.Title -Chapters $chapterList
+    $partIndexHtml = Generate-PartIndexHTML -PartName $part.Target -PartTitle $part.Title -Chapters $chapterList -PartList $partMappings
     $partIndexHtml | Set-Content (Join-Path $targetPath "index.html") -Encoding UTF8
     
     Write-Host "Processed $($part.Title): $($chapters.Count) chapters" -ForegroundColor Cyan

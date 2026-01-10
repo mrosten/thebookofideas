@@ -1,91 +1,61 @@
-Chapter 6 - Israel
+[TITLE: The Citizenship of the Heart]
+<blockquote class="fancy-quote">
+"It is one of those vast areas in Torah where free will is given." — On the Choice of Home.
+</blockquote>
 
-·
+<h4>The Halachic Duality</h4>
+<p>The obligation to live in the Land of Israel is a spectrum of intensity across Jewish history. While the Rambam and Ramban see it as a positive commandment that transcends time, the Talmud records the "Three Oaths" — a metaphysical treaty preventing the people from ascending "as a wall" or prematurely forcing the end of history. This creates a unique halachic space where both the drive to return and the caution of exile coexist. Experience has shown that when the oath is ignored, the consequences reflect the fragility of the political vessel in a land that demands spiritual absolute.</p>
 
-One
+<div class="justice-balance">
+    <input type="radio" name="israel-halacha" id="view-ramban" class="balance-toggle" checked>
+    <input type="radio" name="israel-halacha" id="view-satmar" class="balance-toggle">
+    <input type="radio" name="israel-halacha" id="view-huna" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="view-ramban" class="balance-label label-righteous">Ascension (Ramban)</label>
+        <label for="view-satmar" class="balance-label label-righteous">The Oaths (Satmar)</label>
+        <label for="view-huna" class="balance-label label-righteous">Holiness (Rav Huna)</label>
+    </div>
 
-should not go to live in Israel when it is surrounded by enemies who want to
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-ramban">
+                <h5>The Mandatory Return</h5>
+                <p>To the Ramban, living in Israel is a core Biblical commandment. The land itself is a vessel for the highest level of prophecy and Divine proximity, a requirement for the full manifestation of the Jewish soul.</p>
+                <span class="status-badge badge-reward">Biblical Essence</span>
+            </div>
+            <div id="panel-satmar" style="display:none">
+                <h5>The Walls of Caution</h5>
+                <p>The Satmar perspective emphasizes the "Three Oaths" — warning that a massive, wall-like return to the statehood without the Messiah is a violation of the exile's terms. True holiness exists in the land, but the state is a different entity.</p>
+                <span class="status-badge badge-reward">Metaphysical Treaty</span>
+            </div>
+            <div id="panel-huna" style="display:none">
+                <h5>The Structural Requirement</h5>
+                <p>Rav Huna holds that the Biblical holiness of the land requires a King and the Urim and Tumim. Without these, the holiness is Rabbinical — a precious shadow of the original light, yet distinct from the absolute Biblical era.</p>
+                <span class="status-badge badge-reward">Legal Framework</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-destroy it. The issue is what to do when it will be peaceful. The Rambam and
+<script>
+    document.querySelectorAll('input[name="israel-halacha"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            ['ramban', 'satmar', 'huna'].forEach(id => {
+                document.getElementById('panel-' + id).style.display = document.getElementById('view-' + id).checked ? 'block' : 'none';
+            });
+        });
+    });
+</script>
 
-Ramban hold that one should live there even before the Messiah comes. The
+<h4>The Freedom of the Singular</h4>
+<p>Torah theology often hides the vast regions of free will behind a veil of absolute law. Yet, in the question of Israel, the Talmudic authorities provide valid paths for both staying in the lands of origin and ascending to the peak of Zion. This choice is not between good and evil, but between two equally valid expressions of a soul's mission. One must listen to the "small prophecy" of the inner heart; it is a positive commandment to obey one's own character and individual mission within the wider framework of the Law.</p>
 
-question however remains about the oath in the Song of Songs not to go up as a
+<div class="concept-box">
+<strong>Klipat Noga and the State</strong>
+The holiness of Israel is currently veiled by "Klipat Noga" — a mixture of light and shadow. While the land remains the source of a tremendous flow of light, its political and social structures reflect the complexities of the physical world. Connection to the land should be rhythmic, allowing the individual to draw from its light while maintaining their unique role in the global mission of the exile.
+</div>
 
-wall which certainly seems to be the case in the creation of a state.
-
-Experience
-
-has shown that the oath is still in place since the end of the oath has been a
-
-constant factor there (i.e., “I foreswear you not to go up as a wall and if
-
-not, I will make your blood free for all.”)
-
-·
-
-The
-
-Satmer Rav [Reb Yoel Teitelbaum] allowed his followers to live there as long as
-
-they would have nothing to do with the State. But there is no person in Mea
-
-Shearim who doesn't receive directly into his bank account money from the
-
-Bituach Leumi. The religious, as much as they hate the non-religious there,
-
-have exactly the same mentality. One can't help but be influenced by the place
-
-he lives in.
-
-·
-
-There is
-
-a tremendous flow of light there, for which reason it makes sense to visit, but
-
-not to stay, since you are only theoretically a citizen but not actually. It is
-
-the equivalent now of living in a foreign country with the disadvantage that
-
-you think it's your people while actually they see you as you really are a
-
-citizen of the country you came from.
-
-·
-
-Don't
-
-give up your family, your religion, your mate, your friend, or your country so
-
-fast. There may be times when it is necessary but then only under extreme
-
-duress. Rabbi Abba hid from Rav Yehuda because he wanted to go to Israel, and
-
-Rav Yehudah said that whoever goes to Israel is transgressing a positive
-
-commandment as it says, “They will be brought to Babylon and there they will be
-
-until I visit them says the Lord.” So, it's one of those things that some
-
-authorities say is a good thing, others say it is not, and in such a case its
-
-up to the individual to decide for himself. This is one of those vast areas in
-
-Torah where free will is given but in orthodox theology there is complete
-
-denial that these areas exist. This is one of the most essential points of this
-
-book - the fact that there is such a thing as free will even within the
-
-confines of the Torah- not free-will between good and evil but free will
-
-between two equally good things - and what you should do is dependent on your
-
-character and your individual mission in life. Within the strict confines of
-
-the Talmud, it is possible to permit just about anything and to forbid just
-
-about anything and both ways are correct, one way is from kindness and the
-
-other from strict judgement. Many people are somewhere in the middle.
+<blockquote class="fancy-quote">
+“The voice of the inner heart is small prophecy; a prophet is required to obey it.”
+</blockquote>

@@ -1,92 +1,58 @@
+[TITLE: The Code of Eternity]
+<blockquote class="fancy-quote">
+"It is not in heaven." — The principle of earthly jurisdiction.
+</blockquote>
 
-Section II - Halachah
+<h4>The Permanence of the Word</h4>
+<p>The commandments of the Torah are not temporary suggestions; they are defined as eternal world-constants. From the Sabbath to the Dietary Laws, the text declares these structures to be "forever." The Talmud serves as the central code of this law, providing a framework where even disagreements are part of the legal fabric. In the absence of a central Sanhedrin, we operate on a principle of adaptive stability: stricter in biblical matters, lenient in rabbinical ones.</p>
 
-Chapter 1 - Principles of
+<div class="feature-image">
+    <img src="../../../images/blueprint_of_creation.png" alt="Blueprint of Creation Visual">
+</div>
 
-Halacha
+<div class="justice-balance">
+    <input type="radio" name="halacha-source" id="source-majority" class="balance-toggle" checked>
+    <input type="radio" name="halacha-source" id="source-revelation" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="source-majority" class="balance-label label-righteous">Earthly Majority</label>
+        <label for="source-revelation" class="balance-label label-wicked">Heavenly Revelation</label>
+    </div>
 
-·
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-majority">
+                <h5>The World of Probability</h5>
+                <p><strong>Mechanism:</strong> Statistics and majority rule. This is the "Chaos" method—judging reality based on the consensus of earthly authorities. It allows for a stable, communal society.</p>
+                <span class="status-badge badge-reward">Stability</span>
+            </div>
+            <div id="view-revelation" style="display:none">
+                <h5>The World of Correction</h5>
+                <p><strong>Mechanism:</strong> Direct prophetic insight (Tzadikim). This is the "Correction" method—seeing the law as it exists in the higher worlds. It provides the vertical truth that statistics may miss.</p>
+                <span class="status-badge badge-reward">Direct Truth</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-The
+<script>
+    document.querySelectorAll('input[name="halacha-source"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isMajority = document.getElementById('source-majority').checked;
+            document.getElementById('view-majority').style.display = isMajority ? 'block' : 'none';
+            document.getElementById('view-revelation').style.display = isMajority ? 'none' : 'block';
+        });
+    });
+</script>
 
-commandments of the Bible are forever (as it says in Deuteronomy 29:29). You
+<h4>Kabbalah as the Legal Compass</h4>
+<p>According to Rabbi Chayim Vital, a legal decision made without the light of the mysteries (Kabbalah) is inherently incomplete. This does not invalidate the rational legalism of Maimonides or the Talmud, but it places them within a larger context. The law is not just a set of social rules; it is a description of how spiritual energy flows through the worlds. A judge must understand not just the "case," but the "cosmic effect."</p>
 
-will find by hundreds of commandments that it says openly that they are forever
+<div class="concept-box">
+<strong>The Individual Prophet</strong>
+The law as it applies to the general public often differs from the law as it applies to the individual. Every heart receives unique "hints" and intuitions from the Divine. To ignore your internal "Small Prophecy" because of external advice—even from a scholar—is to risk the penalty of the prophet who transgresses his own word.
+</div>
 
-e.g., the Sabbath. The Talmud is meant to be the code of Jewish law. Therefore,
-
-one is allowed to depend on any opinion there within the limits of what the
-
-Talmud itself defines as law. For instance, if one is allowed to kiss his
-
-sister or any relative, we find a disagreement. The authorities decide one way
-
-but since the Talmud itself doesn't decide there is some possibility to be
-
-lenient.
-
-·
-
-The
-
-Rambam says we go by the majority only at the time of the Sanhedrin, but in a
-
-time that there is no Sanhedrin, concerning biblical law we go by the stricter
-
-opinion and concerning rabbinical law we go by the lenient opinion - even
-
-against a majority opinion (this is against the Shach in Yore Dea, however one
-
-can depend on the Rambam.) We see however that the Rambam didn't use this
-
-principle in Mishna Torah. I think perhaps this is because he held the Gemarah
-
-has the category of the Sanhedrin. Only in issues which come up after the
-
-Gemarah is this principle used, or when there is a disagreement as to what the
-
-Gemarah's actual conclusions were.
-
-·
-
-The way
-
-of judging an issue by majority of authorities is a statistical way coming from
-
-the world of chaos and probability, while the way of revelation is from the
-
-world of correction. So even if you have a tzadik like Rabbi Nachman who
-
-reveals things based on his own revelation you still need to judge the issues
-
-based on probability and statistics which is from world of chaos since the goal
-
-is to put chaos and correction together.
-
-·
-
-Rabbi
-
-Chayim Vital says one who makes a legal decision without the knowledge of the
-
-mysteries of the Kabbalah can't make a correct legal decision. This doesn't
-
-cancel the Talmud or Maimonides, but it limits their decisions to be in
-
-accordance with prophets and kabbalists of Israel.
-
-·
-
-There are
-
-things that God is strict about that the halacha permits and things which He
-
-allows that the law prohibits. [It may take a bit of time and talent for the
-
-earthly courts to get the law correctly for the general public, but even if
-
-they would have it right, they still wouldn't have the law as it applies to
-
-each individual correctly.] For instance, the law that a prophet who
-
-transgresses the words of his own prophecy gets the death penalty applies to
+<blockquote class="fancy-quote">
+“Everything is fixed, and the choice is given.” — Pirkei Avot.
+</blockquote>

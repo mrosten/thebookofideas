@@ -23,15 +23,27 @@
     </nav>
     <main class="container">
         <div class="breadcrumb">
-            <a href="../../../index.html">Home</a>
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">Home</a>
+            </div>
             <span class="separator">›</span>
-            <a href="../index.html">Part II — Halachah</a>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../index.html">Part II — Halachah</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' class='active'>Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' >Part III — Life</a><a href='../../../parts/part_iii_politics/index.html' >Part III — Politics</a><a href='../../../parts/part_iv/index.html' >Part IV — Ideas</a><a href='../../../parts/part_v/index.html' >Part V — Christianity</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <span>Chapter 2: Prayer</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html">Chapter 2: Prayer</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/section_i.html' >Chapter 1: Principles Of Halacha</a><a href='../chapter_02/section_i.html' class='active'>Chapter 2: Prayer</a>
+                </div>
+            </div>
             <span class="separator">›</span>
-            <div class="section-selector">
-                Section I
-                <div class="section-dropdown">
+            <div class="breadcrumb-item has-dropdown">
+                <a href="section_i.html">Section I</a>
+                <div class="breadcrumb-dropdown">
                     <div class="section-grid">
                         <a href='section_i.html' class='active'>I</a><a href='section_ii.html' >II</a><a href='section_iii.html' >III</a>
                     </div>
@@ -40,11 +52,60 @@
         </div>
 
         <div class="content-card">
-            <h3>Section I</h3>
-            <p>One should not cover his head for prayer, for the reason the Sages give for covering the head is that people don't stand before a king with their head uncovered. Nowadays one can't stand before a king or with his head covered and it is a sign of disrespect to do so, so all the more so one should not do so in front of God. In Tractate Soferim [Chapter 14, Halachah 15] (which is the root for the law of wearing a head cover to the Gra it says ‘One who is not wearing shoes or whose garments are torn or whose head is not covered is allowed to lead the congregation in prayer up until the 18 blessings. Some say only one who is not wearing shoes or whose garments are torn but one whose head is uncovered is not allowed to. He is not allowed to say the Divine Name...</p>
-            <p>However, to both opinions he can translate but he can't read the Torah scroll for the congregation and lead the congregation for the 18 blessings.” Wearing one at any other time is certainly not required. And that was at the time when it was a sign of respect to wear one in front of a king. Now it is a sign of disrespect. [As the Targum Onkulus says they went out of Egypt with uncovered heads.] However, the Gemara itself does say one shouldn't walk four steps without one's head covered, so even though the Rambam holds that is only for a Wise person still this Gemara does imply that it is a good thing for everyone.</p>
-            <p>One should endeavor to recite the Shema immediately upon rising, before sunrise, in accordance with the view of Rabbi Eliezer. The Rambam rules that the halachah follows the Sages—who permit its recitation until the end of the third hour of the day—only in a case where one has not managed to say it before sunrise. Nonetheless, one is obligated to strive to say it at that earlier time . At night, one should wait until the time established by Rabbenu Tam, approximately ninety minutes after sunset (according to some opinions, seventy-two minutes). This, however, does not imply that one must don tefillin or recite the Amidah at that moment; those may be performed until the conclusion of the day .</p>
-            <p>In the teachings of Kabbalah, a greater emphasis is placed upon rising at midnight to engage in Torah study. In matters where the Kabbalistic tradition and the legal authorities differ, one should follow the Kabbalistic path. It is told that when the Baal HaTanya was asked about this, he affirmed that one should indeed act in accordance with Kabbalah. When the questioner objected, noting that the Shulchan Aruch HaRav instructs to follow the legal authorities, the Baal HaTanya replied: “That is what the legal authorities wrote.” To some</p>
+            <h3>Section I — The Mechanics of the Heart</h3>
+            <blockquote class="fancy-quote">
+            “Prayer is the ladder standing on the earth, whose top reached to the heavens.” — The Gateway to the Infinite.
+            </blockquote>
+            <h4>The Protocol of Presence</h4>
+            <p>Prayer is not a casual conversation; it is a structured protocol for aligning the finite mind with the Infinite Light. Tradition provides the code—the Siddur—but the individual provides the voltage. A primary rule is the "Wavelength of Respect": historically, covering the head was a sign of honor before a king. However, in modern times, where uncovering the head is the standard for respect in high places, the mechanical requirement for a head-covering during prayer is a subject of deep debate. While the tradition remains, the internal state—the "Awe of the King"—is the true legal requirement.</p>
+            <div class="feature-image">
+            <img src="../../../images/quantum_prayer_ascent.png" alt="Quantum Prayer Ascent Visual">
+            </div>
+            <div class="justice-balance">
+            <input type="radio" name="prayer-mode" id="mode-legal" class="balance-toggle" checked>
+            <input type="radio" name="prayer-mode" id="mode-kabbalah" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="mode-legal" class="balance-label label-righteous">Legal Code</label>
+            <label for="mode-kabbalah" class="balance-label label-wicked">Kabbalah Path</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-legal">
+            <h5>The Shulchan Aruch</h5>
+            <p>Focuses on the "Body" of the law: the specific times for Shema, the 39 labors of Shabbat, and the communal structure of the Amidah. It ensures the physical world is orderly.</p>
+            <span class="status-badge badge-reward">Order/Vessel</span>
+            </div>
+            <div id="view-kabbalah" style="display:none">
+            <h5>The Secret Heart</h5>
+            <p>Focuses on the "Soul" of the law: rising at midnight (Tikkun Chatzot), using specific Divine unifications, and prioritizing the intentions (Kavanot) of the Ari. In cases of conflict, the secret path takes precedence for the seeker.</p>
+            <span class="status-badge badge-reward">Spirit/Light</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="prayer-mode"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isLegal = document.getElementById('mode-legal').checked;
+            document.getElementById('view-legal').style.display = isLegal ? 'block' : 'none';
+            document.getElementById('view-kabbalah').style.display = isLegal ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>The Will of the Besht</h4>
+            <p>The Baal Shem Tov emphasized five specific keys for the spiritual seeker, which act as a daily rhythm for keeping the soul "online":</p>
+            <ul class="clean-list">
+            <li><strong>Ethics:</strong> Studying the books of Musar every day.</li>
+            <li><strong>Shabbat:</strong> Extreme care in preserving the sanctity of the day.</li>
+            <li><strong>Shema:</strong> Reciting it exactly as commanded (Shema on its time).</li>
+            <li><strong>Mikvah:</strong> Immersion with the correct Kabbalistic intentions.</li>
+            <li><strong>Kindness:</strong> Performing a tangible act of favor for another human being daily.</li>
+            </ul>
+            <div class="concept-box">
+            <strong>Shortening the Distance</strong>
+            In times of pressure, the law provides "Short Codes." The prayer of <em>Havinenu</em> can substitute for the full Eighteen Blessings in the evening or afternoon. Similarly, the Grace After Meals has a "minimalist" form that fulfills the obligation while honoring the essence of gratitude. God desires the heart; the length of the code is secondary to the quality of the connection.
+            </div>
+            <blockquote class="fancy-quote">
+            “The Shema is a Biblical commandment; everything else is the fence we build to reach it.”
+            </blockquote>
             
             
         </div>

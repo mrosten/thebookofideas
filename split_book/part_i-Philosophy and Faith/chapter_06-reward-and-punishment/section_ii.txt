@@ -1,14 +1,77 @@
-Nietzsche held that according to the Bible, God saves the righteous, period. No ‘ifs’, ‘ands’ or ‘buts’. Yet I have a way of answering for the Sages.
+[TITLE: The Balance of Justice]
+<blockquote class="fancy-quote">
+"Nietzsche argued that the Bible guarantees immediate salvation for the righteous. But the Sages offer a far more complex formula—one that explains why the wicked prosper and the righteous suffer in this world."
+</blockquote>
 
-<div class="concept-box">
-<strong>The Sages' Formula for Reward and Punishment</strong>
-The opinion of the Sages is that God rewards those who have a majority [in quality] of sin with good things in this world and punishes their sins in the next. This is to reward them for their good deeds in a temporary world. The reason is because if they are mainly sinful God gives them their main reward in the world which is the main and most important, i.e., the next world.
-<br><br>
-Those that have a majority of good deeds God rewards them in the next world for their good deeds and punishes them here for their bad deeds. Thus, one who is mainly good will suffer unless he has no sin at all.
+<h4>The Mathematics of Merit</h4>
+<p>The universe operates on a system of "majority quality." Each deed, word, and thought contributes to a soul's weight in the balance of justice.</p>
+
+<div class="justice-balance">
+    <input type="radio" name="balance" id="righteous" class="balance-toggle" checked>
+    <input type="radio" name="balance" id="wicked" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="righteous" class="balance-label label-righteous">The Righteous</label>
+        <label for="wicked" class="balance-label label-wicked">The Wicked</label>
+    </div>
+
+    <div class="balance-visual">
+        <div class="scale-stand"></div>
+        <div class="scale-arm">
+            <div class="pan pan-l"></div>
+            <div class="pan pan-r"></div>
+        </div>
+    </div>
+
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box">
+            <h5>Life on Earth (Temporal)</h5>
+            <div id="righteous-earth">
+                <span class="status-badge badge-punish">Purification</span>
+                <p>Suffering for sins here to arrive pure in the Next World.</p>
+            </div>
+            <div id="wicked-earth" style="display:none">
+                <span class="status-badge badge-reward">Prosperity</span>
+                <p>Receiving reward for few good deeds here; no root remains for the Next World.</p>
+            </div>
+        </div>
+        <div class="consequence-box heaven-box">
+            <h5>The Next World (Eternal)</h5>
+            <div id="righteous-heaven">
+                <span class="status-badge badge-reward">Eternal Light</span>
+                <p>Full reward for a majority of goodness.</p>
+            </div>
+            <div id="wicked-heaven" style="display:none">
+                <span class="status-badge badge-punish">Loss</span>
+                <p>Payment for a majority of sins.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
-Now this is certainly in accord with Genesis - but I would like to say that it also goes along with the rest of the Torah. For, the places in the Torah where it guarantees reward for good deeds is always in plural and referring to the Jewish people as a whole. So, it only is saying if the 51% of the people are good, then 51% will have good. They might be 49% of the bad and 2% of the good who will have good. At any rate in this world the evil people succeed and have money, children, and happiness. Yet, God gives good to the righteous eventually by preserving them, even if it is in a lowly way and by raising their horn [honor and happiness in the end.]
+<script>
+    document.querySelectorAll('.balance-toggle').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isRighteous = document.getElementById('righteous').checked;
+            document.getElementById('righteous-earth').style.display = isRighteous ? 'block' : 'none';
+            document.getElementById('wicked-earth').style.display = isRighteous ? 'none' : 'block';
+            document.getElementById('righteous-heaven').style.display = isRighteous ? 'block' : 'none';
+            document.getElementById('wicked-heaven').style.display = isRighteous ? 'none' : 'block';
+        });
+    });
+</script>
 
-·
+<h4>Collective vs. Individual Reward</h4>
+<p>When the Torah guarantees rain and prosperity for keeping the mitzvot, it is speaking to the <strong>Plural</strong>—the Jewish people as a collective. If 51% of the people are good, the land as a whole prospers. Individually, however, the wicked may still hold the high offices and wealth, while the righteous are preserved in a lowly way until their "horn is raised."</p>
 
-If the majority of one's deeds are good, he is rewarded in the Gan Eden of Earth by the light of God shining upon him here and punished for his bad deeds in this life by bad events. If the majority of one's deeds are evil, he will be punished in hell and here on Earth have physical comfort. However, for good words one is rewarded in the lower Gan Eden and punished for his bad words in this world if the majority of his words are good in quantity and quality. If the majority are lies or evil talk, he is punished in hell and rewarded for his good words here. If the majority of his thoughts and feelings are good, then he is rewarded for them in the higher Gan Eden.
+<div class="concept-box">
+<strong>The Three Storehouses of Reward</strong>
+The afterlife is tiered according to the nature of one's service:
+<ol>
+<li><strong>Lower Gan Eden:</strong> For those whose physical deeds were righteous.</li>
+<li><strong>Middle Gan Eden:</strong> For those who guarded their speech and spoke words of truth.</li>
+<li><strong>Higher Gan Eden:</strong> For those whose inner thoughts and feelings were integrated into the Light.</li>
+</ol>
+</div>
+
+<p>Ultimately, God's justice is not a simple "if-then" statement, but a deep sifting of every level of human consciousness.</p>

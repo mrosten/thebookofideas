@@ -1,91 +1,54 @@
-Chapter 3 - Sex
+[TITLE: The Sanctity of Sex]
+<blockquote class="fancy-quote">
+“Joy of life depends upon a certain spontaneity in regard to sex. Where sex is repressed, only work remains.” — Bertrand Russell
+</blockquote>
 
--
+<h4>The Spiritual Reaction</h4>
+<p>Sex is never merely physical. It demands to be treated with respect as the bonding of two souls into one. When it is treated as purely sensual, it reacts against the individual like a jealous wife, exacting a price in the form of internal anger and spiritual depletion. True sex is a spiritual bonding; if it remains on the level of the "merely physical," it spells the end of the relationship's depth.</p>
 
-“For the gods are slow, though they are sure,
+<div class="justice-balance">
+    <input type="radio" name="sex-mode" id="sanctified" class="balance-toggle" checked>
+    <input type="radio" name="sex-mode" id="sensual" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="sanctified" class="balance-label label-righteous">Sanctified</label>
+        <label for="sensual" class="balance-label label-wicked">Sensual</label>
+    </div>
 
-in visitation, when men scorn godliness and turn to frenzy.” — Oedipus At
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-sanctified">
+                <h5>Sanctity: The Ascent</h5>
+                <p>Binding the souls together and bringing them up to God. This draws love, kindness, and blessing into the world.</p>
+                <span class="status-badge badge-reward">Sacrifice</span>
+            </div>
+            <div id="view-sensual" style="display:none">
+                <h5>Sensuality: The Fall</h5>
+                <p>Pleasure for the sake of pleasure remains on the original level. It falls into the "broken vessels" and becomes an anchor for the internal shadows.</p>
+                <span class="status-badge badge-punish">Anger</span>
+            </div>
+        </div>
+    </div>
+</div>
 
-Colonus by Sophocles
+<script>
+    document.querySelectorAll('input[name="sex-mode"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isSanctified = document.getElementById('sanctified').checked;
+            document.getElementById('view-sanctified').style.display = isSanctified ? 'block' : 'none';
+            document.getElementById('view-sensual').style.display = isSanctified ? 'none' : 'block';
+        });
+    });
+</script>
 
-“Joy of life depends upon a certain spontaneity in regard to sex.
+<h4>Sparks in the Pleasure</h4>
+<p>Pleasure itself is on the level of the Tree of Knowledge of Good and Evil—neither good nor bad in its essence, but dependent on its use. If one brings up the "sparks of holiness" within that pleasure, the soul ascends. Pleasure for the sake of God is like a sacrifice; it is the "Arousal of the Below" that prompts a corresponding flow from the Above.</p>
 
-Where sex is repressed, only work remains, and a gospel of work for work's sake
+<div class="concept-box">
+<strong>Joseph: The Foundation of Souls</strong>
+In an era where true matches are rare, God draws souls through the "Level of Joseph" (the <em>Sephirah</em> of Foundation). Just as Joseph was a magnet for the spiritual "ascent" of others, the sanctification of the sexual act acts as a magnet for higher souls to enter the world.
+</div>
 
-never produced any work worth doing.” -- Bertrand Russell
-
-·
-
-There is
-
-something about sex which reacts against a person when it is merely physical.
-
-If it doesn't involve a spiritual bonding, it reacts. Sex demands to be treated
-
-with respect and as the bonding of two souls into one. If not, it gets angry
-
-like a jealous wife and exacts a price. Sex which is purely sensual spells the
-
-end of the relationship.
-
-·
-
-There is
-
-no such thing as free sex (even in marriage). When one doesn't sanctify himself
-
-at that time, the price he pays is anger, i.e., he receives anger into his
-
-soul. Sex with sanctity draws love, kindness and blessing into the world.
-
-Sanctity in sex means the binding of the souls together and then bringing them
-
-up to God. It has nothing to do with marriage.
-
-·
-
-Pleasure
-
-is on the level of the tree of knowledge of good and evil and therefore not
-
-good or bad in itself but dependent on what one uses it for. If one brings up
-
-the sparks of holiness in that pleasure into holiness, he himself goes up and
-
-the evil falls. Just saying a blessing has nothing to do with this. It depends
-
-a lot on what one actually does with that pleasure. If it’s having children, it
-
-depends on how he raises the children. If it's food, it depends on what one
-
-does with the energy. Pleasure for the sake pleasure remains on the original
-
-level and it falls into evil and becomes evil itself. Pleasure however for the
-
-sake of God and done with attachment to God is like a sacrifice and is on a
-
-very holy level.
-
-·
-
-In a time
-
-that the matches aren't between true matches, God still draws the proper souls
-
-by one soul in the world who is on the level of Joseph (the sephirah of
-
-Foundation). This is
-
-bechinas
-
-(on the level of) what it says by Joseph
-
-“the girls jumped over the wall” to see him as Rashi explains there and also
-
-what it says by Rebbi Yochanan who waited outside the
-
-mikvah
-
-so the
-
-women coming out from the mikvah would see him and draw the souls that came
+<blockquote class="fancy-quote">
+“For the gods are slow, though they are sure, in visitation, when men scorn godliness and turn to frenzy.” — Sophocles (Oedipus at Colonus)
+</blockquote>

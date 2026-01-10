@@ -1,31 +1,34 @@
-·
+[TITLE: The Right Plan]
+<blockquote class="fancy-quote">
+“An unexamined life is not worth living.” — Socrates
+<br>
+“An unplanned life is not worth examining.” — Aristotle
+</blockquote>
 
-Aristotle had a basic philosophy of happiness that I would like to write down in summary form in order to show the logical basis for why it is important to keep the mitzvot.
+<h4>Needs vs. Wants</h4>
+<p>Aristotle held that there is only one "right plan" for a good life: to seek and acquire the things we truly <strong>need</strong>. Wants are often deceptive, but needs are always good. These include external needs of the body and internal needs of the mind (knowledge) and heart (love and self-esteem).</p>
 
-Socrates said, “An unexamined life is not worth living.” Aristotle said, “An unplanned life is not worth examining”. He held that one has to have a plan. But not any plan will do. He held that there is only one right plan. If one lives by the wrong plan, he will not have a good life. Now there are things we do just to live. But there are other things we do in order to live well, i.e., achieve happiness and enrich our lives. But we live in order to live well, i.e., to have happiness. Who could say that they don't want happiness? Happiness is the highest goal. People are happy because they have what they want. Yet we all have different wants. But in truth though we want different things, living well is really the same for us all.
+<div class="concept-box">
+<strong>The Strange Spiral</strong>
+<div class="feature-image">
+    <img src="../../../images/strange_spiral.png" alt="The Strange Spiral of Needs Visual">
+</div>
+Happiness is not a destination but a constant movement upward through a hierarchy of needs:
+<ol>
+<li><strong>Physical Needs:</strong> Food, shelter, and security.</li>
+<li><strong>Emotional Needs:</strong> To love and be loved.</li>
+<li><strong>Mental Needs:</strong> Knowledge and the skill of thinking.</li>
+<li><strong>Spiritual Needs:</strong> Knowledge of God and the infinite soul.</li>
+</ol>
+The needs of the body are finite, but the needs of the soul are infinite. Free will is the choice of where on this spiral to work at any given moment.
+</div>
 
-There are things that we want and things that we need. The need for food and the need for knowledge are human needs. Some things we want aren't good for us but things we need are always good for us. The need for food we feel but there are other needs that we don't feel so readily. The one right plan for living is to seek and acquire the things that are really good for us, the things we need to live and the things we need to live well. Thus, happiness is really the same for everybody. It is to acquire the things that are really good for us to have.
+<h4>Tangled Hierarchies</h4>
+<p>Victor Frankl observed that "giving a man a <strong>reason</strong> to live" allows him to find the "how." This reason must be the right goal—the meeting of internal needs through virtue and habit.</p>
 
-These are external needs of the body and internal needs of the mind. The mind by reason of its nature needs to know. Thus there are the goods of the mind such as knowledge and skills and especially the skill of thinking.
+<div class="concept-box">
+<strong>Gödel and the Loop</strong>
+Any system that refers to itself (like the human mind) must be incomplete. This <strong>Strange Loop</strong> is not a flaw, but a driver toward higher levels of existence. As Hofstadter pointed out, the mind is a "Tangled Hierarchy" where causes propagate both upward and downward.
+</div>
 
-There is also the need of the heart to love and be loved. Also there is the need for self-esteem and honor if it is honor for the right reasons. [I believe there is also a human need for freedom.]
-
-There is also another kind of need, the need of the soul for good habits or virtues, i.e., the habit of choosing the virtuous thing without having to go through a difficult process every time a situation comes up: as in temperance and courage.
-
-The reason God gave us the Torah is to teach us the virtues of the mind [right opinions] and of the soul and good habits, i.e., to receive the needs of the body and soul.
-
-Now there is another need that Aristotle didn't mention and that is the need to work for a goal. Every human being has this, as Victor Frankel said [I think from Nietzsche], “Give a man a reason to live and he will find the how to live.”
-
-But this is, in a sense, included in Aristotle since happiness is a constant process of acquiring more things than one needs. The needs of the body are finite, but the need of the soul is infinite, since the soul needs God — and acquiring more knowledge of God or his works is an infinite process. At any rate, happiness is the feeling one gets from movement upwards or inward as I wrote before.
-
-But just any goal isn't enough. It has to be the right goal. The right goal — Aristotle has already explained — is to get our needs met. Thus, it seems we have circular reasoning [The Strange Loop].
-
-The answer to this, however, is that Man [as a society and also individual men] need to work as an upward spiral [The Strange Spiral].
-
-First getting the physical needs met, then the emotional, then the mental and then spiritual. But each individual may have a particular need which he feels more strongly than the others — and thus some people work on the spiritual at the expense of the physical. The reason for this is that this spiral is usually for the community as a whole. Some people work on one need and others on another but in the whole society everyone benefits.
-
-Free-will is when a person has the choice of determining whether he wants to work on a higher or lower need. Thus, a need can be evil if a person can work on a higher need and instead chooses the lower one, or it can be neither good nor evil if one is only able to work on it alone, or it can be good if a person has to choose between it and a lower need.
-
-The idea of the Strange Loop is that a system that refers to itself must be incomplete, like the electron that acts on itself. The whole creation on every level is filled with the strange. The reason is, I think, like Hegel saw, they drive us toward a higher level. So, the puzzle of Quantum Mechanics that physicists to this day cannot figure out is not an isolated phenomenon, but part of the mathematical reality of Creation.
-
-Gödel's theorem shows there is a fundamental limitation to any formal self-consistent system that refers to itself. In fact, Hofstadter pointed out that any understanding of the human mind will force us to accept “causes that propagate both upwards and downwards in the Tangled Hierarchy of mentality....”
+<p>The Torah provides the "good habits" and virtues needed to navigate this spiral without having to resolve every dilemma from scratch. It is the roadmap for the mind to reach the Absolute.</p>
