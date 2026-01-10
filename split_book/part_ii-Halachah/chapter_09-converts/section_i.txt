@@ -3,46 +3,27 @@
 "A woman needs only to go into the mikvah for the sake of getting married... she automatically becomes Jewish." — The Natural Entry.
 </blockquote>
 
-<h4>The Essence of Conversion</h4>
-<p>The transition into the category of Israel is a process of intent and immersion. According to Rav Asi in the Talmud, a non-Jewish woman who immerses in a Mikvah or a natural body of water for the purpose of marriage to a Jew or for purification is automatically considered Jewish. The act of entering the "Waters of Genesis" with the desire to join the covenantal people effectively resets the spiritual identity, even without a complex formal ceremony.</p>
-
-<div class="justice-balance">
-    <input type="radio" name="conversion-logic" id="view-asi" class="balance-toggle" checked>
-    <input type="radio" name="conversion-logic" id="view-belief" class="balance-toggle">
-    
-    <div class="balance-controls">
-        <label for="view-asi" class="balance-label label-righteous">Immersion (Rav Asi)</label>
-        <label for="view-belief" class="balance-label label-righteous">Belief (Rambam)</label>
-    </div>
-
-    <div class="consequence-grid">
-        <div class="consequence-box earth-box" style="grid-column: span 2;">
-            <div id="panel-asi">
-                <h5>The Direct Path</h5>
-                <p>The physical act of immersion in a holy vessel of water (Mikvah or Ocean) for the sake of the union or purity is the gate. It is a natural transition that bypasses the need for elaborate social ritual, focusing on the immediate change in the soul's environment.</p>
-                <span class="status-badge badge-reward">Structural Change</span>
-            </div>
-            <div id="panel-belief" style="display:none">
-                <h5>The Intellectual Gate</h5>
-                <p>To the Rambam, being in the "category of Israel" is tied to the 13 Principles of Faith. One who believes in these principles is deserving of love and inclusion, though actual Jewish status still requires the final act of immersion to complete the soul’s integration into the people.</p>
-                <span class="status-badge badge-reward">Identity of Faith</span>
-            </div>
-        </div>
+<div class="feature-image">
+    <div class="visual-placeholder">
+        <div class="visual-placeholder-icon">🌊</div>
+        <div class="visual-placeholder-text">The Waters of Identity</div>
     </div>
 </div>
 
-<script>
-    document.querySelectorAll('input[name="conversion-logic"]').forEach(radio => {
-        radio.addEventListener('change', () => {
-            const isAsi = document.getElementById('view-asi').checked;
-            document.getElementById('panel-asi').style.display = isAsi ? 'block' : 'none';
-            document.getElementById('panel-belief').style.display = isAsi ? 'none' : 'block';
-        });
-    });
-</script>
+<h4>The Essence of Conversion</h4>
+<p>Becoming Jewish is not merely joining a club; it is a fundamental shift in the frequency of the soul. Rav Asi in the Talmud provides a startling mechanism: A non-Jewish woman who immerses in a Mikvah for the sake of marriage to a Jew is automatically considered Jewish. This bypasses the modern bureaucracy of courts and classes. It suggests that the desire to join the "Covenant of Life" combined with the metaphysical power of the water (Mayim Chaim) is enough to trigger the transformation.</p>
 
-<h4>The Hierarchy of Identity</h4>
-<p>The definition of "who is a Jew" is balanced between ancestry and conviction. Someone who does not believe in God or the Oral and Written Law is not considered Jewish in the eyes of the Rambam, regardless of their parentage. Conversely, Rav Saadia Gaon identifies three core principles — God’s existence, His oneness, and reward and punishment — that can bring even non-Jews into a category shared with Israel. This highlights that the "Song of God" is a frequency one must tune into to truly belong.</p>
+<div class="concept-box">
+<strong>Two Gates to the Nation</strong>
+<p>The definitions of identity split between the physical and the intellectual:</p>
+<ul>
+<li><strong>The Direct Path (Rav Asi):</strong> Identity is a function of action and intent. Entering the water with the intent to bind one's fate to a Jew resets the soul's status. It is a biological/spiritual rebirth.</li>
+<li><strong>The Intellectual Gate (Rambam):</strong> The Rambam adds a layer: Belief. A person who denies the 13 Principles—God's oneness, the Law, the Prophecy—cuts themselves off. Even if born Jewish, they lose their "citizenship." Conversely, a stranger who holds these truths is already inside the "Category of Israel" before they even touch the water.</li>
+</ul>
+</div>
+
+<h4>The Hierarchy of Belief</h4>
+<p>Rav Saadia Gaon simplifies the entry requirements to three core pillars: God’s existence, His Oneness, and Reward/Punishment. These are the universals. Without them, there is no "Israel." With them, the boundaries between the nations begin to dissolve, revealing that the "Song of God" is a frequency that anyone with a tuned heart can receive.</p>
 
 <blockquote class="fancy-quote">
 “The main principles are three: God's existence, His oneness, and reward and punishment.”

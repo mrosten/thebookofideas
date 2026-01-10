@@ -1,31 +1,42 @@
-[TITLE: The Sanctity of Sex]
+[TITLE: The Sanctity of Union]
 <blockquote class="fancy-quote">
-“Joy of life depends upon a certain spontaneity in regard to sex. Where sex is repressed, only work remains.” — Bertrand Russell
+“Joy of life depends upon a certain spontaneity in regard to sex. Where sex is repressed, only work remains.” — Bertrand Russell.
 </blockquote>
 
+<div class="feature-image">
+    <!-- Pure CSS Visual: The Union of Souls -->
+    <div class="css-visual-union">
+        <div class="union-container">
+            <div class="soul soul-blue"></div>
+            <div class="soul soul-gold"></div>
+        </div>
+        <div class="union-core"></div>
+    </div>
+</div>
+
 <h4>The Spiritual Reaction</h4>
-<p>Sex is never merely physical. It demands to be treated with respect as the bonding of two souls into one. When it is treated as purely sensual, it reacts against the individual like a jealous wife, exacting a price in the form of internal anger and spiritual depletion. True sex is a spiritual bonding; if it remains on the level of the "merely physical," it spells the end of the relationship's depth.</p>
+<p>Sex is the physical manifestation of a metaphysical fusion. It is never "neutral." When two souls connect without the container of commitment, the energy created does not disappear—it ricochets. It reacts against the individual like a jealous force, exacting a price in spiritual depletion and internal dissonance. But when the vessel is whole, the act becomes a mechanism of higher unification, drawing the <em>Or Makif</em> (Surrounding Light) into the very bodies of the lovers.</p>
 
 <div class="justice-balance">
     <input type="radio" name="sex-mode" id="sanctified" class="balance-toggle" checked>
     <input type="radio" name="sex-mode" id="sensual" class="balance-toggle">
     
     <div class="balance-controls">
-        <label for="sanctified" class="balance-label label-righteous">Sanctified</label>
-        <label for="sensual" class="balance-label label-wicked">Sensual</label>
+        <label for="sanctified" class="balance-label label-righteous">Sanctified (Ascent)</label>
+        <label for="sensual" class="balance-label label-wicked">Sensual (Gravity)</label>
     </div>
 
     <div class="consequence-grid">
         <div class="consequence-box earth-box" style="grid-column: span 2;">
             <div id="view-sanctified">
-                <h5>Sanctity: The Ascent</h5>
-                <p>Binding the souls together and bringing them up to God. This draws love, kindness, and blessing into the world.</p>
-                <span class="status-badge badge-reward">Sacrifice</span>
+                <h5>The Ascent of the Spark</h5>
+                <p>When the intent is connection, the act functions as a <em>Korban</em> (Sacrifice) in the Temple. It binds the physical pleasure to a higher root, transforming the "animal soul" into a vehicle for holiness. This draws blessing, peace, and new life into the world.</p>
+                <span class="status-badge badge-reward">Integration</span>
             </div>
             <div id="view-sensual" style="display:none">
-                <h5>Sensuality: The Fall</h5>
-                <p>Pleasure for the sake of pleasure remains on the original level. It falls into the "broken vessels" and becomes an anchor for the internal shadows.</p>
-                <span class="status-badge badge-punish">Anger</span>
+                <h5>The Gravity of the Fall</h5>
+                <p>Pleasure sought for its own sake remains trapped in the "Broken Vessels." It mimics the light but lacks the heat of life. Over time, it creates an addiction to the sensation while starving the soul, leading to a profound, unexplainable loneliness.</p>
+                <span class="status-badge badge-punish">Fragmentation</span>
             </div>
         </div>
     </div>
@@ -42,13 +53,13 @@
 </script>
 
 <h4>Sparks in the Pleasure</h4>
-<p>Pleasure itself is on the level of the Tree of Knowledge of Good and Evil—neither good nor bad in its essence, but dependent on its use. If one brings up the "sparks of holiness" within that pleasure, the soul ascends. Pleasure for the sake of God is like a sacrifice; it is the "Arousal of the Below" that prompts a corresponding flow from the Above.</p>
+<p>There is a secret in the pleasure itself. It originates from the <em>Tree of Knowledge</em>, which is a mixture of Good and Evil. The pleasure is not the enemy; it is the fuel. Just as a rocket requires combustible fuel to escape gravity, the soul requires the "heat" of physical passion to propel its prayers and intentions to the highest worlds.</p>
 
 <div class="concept-box">
 <strong>Joseph: The Foundation of Souls</strong>
-In an era where true matches are rare, God draws souls through the "Level of Joseph" (the <em>Sephirah</em> of Foundation). Just as Joseph was a magnet for the spiritual "ascent" of others, the sanctification of the sexual act acts as a magnet for higher souls to enter the world.
+In the Kabbalistic anatomy, the sexual drive is rooted in <em>Yesod</em> (Foundation), the sphere of Joseph. Joseph was a magnet. He did not chase; he attracted. In an era of spiritual chaos, sanctifying this drive makes an individual a "Joseph"—a living magnet for higher souls, clarity, and abundance.
 </div>
 
 <blockquote class="fancy-quote">
-“For the gods are slow, though they are sure, in visitation, when men scorn godliness and turn to frenzy.” — Sophocles (Oedipus at Colonus)
+“For the gods are slow, though they are sure, in visitation, when men scorn godliness and turn to frenzy.” — Sophocles.
 </blockquote>

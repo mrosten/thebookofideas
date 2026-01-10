@@ -7,7 +7,10 @@
 <p>The entry and exit of Shabbat are defined by a boundary of light. A major debate (Rabbenu Tam vs. the first sunset) exists because of the interval between the setting sun and the appearance of the "medium stars." To truly know a medium star, one must perceive the entire set of stars in a clear sky—a statistical observation that places the true end of the day roughly 90 minutes after sunset. While many follow the lenient first sunset for the start of Shabbat to be safe, the exit requires the full weight of the stars to ensure the sanctity of the day is preserved.</p>
 
 <div class="feature-image">
-    <img src="../../../images/event_horizon_shabbat.png" alt="Event Horizon of Shabbat Visual">
+    <div class="visual-placeholder">
+        <div class="visual-placeholder-icon">🕯️</div>
+        <div class="visual-placeholder-text">Event Horizon of Shabbat Visual</div>
+    </div>
 </div>
 
 <div class="justice-balance">

@@ -24,5 +24,12 @@ Applying Game Theory to parenting means accepting that total control is an illus
 "Let teenagers be 'bad' in things that aren't so bad. If they want to talk for hours when they come home, listen. If they can't talk to you, they'll find someone else who will."
 </blockquote>
 
+<div class="feature-image">
+    <div class="visual-placeholder">
+        <div class="visual-placeholder-icon">⚗️</div>
+        <div class="visual-placeholder-text">The Nitrogen Family Stability</div>
+    </div>
+</div>
+
 <h4>The Nitrogen Family</h4>
 <p>A family with seven children takes on the inert character of Nitrogen (N₂). It is stable and strong, but it must be careful of "Nitroglycerine" personalities that might form explosive bonds (TNT). To maintain stability, parents must invest heavily in teaching their own philosophy, or the world will gladly provide a substitute.</p>

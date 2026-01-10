@@ -333,6 +333,81 @@ $chapterLinks
     return $html
 }
 
+# Full table of contents template
+function Generate-MainContentsHTML {
+    param(
+        [array]$PartDataList
+    )
+    
+    $fullContents = ""
+    foreach ($part in $PartDataList) {
+        $chapterLinks = ""
+        foreach ($ch in $part.Chapters) {
+            $sectionLinks = ""
+            foreach ($sec in $ch.Sections) {
+                $sectionLinks += "                        <li><a href=`"parts/$($part.Target)/$($ch.Folder)/$($sec.Filename)`"><span class='sec-num'>$($sec.Num)</span> <span class='sec-title'>$($sec.Title)</span></a></li>`n"
+            }
+            
+            $chapterLinks += @"
+                <details class="chapter-folder">
+                    <summary class="chapter-header">$($ch.Title)</summary>
+                    <ul class="section-list">
+$sectionLinks
+                    </ul>
+                </details>
+"@
+        }
+        
+        $fullContents += @"
+                <div class="toc-part-group" style="margin-bottom: 3rem;">
+                    <div class="toc-part-title">
+                        <a href="parts/$($part.Target)/index.html" style="color: white; text-decoration: none;">$($part.Title)</a>
+                    </div>
+                    <div class="toc-chapters" style="display: block; padding-left: 0;">
+$chapterLinks
+                    </div>
+                </div>
+"@
+    }
+    
+    $html = @"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of Contents — The Torah Book of Ideas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Torah Book of Ideas</h1>
+        <p class="subtitle">Table of Contents</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contents.html" class="active">Table of Contents</a>
+    </nav>
+    <main class="container">
+        <div class="content-card">
+            <h2>✡ Contents ✡</h2>
+            <div class="toc">
+$fullContents
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+    </footer>
+</body>
+</html>
+"@
+    return $html
+}
+
 # Roman numeral conversion
 $romanNumerals = @{
     'i' = 'I'; 'ii' = 'II'; 'iii' = 'III'; 'iv' = 'IV'; 'v' = 'V';
@@ -362,6 +437,7 @@ $partMappings = @(
 
 $totalSections = 0
 $totalChapters = 0
+$allPartsData = @()
 
 foreach ($part in $partMappings) {
     $sourcePath = Join-Path $splitBookPath $part.Source
@@ -540,7 +616,14 @@ $(
     $partIndexHtml | Set-Content (Join-Path $targetPath "index.html") -Encoding UTF8
     
     Write-Host "Processed $($part.Title): $($chapters.Count) chapters" -ForegroundColor Cyan
+    
+    # Store for main contents
+    $allPartsData += @{ Target = $part.Target; Title = $part.Title; Chapters = $chapterList }
 }
+
+# Generate main contents page
+$mainContentsHtml = Generate-MainContentsHTML -PartDataList $allPartsData
+$mainContentsHtml | Set-Content (Join-Path $websitePath "contents.html") -Encoding UTF8
 
 Write-Host "`n=== COMPLETE ===" -ForegroundColor Green
 Write-Host "Total chapters: $totalChapters"

@@ -6,47 +6,30 @@
 <h4>The Halachic Duality</h4>
 <p>The obligation to live in the Land of Israel is a spectrum of intensity across Jewish history. While the Rambam and Ramban see it as a positive commandment that transcends time, the Talmud records the "Three Oaths" — a metaphysical treaty preventing the people from ascending "as a wall" or prematurely forcing the end of history. This creates a unique halachic space where both the drive to return and the caution of exile coexist. Experience has shown that when the oath is ignored, the consequences reflect the fragility of the political vessel in a land that demands spiritual absolute.</p>
 
-<div class="justice-balance">
-    <input type="radio" name="israel-halacha" id="view-ramban" class="balance-toggle" checked>
-    <input type="radio" name="israel-halacha" id="view-satmar" class="balance-toggle">
-    <input type="radio" name="israel-halacha" id="view-huna" class="balance-toggle">
-    
-    <div class="balance-controls">
-        <label for="view-ramban" class="balance-label label-righteous">Ascension (Ramban)</label>
-        <label for="view-satmar" class="balance-label label-righteous">The Oaths (Satmar)</label>
-        <label for="view-huna" class="balance-label label-righteous">Holiness (Rav Huna)</label>
-    </div>
-
-    <div class="consequence-grid">
-        <div class="consequence-box earth-box" style="grid-column: span 2;">
-            <div id="panel-ramban">
-                <h5>The Mandatory Return</h5>
-                <p>To the Ramban, living in Israel is a core Biblical commandment. The land itself is a vessel for the highest level of prophecy and Divine proximity, a requirement for the full manifestation of the Jewish soul.</p>
-                <span class="status-badge badge-reward">Biblical Essence</span>
-            </div>
-            <div id="panel-satmar" style="display:none">
-                <h5>The Walls of Caution</h5>
-                <p>The Satmar perspective emphasizes the "Three Oaths" — warning that a massive, wall-like return to the statehood without the Messiah is a violation of the exile's terms. True holiness exists in the land, but the state is a different entity.</p>
-                <span class="status-badge badge-reward">Metaphysical Treaty</span>
-            </div>
-            <div id="panel-huna" style="display:none">
-                <h5>The Structural Requirement</h5>
-                <p>Rav Huna holds that the Biblical holiness of the land requires a King and the Urim and Tumim. Without these, the holiness is Rabbinical — a precious shadow of the original light, yet distinct from the absolute Biblical era.</p>
-                <span class="status-badge badge-reward">Legal Framework</span>
-            </div>
-        </div>
+<div class="feature-image">
+    <div class="visual-placeholder">
+        <div class="visual-placeholder-icon">🕍</div>
+        <div class="visual-placeholder-text">Citizenship of the Heart</div>
     </div>
 </div>
 
-<script>
-    document.querySelectorAll('input[name="israel-halacha"]').forEach(radio => {
-        radio.addEventListener('change', () => {
-            ['ramban', 'satmar', 'huna'].forEach(id => {
-                document.getElementById('panel-' + id).style.display = document.getElementById('view-' + id).checked ? 'block' : 'none';
-            });
-        });
-    });
-</script>
+<div class="concept-box">
+    <strong>Three Views on Ascension</strong>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+        <div>
+            <h5>The Mandatory Return (Ramban)</h5>
+            <p>To the Ramban, living in Israel is a core Biblical commandment. The land itself is a vessel for the highest level of prophecy and Divine proximity, a requirement for the full manifestation of the Jewish soul.</p>
+        </div>
+        <div>
+            <h5>The Walls of Caution (Satmar)</h5>
+            <p>The Satmar perspective emphasizes the "Three Oaths" — warning that a massive, wall-like return to statehood without the Messiah acts against the metaphysical order. True holiness exists, but political timing is key.</p>
+        </div>
+        <div>
+            <h5>The Structural Requirement (Rav Huna)</h5>
+            <p>Rav Huna holds that Biblical holiness requires a King and the Urim and Tumim. Without these, the holiness is Rabbinical — a precious shadow of the original light.</p>
+        </div>
+    </div>
+</div>
 
 <h4>The Freedom of the Singular</h4>
 <p>Torah theology often hides the vast regions of free will behind a veil of absolute law. Yet, in the question of Israel, the Talmudic authorities provide valid paths for both staying in the lands of origin and ascending to the peak of Zion. This choice is not between good and evil, but between two equally valid expressions of a soul's mission. One must listen to the "small prophecy" of the inner heart; it is a positive commandment to obey one's own character and individual mission within the wider framework of the Law.</p>

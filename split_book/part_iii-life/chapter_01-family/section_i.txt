@@ -6,6 +6,13 @@
 <h4>The Spiritual Root</h4>
 <p>Every family is a tree. Your close friends and family are not merely social connections; they are vital organs of your own soul. To cut yourself off from your roots is to risk spiritual dehydration. The soul is not "ripe" at eighteen; like fruit, it needs to stay attached to the tree until it can draw its own strength from the sun.</p>
 
+<div class="feature-image">
+    <div class="visual-placeholder">
+        <div class="visual-placeholder-icon">🌳</div>
+        <div class="visual-placeholder-text">The Family Tree as Spiritual Root</div>
+    </div>
+</div>
+
 <div class="justice-balance">
     <input type="radio" name="family-view" id="sephirot" class="balance-toggle" checked>
     <input type="radio" name="family-view" id="friends" class="balance-toggle">

@@ -7,7 +7,10 @@
 <p>In many ancient traditions—from the disciples of the Baal Shem Tov to the Jews of Yemen and Morocco—marriage occurred at a young age. This is rooted in the belief that the <em>Sepherah</em> of Foundation correspond to the teenage years. Marrying young provides a spiritual defense; as the Talmud suggests, those who marry early can say "an arrow in the eye" of the internal shadows, for they are rooted in holiness before the storms of life begin.</p>
 
 <div class="feature-image">
-    <img src="../../../images/union_of_lights_marriage.png" alt="The Union of Lights Visual">
+    <div class="visual-placeholder">
+        <div class="visual-placeholder-icon">💍</div>
+        <div class="visual-placeholder-text">The Union of Lights</div>
+    </div>
 </div>
 
 <div class="concept-box">
