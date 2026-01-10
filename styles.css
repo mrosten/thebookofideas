@@ -1067,18 +1067,31 @@ footer p {
 }
 
 /* ===== Tables ===== */
+/* ===== Tables ===== */
 .table-wrapper {
   overflow-x: auto;
   margin: 2rem 0;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  background: white;
-  /* Ensure background behind scroll */
+  background-color: white;
+
+  /* Scroll Shadows */
+  background-image:
+    /* Shadow covers (white masks that move with content) */
+    linear-gradient(to right, white 30%, rgba(255, 255, 255, 0)),
+    linear-gradient(to left, white 30%, rgba(255, 255, 255, 0)),
+    /* Shadows (fixed to container sides) */
+    radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+
+  background-position: 0 0, 100% 0, 0 0, 100% 0;
+  background-repeat: no-repeat;
+  background-attachment: local, local, scroll, scroll;
+  background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+
   max-width: 100%;
   -webkit-overflow-scrolling: touch;
-  /* Smooth scroll on iOS */
   display: block;
-  /* Ensure block formatting context */
 }
 
 .data-table {
