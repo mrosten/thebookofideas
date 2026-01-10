@@ -143,12 +143,13 @@ header>button:first-of-type {
 /* Mobile responsive header controls */
 @media (max-width: 768px) {
   header {
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
 
   header h1 {
     font-size: 1.5rem;
     padding: 0 0.5rem;
+    margin-top: 0.5rem;
   }
 
   #sidebar-toggle,
@@ -156,8 +157,8 @@ header>button:first-of-type {
   #search-link,
   #audio-toggle,
   #bookmark-toggle {
-    font-size: 1.2rem;
-    padding: 0.2rem;
+    font-size: 1.3rem;
+    padding: 0.4rem;
   }
 
   #sidebar-toggle {
@@ -167,17 +168,17 @@ header>button:first-of-type {
 
   #search-toggle,
   #search-link {
-    left: 2.2rem;
+    left: 3rem;
     top: 0.5rem;
   }
 
   #audio-toggle {
-    left: 3.8rem;
+    left: 5.5rem;
     top: 0.5rem;
   }
 
   #bookmark-toggle {
-    left: 5.4rem;
+    left: 8rem;
     top: 0.5rem;
   }
 
