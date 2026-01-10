@@ -24,4 +24,16 @@ Then, after its destruction they were expecting Bar Kochba to deliver them — t
 
 ·
 
-The Messiah revealed the same idea to the Baal Shem Tov in his vision on Rosh HaShanah when the Baal Shem Tov asked “when will you come?” He answered “By this you will know: when your wells will overflow and they will be able to do unifications and rise to higher worlds like you, then will be a time of grace and salvation. “The teachings of the Baal Shem Tov to a large degree are contained in the books of his disciples. Rabbi Nachman never claimed that his teachings stemmed from them but in fact Rabbi Nachman gives the handles by which it is possible for every person to hold on to the lessons of the Baal Shem Tov.
+The Messiah revealed the same idea to the Baal Shem Tov in his vision on Rosh HaShanah when the Baal Shem Tov asked “when will you come?” He answered “By this you will know: when your wells will overflow and they will be able to do unifications and rise to higher worlds like you, then will be a time of grace and salvation.”
+<br><br>The teachings of the Baal Shem Tov to a large degree are contained in the books of his disciples. Rabbi Nachman never claimed that his teachings stemmed from them but in fact Rabbi Nachman gives the handles by which it is possible for every person to hold on to the lessons of the Baal Shem Tov.
+
+<div class="visual-container overflowing-well">
+    <div class="well-base"></div>
+    <div class="well-water-surface"></div>
+    <div class="light-column"></div>
+    <div class="sparkle" style="--tx: -20px; animation-delay: 0s;"></div>
+    <div class="sparkle" style="--tx: 20px; animation-delay: 1s;"></div>
+    <div class="sparkle" style="--tx: -10px; animation-delay: 2s;"></div>
+    <div class="sparkle" style="--tx: 30px; animation-delay: 1.5s;"></div>
+    <div class="sparkle" style="--tx: 0px; animation-delay: 0.5s;"></div>
+</div>

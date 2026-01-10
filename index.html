@@ -22,6 +22,8 @@
 
 <body>
     <header>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode"
+            style="position: absolute; top: 1rem; right: 1rem; background: none; border: none; font-size: 1.5rem; cursor: pointer;">🌙</button>
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">A Unified System of Science, Philosophy, and Kabbalah</p>
     </header>
@@ -105,6 +107,27 @@
     <footer>
         <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
     </footer>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+    </script>
 </body>
 
 </html>

@@ -29,7 +29,7 @@ if ($currentFootnoteNum) {
 }
 
 # HTML template function
-function Generate-SectionHTML {
+function New-SectionHTML {
     param(
         [string]$PartName,
         [string]$PartTitle,
@@ -156,6 +156,7 @@ function Generate-SectionHTML {
 </head>
 <body>
     <header>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">$PartTitle</p>
     </header>
@@ -243,6 +244,57 @@ function Generate-SectionHTML {
     <footer>
         <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
     </footer>
+    <div id="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const images = document.querySelectorAll('.book-image');
+
+        images.forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function() {
+                lightbox.style.display = 'block';
+                lightboxImg.src = this.src;
+            });
+        });
+
+        const closeSpan = document.querySelector('.close-lightbox');
+        if (closeSpan) {
+            closeSpan.onclick = function() {
+                lightbox.style.display = 'none';
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target == lightbox) {
+                lightbox.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
 "@
@@ -250,7 +302,7 @@ function Generate-SectionHTML {
 }
 
 # Part index page template
-function Generate-PartIndexHTML {
+function New-PartIndexHTML {
     param(
         [string]$PartName,
         [string]$PartTitle,
@@ -289,6 +341,7 @@ $sectionLinks
 </head>
 <body>
     <header>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">$PartTitle</p>
     </header>
@@ -331,6 +384,211 @@ $chapterLinks
     <footer>
         <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
     </footer>
+    <div id="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const images = document.querySelectorAll('.book-image');
+
+        images.forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function() {
+                lightbox.style.display = 'block';
+                lightboxImg.src = this.src;
+            });
+        });
+
+        const closeSpan = document.querySelector('.close-lightbox');
+        if (closeSpan) {
+            closeSpan.onclick = function() {
+                lightbox.style.display = 'none';
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target == lightbox) {
+                lightbox.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+"@
+    return $html
+}
+
+
+# Bibliography page template
+function New-BibliographyPage {
+    param(
+        [string]$Content
+    )
+    
+    $html = @"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliography — The Torah Book of Ideas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+        <h1>The Torah Book of Ideas</h1>
+        <p class="subtitle">Bibliography</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contents.html">Contents</a>
+        <a href="bibliography.html" class="active">Bibliography</a>
+    </nav>
+    <main class="container">
+        <div class="content-card">
+            <h2>Bibliography</h2>
+            $Content
+        </div>
+    </main>
+    <footer>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+    </footer>
+    <div id="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Lightbox (just in case)
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const closeSpan = document.querySelector('.close-lightbox');
+        if (closeSpan) { closeSpan.onclick = () => lightbox.style.display = 'none'; }
+        window.onclick = (e) => { if (e.target == lightbox) lightbox.style.display = 'none'; }
+    </script>
+</body>
+</html>
+"@
+    return $html
+}
+
+
+# Glossary page template
+function New-GlossaryPage {
+    param(
+        [string]$Content
+    )
+    
+    $html = @"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary — The Torah Book of Ideas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+        <h1>The Torah Book of Ideas</h1>
+        <p class="subtitle">Glossary</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contents.html">Contents</a>
+        <a href="glossary.html" class="active">Glossary</a>
+    </nav>
+    <main class="container">
+        <div class="content-card">
+            <h2>Glossary</h2>
+            $Content
+        </div>
+    </main>
+    <footer>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+    </footer>
+    <div id="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const closeSpan = document.querySelector('.close-lightbox');
+        if (closeSpan) { closeSpan.onclick = () => lightbox.style.display = 'none'; }
+        window.onclick = (e) => { if (e.target == lightbox) lightbox.style.display = 'none'; }
+    </script>
 </body>
 </html>
 "@
@@ -338,7 +596,7 @@ $chapterLinks
 }
 
 # Full table of contents template
-function Generate-MainContentsHTML {
+function New-MainContentsHTML {
     param(
         [array]$PartDataList
     )
@@ -362,15 +620,18 @@ $sectionLinks
 "@
         }
         
+        $partOpen = if ($part.Target -eq "part_i") { "open" } else { "" }
+
         $fullContents += @"
-                <details class="toc-part-group" open style="margin-bottom: 2rem;">
-                    <summary class="toc-part-title" style="cursor: pointer; list-style: none; margin-bottom: 1rem;">
-                        <span style="font-size: 1.5rem; color: var(--gold-primary); font-family: 'Frank Ruhl Libre', serif; border-bottom: 1px solid rgba(212, 175, 55, 0.3); padding-bottom: 0.5rem; display: inline-block; width: 100%;">$($part.Title)</span>
+                <details class="toc-part-group" $partOpen>
+                    <summary class="toc-part-title">
+                        <span>$($part.Title)</span>
+                        <span class="toc-toggle-icon"></span>
                     </summary>
-                    <div style="margin-bottom: 1rem; margin-left: 1rem;">
-                        <a href="parts/$($part.Target)/index.html" style="font-size: 0.9rem; font-style: italic; color: var(--text-muted);">View Part Index →</a>
+                    <div class="toc-part-links">
+                        <a href="parts/$($part.Target)/index.html">View Part Index →</a>
                     </div>
-                    <div class="toc-chapters" style="display: block; padding-left: 0;">
+                    <div class="toc-chapters">
 $chapterLinks
                     </div>
                 </details>
@@ -391,6 +652,7 @@ $chapterLinks
 </head>
 <body>
     <header>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">Table of Contents</p>
     </header>
@@ -403,12 +665,74 @@ $chapterLinks
             <h2>✡ Contents ✡</h2>
             <div class="toc">
 $fullContents
+                
+                <div class="toc-special-section" style="margin-top: 2rem; border-top: 1px dashed var(--accent-gold); padding-top: 1rem;">
+                    <a href="bibliography.html" class="toc-part-title" style="display:block; text-decoration:none;">
+                        <span>Bibliography</span>
+                        <span>→</span>
+                    </a>
+                    <a href="glossary.html" class="toc-part-title" style="display:block; text-decoration:none; margin-top: 1rem;">
+                        <span>Glossary</span>
+                        <span>→</span>
+                    </a>
+                </div>
             </div>
         </div>
     </main>
     <footer>
         <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
     </footer>
+    <div id="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const images = document.querySelectorAll('.book-image');
+
+        images.forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function() {
+                lightbox.style.display = 'block';
+                lightboxImg.src = this.src;
+            });
+        });
+
+        const closeSpan = document.querySelector('.close-lightbox');
+        if (closeSpan) {
+            closeSpan.onclick = function() {
+                lightbox.style.display = 'none';
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target == lightbox) {
+                lightbox.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
 "@
@@ -518,6 +842,7 @@ foreach ($part in $partMappings) {
 </head>
 <body>
     <header>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">$($part.Title)</p>
     </header>
@@ -583,6 +908,57 @@ $(
     <footer>
         <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
     </footer>
+    <div id="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const images = document.querySelectorAll('.book-image');
+
+        images.forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function() {
+                lightbox.style.display = 'block';
+                lightboxImg.src = this.src;
+            });
+        });
+
+        const closeSpan = document.querySelector('.close-lightbox');
+        if (closeSpan) {
+            closeSpan.onclick = function() {
+                lightbox.style.display = 'none';
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target == lightbox) {
+                lightbox.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
 "@
@@ -594,7 +970,6 @@ $(
             $content = Get-Content $section.FullName -Raw -Encoding UTF8
             
             # Determine prev/next links
-            $sectionFilename = $section.Name.Replace('.txt', '.html')
             
             # Determine prev/next links and labels
             $prevLabel = "Previous"
@@ -731,7 +1106,7 @@ $(
             }
             
             # Generate HTML
-            $html = Generate-SectionHTML -PartName $part.Target -PartTitle $part.Title -ChapterNum $chapterNum -ChapterTitle $chapterTitle -SectionNum $sectionNum -Content $content -PrevLink $prevLink -PrevLabel $prevLabel -NextLink $nextLink -NextLabel $nextLabel -SectionList $chapterSectionList -ChapterList $chapterList -PartList $partMappings -Footnotes $footnotes
+            $html = New-SectionHTML -PartName $part.Target -PartTitle $part.Title -ChapterNum $chapterNum -ChapterTitle $chapterTitle -SectionNum $sectionNum -Content $content -PrevLink $prevLink -PrevLabel $prevLabel -NextLink $nextLink -NextLabel $nextLabel -SectionList $chapterSectionList -ChapterList $chapterList -PartList $partMappings -Footnotes $footnotes
             
             $outputFile = Join-Path $chapterPath $section.Name.Replace('.txt', '.html')
             $html | Set-Content $outputFile -Encoding UTF8
@@ -741,7 +1116,7 @@ $(
     }
     
     # Generate part index
-    $partIndexHtml = Generate-PartIndexHTML -PartName $part.Target -PartTitle $part.Title -Chapters $chapterList -PartList $partMappings
+    $partIndexHtml = New-PartIndexHTML -PartName $part.Target -PartTitle $part.Title -Chapters $chapterList -PartList $partMappings
     $partIndexHtml | Set-Content (Join-Path $targetPath "index.html") -Encoding UTF8
     
     Write-Host "Processed $($part.Title): $($chapters.Count) chapters" -ForegroundColor Cyan
@@ -751,8 +1126,26 @@ $(
 }
 
 # Generate main contents page
-$mainContentsHtml = Generate-MainContentsHTML -PartDataList $allPartsData
+$mainContentsHtml = New-MainContentsHTML -PartDataList $allPartsData
 $mainContentsHtml | Set-Content (Join-Path $websitePath "contents.html") -Encoding UTF8
+
+# Generate Bibliography
+$bibContentPath = Join-Path $websitePath "bibliography_content.html"
+if (Test-Path $bibContentPath) {
+    $bibRaw = Get-Content $bibContentPath -Raw -Encoding UTF8
+    $bibHtml = New-BibliographyPage -Content $bibRaw
+    $bibHtml | Set-Content (Join-Path $websitePath "bibliography.html") -Encoding UTF8
+    Write-Host "Generated Bibliography" -ForegroundColor Cyan
+}
+
+# Generate Glossary
+$glossContentPath = Join-Path $websitePath "glossary_content.html"
+if (Test-Path $glossContentPath) {
+    $glossRaw = Get-Content $glossContentPath -Raw -Encoding UTF8
+    $glossHtml = New-GlossaryPage -Content $glossRaw
+    $glossHtml | Set-Content (Join-Path $websitePath "glossary.html") -Encoding UTF8
+    Write-Host "Generated Glossary" -ForegroundColor Cyan
+}
 
 Write-Host "`n=== COMPLETE ===" -ForegroundColor Green
 Write-Host "Total chapters: $totalChapters"

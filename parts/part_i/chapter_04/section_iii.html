@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">Part I — Philosophy and Faith</p>
     </header>
@@ -104,5 +105,56 @@
     <footer>
         <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
     </footer>
+    <div id="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const images = document.querySelectorAll('.book-image');
+
+        images.forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function() {
+                lightbox.style.display = 'block';
+                lightboxImg.src = this.src;
+            });
+        });
+
+        const closeSpan = document.querySelector('.close-lightbox');
+        if (closeSpan) {
+            closeSpan.onclick = function() {
+                lightbox.style.display = 'none';
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target == lightbox) {
+                lightbox.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
