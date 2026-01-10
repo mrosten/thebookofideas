@@ -841,6 +841,52 @@ $totalSections = 0
 $totalChapters = 0
 $allPartsData = @()
 
+# FIRST PASS: Collect all parts/chapters/sections metadata (needed for sidebar)
+Write-Host "Collecting navigation structure..." -ForegroundColor Cyan
+foreach ($part in $partMappings) {
+    $sourcePath = Join-Path $splitBookPath $part.Source
+    if (-not (Test-Path $sourcePath)) { continue }
+    
+    $chapters = Get-ChildItem $sourcePath -Directory | Sort-Object Name
+    $chapterList = @()
+    
+    foreach ($chapter in $chapters) {
+        $chapterNum = if ($chapter.Name -match 'chapter_(\d+)') { $matches[1] } else { "00" }
+        $chapterTitle = ($chapter.Name -replace 'chapter_\d+-', '' -replace '-', ' ').Trim()
+        $chapterTitle = (Get-Culture).TextInfo.ToTitleCase($chapterTitle)
+        $chapterTitle = "Chapter $([int]$chapterNum): $chapterTitle"
+        $chapterFolder = "chapter_$chapterNum"
+        
+        $sections = Get-ChildItem $chapter.FullName -Filter "section_*.txt" | Sort-Object { 
+            if ($_.Name -match 'section_([ivx]+)\.txt') { 
+                $num = $matches[1]
+                if ($romanToInt.ContainsKey($num)) { return $romanToInt[$num] }
+            }
+            return 999 
+        }
+        
+        $sectionList = @()
+        foreach ($secFile in $sections) {
+            $secNumStr = if ($secFile.Name -match 'section_([ivx]+)\.txt') { $romanNumerals[$matches[1]] } else { "I" }
+            $secFilename = $secFile.Name.Replace('.txt', '.html')
+            $tmpContent = Get-Content $secFile.FullName -Raw -Encoding UTF8
+            $secTitle = "Section $secNumStr"
+            if ($tmpContent -match '\[TITLE:\s*(.*?)\]') {
+                $secTitle = $matches[1].Trim()
+            }
+            $sectionList += @{ Num = $secNumStr; Filename = $secFilename; Title = $secTitle }
+        }
+        
+        $chapterList += @{ Folder = $chapterFolder; Title = $chapterTitle; Num = $chapterNum; Sections = $sectionList }
+    }
+    
+    $allPartsData += @{ Target = $part.Target; Title = $part.Title; Chapters = $chapterList }
+}
+
+Write-Host "Found $($allPartsData.Count) parts with navigation data" -ForegroundColor Cyan
+
+# SECOND PASS: Generate all HTML files
+
 foreach ($part in $partMappings) {
     $sourcePath = Join-Path $splitBookPath $part.Source
     $targetPath = Join-Path $websitePath "parts\$($part.Target)"
@@ -1194,9 +1240,6 @@ $(
     $partIndexHtml | Set-Content (Join-Path $targetPath "index.html") -Encoding UTF8
     
     Write-Host "Processed $($part.Title): $($chapters.Count) chapters" -ForegroundColor Cyan
-    
-    # Store for main contents
-    $allPartsData += @{ Target = $part.Target; Title = $part.Title; Chapters = $chapterList }
 }
 
 # --- SEARCH INDEX GENERATION ---
