@@ -1468,6 +1468,7 @@ footer p {
 .balance-controls {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -1501,7 +1502,10 @@ footer p {
 #righteous:checked~.balance-controls .label-righteous,
 #wicked:checked~.balance-controls .label-wicked,
 #sephirot:checked~.balance-controls .label-righteous,
-#friends:checked~.balance-controls .label-wicked {
+#friends:checked~.balance-controls .label-wicked,
+#joy-eq:checked~.balance-controls label[for="joy-eq"],
+#joy-source:checked~.balance-controls label[for="joy-source"],
+#joy-polarity:checked~.balance-controls label[for="joy-polarity"] {
   background: #14213d;
   color: white;
   border-color: #14213d;
@@ -2496,8 +2500,27 @@ body.dark-mode .justice-balance {
   color: var(--text-dark);
 }
 
+body.dark-mode .balance-label {
+  background: rgba(255, 255, 255, 0.05);
+  color: #c0c8e0;
+  border-color: var(--accent-gold);
+}
+
+body.dark-mode .balance-label:hover {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: var(--accent-gold-light);
+}
+
+body.dark-mode #joy-eq:checked~.balance-controls label[for="joy-eq"],
+body.dark-mode #joy-source:checked~.balance-controls label[for="joy-source"],
+body.dark-mode #joy-polarity:checked~.balance-controls label[for="joy-polarity"] {
+  background: var(--accent-gold) !important;
+  color: #0a0e24 !important;
+  font-weight: bold;
+}
+
 body.dark-mode .consequence-box strong {
-  color: var(--accent-gold) !important;
+  color: var(--accent-gold-light) !important;
 }
 
 /* Fix Light Mode Table of Contents Contrast */
@@ -2979,5 +3002,17 @@ body.dark-mode .bookmark-item a {
   .search-container {
     width: 95%;
     top: 5%;
+  }
+
+  .consequence-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .balance-label {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+    flex: 1 1 auto;
+    justify-content: center;
   }
 }
