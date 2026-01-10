@@ -1,0 +1,92 @@
+
+1
+
+0 for all
+
+c: And so, the Wronskian determinant doesn't vanish at the origin. So, the
+
+torsion
+
+1
+
+0 So we have either right handed or left handed sephirot
+
+since,
+
+[IMAGE: image022.gif]
+
+However,
+
+the general system according to the Kabbalah is that the top row of the matrix
+
+is the beginning letters of every word of the verse, the middle row of the
+
+matrix is the middle letters, and the last row is the last letters of each
+
+word. So, for example the first verse is a 3 times 7 matrix.
+
+·
+
+The
+
+reason the world is 3 dimensional is that it is built by the Divine name 72
+
+which consists of three letters for each name which are each orthogonal to each
+
+other. [This is based on the verse “the world is built by kindness”. The name
+
+72 corresponds to the Divine trait of Kindness.]
+
+··
+
+The 4
+
+times 4 matrix of the four Divine names 72 63 45 52 is:
+
+[IMAGE: image023.gif]
+
+The matrix corresponding to the name
+
+161 143 and 151 is
+
+[IMAGE: image024.gif]
+
+The
+
+associated
+
+eigenvalue
+
+and
+
+eigenvector
+
+are determined by
+
+[IMAGE: image025.gif]
+
+or in
+
+other words
+
+[IMAGE: image026.gif]
+
+X is the
+
+eigenvector
+
+.
+
+[IMAGE: image027.gif]
+
+is the
+
+eigenvalue
+
+.
+
+Actually, the intentions of the Ari in general are matrices. This fact makes
+
+the otherwise very enigmatic
+
+Gate of Divine Spirit

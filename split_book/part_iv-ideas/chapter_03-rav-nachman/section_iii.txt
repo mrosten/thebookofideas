@@ -1,0 +1,91 @@
+
+factor of k again
+
+—
+
+since your inspiration was increased by by that amount. So you get
+
+(inspiration) (k
+
+2
+
+)
+
+If you do that n times, your inspiration will be (inspiration) (
+
+k
+
+2
+
+). Now
+
+back to the beginning. At the time you did the second repentance you also do a
+
+repentance on your first repentance since your realize that it wasn't complete.
+
+The first time you repent on your first repentance you get some inspiration.
+
+The second time you get (inspiration)(k). The next time you get (inspiration)
+
+(k
+
+2
+
+). Now, at the time you do your third repentance on the sin, and
+
+the second repentance on the first repentance, you do your first repentance on
+
+the second repentance.
+
+So at the
+
+time you have done this process n times you have Inspiration(kn) + inspiration (kn-1)
+
++…+ inspiration. If you take the limit as you do this an infinite number of
+
+times you get the  Integral(inspiration) (kn)] dn = (Inspiration) (kn)/(ln k)
+
+where the ln k signifies the lower dot of the
+
+aleph
+
+[the Divine name 52]
+
+and the dividing sign is the line dividing the
+
+aleph
+
+and kn is the top
+
+dot of the
+
+aleph
+
+[the Divine name 161].
+
+·
+
+The way
+
+of learning of Rabbi Nachman includes two different points. One that just by
+
+saying the words the understanding comes into the mind. The other is to learn
+
+in order without skipping around. My idea of saying the words backwards comes
+
+from the Ari and the aal Shem Tov who have different unifications based on that
+
+idea, and the Ramchal explains in his
+
+New Zohar
+
+that the saying
+
+of the words backwards brings the light back to the source -- so it's like
+
+sewing -- where it is helpful to go backwards also. The practical way of
+
+implementing this is to have a place marker in the several books that one needs
+
+to learn and have a certain fixed amount that one does of each one each day.
+

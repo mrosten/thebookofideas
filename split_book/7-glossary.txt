@@ -1,0 +1,382 @@
+
+GLOSSARY
+
+13 principles of faith
+
+13 principles organized by the Rambam
+
+that define Judaism. These principles are from the Talmud but the Rambam
+
+organizes and clarifies them.
+
+Adam
+
+Kadmon
+
+The region above Emanation. It is
+
+associated with the crown on top of the yud of the divine name.
+
+Baal Ha
+
+Tanya
+
+Rabbi Shneur Zalman of Liadi. A
+
+disciple of the Magid of Mezritch.
+
+Baba Sali
+
+Rabbi Israel Abuchatzeira, a Kabbalist
+
+of the Twentieth century, great grand-son of Rabbi Shmuel Abuchatzeira, a
+
+disciple of Rabbi Chayim Vital.
+
+Banach
+
+space
+
+A  normed space that is complete.Any
+
+normed space can be made into  a Banach space by completing it. Complete means
+
+every fundamental sequence has a limit.It is like having an outside hull. A
+
+linear space is called normed if  for every element there is associated a real
+
+number [a distance more than or equal to zero] and it has these basic qualities
+
+[IMAGE: image057.gif]
+
+||only if
+
+[IMAGE: image058.gif]
+
+,
+
+[IMAGE: image059.gif]
+
+, even if
+
+a
+
+is complex:
+
+[IMAGE: image060.gif]
+
+The bars mean the distance.
+
+Binomial
+
+Breaking
+
+of the vessels
+
+ùáéøú äëìéí
+
+äåà îåùâ éñåãé á
+
+÷áìä
+
+, îòùä
+
+áøéàú äòåìîåú
+
+åëìì ñéãåøí îòìéåï ìúçúåï ìôé ãøâåú
+
+äúëåðåú äàìåäéåú äîëåðåú
+
+ñôéøåú
+
+, úåê
+
+äôéëú
+
+òåìí äàöéìåú
+
+ùáå àéøò ìãøâä äòìéåðä áàøáòú òåìîåú
+
+äéñåã äøåçðééí, åëï ëéñåã äðãøù åäîçåéá ìäùúìùìåú áøéàú äòåìí äâùîé. äîåùâ
+
+äåôéò ìøàùåðä àöì
+
+äàø"é
+
+.
+
+The shattering of the
+
+vessels is a functional concept in Kabbalah, the process of the creation and
+
+ordering from higher to lower according to the ranks of the worlds, the godly
+
+qualities that are called sephirot through turning over of the world in which
+
+appeared in the higher worlds
+
+Emanation
+
+The highest of the four worlds. The
+
+are from top to bottom Emanation Creation Formation and the Physical universe…
+
+It is associated with the yud of the Divine Name.
+
+Cantors diagonal argument. Take the
+
+list of all the real numbers between 0 and 1. Go down the diagonal and change
+
+every digit by one. Put a decimal place in front of the number you get. Now,
+
+this number is different than the first one because it has a different first
+
+digit. It is different than the second because it has a different second
+
+digit,... So you found a real number between 0 and 1 not on the list of all
+
+real numbers between 0 and 1!!!
+
+Chasidishe.
+
+Something related
+
+to the movement within Orthodox Judaism called Chasidus.
+
+Chaya
+
+The fourth highest level of the soul.
+
+Empty space. Because of the compassion
+
+of God, He created the world. For he wanted to reveal his compassion, and there
+
+was no creation on whom would he have show his compassion. Therefore he made
+
+everything from the top of emanation to the center of the earth in for this
+
+purpose.”(Lekutai Moharan)
+
+Guide
+
+The guide for the perplexed by the
+
+Rambam.
+
+Henkin
+
+sentence
+
+A sentence in mathematical logic which
+
+asserts its own validity. In fact it is always valid.
+
+Higgs
+
+Field
+
+It refers to a field that transfers
+
+energy into matter.
+
+Hilbert
+
+space
+
+In mathematics, Hilbert spaces (named after David Hilbert) allow
+
+generalizing the methods of linear algebra and calculus from
+
+(finite-dimensional) Euclidean vector spaces to spaces that may be
+
+infinite-dimensional. Hilbert spaces arise naturally and frequently in
+
+mathematics and physics, typically as function spaces. Formally, a Hilbert
+
+space is a vector space equipped with an inner product that defines a distance
+
+function for which the space is a complete metric space. — Wikipedia
+
+Kabbalah
+
+The esoteric literature of the Torah.
+
+Klipat
+
+noga
+
+The outer shell that is a mixture of
+
+good and evil. It is associated withe tree of Knowledge of good and evil.
+
+Klipot
+
+The Outer Husks [The Evil Side]
+
+Lekutai Moharan
+
+The Collected Teachings of Rabbi
+
+Nachman. The major book of Rabbi Nachman from Breslov. A great grandson of the
+
+Baal Shem Tov HaKadosh.
+
+Metric space
+
+The distance between two points is
+
+more than or equal to zero.This isn't the same as Banach space where distance
+
+is associated with each single element.
+
+Matrix.
+
+An array of numbers each representing
+
+the value of a variable, these variables can be algebraic but in this book I
+
+mean the term to be applied to spiritual variables. And variable equations in
+
+the creation.
+
+Mitzvot.
+
+The 613 commandments of the Old Testament.
+
+Raisha delo isyada.
+
+The head that is not known, i.e., the
+
+highest point of the crown of emanation.
+
+R-L-C Circuit. An electric circuit
+
+that contains resistance, inductance, and a capacitor.
+
+Rambam. Rabbi Moses Maimonides
+
+Sephirot. Divine traits specified in
+
+the verse To You O Lord is the Greatness and the Power and the Beauty and the
+
+Victory and the Splendor, for all that is in the heavens and the earth, to you
+
+is the rulership and the sovereignty to all to the top (Chronicles 1, chapter
+
+29).
+
+Sephiros deYosher. The straight sephirot.
+
+When the world was created first God had to make spiritual space-time which
+
+would be empty of his Infinite light so that there would be a place for
+
+creation. Then his drew into it a ray of His light [the light of the name 52]
+
+which after it had progressed a bit turned a right angle to circle the empty
+
+space like an electron in a cyclotron indicating that first light was charged.
+
+Then it went down a bit more and circled again in this manner until ten
+
+circular sephirot were created. Then He drew the light of the name 45 into the
+
+empty space and it came down and became in the form of a person. Now in those
+
+higher worlds which are above Emanation there is no concept of vessels or form
+
+and the use of these words is just to give us some vague idea of what was going
+
+on up there.
+
+Shemita opinion. The opinion of Rabbi
+
+Issac of Akko and Rabbi Abulafia and other Kabbalists of the late middle Ages.
+
+They say that the world goes in cycles of creation every 7000 years and that
+
+this is the fourth of such cycles. If you add to that the other opinion of
+
+rabbi Issac of Akko the each day of these cycles is a day of God which is 1000
+
+of our years you get the age of the world to be about ten billion years.
+
+Schwarzschild Radius. The region of a
+
+black hole from which no light can escape.
+
+Teffilin. Phylacteries
+
+Tensor. A tool to measure mass-energy,
+
+energy density and momentum at any point in space time
+
+The Alter From Slobodka. One of the
+
+Sages of the Musar Movement
+
+The Shemita opinion. That this 7000
+
+year period is just one of several that came before which is the opinion of R.
+
+Issac from Akko,  Rabbi Abulafia etc., this was used by the Igeret Israel to
+
+explain dinosaurs. But Breslovers think Rabbi Nachman didn't hold from this,
+
+but I think Rabbi Nachman was objecting to another
+
+shemita
+
+opinion that
+
+each 450 years in our time represents a different sepherah which the Baal
+
+Hatanya held from, but not the Reshash, for he divides the years into cycles of
+
+10, so to him each 100 years is a complete cycle, however the Rabbi Chayim Ben
+
+Atar seems to have held from the seven seven option since he divides a persons
+
+life into cycles of seven years seven years etc.
+
+Somehow I remember the Rashash going
+
+according to the shemita for the eons of the world.
+
+Super Numbers. Numbers that must exist
+
+if we add a sixth axiom to TNT, i.e., that it is not true that for all “a” (0+a)
+
+= a. It turns out with this that we have one axiom that says all natural
+
+numbers have a certain property and another which says there are numbers which
+
+do have it. Thus we have a number/s that if you add a zero to them come out
+
+different.
+
+Tikunim of Rabbi Moshe Chayim
+
+Lutzato.A book by Rabbi Lutzato similar to the Tikunai HaZohar of Rabbi Shimon
+
+Bar Yochai.
+
+Torah. The Five Books of Moses and the
+
+Oral Law which was also handed down to Moses at Mount Sinai.
+
+TNT.TypographicalNumber Theory.
+
+Tzadikim. Jewish saints
+
+Yidishkeit. Orthodox Judaism
+
+Yechida. The highest level of the five
+
+levels of the soul.
+
+Yud. The tenth letter of the Hebrew alphabet
+
+Zohar. The major work of Kabbalah by
+
+Rabbi Shimon Bar Yochai.

@@ -1,0 +1,400 @@
+Chapter 4 – Rabbi Nachman from
+
+Breslov
+
+·
+
+Rabbi
+
+Nachman is the only tzadik that allows himself to be tested experimentally by
+
+making solid statistical predictions easy to test experimentally. E.g. “Shabbat
+
+and the Torah give physical life (not just spiritual).” Although you can say
+
+that the Christians have Jesus which balances that out, but then you could test
+
+it with religious and non-religious Jews. Honesty shouldn't make a difference
+
+for their degree of honesty isn't that different. Now there are lots of
+
+differences by each individual like smoking but or going to Uman for Rosh
+
+Hashanah, but all the variables should average out to give people who keep
+
+Shabbat and learn Torah a longer life.
+
+·2
+
+Rabbi
+
+Nachman's ideas in the Lekutei Moharan are general principles applying to
+
+people, and to show the inter-relationship between the ideas, but not as
+
+advice. This is because any general principal changes dramatically when applied
+
+to the individual and only the individual himself can know how it applies to
+
+him. This is the idea of uniting Correction and Chaos together, for when you
+
+draw the higher light of Chaos into the vessels of Correction you get a
+
+different result than drawing the light of Correction into the vessels of Chaos.
+
+·
+
+(Power) x
+
+(t)/(m)x(a)=x;
+
+i.e., the
+
+distance the sephirot are lifted during the year. This is why it's important to
+
+go to Uman on Rosh Hashanah, for the vertical column of light of power is
+
+there.
+
+·
+
+Rabbi
+
+Nachman hints at the basic principle of Quantum Mechanics, that seeing makes
+
+the vessel (i.e. that observing the photon wave makes it take particle form.
+
+(It's interesting to note that in the Eitz Chayim of Rabbi Issac Luria, mass
+
+(the vessel) is considered dense energy, so apparently he knew intuitively the
+
+mass energy equivalence).
+
+·
+
+In the
+
+Lekutai Moharan we find many things which lead to the divine spirit or
+
+salvation etc. These are independent variables that effect the final result. So
+
+lets say children are dependent on the land of Israel, the succah, prayer etc.
+
+Then, children = A(land of Israel) + B(succah) + C(prayer) + …… + D; where A,
+
+B, C and D are constants. So, if succah and prayer would remain the same, and
+
+the land of Israel would go up by one unit, then children would go up by an
+
+amount of A. We assume here that the effects of the land of Israel and Succah
+
+and prayer are additive, i.e., that the amount that Succah effects them doesn't
+
+depend on the amount that the land of Israel affects them.
+
+We could
+
+use a computer with a statistical package to get the values of the coefficients
+
+(even though it's probable that every person would end up having his own
+
+coefficients). Also, we could use the
+
+t
+
+statistic to test the
+
+possibility that one of these things has no effect on children. To prove to the
+
+doubters, who say that none of these things have an effect we could use the
+
+F
+
+statistic. You could do this with every chapter in the Lekutai Moharan and thus
+
+come out with some results for all the coefficients, which could serve for some
+
+practical guidance in ones life. [For it is likely that people’s coefficients
+
+don't vary that much one from one another.]
+
+Without
+
+knowing the value of the coefficients, it’s impossible to know how much each
+
+variable effects the situation, and since doing one
+
+mitzvah
+
+(commandment) invariably takes time and effort from another one, one can verify
+
+what he should be doing in order to achieve his goals. (Even though you may
+
+have different coefficients than everybody else, it’s unlikely that yours will
+
+be significantly different than your immediate peer group, so if you have a
+
+general idea of the value of the statistics you can know what you should
+
+emphasize without having to waste years experimenting with things that may have
+
+little effect on your overall happiness). Even though it is true that much
+
+depends on your own trust in God and other variables, so you could ask how is
+
+it possible to reduce your personal happiness and success in so many areas as
+
+the Lekutai Moharan does to a simple mathematical formula.
+
+The
+
+answer is that much of one's own trust in God can be determined by his peer
+
+group, for no righteous or great person appears in a vacuum. Baba Sali in Morocco
+
+was surrounded by a spirit of fear of God. Spinoza and Rabbi Moshe Chayim
+
+Lutzato were deeply affected by the atmosphere of philosophy in Amsterdam (why
+
+else would Rabbi Lutzato be the sole saint to create a coherent philosophical
+
+analysis of the
+
+Kabbalah
+
+, very similar to what Spinoza did for
+
+philosophy in general).
+
+·
+
+By doing
+
+repentance on a sin you get some Divine inspiration. Then, you do repentance
+
+again since you realize your first repentance wasn't good enough in accordance
+
+with your increased awareness of God's greatness. The second time you repent,
+
+your repentance is better so you get a higher degree of inspiration, i.e.,
+
+inspiration times some number k which is more than one. The third time you
+
+repent you increase your previous inspiration [which was (inspiration)(k)] by a
+
+factor of k again
+
+—
+
+since your inspiration was increased by by that amount. So you get
+
+(inspiration) (k
+
+2
+
+)
+
+If you do that n times, your inspiration will be (inspiration) (
+
+k
+
+2
+
+). Now
+
+back to the beginning. At the time you did the second repentance you also do a
+
+repentance on your first repentance since your realize that it wasn't complete.
+
+The first time you repent on your first repentance you get some inspiration.
+
+The second time you get (inspiration)(k). The next time you get (inspiration)
+
+(k
+
+2
+
+). Now, at the time you do your third repentance on the sin, and
+
+the second repentance on the first repentance, you do your first repentance on
+
+the second repentance.
+
+So at the
+
+time you have done this process n times you have Inspiration(kn) + inspiration (kn-1)
+
++…+ inspiration. If you take the limit as you do this an infinite number of
+
+times you get the  Integral(inspiration) (kn)] dn = (Inspiration) (kn)/(ln k)
+
+where the ln k signifies the lower dot of the
+
+aleph
+
+[the Divine name 52]
+
+and the dividing sign is the line dividing the
+
+aleph
+
+and kn is the top
+
+dot of the
+
+aleph
+
+[the Divine name 161].
+
+·
+
+The way
+
+of learning of Rabbi Nachman includes two different points. One that just by
+
+saying the words the understanding comes into the mind. The other is to learn
+
+in order without skipping around. My idea of saying the words backwards comes
+
+from the Ari and the aal Shem Tov who have different unifications based on that
+
+idea, and the Ramchal explains in his
+
+New Zohar
+
+that the saying
+
+of the words backwards brings the light back to the source -- so it's like
+
+sewing -- where it is helpful to go backwards also. The practical way of
+
+implementing this is to have a place marker in the several books that one needs
+
+to learn and have a certain fixed amount that one does of each one each day.
+
+·
+
+In that
+
+same lesson in the
+
+Lekutai Moharan
+
+, vol 1. chapt. 6, we see that the
+
+amount that the honor of God is increased depends on how much the person has
+
+changed from a state of sin to the state of good and the change one has of
+
+greater honor to lesser, i.e. the honor of God isn't dependent on one's being
+
+good but rather on change from a lower to a higher state, and similarly there
+
+is a need for an active lessening of ones own honor. Therefore the proper
+
+relationship is
+
+:
+
+Honor of God =
+
+D
+
+State of goodness
+
+is that
+
+goodness or
+
+goodness] /
+
+D
+
+Self-honor
+
+.
+
+Since
+
+these are two independent variables as we take the limit as
+
+DC®
+
+0
+
+,
+
+D
+
+y®
+
+0 we we
+
+have:<???> <Clear up the last paragraph please?>
+
+†
+
+[IMAGE: image051.gif]
+
+The
+
+general solution of this linear partial differential equation will contain two
+
+arbitrary functions. I think they are the finding of one's proper partner as
+
+mentioned in Lekutai Moharan [vol 2] and becoming included in the Higher Man
+
+who sits on the Throne which is the result of doing the higher and lower
+
+repentance of chap. 6. This would explain why these two things result from the
+
+higher and lower repentance mentioned in this chapter [i.e., chapter 6 of the
+
+Lekutai Moharan]
+
+·
+
+If one
+
+has masturbated he should say the 10 psalms, 16, 32, 41, 42, 57, 77, 90, 105,
+
+137, 150 and immerse himself in a natural body of water all on that same day as
+
+Rabbi Nachman said.
+
+·
+
+To
+
+sweeten the judgments, I would recommend having in every city at least one
+
+person learning Zohar, Lekutei Moharan and other kabbalah books in such a way
+
+that when he is tired there is another to take his place and continue from the
+
+place he stopped. [See Ginzay HaRamchal where I got this idea from.]
+
+This
+
+would be good in particular by the graves of the righteous where the lower
+
+level of their soul hovers. For the individual can say the ten psalms of Rabbi
+
+Nachman,
+
+16, 32, 41, 42, 59, 77, 90, 105, 137, 150
+
+which are on the
+
+level of the crown, then the Song of songs on the level of wisdom, then Numbers
+
+ch. 28, on the level of understanding than Exodus chapt. 28:15 to 28:30, then
+
+Exodus 26:7 to 26:15; the part about the increase in the prayer book, the two
+
+blessings that Moses blessed the tribes at the end of Deuteronomy and the
+
+divine chariot in Ezikiel.
+
+·
+

@@ -1,0 +1,2071 @@
+
+Section IV - Ideas
+
+Chapter 1 –
+
+Ideas in Kabbalah - The Song of the Soul
+
+Introduction
+
+Science
+
+and Kabbalah are two distinct fields with apparently no relationship between
+
+them. However here is my intention to show how each can illuminate the other as
+
+long as each keeps to its respective parameters.
+
+Mathematics
+
+is the lowest
+
+sepherah
+
+of the spiritual world and the highest of the
+
+physical, as Rabbi Luria says “the essence of numbers is in the sepherah of
+
+Royalty”, so its’ laws govern both disciplines. Rabbi Issac Luria uses a
+
+physical model to describe the spiritual reality (as per the Eitz Chayim).
+
+In this
+
+section I attempt to show the mathematical principles of this reality. Further,
+
+as physics needs mathematical models to clarify itself, so the spiritual world
+
+needs physical models to make clear its meaning. These I also will attempt to
+
+show but bear in mind these are different worlds-- parallel but different, and
+
+each lower world provides a model for what is above it and is like a reflection
+
+in a pond. I think that every mathematical model has a corresponding spiritual
+
+and a corresponding physical reality. Now
+
+know
+
+,
+
+many will object that the formalist philosophy of mathematics claims that math
+
+only deals with abstract symbols that may or may not have a relation to
+
+reality. But this simply isn't true. Reality itself seems to be based on math,
+
+and mathematicians know this. They use the theory of numbers as an aid to gain
+
+knowledge about formal systems, and thus they show that in truth they believe
+
+that numbers are actually a part of reality.
+
+·
+
+Four
+
+types of flux (or Divine light) flow into the spiritual empty space: The Divine
+
+names
+
+72, 63, 45, 52
+
+, i.e., gravitational, strong, weak, and
+
+electro-magnetic.
+
+·
+
+The four
+
+worlds of Emanation, Creation, Formation and Action correspond to the four
+
+types of space: metric space, normed space, Banach space, and Hilbert space -
+
+where for each different types of operations are valid.
+
+[The Ari
+
+is clear that in AK even ideas of spiritual space don't apply so he is
+
+apparently talking about a spiritual space where the concept of distance
+
+dissolves — Isn't that Tensor space?]
+
+In
+
+general, the Kabbalah seems to deal only with totally arithmetic operations
+
+[gematriot], except it hints to the other types of space only occasionally,
+
+e.g., when the Ramak brings down that:
+
+é
+
+2
+
++ +
+
+ä
+
+2
+
+å
+
+2
+
++
+
+ä
+
+2
+
+= 186 =
+
+place [makom]
+
+which
+
+indicates that this is a 4-d place, and that a norm comes out to be the square
+
+root of 186... The 5 forms (partzufim) have their origin in the 5 flows from
+
+the name 72, 63, 45, 52, which are Gravitational, Strong, Weak,
+
+Magnetism-Electricity.
+
+·
+
+The
+
+relationship between the circular sephirot and the straight ones is that the
+
+10-component curvature tensor of the circular sephirot is proportional to the
+
+10-component energy-stress tensor of the straight ones.
+
+(The Eitz
+
+Chayim seems clear that the basic existence of vessels, or what we call ‘matter’
+
+is in the straight sephirot, and matter is best represented by the
+
+energy-stress tensor).
+
+The
+
+constant of proportionality should be decided in a way that the normal 613
+
+commandments for Jews and 7 commandments for the children of Noah should be
+
+reproduced under normal circumstances of weak fields and small velocities
+
+[i.e., that these basic laws of human conduct are invariable in all frames of
+
+reference and it is possible to understand their application in all situations
+
+if we can know the constants and exact formula, for, as of now I understand
+
+that the laws of the Torah are eternal and unchanging yet their application is
+
+unknown in many circumstances.]
+
+The 10
+
+components of the energy-stress tensor in the spiritual
+
+realm
+
+which
+
+describe the distribution and flux of energy and linear momentum of
+
+every sepherah or soul. This tensor follows the four laws of continuity which
+
+are from the four letters of the Ineffable Name. The ten components of the
+
+Einstein tensor (the rearrangement of the Ricci tensor) which deals with the
+
+curvature of spiritual and physical space-time is the source of the
+
+gravitational field.
+
+The
+
+energy stress tensor describes the 10 straight sephirot and the Einstein vector
+
+is the 10 circular sephirot - Einstein figured out that they must be
+
+proportional - I'm just saying the same thing for the sephirot like he said for
+
+the vectors.
+
+What this
+
+means is that the spiritual powers of the commandments and the ten statements
+
+as they condense into the physical realm become the energy stress tensor and
+
+the Einstein vector tensor. [That is, the commandments are a measure of the
+
+spiritual mass-energy (vessels and light) energy density and momentum of a
+
+person], this involves an approach to the sephirot different than the regular
+
+one, for here we are saying that the first 9 describe the components of the 3-d
+
+tensor which traditionally would be just 6 sephirot.
+
+Thus,
+
+there are twenty amino acids which correspond to the twenty symbols of TNT
+
+which correspond to the twenty components of the curvature of four dimensional
+
+space, which correspond to the twenty components of the Einstein tensor and the
+
+mass energy tensor that have to be proportional according to Einstein. [See
+
+page 533 of Gödel, Escher, Bach].
+
+Also,
+
+there are ten equations that describe a fluid in four and ten quantities that
+
+characterize that fluid corresponding to the ten sephirot of yosher and the ten
+
+of igulim...The correlations thus;
+
+1)
+
+I am the Lord p = p (n, s)
+
+2)
+
+Thou shalt not take the name of the Lord thy
+
+God in vain, T = (n, s)
+
+3)
+
+Remember the Sabbath day to keep it Holy, d
+
+r=[r+
+
+p]/n+nTds
+
+the first law of thermodynamics [conservation of energy]
+
+4)
+
+Honor thy father and thy mother, m
+
+=(r+
+
+p)/n
+
+5)
+
+Thou shalt not kill, dn/d
+
+t=Ñ
+
+u
+
+n
+
+6)
+
+Thou shalt not commit adultery; ds/
+
+dt=0
+
+7)
+
+Thou shalt not steal;(r+p)
+
+Ñ
+
+u=-g+u
+
+Ä
+
+u
+
+·Ñ
+
+p
+
+8)
+
+Thou shalt not bear false witness; [same]
+
+9)
+
+Thou shalt not covet thy neighbor’s house;
+
+[same]
+
+10)
+
+Thou shalt not covet thy neighbor’s wife, u
+
+·
+
+u = -1
+
+The
+
+proportionality of the ten components of the Einstein tensor and the energy
+
+stress tensor are parallel to the ten sephirot of the point of wisdom and the
+
+ten of the point of understanding. However, there must be another ten-component
+
+tensor that we are not aware of since there is also the ten sephirot of the
+
+point of the crown which hasn't been accounted for. [I am assuming the 6 sephirot
+
+of Zeir and the one of
+
+malchut
+
+relate to just the physical manifestation
+
+of the higher points.]
+
+The
+
+question, however, is how is the breaking of the vessels reflected in the
+
+physical realm? Is this the law of uncertainty that will be rectified after the
+
+revival of the dead? How can a law that is so much in the fabric of the
+
+universe be rectified? Don't we correct the breaking of the vessels every day
+
+by prayer, and certainly the law of uncertainty doesn't change from day to day.
+
+The answer apparently is that this law also has its roots in the circular sephirot
+
+which will be united with the straight ones at the revival, but not change
+
+their essential character.
+
+·
+
+A more
+
+traditional approach would be that in 5-d spiritual space the three dimensions
+
+are 6 lower sephirot as per the directions of Rabbi Luria for the lulav, (we'll
+
+call the entire kindness and anti-kindness (power) direction just by k, beauty
+
+and anti-beauty (foundation) by b, and victory and anti-victory (splendor) by
+
+v. Then crown and anti-crown (royalty) we'll call c, and Wisdom and
+
+understanding by w. Thus, the stress tensor is:
+
+T = itk + jtb + ktv + ltw + mtc. (This
+
+involves more than ten components).
+
+·
+
+The Empty
+
+space should be limited to some dimensions, not infinite dimensional, and the
+
+straight light coming down should be one dimension less. The reason I think it
+
+has to be finite dimensional is so that a description of it will be necessary
+
+and sufficient. Only to God is the near the same as the far but as we describe
+
+distances and time even in a spiritual way the description has to be confined
+
+to some limited number of dimensions to have any meaning.
+
+·
+
+The empty
+
+space rotates on its axis and revolves around a center point and one outside
+
+itself and this produces the flux's that enters it. The rotation causes it to
+
+be in the form of an ellipsoid i.e.
+
+X
+
+2
+
+/ a
+
+2
+
++ y
+
+2
+
+/ b
+
+2
+
++ z
+
+2
+
+/ c
+
+2
+
+= 1.
+
+·
+
+The empty
+
+space has the quality of hiding the light of God, and every level of hiding
+
+hides the previous level so one doesn't know that God is hidden and thinks he
+
+is close to God. And that level is hidden by another level in a continuous
+
+progression. Each level is a different level of darkness. The character of
+
+God's Infinite Light is that as it progresses further down through the darkness
+
+it illuminates one more level of hiding. Every higher level of light that comes
+
+into the world defuses a greater degree of darkness.
+
+·
+
+Since the empty space is rotating it
+
+must have an ergosphere.
+
+·
+
+The
+
+singularity in the center of the empty space is connected to the light
+
+surrounding the space through an outside dimension.
+
+·
+
+The ten
+
+circular sephirot are actually energy waves emanating from the vibration of the
+
+roof of the empty space. The dot in the middle also vibrates and gives off its
+
+own circular sephirot. So actually Faith, Sexual purity etc., are actually
+
+energy waves. Every individual gives them off by the degree he holds on to
+
+every trait.
+
+·
+
+The area
+
+under the singularity of the infinite light is negative time, to the right is
+
+positive space, to the left negative space from where the worlds of negative
+
+probabilities emerge. Imaginary space is the opposite side.
+
+·
+
+The
+
+center of the empty space which is the singularity of the infinite light gives
+
+off waves like a drop falling on a lake which are its circular sephirot as
+
+opposed to the circular sephirot which enter the empty space from above.
+
+·
+
+What
+
+makes the world line of the circular sephirot [the Igulim] tilt away from the
+
+vertical is the speed they rotate through the empty space. Since they rotate at
+
+speeds faster than light, they have horizontal world lines. The circular form
+
+of those sephirot is due to the fact they are traveling in a time field which
+
+causes them to bend, just like an electron traveling at an angle to a magnetic
+
+field. (The straight sephirot are time-like [They travel slower than the speed
+
+of the light, so the Eitz Chayim refers to them as if they were stationary
+
+which only means that they are an inertial frame of reference) and the circular
+
+sephirot are space-like.)
+
+·
+
+Since the
+
+empty space is finite without boundaries, and in the opinion of the Ramchal it
+
+refers to time and space one can travel indefinitely in one direction in time
+
+as we are in fact doing and find ourselves at the beginning of time at the top
+
+of the empty space.
+
+·<???>
+
+The level of reaching and not reaching
+
+is given by:
+
+[IMAGE: image011.gif]
+
+[the regular wave
+
+equation]
+
+The
+
+reason I am saying that it is a derivative is that the Eitz Chayim says at the
+
+very beginning of his book that the division of the
+
+sephirot
+
+continues
+
+indefinitely. (However, the Rashash seems to have a different opinion.)
+
+Y is the
+
+distance from the light to the top of the empty space.
+
+[IMAGE: image012.gif]
+
+is the distance to the
+
+side of the wave of the Infinite Light as it vibrates.
+
+[IMAGE: image013.gif]
+
+is the velocity of the
+
+wave which is
+
+[IMAGE: image014.gif]
+
+for light:
+
+c=(?)(T/r).
+
+(
+
+T is the
+
+tension of the empty space (?) is the density.)
+
+·
+
+If
+
+f
+
+is a regular mapping of a good deed on a surface of the soul or onto the
+
+surface of the empty space, then for every point there is a coordinate patch
+
+[IMAGE: image015.gif]
+
+on the soul such that
+
+[IMAGE: image015.gif]
+
+a coordinate patch on S.
+
+·
+
+Resistance
+
+in the higher sephirot of emanation is a characteristic of the vessels of the sephirot
+
+without which they couldn't shine out their own light (they would still allow
+
+the infinite light of God to radiate from within them, but with resistance they
+
+form a R-L-C circuit, and they emanate their own unique frequency of light).
+
+The frequency of the light coming into the empty space is infinite, and only
+
+lessened by its coming into the circular sephirot.
+
+·
+
+<???>
+
+Each
+
+sephirah is a sphere only in its own dimension it's a hollow cylinder with
+
+respect to the higher one, like a circle is only closed in flat-land but with
+
+respect to the three dimensional world it is hollow. Thus, the sephirot are
+
+closed with regard to observer in spiritual 4-d space but a long cylinder from
+
+the aspect of 5-d space. The probability density of the vessel of each sephirah
+
+varies inversely as the square of the distance from the center since density of
+
+(x, y, z) = k / r
+
+2
+
+so M=
+
+òòò
+
+(x,y,z)dV = 4kr
+
+unit
+
+amot. The ability of the righteous like Bava Sali to see beyond the confines of
+
+space is because they are spiritually raised to spiritual 5 space where they
+
+can see space and time laid out before them as a map.
+
+·<???>
+
+The
+
+surrounding lights of the sephirot (Chayah and Yechidah) are fields, not lights
+
+per say. The light from understanding (Binah) is related to the electromagnetic
+
+force, in that the
+
+hashmal
+
+outer covering of Zeir and Nukbah come from
+
+it. Binah is composed of higher and lower levels, as the Ari goes into at great
+
+length.
+
+B=
+
+0
+
+(H+M) (B
+
+is the entire induction field of Binah, Binah Ilaah (The higher Understanding)
+
+is the magnetic field H, Tvunah is the density M). For the Chashmal
+
+(electricity) to emanate from Binah, Binah has to be rotating in relation to
+
+Zeir and Nukbah (the two sephirot of Beauty and Royalty)
+
+·
+
+The
+
+simple explanation of the light that is left in the vessels as the main light
+
+goes back up is that it is like light that shines on the surface of something
+
+and the surface heats up because of the energy that got absorbed. The question
+
+is what in the world is the second light that Rabbi Luria says is left there?!
+
+(I would suggest that it refers to the photo-electric effect.)
+
+·
+
+The 22
+
+Hebrew letters have numerical value, but they also represent functions.
+
+Specifically,
+
+the 10 letters which represent the 10 sephirot, t”vdyps t”rpB d”
+
+g
+
+b s”ma
+
+are
+
+representative of 10 functions, depending on what world you are in: In
+
+Emanation of math they are the Gamma function, the Beta function, the Bessel
+
+function, Fourier Integral, Legendre function, the error function, the
+
+complementary error function, the sine integral, the cosine integral, Fresnel
+
+function, Fresnel cosine function.
+
+·
+
+The
+
+normal distribution coming from
+
+sephiros deYosher
+
+is the reason the
+
+light of
+
+nekudim
+
+is found mainly in front of Adam Kadmon, but there is
+
+some slight probability of the light being found elsewhere, and so we find some
+
+light in the back of the light of .
+
+·
+
+It's
+
+clear that the Vessels were broken because of there being too much energy
+
+inside the vessel (so if there was let's say a lower sephirah's light it would
+
+be o.k.). So, when before he says the vessels weren't fixed as one male and
+
+female it would seem he means that if the vessels would have been fixed as one
+
+there would have been strength to hold the light. However, why in the higher sephirot
+
+weren't they broken? It would seem that this is because the light of the Crown
+
+was made to hold its very intense light so the rest of the light couldn't break
+
+it. They all have the same wavelength, when they are up there in the Crown, but
+
+the lower light has a smaller amplitude, so the amplitudes combine but don't
+
+break the vessel since its made for that wavelength. But the problem with this
+
+is that shouldn't the vessel break at their own resonance frequency? Perhaps
+
+the
+
+nekudim
+
+are spiritual neutrons that are absorbed into the vessels
+
+and cause them to break apart by atomic fission. Its not that they break by the
+
+force of the impact. The breaking of the vessels was a chain reaction. The
+
+energy given off was (The mass of the sephirot)
+
+[IMAGE: image007.gif]
+
+(The
+
+speed of the Infinite Light) ²
+
+·
+
+The
+
+higher worlds of the Kabbalah are not higher in the conventional sense but rather
+
+at a 90° angle to our 3D space. As the electrons (the letters of the alphabet)
+
+flow through the sephirot an outer magnetic field is generated. It would seem
+
+the physical universe is surrounded by Formation
+
+outside, in terms of the
+
+circular sephirot
+
+(
+
+in plain 3D terms) -- but there the world is
+
+spiritual, and that “up” also means in one more direction up in terms of the
+
+straight sephirot. In the middle of the empty space, it would seem there is a
+
+singularity, the most inner point of the circular sephirot, for as they
+
+progress towards the center, they become more physical until you get a type of
+
+Higgs Field that transforms spiritual energy into physical. The Eitz Chayim is
+
+all about the straight sephirot and doesn't deal with the circular ones which
+
+are the spiritual root of non-Jews, and the fields of the physical universe.
+
+·
+
+The Schwarzschild
+
+Radius of the empty space is:
+
+[IMAGE: image016.gif]
+
+·
+
+It seems
+
+from this that as God puts more energy into the empty space the radius gets
+
+bigger. The singularity of infinite light in the center of the empty space is
+
+what causes it to be curved. The outer light surrounding the straight sephirot
+
+is the magnetic field from the name 52 surrounding a current-bearing conductor
+
+of the light of the name 45. The circular sephirot are rotating in an external
+
+magnetic field and that is how they create the electric current of the straight
+
+sephirot, as the sages said, “there is a sphere that circles around in the
+
+world”.
+
+(The
+
+Circular sephirot are 3­D spheres rotating sideways into the 4
+
+th
+
+spiritual dimension). (Since they are accelerating, they give out gravitational
+
+waves also, which also affects the straight sephirot. Obviously, the broken
+
+vessels give out gravitational waves also as they fall and later rise). (The
+
+straight sephirot have to be electric since they are straight and don't make a
+
+complete circle like a magnetic field). This leaves us with figuring out how
+
+the next 3 forces relate to the names 63 and 72 and this certainly seems to
+
+imply that the straight lines of gravity are produced by some rotating outer
+
+field of some higher force surrounding the 3 dimensions of the universe.
+
+·
+
+The
+
+universe operates like a pentode
+
+[11]
+
+,
+
+and this explains the reason for the grid between Emanation and Creation (the
+
+suppressor grid) and between Creation and Formation (the screen grid) and
+
+between Formation and the physical universe (the control grid) -- the main idea
+
+is because the current is AC (i.e., reaching and not reaching as it explains at
+
+length in the Eitz Chayim). You use a grid to make a change in the plate
+
+current (the source of the light) by small changes in the grid potential that
+
+is caused by mitzvot and good deeds. [There is one problem with this and that
+
+is that the current shouldn't be affected by distance, so how can I explain the
+
+fact that the Eitz Chayim says distance and resistance are factors.]
+
+·
+
+The wavelength of the light of each
+
+sephirah is
+
+[IMAGE: image017.gif]
+
+·
+
+When the
+
+string of the vessel of the Crown is plucked, it emits a wave with harmonics.
+
+The frequency of the crown is 10 times the frequency of Royalty. The problem
+
+was that all the harmonics were above that of the Crown, so the lower vessels
+
+broke. The correction was when the string of Royalty was plucked and the higher
+
+sephirot were its harmonics, so the energy was less.
+
+·
+
+The
+
+uncertainties of the world of
+
+akudim
+
+(the wave pattern of the
+
+sepherot
+
+,
+
+literally “streaked”) come in mathematical wave form in probability space.
+
+·
+
+The
+
+distance between the sephirah of the crown and wisdom is (2-1) (r) if r
+
+is the radius of the empty space. (As you continue down you keep the same
+
+order). (As the empty space expands and contracts the radius varies, so at one
+
+period in time one might be able to rise from one level to the next easily since
+
+there is just a small distance to go and at other periods in history or in
+
+one's own life it might be very difficult). (As we progress toward the
+
+singularity in the center, humanity goes from one level to the next very
+
+quickly. I know many people have wondered why it took humanity such a long time
+
+to make any slight bit of progress in the olden days while now it seems every
+
+10 years, we enter into a new century. (And every century is 1000 years of the
+
+old time). However, the expanding of the empty space caused a spiritual red
+
+shift of the light as it came down to us. One of the reasons that the light
+
+that we receive in the physical universe is much denser and more physical than
+
+the spiritual light in the higher worlds is that the light has gone through the
+
+whole empty space to reach us, and that empty space is expanding so there is a
+
+red shift in the frequency of the light. So, this explains why to the Ari there
+
+is a change is the essential nature of the light as it travels a distance in
+
+the higher worlds.
+
+·
+
+The top
+
+of the spiritual empty space is the top of the future light cone. The world
+
+inside it is made of time-like directions. We are going down in it because from
+
+the aspect of Einstein's equations (time is a negative coordinate) the right
+
+side is positive space the left is negative space - where the particles of
+
+negative probabilities emerge from. The bottom side of the singularity of the
+
+infinite light is negative time:
+
+[IMAGE: image018.gif]
+
+·
+
+The
+
+orientation of the sephirot is either right handed, left handed or zero spin.
+
+Their position in regard to each other is as is stated in the Eitz Chayim,
+
+however they also have spin. The Right hand Sephirot have right-hand spin, the
+
+middle none, and the left have left-hand spin. Splendor and Eternity have half
+
+integer spin and are thus subject to Fermi Statistics. Kindness and Power have
+
+whole integer spin and are thus subject to Einstein-Bose Statistics. One result
+
+of this is that any flow coming from the right-handed sephirot like kindness or
+
+Wisdom will have integer-spin like Photons or in general any particles whose
+
+exchange generates some interaction. This is a problem, for bosons carry all
+
+the interactions -- so aren't there left-handed interactions from the sephirot
+
+of power? The answer is that there are only four interactions, from the names
+
+72 (right), 63 (left), 45 (right), 52 (left), and the four are always symmetric
+
+until some Higgs field breaks the symmetry.
+
+·
+
+Since
+
+Royalty and Beauty are rotating on their own axis, they emit wave radiation
+
+from of the four types of waves (72, 63, 45, 52). Since Royalty rotates around Beauty
+
+they consist of a closed system, and give off Name-72 waves, which involves a
+
+loss of their energy of motion and rest energy. Therefore, they need to receive
+
+more energy into order to keep up the oscillation. (If not, they just float
+
+away as name 72 radiation waves.
+
+·
+
+The
+
+singularity in the center of the empty space is a white hole not surrounded by
+
+an event horizon, which spews out spiritual mass and energy, not subject to the
+
+laws of spiritual physics. It has its own circular and straight sephirot
+
+outside of it. Its surface is our four dimensional world. The inside I think is
+
+a different type of continuation of the process of the evolving of the
+
+spiritual worlds in the regular empty space.
+
+†
+
+[IMAGE: image019.jpg]
+
+†
+
+[IMAGE: image020.jpg]
+
+TNT is Typographical Number Theory.
+
+·
+
+Since the
+
+whole universe is analytic it can be expanded into a Taylor series (that's why
+
+one needs to get married i.e., in order to continue the series.) The circular sephirot
+
+are analytic but the straight sephirot are not. But the bottom seven sephirot
+
+of the generality of the worlds [all taken as one] are analytic because they
+
+are like cylinders.
+
+·
+
+Sephirot
+
+are a vector space since the operations of addition and multiplication apply to
+
+them. Multiplication by the sephirot is what the
+
+kabbalah
+
+calls mating,
+
+for addition is just adding two things [of the same essence] together, while
+
+mating is applying the value of one thing to the value of another in order to
+
+come out with a greater (or lesser) result.
+
+·
+
+The
+
+circular sephirot are analytic since they have a derivative everywhere. I don't
+
+know about the straight ones since even though they are called straight they
+
+are formed like cylinders.
+
+·
+
+The Torah
+
+is linearly independent, i.e.,
+
+b
+
+1
+
+r
+
+1
+
+e
+
+1
+
+i
+
+1
+
+s
+
+1
+
+h
+
+1
+
+i
+
+1
+
+t
+
+1
+
++ b
+
+2
+
+a
+
+2
+
+r
+
+2
+
+e
+
+2
+
++
+
+… = The
+
+numerical value of the verse.
+
+This is
+
+the intent of the sages when they say, “there is no freedom except for Torah.”
+
+With the first verse of the Torah, it is possible to show this even in the form
+
+it is in in the Torah, for it can be put into Echelon form:
+
+[IMAGE: image021.gif]
+
+The
+
+linearly independent solutions are related to one homogeneous differential
+
+equation of order six. Apparently, that is the equation of the Creation.
+
+The
+
+torsion of the verse has to be more than zero which gives us a right-handed
+
+system of sephirot since the vectors described are independent.
+
+So Sciy
+
+i
+
+(x)
+
+1
+
+0 for all
+
+c: And so, the Wronskian determinant doesn't vanish at the origin. So, the
+
+torsion
+
+1
+
+0 So we have either right handed or left handed sephirot
+
+since,
+
+[IMAGE: image022.gif]
+
+However,
+
+the general system according to the Kabbalah is that the top row of the matrix
+
+is the beginning letters of every word of the verse, the middle row of the
+
+matrix is the middle letters, and the last row is the last letters of each
+
+word. So, for example the first verse is a 3 times 7 matrix.
+
+·
+
+The
+
+reason the world is 3 dimensional is that it is built by the Divine name 72
+
+which consists of three letters for each name which are each orthogonal to each
+
+other. [This is based on the verse “the world is built by kindness”. The name
+
+72 corresponds to the Divine trait of Kindness.]
+
+··
+
+The 4
+
+times 4 matrix of the four Divine names 72 63 45 52 is:
+
+[IMAGE: image023.gif]
+
+The matrix corresponding to the name
+
+161 143 and 151 is
+
+[IMAGE: image024.gif]
+
+The
+
+associated
+
+eigenvalue
+
+and
+
+eigenvector
+
+are determined by
+
+[IMAGE: image025.gif]
+
+or in
+
+other words
+
+[IMAGE: image026.gif]
+
+X is the
+
+eigenvector
+
+.
+
+[IMAGE: image027.gif]
+
+is the
+
+eigenvalue
+
+.
+
+Actually, the intentions of the Ari in general are matrices. This fact makes
+
+the otherwise very enigmatic
+
+Gate of Divine Spirit
+
+a little bit more
+
+understandable.
+
+·
+
+The name
+
+of the three verses, “He traveled…, He came …, He turned” are a cubical matrix
+
+with each side of the cube the letters of each verse.
+
+·
+
+The order
+
+of the higher worlds is:
+
+INNER WORLDS
+
+OUTER WORLDS
+
+EMANATION
+
+FORMATION
+
+CREATION
+
+PHYSICAL UNIVERSE
+
+Emanation
+
+Creation
+
+Formation
+
+Physical
+
+E
+
+C
+
+F
+
+P
+
+Crown
+
+Crown
+
+Crown
+
+Crown
+
+Cr
+
+Cr
+
+Cr
+
+Cr
+
+Wisdom/
+
+Understanding
+
+W.U
+
+W.U
+
+W.U
+
+W.U.
+
+W.U.
+
+W.U.
+
+W.U.
+
+Beauty/
+
+Royalty
+
+B.R.
+
+B.R.
+
+B.R.
+
+B.R.
+
+B.R.
+
+B.R.
+
+B.R.
+
+This is a
+
+close up of one sepherah.
+
+†
+
+[IMAGE: image028.gif]
+
+The
+
+metric here is given by the divine name of the four letters:
+
+[IMAGE: image029.gif]
+
+The
+
+Divine name, which indicates that God is the Force of forces is “God”, or
+
+“Elohim”. The five letters of this name correspond to the five components of
+
+the equation for the total force on any specific volume, oyhla = F(total) =
+
+n cosTds. The basic three letters are the basic name
+
+which is the basic equation with the dot after the
+
+lamed
+
+indicating the
+
+dot product and the mistakes the word plural and thus indicates the sum of all
+
+the forces which is the integral sign. In its inner essence this equation is
+
+the divine name of the four letters
+
+hvhy.
+
+The
+
+h
+
+is the
+
+ds, the small surface, the
+
+y
+
+is the tension, the
+
+v
+
+is the
+
+normal to the surface and the first
+
+h
+
+is the
+
+cos
+
+of the angle between the tension and the normal to
+
+the surface.
+
+Now this
+
+is the scheme of Creation as we can see on every levelfrom this diagram of the
+
+the Genetic Code, the Godel Code together with the order of the higher worlds
+
+and the
+
+formula for the curvature of space -time.
+
+†
+
+R
+
+lk
+
+¨¨
+
+q
+
+=
+
+
+
+qli
+
+/ X
+
+k
+
++ 
+
+q kp
+
+
+
+pil
+
+-
+
+
+
+qki
+
+/
+
+
+
+x
+
+l
+
+-
+
+
+
+qlp
+
+
+
+pki
+
+[IMAGE: image030.gif]
+
+The same
+
+system of four levels corresponding to the four worlds emanation creation
+
+formation physical which are the four letters of the Divine name.
+
+The way
+
+one levels corresponds to the next is by the strange spiral[Strange Loop in the
+
+language of Godel Escher Bach]That is how we travel through the Spiritual to
+
+Idea to will to the Godel Code to the Genetic Code etc from level of hiearchy
+
+to other level.It may be possible from this to get some hint as to solve some
+
+of the mysteries that are still unknown.EG it seems the fact that this
+
+describes the amino acids only statistically is related to the fact that nature
+
+on its most fundamental level can be described only by statistics.
+
+·
+
+The
+
+musical notes on top of the letters in the Torah are indexes of integration for
+
+Emanation. But, since each letter corresponds to a different type of function
+
+depending on what world you are in, the significance of the notes for each
+
+world isn't clear to me. (This idea of the same thing signifying different
+
+things depending on what world you are in isn't my idea. A college professor
+
+from Texas mentioned it to me concerning the Lekutai Moharan)
+
+·
+
+The
+
+normal representation of the commandments is a square matrix (613 x 613).
+
+tefilin
+
+of tefilin + shabat of tefilin + tzitzit of tefilin + ……
+
+shabat of
+
+shabat+tefilin of Shabat + ...
+
+Then,
+
+after the correction the order switched, and you take the transpose of the
+
+above matrix. So that tefilin becomes only tefilin, i.e.,
+
+tefilin of tefilin
+
++ tefilin of Shabat + Tefilin of Tzitzit + …
+
+This is
+
+actually the opinion of Beit Shamai according to Rabbi Yochanan at the
+
+beginning of Pesachim.
+
+·
+
+The
+
+commandments of the Bible acting on a complex finite dimensional inner product
+
+soul, can be represented by a triangular matrix relative to an orthonormal
+
+basis of the soul. [The determinate of that matrix will give you the volume of
+
+light it contains. Now, this explains why in some places in the Eitz Chayim the
+
+higher worlds are represented as square and even after the revival of the dead
+
+the order will be the transpose of the present order. While in other places the
+
+order is like a triangle like this.
+
+[IMAGE: image031.gif]
+
+*a = 72
+
+of 72 crown.
+
+*b =
+
+Wisdom of 72 in the crown of 63.
+
+*c = Understanding
+
+of 72 in the wisdom of 63 in the crown of emanation.
+
+*d =
+
+Beauty and royalty in understanding of 63 of AK in wisdom and understanding.
+
+*A =
+
+crown of 63
+
+*B =
+
+wisdom of 63 in crown of emanation
+
+*C =
+
+understanding of 63 inside of wisdom and understanding of emanation
+
+[horizontally speaking]
+
+*D =
+
+Beauty and royalty of 63 of AK inside of Israel and the lower understanding of
+
+emanation until the bottom.
+
+*E=crown
+
+of emanation
+
+*F=wisdom
+
+and understanding of emanation.
+
+*G=Israel
+
+and the lower understanding of emanation.
+
+*H=Beauty
+
+and Royalty of Emanation. The right column is all 72, the middle is all 63 and
+
+the left is emanation.
+
+·
+
+There are
+
+ten empty spaces, and each is divisible into ten, which are divisible into ten
+
+ad infinitum. Each one is on a different plane, i.e., the three dimensional
+
+sphere is surrounded by a 4-D sphere which is surrounded etc. Each has its own
+
+surrounding sephirot in its own dimension. For instance, our empty space is
+
+surrounded by Royalty of the Infinite One which is surrounded etc. Like this:
+
+[IMAGE: image032.gif]
+
+A = The
+
+empty space.
+
+b = Top
+
+of the empty space, circular Royalty of the Infinite One.
+
+c =
+
+Square royalty of the Infinite One. This is what the Kabbalists of the Middle
+
+Ages call the Royalty of the Infinite One. However, I haven't seen the Ari
+
+mention it.
+
+d =
+
+Circular foundation.
+
+e =
+
+Square foundation. The square sephirot are the source of the linear sephirot in
+
+the empty space. The lines coming down from the top to the center are the roots
+
+of the sephirot in the shape of an Eagle.
+
+The lines
+
+of the left side are the root of the sephirot in the shape of a lion. The right
+
+is the root of the Bull. The lines coming up to the center are the sephirot of
+
+Adam Kadmon, the sephirot in the shape of a person, which is the general
+
+subject of the Eitz Chayim. The time-axis is negative, so to get the regular
+
+order we are used to you have to turn it upside down. This, it seems, is the
+
+root of the Baal Hatanya's idea of equating
+
+tohu
+
+[chaos] with the angles
+
+of the Divine Chariot.
+
+The idea
+
+of turning the whole thing over is Rabbi Nachman's of man ruling over the
+
+angels.
+
+[I know
+
+there are many times when it seems the Baal Hatanya has no source in the
+
+Kabbalah but with patience, I have usually found some source for him. For
+
+instance, it bothered me a long time that he equated the higher Unification
+
+with the higher knowledge. Now that has no way of working with the Drush HaDaat
+
+at the end of the Eitz Chayim. Eventually, I discovered that the commentary on
+
+the Rashash, the Shemen Sasson, says Drush HaDaat is only the generality of the
+
+Emanation and in fact doesn't work with the specifics, and that the higher
+
+Israel and Understanding are half of The Father and the
+
+Mother
+
+.]
+
+The ten
+
+traits of the five basic sephirot are bases for those sephirot. i.e., they are
+
+linearly independent.
+
+·
+
+The Zohar
+
+says there are nine palaces above the sephirot that are not light or spirit or
+
+souls. They are, in the spiritual realm, the equivalent of the nine components
+
+of the force-density tensor.
+
+This is
+
+because they are made, as the Zohar says, by the impulses of the nine lower sephirot
+
+on the crown. [Even though I have not seen this anywhere, I suppose these nine “palaces”
+
+are the eight white hairs of Arich, and the first
+
+tikun
+
+of the beard
+
+which come to Zeir Anpin.]
+
+tx = Understanding(= Txxi)
+
++
+
+Knowledge (= Txyj) +
+
+Wisdom (= Txz k)
+
+ty = Power (= Tyxi) +
+
+Beauty(=Tyyj) +
+
+Kindness(=Tyzk)
+
+tz=Splendor (= Tzxj) +
+
+Foundation(=Tzyj) +
+
+Eternity (= Tzzk)
+
+These are
+
+not the sephirot but the result of the sephirot hitting the crown. And they are
+
+the vessels of the infinite light which is
+
+hvhy =
+
+F(total) =
+
+ò
+
+ncos
+
+q
+
+Tds <???>
+
+·
+
+The
+
+correspondence between the circular and straight sephirot is clearly the basis
+
+of the lower world of logic and will, and then the physical creation as we can
+
+see from the following diagram
+
+†
+
+[IMAGE: image033.gif]
+
+a
+
+= royalty of
+
+AK=Statements of meta -TNT = proteins.
+
+b
+
+= Foundation of AK =
+
+Statements about statements of meta -TNT = proteins acting on proteins.
+
+c
+
+= splendor of AK =
+
+Statements about statements about statements of meta TNT = proteins acting on
+
+proteins acting on proteins
+
+f
+
+= a = ATIKA KADISHA =
+
+CROWN OF EMANATION
+
+h
+
+= Father = TNT STRINGS =
+
+DNA
+
+i
+
+= MOTHER = INTERPRETATION
+
+[conversion to meaningful form] = transcription [conversion to active form]
+
+e
+
+= Zeir Anpin(husband,
+
+Son) = RNA = statements of Number theory [like “the number seven is prime”]
+
+j
+
+= Nukvah, (wife,
+
+daughter) = translation by genetic code = arithmetization by Gödel Code.
+
+g
+
+= ARICH ANPIN =
+
+self-reference = self-reproduction
+
+This
+
+system
+
+exists
+
+throughout Creation and is the
+
+horizontal brick for the vertical layers. [It has already been shown that
+
+Quantum Mechanics is easily described by a formal system of Mathematical
+
+logic.]
+
+[IMAGE: image034.gif]
+
+·
+
+It seems
+
+to go without saying, but Hebrew is obviously a formal mathematical system with
+
+specific rules like where ever there is a
+
+He
+
+at the end of a string it
+
+can be replaced by a
+
+Vav Tav
+
+or wherever there is a 5 it can be replaced
+
+by a 6; 400 or wherever there is a
+
+Royalty
+
+of
+
+Beauty
+
+it can be
+
+replaced by
+
+Beauty
+
+of
+
+Beauty
+
+and the entire
+
+sepherah
+
+of
+
+Royalty
+
+.
+
+·
+
+As we can see from this diagram
+
+†
+
+[IMAGE: image035.gif]
+
+Each
+
+sepherah represents a different plane of existence. So, for example the world
+
+of logic [the sepherah of wisdom] is one level of reality, while the world of
+
+the light [the sepherah of the crown] is another level.
+
+Neither
+
+one is more nor less real than the other, just each one is different. So, the
+
+fact that some people get a certain light by meditation doesn't cancel the
+
+validity of the world of logic. The connection between each world is the
+
+Strange
+
+Loops
+
+that exist in each one.
+
+For
+
+instance, “This sentence is false.” This explains why morality isn't rational,
+
+for morality stems from the lower six sepherot [except for the bottom] and
+
+can't claim to be rational — which is from the world of logic. The light inside
+
+each one is circulating, so attachment to any sepherah takes one in a somewhat
+
+circular path.
+
+The
+
+Strange
+
+Loop
+
+inside of morality is thus:
+
+·
+
+Kindness dictates giving with no limit.
+
+·
+
+Judgement indicates punishment without limit.
+
+·
+
+Each limits the other to come to Justice [the
+
+middle sepherah-beauty], i.e., its’ two infinite sets that cancel to come to
+
+the synthesis of giving only what you own yourself, and not to take from the
+
+rich to give to the poor.
+
+·
+
+Each
+
+sepherah has its own rules for people: the rules of the Torah come from Beauty,
+
+the laws of the country one lives in come from Royalty. Thus, just because one
+
+follows the laws of the Torah [Beauty] that does't mean one is permitted to transgress
+
+the laws of one's country. And if one does so, Royalty itself takes revenge.
+
+The rules
+
+of Foundation are related to sexual purity.
+
+The rules
+
+of Wisdom are related to learning Wisdom and not making mistakes in the ten
+
+subjects of wisdom: Math, Physics, Chemistry, Logic, Biology, Music,
+
+Philosophy, Kabbalah [i.e., the three highest ones]. Of course, people that are
+
+more associated with one sepherah particularly [or their root is there] must be
+
+more careful than others in matters relating to that sepherah.
+
+·
+
+A person with
+
+only a nefesh has a straight world line. A person with spirit has a second-order
+
+curve as a world line. A person with neshamah [soul] has a third order curve. If
+
+he has nefesh of the Neshamah, i.e., world line is Neil's parabola where he
+
+reaches the Origin just once.unless his function is recurring.
+
+The five
+
+levels of the soul are a Neils Parabola, the Witch of Agnesi, the Folium of Descartes,
+
+the Cissoid and the Strophoid.
+
+If he has
+
+one of the five levels of the Chaya also, his world line follows the pattern of
+
+the five types of curves of the fourth order, the  Cochoids of Nicomedes, the
+
+Limacon of Pascal, the Cardioid, the Cassinian Oval, or the Lemniscate.
+
