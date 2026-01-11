@@ -1003,10 +1003,25 @@ footer p {
 
   /* Keep dropdown absolute but adjust positioning on mobile */
   .breadcrumb-dropdown {
-    left: auto;
-    right: 0;
-    min-width: 200px;
-    max-width: 90vw;
+    left: 0;
+    right: auto;
+    min-width: 250px;
+    max-width: 85vw;
+    max-height: 50vh;
+  }
+
+  /* Section grid on mobile - horizontal layout */
+  .section-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .section-grid a {
+    padding: 0.5rem 0.8rem;
+    min-width: 2rem;
+    text-align: center;
   }
 
   .toc {
