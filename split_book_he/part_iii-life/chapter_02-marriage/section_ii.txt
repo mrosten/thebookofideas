@@ -1,0 +1,58 @@
+[TITLE: החיפוש אחר הנשמה התאומה]
+<h4>אחוז ההתאמה לזיווג</h4>
+<p>המושג "בן זוג אמיתי" אינו בינארי, אלא עניין של אחוזים. בעוד שהרמב"ם מציע שהבחירה היא הגורם העיקרי, השקפת הקבלה היא שלכל אדם יש מספר בני זוג פוטנציאליים בדרגות שונות של חיבור רוחני — 20%, 50%, או 100%. מציאת בן זוג היא תהליך ניפוי עמוק, המשמש לעיתים קרובות כתיקון לטעויות בגלגולים קודמים.</p>
+
+<div class="justice-balance">
+    <input type="radio" name="marriage-type" id="spiritual" class="balance-toggle" checked>
+    <input type="radio" name="marriage-type" id="practical" class="balance-toggle">
+    <input type="radio" name="marriage-type" id="curious" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="spiritual" class="balance-label label-righteous">רוחני</label>
+        <label for="practical" class="balance-label label-wicked">מעשי</label>
+        <label for="curious" class="balance-label label-wicked">סקרנות</label>
+    </div>
+
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="type-spiritual">
+                <h5>הנישואין הרוחניים</h5>
+                <p>התגלות של קשר נצחי שכבר קיים. איחוד זה יכול לצלוח כל מכשול, שכן מהותו קודמת לעולם הפיזי.</p>
+                <span class="status-badge badge-reward">נצחי</span>
+            </div>
+            <div id="type-practical" style="display:none">
+                <h5>נישואי הקהילה</h5>
+                <p>נשמרים יחד על ידי כבוד חברתי ותמיכה קהילתית. זהו קשר ביולוגי וחברתי גרידא; למרות יציבותו, חסר בו הניצוץ ה"קדוש" של הרוח.</p>
+                <span class="status-badge badge-punish">זמני</span>
+            </div>
+            <div id="type-curious" style="display:none">
+                <h5>הנישואין המדעיים</h5>
+                <p>מונעים על ידי סקרנות, יצירתיות, והרצון לבנות משהו חדש. אלה הם נישואי הפילוסוף והיוצר.</p>
+                <span class="status-badge badge-reward">יצירתי</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('input[name="marriage-type"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const types = ['spiritual', 'practical', 'curious'];
+            types.forEach(type => {
+                document.getElementById('type-' + type).style.display = document.getElementById(type).checked ? 'block' : 'none';
+            });
+        });
+    });
+</script>
+
+<h4>המכה המודרנית</h4>
+<p>חוסר היכולת למצוא בן זוג מתאים הפך ל"מכת מדינה מודרנית", בדומה לדינים הבלתי מוסברים של ההיסטוריה. אתגר זה נובע לעיתים קרובות מהערצת הסקס על פני קידוש המעשה. כאשר המעשה המיני הופך לחלק מעבודת הבורא, הוא עובר מדחף ביולוגי פיזי גרידא לחלק מהעלייה האנכית של הנשמה.</p>
+
+<div class="concept-box">
+<strong>מבחן האופי</strong>
+טובי לב הוא מבחן הלקמוס האולטימטיבי לבן זוג פוטנציאלי. כפי שניתן לראות בסיפור ה<em>טיטאניק</em>, נכונותו של ג'ק להקריב את חייו למען רוז הייתה מושרשת באופיו הטוב הכללי — הוא היה אדם שהיה קופץ למים עבור כל אחד. אדם טוב יהיה טוב לבן זוגו, בעוד שאדם אנוכי יפנה בסופו של דבר את האנוכיות הזו פנימה.
+</div>
+
+<blockquote class="fancy-quote">
+"יש דבר כזה כמו למצוא את האדם הנכון ולדעת שזה כך. אבל אם האהבה אינה כוללת נכונות להקרבה עצמית, עדיף להמתין עד שהרוח האמיתית שנבחנה תתגלה."
+</blockquote>
