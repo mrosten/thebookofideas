@@ -273,6 +273,7 @@ function New-SectionHTML {
     <script src="../../../glossary_tooltip.js"></script>
     <script src="../../../audio.js"></script>
     <script src="../../../bookmarks.js"></script>
+    <script src="../../../breadcrumb_mobile.js"></script>
     <script>
         // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');

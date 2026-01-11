@@ -346,7 +346,8 @@ nav a.active {
   backdrop-filter: blur(10px);
 }
 
-.breadcrumb-item:hover .breadcrumb-dropdown {
+.breadcrumb-item:hover .breadcrumb-dropdown,
+.breadcrumb-item.dropdown-active .breadcrumb-dropdown {
   display: block;
   animation: slideDown 0.2s ease-out;
 }
