@@ -4,8 +4,42 @@ param([string]$Language = "en")
 # This script reads section text files and generates corresponding HTML pages
 
 
-$splitBookPath = if ($Language -eq "he") { "c:\myantigravity\cantorwilliam\src\tboi\split_book_he" } else { "c:\myantigravity\cantorwilliam\src\tboi\split_book" }
-$websitePath = if ($Language -eq "he") { "c:\myantigravity\cantorwilliam\src\tboi\he" } else { "c:\myantigravity\cantorwilliam\src\tboi" }
+if ($IsWindows) {
+    if ($Language -eq "he") {
+        $splitBookPath = "c:\myantigravity\cantorwilliam\src\tboi\split_book_he"
+        $websitePath = "c:\myantigravity\cantorwilliam\src\tboi\he"
+    } else {
+        $splitBookPath = "c:\myantigravity\cantorwilliam\src\tboi\split_book"
+        $websitePath = "c:\myantigravity\cantorwilliam\src\tboi"
+    }
+} else {
+    # Running on non-Windows (Linux/macOS) — prefer repository-relative paths
+    # Compute script root robustly: prefer PSScriptRoot, then MyInvocation, then current directory
+    if ($PSBoundParameters.ContainsKey('PSCommandPath')) {
+        $scriptRoot = Split-Path -Parent $PSBoundParameters['PSCommandPath']
+    }
+    if (-not $scriptRoot) {
+        if ($PSScriptRoot) {
+            $scriptRoot = $PSScriptRoot
+        }
+        elseif ($MyInvocation -and $MyInvocation.MyCommand.Path) {
+            $scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+        }
+        else {
+            $scriptRoot = (Get-Location).Path
+        }
+    }
+
+    if ($Language -eq "he") {
+        $splitRel = 'split_book_he'
+        $webRel = 'he'
+    } else {
+        $splitRel = 'split_book'
+        $webRel = '.'
+    }
+    $splitBookPath = Join-Path $scriptRoot $splitRel
+    $websitePath = Join-Path $scriptRoot $webRel
+}
 
 # Localization Dictionary
 $L = @{
