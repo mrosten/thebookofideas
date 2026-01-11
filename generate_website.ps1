@@ -955,6 +955,11 @@ foreach ($part in $partMappings) {
     
     # Get chapters
     $chapters = Get-ChildItem $sourcePath -Directory | Sort-Object Name
+    
+    # Get pre-collected complete chapter list from first pass for dropdown menus
+    $partData = $allPartsData | Where-Object { $_.Target -eq $part.Target }
+    $completeChapterList = $partData.Chapters
+    
     $chapterList = @()
     
     foreach ($chapter in $chapters) {
@@ -1334,7 +1339,7 @@ $(
             # Generate HTML
             # Generate sidebar content with correct relative path for sections (3 levels deep)
             $sectionSidebarContent = New-SidebarContent -PartDataList $allPartsData -RootPath "../../../"
-            $html = New-SectionHTML -PartName $part.Target -PartTitle $part.Title -ChapterNum $chapterNum -ChapterTitle $chapterTitle -SectionNum $sectionNum -Content $content -PrevLink $prevLink -PrevLabel $prevLabel -NextLink $nextLink -NextLabel $nextLabel -SectionList $chapterSectionList -ChapterList $chapterList -PartList $partMappings -Footnotes $footnotes -SidebarContent $sectionSidebarContent
+            $html = New-SectionHTML -PartName $part.Target -PartTitle $part.Title -ChapterNum $chapterNum -ChapterTitle $chapterTitle -SectionNum $sectionNum -Content $content -PrevLink $prevLink -PrevLabel $prevLabel -NextLink $nextLink -NextLabel $nextLabel -SectionList $chapterSectionList -ChapterList $completeChapterList -PartList $partMappings -Footnotes $footnotes -SidebarContent $sectionSidebarContent
             
             $outputFile = Join-Path $chapterPath $section.Name.Replace('.txt', '.html')
             $html | Set-Content $outputFile -Encoding UTF8
