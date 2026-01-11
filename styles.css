@@ -280,12 +280,16 @@ nav a.active {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
+  overflow: visible;
+  /* Allow dropdown to extend beyond container */
 }
 
 .breadcrumb-item {
   position: relative;
   display: flex;
   align-items: center;
+  overflow: visible;
+  /* Ensure dropdown isn't clipped */
 }
 
 .breadcrumb-item a {
