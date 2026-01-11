@@ -3492,10 +3492,12 @@ html[dir="rtl"] .nav-btn {
   }
 
   /* Force RTL text direction for Hebrew paragraphs on mobile */
+  /* Force RTL text direction for Hebrew paragraphs on mobile */
   html[dir="rtl"] p,
   html[dir="rtl"] blockquote,
-  html[dir="rtl"] li {
-    text-align: right;
+  html[dir="rtl"] li,
+  html[dir="rtl"] .content-card p {
+    text-align: right !important;
     direction: rtl;
   }
 
