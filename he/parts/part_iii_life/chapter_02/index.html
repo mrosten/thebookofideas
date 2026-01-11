@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2: Marriage — ספר הרעיונות של התורה</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="../../../../manifest.json">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="../../../../styles.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle" aria-label="מצב לילה">🌙</button>
+        <h1>ספר הרעיונות של התורה</h1>
+        <p class="subtitle">Part III — Life</p>
+    </header>
+    <nav>
+        <a href="../../../index.html">בית</a>
+        <a href="../../../contents.html">תוכן העניינים</a>
+        <a href="../index.html" class="active">Part III — Life</a>
+    </nav>
+    <main class="container">
+        <div class="breadcrumb">
+            <div class="breadcrumb-item">
+                <a href="../../../index.html">בית</a>
+            </div>
+            <span class="separator">›</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="../../../parts/part_iii_life/index.html">Part III — Life</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../../../parts/part_i/index.html' >Part I — Philosophy and Faith</a><a href='../../../parts/part_ii/index.html' >Part II — Halachah</a><a href='../../../parts/part_iii_life/index.html' class='active'>Part III — Life</a><a href='../../../parts/part_iv_politics/index.html' >Part IV — Politics</a><a href='../../../parts/part_v_ideas/index.html' >Part V — Ideas</a><a href='../../../parts/part_vi_christianity/index.html' >Part VI — Christianity</a>
+                </div>
+            </div>
+            <span class="separator">›</span>
+            <div class="breadcrumb-item has-dropdown">
+                <a href="index.html" class="active">Chapter 2: Marriage</a>
+                <div class="breadcrumb-dropdown">
+                    <a href='../chapter_01/index.html' >פרק 1: Family</a><a href='../chapter_02/index.html' class='active'>פרק 2: Marriage</a><a href='../chapter_03/index.html' >פרק 3: Sex</a><a href='../chapter_04/index.html' >פרק 4: Ways Of Life</a><a href='../chapter_05/index.html' >פרק 5: Friendship</a><a href='../chapter_06/index.html' >פרק 6: Success</a><a href='../chapter_07/index.html' >פרק 7: Saints</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <h2>Chapter 2: Marriage</h2>
+            <div class="chapter-toc">
+                <h3>סעיפים</h3>
+                <ul class="clean-list">
+                    <li><a href='section_i.html'><span class='sec-num'>I</span> <span class='sec-title'>The Timing of Union</span></a></li>
+                    <li><a href='section_ii.html'><span class='sec-num'>II</span> <span class='sec-title'>The Search for the Soul-Mate</span></a></li>
+                    <li><a href='section_iii.html'><span class='sec-num'>III</span> <span class='sec-title'>The Eternal Commitment</span></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>ספר הרעיונות של התורה — מסע דרך חוכמה, אמונה והבנה</p>
+    </footer>
+    <div id="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+    <script src="../../../../sidebar.js"></script>
+    <script src="../../../../search.js"></script>
+    <script src="../../../../glossary_tooltip.js"></script>
+    <script src="../../../../audio.js"></script>
+    <script src="../../../../bookmarks.js"></script>
+    <script src="../../../../breadcrumb_mobile.js"></script>
+    <script>
+        // Theme Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const images = document.querySelectorAll('.book-image');
+
+        images.forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function() {
+                lightbox.style.display = 'block';
+                lightboxImg.src = this.src;
+            });
+        });
+
+        const closeSpan = document.querySelector('.close-lightbox');
+        if (closeSpan) {
+            closeSpan.onclick = function() {
+                lightbox.style.display = 'none';
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target == lightbox) {
+                lightbox.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

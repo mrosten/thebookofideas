@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -350,7 +351,8 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="contents.html" class="active">Table of Contents</a>
+        <a href="contents.html" class="active">Contents</a>
+        <a href="search.html">Search</a>
     </nav>
     <main class="container">
         <div class="content-card">
@@ -362,7 +364,7 @@
                         <span class="toc-toggle-icon"></span>
                     </summary>
                     <div class="toc-part-links">
-                        <a href="parts/part_i/index.html">View Part Index →</a>
+                        <a href="parts/part_i/index.html">View Part Index</a>
                     </div>
                     <div class="toc-chapters">
                 <details class="chapter-folder">
@@ -468,7 +470,7 @@
                         <span class="toc-toggle-icon"></span>
                     </summary>
                     <div class="toc-part-links">
-                        <a href="parts/part_ii/index.html">View Part Index →</a>
+                        <a href="parts/part_ii/index.html">View Part Index</a>
                     </div>
                     <div class="toc-chapters">
                 <details class="chapter-folder">
@@ -557,7 +559,7 @@
                         <span class="toc-toggle-icon"></span>
                     </summary>
                     <div class="toc-part-links">
-                        <a href="parts/part_iii_life/index.html">View Part Index →</a>
+                        <a href="parts/part_iii_life/index.html">View Part Index</a>
                     </div>
                     <div class="toc-chapters">
                 <details class="chapter-folder">
@@ -622,7 +624,7 @@
                         <span class="toc-toggle-icon"></span>
                     </summary>
                     <div class="toc-part-links">
-                        <a href="parts/part_iv_politics/index.html">View Part Index →</a>
+                        <a href="parts/part_iv_politics/index.html">View Part Index</a>
                     </div>
                     <div class="toc-chapters">
                 <details class="chapter-folder">
@@ -654,7 +656,7 @@
                         <span class="toc-toggle-icon"></span>
                     </summary>
                     <div class="toc-part-links">
-                        <a href="parts/part_v_ideas/index.html">View Part Index →</a>
+                        <a href="parts/part_v_ideas/index.html">View Part Index</a>
                     </div>
                     <div class="toc-chapters">
                 <details class="chapter-folder">
@@ -698,7 +700,7 @@
                         <span class="toc-toggle-icon"></span>
                     </summary>
                     <div class="toc-part-links">
-                        <a href="parts/part_vi_christianity/index.html">View Part Index →</a>
+                        <a href="parts/part_vi_christianity/index.html">View Part Index</a>
                     </div>
                     <div class="toc-chapters">
                 <details class="chapter-folder">
@@ -730,14 +732,11 @@
                 </details>
                 
                 <div class="toc-special-section" style="margin-top: 2rem; border-top: 1px dashed var(--accent-gold); padding-top: 1rem;">
-                    <a href="bibliography.html" class="toc-part-title" style="display:block; text-decoration:none;">
-                        <span>Bibliography</span>
-                        <span>→</span>
-                    </a>
-                    <a href="glossary.html" class="toc-part-title" style="display:block; text-decoration:none; margin-top: 1rem;">
-                        <span>Glossary</span>
-                        <span>→</span>
-                    </a>
+                    <h3>Appendices</h3>
+                    <ul class="section-list">
+                        <li><a href="glossary.html"><span class="sec-title">Glossary</span></a></li>
+                        <li><a href="bibliography.html"><span class="sec-title">Bibliography</span></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -775,30 +774,22 @@
             }
         });
 
-        // Lightbox
+        // Lightbox (just in case)
         const lightbox = document.getElementById('lightbox-modal');
         const lightboxImg = document.getElementById('lightbox-img');
-        const images = document.querySelectorAll('.book-image');
-
-        images.forEach(img => {
-            img.style.cursor = 'zoom-in';
-            img.addEventListener('click', function() {
-                lightbox.style.display = 'block';
-                lightboxImg.src = this.src;
-            });
-        });
-
         const closeSpan = document.querySelector('.close-lightbox');
-        if (closeSpan) {
-            closeSpan.onclick = function() {
-                lightbox.style.display = 'none';
-            }
-        }
-
-        window.onclick = function(event) {
-            if (event.target == lightbox) {
-                lightbox.style.display = 'none';
-            }
+        if (closeSpan) { closeSpan.onclick = () => lightbox.style.display = 'none'; }
+        window.onclick = (e) => { if (e.target == lightbox) lightbox.style.display = 'none'; }
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration.scope);
+                }).catch(err => {
+                    console.log('SW registration failed: ', err);
+                });
+            });
         }
     </script>
 </body>

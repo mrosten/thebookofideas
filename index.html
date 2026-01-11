@@ -17,6 +17,7 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -219,6 +220,10 @@
         <button id="sidebar-toggle" aria-label="Open Navigation">☰</button>
         <a href="search.html" id="search-link" aria-label="Search">🔍</a>
         <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+        <button id="lang-toggle" aria-label="Switch Language">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">HE</span>
+        </button>
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">A Unified System of Science, Philosophy, and Kabbalah</p>
     </header>
@@ -304,6 +309,7 @@
     </footer>
     <script src="sidebar.js"></script>
     <script src="search.js"></script>
+    <script src="language_toggle.js"></script>
     <script src="glossary_tooltip.js"></script>
     <script src="audio.js"></script>
     <script src="bookmarks.js"></script>
@@ -327,6 +333,17 @@
                 toggleBtn.textContent = '🌙';
             }
         });
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration.scope);
+                }).catch(err => {
+                    console.log('SW registration failed: ', err);
+                });
+            });
+        }
     </script>
 </body>
 

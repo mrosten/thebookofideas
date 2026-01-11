@@ -1,8 +1,95 @@
+param([string]$Language = "en")
+
 # Generate HTML pages for all sections in the Torah Book of Ideas
 # This script reads section text files and generates corresponding HTML pages
 
-$splitBookPath = "c:\myantigravity\cantorwilliam\src\tboi\split_book"
-$websitePath = "c:\myantigravity\cantorwilliam\src\tboi"
+
+$splitBookPath = if ($Language -eq "he") { "c:\myantigravity\cantorwilliam\src\tboi\split_book_he" } else { "c:\myantigravity\cantorwilliam\src\tboi\split_book" }
+$websitePath = if ($Language -eq "he") { "c:\myantigravity\cantorwilliam\src\tboi\he" } else { "c:\myantigravity\cantorwilliam\src\tboi" }
+
+# Localization Dictionary
+$L = @{
+    'en' = @{
+        'Dir'              = 'ltr'
+        'Lang'             = 'en'
+        'Home'             = 'Home'
+        'Contents'         = 'Contents'
+        'Search'           = 'Search'
+        'Bibliography'     = 'Bibliography'
+        'Glossary'         = 'Glossary'
+        'Appendices'       = 'Appendices'
+        'CloseNavigation'  = 'Close Navigation'
+        'ToggleDarkMode'   = 'Toggle Dark Mode'
+        'BookTitle'        = 'The Torah Book of Ideas'
+        'Subtitle'         = 'A Unified System of Science, Philosophy, and Kabbalah'
+        'Dedication'       = 'Dedication'
+        'Acknowledgements' = 'Acknowledgements'
+        'Introduction'     = 'Introduction'
+        'BeginReading'     = 'Begin Reading: Table of Contents'
+        'FooterText'       = 'The Torah Book of Ideas — A journey through wisdom, faith, and understanding'
+        'Part'             = 'Part'
+        'Chapter'          = 'Chapter'
+        'Section'          = 'Section'
+        'Chapters'         = 'Chapters'
+        'Previous'         = 'Previous'
+        'Next'             = 'Next'
+        'NextChapter'      = 'Next Chapter'
+        'Start'            = 'Start'
+        'TableOfContents'  = 'Table of Contents'
+        'TypeToSearch'     = 'Type to search...'
+        'NoResults'        = 'No results found.'
+        'SearchResults'    = 'Search Results'
+        'ViewPartIndex'    = 'View Part Index'
+        'Sections'         = 'Sections'
+        'TypeTwoChars'     = 'Type at least 2 characters to search...'
+        'LangToggleText'   = 'HE'
+        'LangToggleLabel'  = 'Switch to Hebrew'
+    }
+    'he' = @{
+        'Dir'              = 'rtl'
+        'Lang'             = 'he'
+        'Home'             = 'בית'
+        'Contents'         = 'תוכן העניינים'
+        'Search'           = 'חיפוש'
+        'Bibliography'     = 'ביבליוגרפיה'
+        'Glossary'         = 'מילון מונחים'
+        'Appendices'       = 'נספחים'
+        'CloseNavigation'  = 'סגור תפריט'
+        'ToggleDarkMode'   = 'מצב לילה'
+        'BookTitle'        = 'ספר הרעיונות של התורה'
+        'Subtitle'         = 'מערכת מאוחדת של מדע, פילוסופיה וקבלה'
+        'Dedication'       = 'הקדשה'
+        'Acknowledgements' = 'תודות'
+        'Introduction'     = 'מבוא'
+        'BeginReading'     = 'התחל לקרוא: תוכן העניינים'
+        'FooterText'       = 'ספר הרעיונות של התורה — מסע דרך חוכמה, אמונה והבנה'
+        'Part'             = 'חלק'
+        'Chapter'          = 'פרק'
+        'Chapters'         = 'פרקים'
+        'Section'          = 'סעיף'
+        'Sections'         = 'סעיפים'
+        'Previous'         = 'הקודם'
+        'Next'             = 'הבא'
+        'NextChapter'      = 'הפרק הבא'
+        'Start'            = 'התחל את'
+        'TableOfContents'  = 'תוכן העניינים'
+        'TypeToSearch'     = 'הקלד לחיפוש...'
+        'TypeTwoChars'     = 'הקלד לפחות 2 תווים לחיפוש...'
+        'NoResults'        = 'לא נמצאו תוצאות.'
+        'SearchResults'    = 'תוצאות חיפוש'
+        'ViewPartIndex'    = 'צפה באינדקס חלק'
+        'LangToggleText'   = 'EN'
+        'LangToggleLabel'  = 'החלף לאנגלית'
+    }
+}
+
+$Loc = $L[$Language]
+
+# Ensure output directory exists
+if (-not (Test-Path $websitePath)) {
+    New-Item -ItemType Directory -Path $websitePath -Force | Out-Null
+}
+
 $footnotesContent = Get-Content "$splitBookPath\x-footnotes.txt" -Raw -Encoding UTF8
 
 # Parse footnotes into hash table
@@ -187,20 +274,22 @@ function New-SectionHTML {
 
     # Calculate relative path depth
     $depth = "../../../"
+    $assetDepth = if ($Language -eq "he") { "../$depth" } else { $depth }
     
     $html = @"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="$($Loc['Lang'])" dir="$($Loc['Dir'])">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$ChapterTitle — Section $SectionNum</title>
+    <title>$ChapterTitle — $($Loc['Section']) $SectionNum</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="${assetDepth}manifest.json">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="stylesheet" href="${depth}styles.css">
+    <link rel="stylesheet" href="${assetDepth}styles.css">
 </head>
 <body>
     <!-- Sidebar - Content Embedded -->
@@ -209,20 +298,24 @@ function New-SectionHTML {
 
     <header>
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
-        <a href="${depth}search.html" id="search-link" aria-label="Search" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
-        <h1>The Torah Book of Ideas</h1>
+        <a href="${depth}search.html" id="search-link" aria-label="$($Loc['Search'])" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
+        <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <button id="lang-toggle" aria-label="$($Loc['LangToggleLabel'])">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">$($Loc['LangToggleText'])</span>
+        </button>
+        <h1>$($Loc['BookTitle'])</h1>
         <p class="subtitle">$PartTitle</p>
     </header>
     <nav>
-        <a href="${depth}index.html">Home</a>
-        <a href="${depth}contents.html">Contents</a>
+        <a href="${depth}index.html">$($Loc['Home'])</a>
+        <a href="${depth}contents.html">$($Loc['Contents'])</a>
         <a href="../index.html" class="active">$PartTitle</a>
     </nav>
     <main class="container">
         <div class="breadcrumb">
             <div class="breadcrumb-item">
-                <a href="${depth}index.html">Home</a>
+                <a href="${depth}index.html">$($Loc['Home'])</a>
             </div>
             <span class="separator">›</span>
             <div class="breadcrumb-item has-dropdown">
@@ -232,7 +325,9 @@ function New-SectionHTML {
                         $pLinks = ""
                         foreach ($p in $PartList) {
                             $activeClass = if ($p.Target -eq $PartName) { "class='active'" } else { "" }
-                            # Path to part index from current section (depth is ../../../)
+                            # Path to part index from current section (depth is ../../../ or ../../../../)
+                            # Actually depth variable handles getting to site root.
+                            # From site root, parts are at parts/part_name/index.html
                             $pPath = "${depth}parts/$($p.Target)/index.html"
                             $pLinks += "<a href='$pPath' $activeClass>$($p.Title)</a>"
                         }
@@ -258,7 +353,7 @@ function New-SectionHTML {
             </div>
             <span class="separator">›</span>
             <div class="breadcrumb-item has-dropdown">
-                <a href="section_i.html">Section $SectionNum</a>
+                <a href="section_i.html">$($Loc['Section']) $SectionNum</a>
                 <div class="breadcrumb-dropdown">
                     <div class="section-grid">
                         $(
@@ -275,7 +370,7 @@ function New-SectionHTML {
         </div>
 
         <div class="content-card">
-            <h3>Section $SectionNum$sectionTitleText</h3>
+            <h3>$($Loc['Section']) $SectionNum$sectionTitleText</h3>
             $contentHtml
             
             $(
@@ -296,18 +391,19 @@ function New-SectionHTML {
         </div>
     </main>
     <footer>
-        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+        <p>$($Loc['FooterText'])</p>
     </footer>
     <div id="lightbox-modal">
         <span class="close-lightbox">&times;</span>
         <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
     </div>
-    <script src="../../../sidebar.js"></script>
-    <script src="../../../search.js"></script>
-    <script src="../../../glossary_tooltip.js"></script>
-    <script src="../../../audio.js"></script>
-    <script src="../../../bookmarks.js"></script>
-    <script src="../../../breadcrumb_mobile.js"></script>
+    <script src="${assetDepth}sidebar.js"></script>
+    <script src="${assetDepth}search.js"></script>
+    <script src="${assetDepth}language_toggle.js"></script>
+    <script src="${assetDepth}glossary_tooltip.js"></script>
+    <script src="${assetDepth}audio.js"></script>
+    <script src="${assetDepth}bookmarks.js"></script>
+    <script src="${assetDepth}breadcrumb_mobile.js"></script>
     <script>
         // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');
@@ -353,6 +449,17 @@ function New-SectionHTML {
             if (event.target == lightbox) {
                 lightbox.style.display = 'none';
             }
+        }
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('${assetDepth}service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration.scope);
+                }).catch(err => {
+                    console.log('SW registration failed: ', err);
+                });
+            });
         }
     </script>
 </body>
@@ -388,17 +495,25 @@ $sectionLinks
 "@
     }
     
+    
+    # Calculate asset depth for part index (depth is always ../../ from root)
+    $depth = "../../"
+    $assetDepth = if ($Language -eq "he") { "../$depth" } else { $depth }
+
     $html = @"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="$($Loc['Lang'])" dir="$($Loc['Dir'])">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$PartTitle — The Torah Book of Ideas</title>
+    <title>$PartTitle — $($Loc['BookTitle'])</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../styles.css">
+    <link rel="manifest" href="${assetDepth}manifest.json">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="${assetDepth}styles.css">
 </head>
 <body>
     <!-- Sidebar - Content Embedded -->
@@ -407,20 +522,24 @@ $sectionLinks
 
     <header>
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
-        <a href="../../search.html" id="search-link" aria-label="Search" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
-        <h1>The Torah Book of Ideas</h1>
+        <a href="${depth}search.html" id="search-link" aria-label="$($Loc['Search'])" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
+        <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <button id="lang-toggle" aria-label="$($Loc['LangToggleLabel'])">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">$($Loc['LangToggleText'])</span>
+        </button>
+        <h1>$($Loc['BookTitle'])</h1>
         <p class="subtitle">$PartTitle</p>
     </header>
     <nav>
-        <a href="../../index.html">Home</a>
-        <a href="../../contents.html">Contents</a>
+        <a href="${depth}index.html">$($Loc['Home'])</a>
+        <a href="${depth}contents.html">$($Loc['Contents'])</a>
         <a href="index.html" class="active">$PartTitle</a>
     </nav>
     <main class="container">
         <div class="breadcrumb">
             <div class="breadcrumb-item">
-                <a href="../../index.html">Home</a>
+                <a href="${depth}index.html">$($Loc['Home'])</a>
             </div>
             <span class="separator">›</span>
             <div class="breadcrumb-item has-dropdown">
@@ -430,6 +549,7 @@ $sectionLinks
                         $pLinks = ""
                         foreach ($p in $PartList) {
                             $activeClass = if ($p.Target -eq $PartName) { "class='active'" } else { "" }
+                            # Link to part index
                             $pPath = "../../parts/$($p.Target)/index.html"
                             $pLinks += "<a href='$pPath' $activeClass>$($p.Title)</a>"
                         }
@@ -441,7 +561,7 @@ $sectionLinks
         <div class="content-card">
             <h2>$PartTitle</h2>
             <div class="toc">
-                <h3>Chapters</h3>
+                <h3>$($Loc['Chapters'])</h3>
                 <div class="toc-chapters">
 $chapterLinks
                 </div>
@@ -449,17 +569,18 @@ $chapterLinks
         </div>
     </main>
     <footer>
-        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+        <p>$($Loc['FooterText'])</p>
     </footer>
     <div id="lightbox-modal">
         <span class="close-lightbox">&times;</span>
         <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
     </div>
-    <script src="../../sidebar.js"></script>
-    <script src="../../search.js"></script>
-    <script src="../../glossary_tooltip.js"></script>
-    <script src="../../audio.js"></script>
-    <script src="../../bookmarks.js"></script>
+    <script src="${assetDepth}sidebar.js"></script>
+    <script src="${assetDepth}search.js"></script>
+    <script src="${assetDepth}language_toggle.js"></script>
+    <script src="${assetDepth}glossary_tooltip.js"></script>
+    <script src="${assetDepth}audio.js"></script>
+    <script src="${assetDepth}bookmarks.js"></script>
     <script>
         // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');
@@ -507,6 +628,17 @@ $chapterLinks
             }
         }
     </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('${assetDepth}service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration.scope);
+                }).catch(err => {
+                    console.log('SW registration failed: ', err);
+                });
+            });
+        }
+    </script>
 </body>
 </html>
 "@
@@ -521,19 +653,24 @@ function New-BibliographyPage {
         [string]$SidebarContent = ""
     )
     
+    
+    # Calculate asset depth for root page
+    $assetDepth = if ($Language -eq "he") { "../" } else { "" }
+
     $html = @"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="$($Loc['Lang'])" dir="$($Loc['Dir'])">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliography — The Torah Book of Ideas</title>
+    <title>$($Loc['Bibliography']) — $($Loc['BookTitle'])</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="${assetDepth}manifest.json">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="${assetDepth}styles.css">
 </head>
 <body>
     <!-- Sidebar - Content Embedded -->
@@ -542,34 +679,34 @@ function New-BibliographyPage {
 
     <header>
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
-        <a href="search.html" id="search-link" aria-label="Search" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
-        <h1>The Torah Book of Ideas</h1>
-        <p class="subtitle">Bibliography</p>
+        <a href="search.html" id="search-link" aria-label="$($Loc['Search'])" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
+        <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <h1>$($Loc['BookTitle'])</h1>
+        <p class="subtitle">$($Loc['Bibliography'])</p>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="contents.html">Contents</a>
-        <a href="bibliography.html" class="active">Bibliography</a>
+        <a href="index.html">$($Loc['Home'])</a>
+        <a href="contents.html">$($Loc['Contents'])</a>
+        <a href="bibliography.html" class="active">$($Loc['Bibliography'])</a>
     </nav>
     <main class="container">
         <div class="content-card">
-            <h2>Bibliography</h2>
+            <h2>$($Loc['Bibliography'])</h2>
             $Content
         </div>
     </main>
     <footer>
-        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+        <p>$($Loc['FooterText'])</p>
     </footer>
     <div id="lightbox-modal">
         <span class="close-lightbox">&times;</span>
         <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
     </div>
-    <script src="sidebar.js"></script>
-    <script src="search.js"></script>
-    <script src="glossary_tooltip.js"></script>
-    <script src="audio.js"></script>
-    <script src="bookmarks.js"></script>
+    <script src="${assetDepth}sidebar.js"></script>
+    <script src="${assetDepth}search.js"></script>
+    <script src="${assetDepth}glossary_tooltip.js"></script>
+    <script src="${assetDepth}audio.js"></script>
+    <script src="${assetDepth}bookmarks.js"></script>
     <script>
         // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');
@@ -598,6 +735,17 @@ function New-BibliographyPage {
         if (closeSpan) { closeSpan.onclick = () => lightbox.style.display = 'none'; }
         window.onclick = (e) => { if (e.target == lightbox) lightbox.style.display = 'none'; }
     </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('${assetDepth}service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration.scope);
+                }).catch(err => {
+                    console.log('SW registration failed: ', err);
+                });
+            });
+        }
+    </script>
 </body>
 </html>
 "@
@@ -612,19 +760,24 @@ function New-GlossaryPage {
         [string]$SidebarContent = ""
     )
     
+    
+    # Calculate asset depth for root page
+    $assetDepth = if ($Language -eq "he") { "../" } else { "" }
+
     $html = @"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="$($Loc['Lang'])" dir="$($Loc['Dir'])">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glossary — The Torah Book of Ideas</title>
+    <title>$($Loc['Glossary']) — $($Loc['BookTitle'])</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="${assetDepth}manifest.json">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="${assetDepth}styles.css">
 </head>
 <body>
     <!-- Sidebar - Content Embedded -->
@@ -633,34 +786,34 @@ function New-GlossaryPage {
 
     <header>
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
-        <a href="search.html" id="search-link" aria-label="Search" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
-        <h1>The Torah Book of Ideas</h1>
-        <p class="subtitle">Glossary</p>
+        <a href="search.html" id="search-link" aria-label="$($Loc['Search'])" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
+        <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <h1>$($Loc['BookTitle'])</h1>
+        <p class="subtitle">$($Loc['Glossary'])</p>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="contents.html">Contents</a>
-        <a href="glossary.html" class="active">Glossary</a>
+        <a href="index.html">$($Loc['Home'])</a>
+        <a href="contents.html">$($Loc['Contents'])</a>
+        <a href="glossary.html" class="active">$($Loc['Glossary'])</a>
     </nav>
     <main class="container">
         <div class="content-card">
-            <h2>Glossary</h2>
+            <h2>$($Loc['Glossary'])</h2>
             $Content
         </div>
     </main>
     <footer>
-        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+        <p>$($Loc['FooterText'])</p>
     </footer>
     <div id="lightbox-modal">
         <span class="close-lightbox">&times;</span>
         <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
     </div>
-    <script src="sidebar.js"></script>
-    <script src="search.js"></script>
-    <script src="glossary_tooltip.js"></script>
-    <script src="audio.js"></script>
-    <script src="bookmarks.js"></script>
+    <script src="${assetDepth}sidebar.js"></script>
+    <script src="${assetDepth}search.js"></script>
+    <script src="${assetDepth}glossary_tooltip.js"></script>
+    <script src="${assetDepth}audio.js"></script>
+    <script src="${assetDepth}bookmarks.js"></script>
     <script>
         // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');
@@ -682,12 +835,23 @@ function New-GlossaryPage {
             }
         });
 
-        // Lightbox
+        // Lightbox (just in case)
         const lightbox = document.getElementById('lightbox-modal');
         const lightboxImg = document.getElementById('lightbox-img');
         const closeSpan = document.querySelector('.close-lightbox');
         if (closeSpan) { closeSpan.onclick = () => lightbox.style.display = 'none'; }
         window.onclick = (e) => { if (e.target == lightbox) lightbox.style.display = 'none'; }
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('${assetDepth}service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration.scope);
+                }).catch(err => {
+                    console.log('SW registration failed: ', err);
+                });
+            });
+        }
     </script>
 </body>
 </html>
@@ -708,6 +872,7 @@ function New-MainContentsHTML {
         foreach ($ch in $part.Chapters) {
             $sectionLinks = ""
             foreach ($sec in $ch.Sections) {
+                # Links are relative to contents.html (root) which is same depth for En and He
                 $sectionLinks += "                        <li><a href=`"parts/$($part.Target)/$($ch.Folder)/$($sec.Filename)`"><span class='sec-num'>$($sec.Num)</span> <span class='sec-title'>$($sec.Title)</span></a></li>`n"
             }
             
@@ -730,7 +895,7 @@ $sectionLinks
                         <span class="toc-toggle-icon"></span>
                     </summary>
                     <div class="toc-part-links">
-                        <a href="parts/$($part.Target)/index.html">View Part Index →</a>
+                        <a href="parts/$($part.Target)/index.html">$($Loc['ViewPartIndex'])$nextArrow</a>
                     </div>
                     <div class="toc-chapters">
 $chapterLinks
@@ -739,17 +904,21 @@ $chapterLinks
 "@
     }
     
+    # Calculate asset depth for root page
+    $assetDepth = if ($Language -eq "he") { "../" } else { "" }
+    
     $html = @"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="$($Loc['Lang'])" dir="$($Loc['Dir'])">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table of Contents — The Torah Book of Ideas</title>
+    <title>$($Loc['TableOfContents']) — $($Loc['BookTitle'])</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="${assetDepth}manifest.json">
+    <link rel="stylesheet" href="${assetDepth}styles.css">
 </head>
 <body>
     <!-- Sidebar - Content Embedded -->
@@ -758,46 +927,49 @@ $chapterLinks
 
     <header>
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
-        <a href="search.html" id="search-link" aria-label="Search" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
-        <h1>The Torah Book of Ideas</h1>
-        <p class="subtitle">Table of Contents</p>
+        <a href="search.html" id="search-link" aria-label="$($Loc['Search'])" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
+        <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <button id="lang-toggle" aria-label="$($Loc['LangToggleLabel'])">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">$($Loc['LangToggleText'])</span>
+        </button>
+        <h1>$($Loc['BookTitle'])</h1>
+        <p class="subtitle">$($Loc['TableOfContents'])</p>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="contents.html" class="active">Table of Contents</a>
+        <a href="index.html">$($Loc['Home'])</a>
+        <a href="contents.html" class="active">$($Loc['Contents'])</a>
+        <a href="search.html">$($Loc['Search'])</a>
     </nav>
     <main class="container">
         <div class="content-card">
-            <h2>✡ Contents ✡</h2>
+            <h2>✡ $($Loc['Contents']) ✡</h2>
             <div class="toc">
 $fullContents
                 
                 <div class="toc-special-section" style="margin-top: 2rem; border-top: 1px dashed var(--accent-gold); padding-top: 1rem;">
-                    <a href="bibliography.html" class="toc-part-title" style="display:block; text-decoration:none;">
-                        <span>Bibliography</span>
-                        <span>→</span>
-                    </a>
-                    <a href="glossary.html" class="toc-part-title" style="display:block; text-decoration:none; margin-top: 1rem;">
-                        <span>Glossary</span>
-                        <span>→</span>
-                    </a>
+                    <h3>$($Loc['Appendices'])</h3>
+                    <ul class="section-list">
+                        <li><a href="glossary.html"><span class="sec-title">$($Loc['Glossary'])</span></a></li>
+                        <li><a href="bibliography.html"><span class="sec-title">$($Loc['Bibliography'])</span></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+        <p>$($Loc['FooterText'])</p>
     </footer>
     <div id="lightbox-modal">
         <span class="close-lightbox">&times;</span>
         <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
     </div>
-    <script src="sidebar.js"></script>
-    <script src="search.js"></script>
-    <script src="glossary_tooltip.js"></script>
-    <script src="audio.js"></script>
-    <script src="bookmarks.js"></script>
+    <script src="${assetDepth}sidebar.js"></script>
+    <script src="${assetDepth}search.js"></script>
+    <script src="${assetDepth}language_toggle.js"></script>
+    <script src="${assetDepth}glossary_tooltip.js"></script>
+    <script src="${assetDepth}audio.js"></script>
+    <script src="${assetDepth}bookmarks.js"></script>
     <script>
         // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');
@@ -819,30 +991,22 @@ $fullContents
             }
         });
 
-        // Lightbox
+        // Lightbox (just in case)
         const lightbox = document.getElementById('lightbox-modal');
         const lightboxImg = document.getElementById('lightbox-img');
-        const images = document.querySelectorAll('.book-image');
-
-        images.forEach(img => {
-            img.style.cursor = 'zoom-in';
-            img.addEventListener('click', function() {
-                lightbox.style.display = 'block';
-                lightboxImg.src = this.src;
-            });
-        });
-
         const closeSpan = document.querySelector('.close-lightbox');
-        if (closeSpan) {
-            closeSpan.onclick = function() {
-                lightbox.style.display = 'none';
-            }
-        }
-
-        window.onclick = function(event) {
-            if (event.target == lightbox) {
-                lightbox.style.display = 'none';
-            }
+        if (closeSpan) { closeSpan.onclick = () => lightbox.style.display = 'none'; }
+        window.onclick = (e) => { if (e.target == lightbox) lightbox.style.display = 'none'; }
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('${assetDepth}service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration.scope);
+                }).catch(err => {
+                    console.log('SW registration failed: ', err);
+                });
+            });
         }
     </script>
 </body>
@@ -859,8 +1023,8 @@ function New-SidebarContent {
     
     $sidebarSelect = @"
     <div class="sidebar-header">
-        <h3>Contents</h3>
-        <button id="close-sidebar" aria-label="Close Navigation">×</button>
+        <h3>$($Loc['Contents'])</h3>
+        <button id="close-sidebar" aria-label="$($Loc['CloseNavigation'])">×</button>
     </div>
     <div class="sidebar-scroll">
 "@
@@ -929,6 +1093,9 @@ $totalSections = 0
 $totalChapters = 0
 $allPartsData = @()
 
+$prevArrow = ""
+$nextArrow = ""
+
 # FIRST PASS: Collect all parts/chapters/sections metadata (needed for sidebar)
 Write-Host "Collecting navigation structure..." -ForegroundColor Cyan
 foreach ($part in $partMappings) {
@@ -942,7 +1109,7 @@ foreach ($part in $partMappings) {
         $chapterNum = if ($chapter.Name -match 'chapter_(\d+)') { $matches[1] } else { "00" }
         $chapterTitle = ($chapter.Name -replace 'chapter_\d+-', '' -replace '-', ' ').Trim()
         $chapterTitle = (Get-Culture).TextInfo.ToTitleCase($chapterTitle)
-        $chapterTitle = "Chapter $([int]$chapterNum): $chapterTitle"
+        $chapterTitle = "$($Loc['Chapter']) $([int]$chapterNum): $chapterTitle"
         $chapterFolder = "chapter_$chapterNum"
         
         $sections = Get-ChildItem $chapter.FullName -Filter "section_*.txt" | Sort-Object { 
@@ -958,7 +1125,7 @@ foreach ($part in $partMappings) {
             $secNumStr = if ($secFile.Name -match 'section_([ivx]+)\.txt') { $romanNumerals[$matches[1]] } else { "I" }
             $secFilename = $secFile.Name.Replace('.txt', '.html')
             $tmpContent = Get-Content $secFile.FullName -Raw -Encoding UTF8
-            $secTitle = "Section $secNumStr"
+            $secTitle = "$($Loc['Section']) $secNumStr"
             if ($tmpContent -match '\[TITLE:\s*(.*?)\]') {
                 $secTitle = $matches[1].Trim()
             }
@@ -1066,44 +1233,56 @@ foreach ($part in $partMappings) {
         New-Item -ItemType Directory -Path $chapterPath -Force | Out-Null
         
         # Generate Chapter Index
+        # Calculate asset depth for chapter index (depth is ../../../ from root)
+        $depth = "../../../"
+        $assetDepth = if ($Language -eq "he") { "../$depth" } else { $depth }
+
         $chapterIndexHtml = @"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="$($Loc['Lang'])" dir="$($Loc['Dir'])">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$ChapterTitle — Index</title>
+    <title>$ChapterTitle — $($Loc['BookTitle'])</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="${assetDepth}manifest.json">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="stylesheet" href="${assetDepth}styles.css">
 </head>
 <body>
     <header>
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
-        <h1>The Torah Book of Ideas</h1>
+        <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
+        <a href="${depth}search.html" id="search-link" aria-label="$($Loc['Search'])" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
+        <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <button id="lang-toggle" aria-label="$($Loc['LangToggleLabel'])">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">$($Loc['LangToggleText'])</span>
+        </button>
+        <h1>$($Loc['BookTitle'])</h1>
         <p class="subtitle">$($part.Title)</p>
     </header>
     <nav>
-        <a href="../../../index.html">Home</a>
-        <a href="../../../contents.html">Contents</a>
+        <a href="${depth}index.html">$($Loc['Home'])</a>
+        <a href="${depth}contents.html">$($Loc['Contents'])</a>
         <a href="../index.html" class="active">$($part.Title)</a>
     </nav>
     <main class="container">
         <div class="breadcrumb">
             <div class="breadcrumb-item">
-                <a href="../../../index.html">Home</a>
+                <a href="${depth}index.html">$($Loc['Home'])</a>
             </div>
             <span class="separator">›</span>
             <div class="breadcrumb-item has-dropdown">
-                <a href="../index.html">$($part.Title)</a>
+                <a href="../../../parts/$($part.Target)/index.html">$($part.Title)</a>
                 <div class="breadcrumb-dropdown">
                     $(
                         $pLinks = ""
                         foreach ($p in $partMappings) {
                             $activeClass = if ($p.Target -eq $part.Target) { "class='active'" } else { "" }
+                            # Link to part index
                             $pPath = "../../../parts/$($p.Target)/index.html"
                             $pLinks += "<a href='$pPath' $activeClass>$($p.Title)</a>"
                         }
@@ -1117,9 +1296,8 @@ foreach ($part in $partMappings) {
                 <div class="breadcrumb-dropdown">
                     $(
                         $cLinks = ""
-                        foreach ($c in $chapterList) {
+                        foreach ($c in $completeChapterList) {
                             $activeClass = if ($c.Num -eq $chapterNum) { "class='active'" } else { "" }
-                            # Link to chapter index
                             $cPath = "../$($c.Folder)/index.html"
                             $cLinks += "<a href='$cPath' $activeClass>$($c.Title)</a>"
                         }
@@ -1132,7 +1310,7 @@ foreach ($part in $partMappings) {
         <div class="content-card">
             <h2>$ChapterTitle</h2>
             <div class="chapter-toc">
-                <h3>Sections</h3>
+                <h3>$($Loc['Sections'])</h3>
                 <ul class="clean-list">
 $(
     $idxLinks = ""
@@ -1146,12 +1324,19 @@ $(
         </div>
     </main>
     <footer>
-        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+        <p>$($Loc['FooterText'])</p>
     </footer>
     <div id="lightbox-modal">
         <span class="close-lightbox">&times;</span>
         <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
     </div>
+    <script src="${assetDepth}sidebar.js"></script>
+    <script src="${assetDepth}search.js"></script>
+    <script src="${assetDepth}language_toggle.js"></script>
+    <script src="${assetDepth}glossary_tooltip.js"></script>
+    <script src="${assetDepth}audio.js"></script>
+    <script src="${assetDepth}bookmarks.js"></script>
+    <script src="${assetDepth}breadcrumb_mobile.js"></script>
     <script>
         // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');
@@ -1256,7 +1441,7 @@ $(
                             $prevLabel = "$prevChTitle - Section ${prevSecNum}: $prevSecTitle"
                         }
                         else {
-                            $prevLabel = "Previous Chapter: $prevChTitle"
+                            $prevLabel = "$prevArrow$($Loc['Previous']) $($Loc['Chapter']): $prevChTitle"
                         }
                     }
                     else {
@@ -1292,10 +1477,10 @@ $(
                                 $prevSecTitle = Get-SectionTitle -FilePath $lastSecFile.FullName
                                 if ($prevSecTitle) {
                                     $prevSecNum = if ($lastSecFile.Name -match 'section_([ivx]+)\.txt') { $romanNumerals[$matches[1]] } else { "" }
-                                    $prevLabel = "$($prevPart.Title) - Section ${prevSecNum}: $prevSecTitle"
+                                    $prevLabel = "$($prevPart.Title) - $($Loc['Section']) ${prevSecNum}: $prevSecTitle"
                                 }
                                 else {
-                                    $prevLabel = "Previous Part: $($prevPart.Title)"
+                                    $prevLabel = "$prevArrow$($Loc['Previous']) $($Loc['Part']): $($prevPart.Title)"
                                 }
                             }
                             else {
@@ -1311,7 +1496,7 @@ $(
                     else {
                         # First Part of Book
                         $prevLink = "../../../contents.html"
-                        $prevLabel = "Table of Contents"
+                        $prevLabel = "$prevArrow$($Loc['TableOfContents'])"
                     }
                 }
             }
@@ -1320,24 +1505,24 @@ $(
                 $prevSec = $chapterSectionList[$i - 1]
                 $prevLink = $prevSec.Filename
                 if ($prevSec.Title) {
-                    $prevLabel = "Section $($prevSec.Num): $($prevSec.Title)"
+                    $prevLabel = "$prevArrow$($Loc['Section']) $($prevSec.Num): $($prevSec.Title)"
                 }
                 else {
-                    $prevLabel = "Section $($prevSec.Num)"
+                    $prevLabel = "$prevArrow$($Loc['Section']) $($prevSec.Num)"
                 }
             }            
             $nextLink = ""
-            $nextLabel = "Next"
+            $nextLabel = "$($Loc['Next'])"
             
             if ($i -lt $sections.Count - 1) {
                 # Next section in same chapter
                 $nextSec = $chapterSectionList[$i + 1]
                 $nextLink = $nextSec.Filename
                 if ($nextSec.Title) {
-                    $nextLabel = "Section $($nextSec.Num): $($nextSec.Title)"
+                    $nextLabel = "$($Loc['Section']) $($nextSec.Num): $($nextSec.Title)$nextArrow"
                 }
                 else {
-                    $nextLabel = "Section $($nextSec.Num)"
+                    $nextLabel = "$($Loc['Section']) $($nextSec.Num)$nextArrow"
                 }
             }
             else {
@@ -1359,10 +1544,10 @@ $(
                     $nextSecFile = Join-Path $nextChapter.FullName "section_i.txt"
                     $nextSecTitle = Get-SectionTitle -FilePath $nextSecFile
                     if ($nextSecTitle) {
-                        $nextLabel = "$nextChTitle - Section I: $nextSecTitle"
+                        $nextLabel = "$nextChTitle - $($Loc['Section']) I: $nextSecTitle$nextArrow"
                     }
                     else {
-                        $nextLabel = "Next Chapter: $nextChTitle"
+                        $nextLabel = "$($Loc['NextChapter']): $nextChTitle$nextArrow"
                     }
                 }
                 else {
@@ -1373,32 +1558,34 @@ $(
                         
                         # Find first chapter of next part to link directly to section_i
                         $nextPartSource = Join-Path $splitBookPath $nextPart.Source
-                        $nextPartChapters = Get-ChildItem $nextPartSource -Directory | Sort-Object Name
-                        if ($nextPartChapters.Count -gt 0) {
-                            $firstCh = $nextPartChapters[0]
-                            $firstChNum = if ($firstCh.Name -match 'chapter_(\d+)') { $matches[1] } else { "00" }
-                            $nextLink = "../../$($nextPart.Target)/chapter_$firstChNum/section_i.html"
-                            
-                            # Try to get Section I title
-                            $nextSecFile = Join-Path $firstCh.FullName "section_i.txt"
-                            $nextSecTitle = Get-SectionTitle -FilePath $nextSecFile
-                            if ($nextSecTitle) {
-                                $nextLabel = "$($nextPart.Title) - Section I: $nextSecTitle"
-                            }
-                            else {
-                                $nextLabel = "Start $($nextPart.Title)"
+                        if (Test-Path $nextPartSource) {
+                            $nextPartChapters = Get-ChildItem $nextPartSource -Directory | Sort-Object Name
+                            if ($nextPartChapters.Count -gt 0) {
+                                $firstCh = $nextPartChapters[0]
+                                $firstChNum = if ($firstCh.Name -match 'chapter_(\d+)') { $matches[1] } else { "00" }
+                                $nextLink = "../../$($nextPart.Target)/chapter_$firstChNum/section_i.html"
+                                
+                                # Try to get Section I title
+                                $nextSecFile = Join-Path $firstCh.FullName "section_i.txt"
+                                $nextSecTitle = Get-SectionTitle -FilePath $nextSecFile
+                                if ($nextSecTitle) {
+                                    $nextLabel = "$($nextPart.Title) - $($Loc['Section']) I: $nextSecTitle$nextArrow"
+                                }
+                                else {
+                                    $nextLabel = "$($Loc['Start']) $($nextPart.Title)$nextArrow"
+                                }
                             }
                         }
                         else {
                             # Fallback to index if no chapters found (unlikely)
                             $nextLink = "../../$($nextPart.Target)/index.html"
-                            $nextLabel = "Start $($nextPart.Title)"
+                            $nextLabel = "$($Loc['Start']) $($nextPart.Title)$nextArrow"
                         }                    
                     }
                     else {
                         # End of book
                         $nextLink = "../../../contents.html"
-                        $nextLabel = "Table of Contents"
+                        $nextLabel = "$($Loc['TableOfContents'])$nextArrow"
                     }
                 }
             }
@@ -1470,17 +1657,22 @@ $searchIndexJson | Set-Content (Join-Path $websitePath "search_index.json") -Enc
 # Generate Search Page with embedded index
 Write-Host "Generating Search Page..." -ForegroundColor Cyan
 $searchSidebarContent = New-SidebarContent -PartDataList $allPartsData -RootPath ""
+
+# Calculate asset depth for search page (root)
+$assetDepth = if ($Language -eq "he") { "../" } else { "" }
+
 $searchPageHtml = @"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="$($Loc['Lang'])" dir="$($Loc['Dir'])">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search — The Torah Book of Ideas</title>
+    <title>$($Loc['Search']) — $($Loc['BookTitle'])</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="${assetDepth}manifest.json">
+    <link rel="stylesheet" href="${assetDepth}styles.css">
 </head>
 <body>
     <!-- Sidebar - Content Embedded -->
@@ -1489,26 +1681,31 @@ $searchPageHtml = @"
 
     <header>
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
-        <h1>The Torah Book of Ideas</h1>
-        <p class="subtitle">Search</p>
+        <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <button id="lang-toggle" aria-label="$($Loc['LangToggleLabel'])">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">$($Loc['LangToggleText'])</span>
+        </button>
+        <h1>$($Loc['BookTitle'])</h1>
+        <p class="subtitle">$($Loc['Search'])</p>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="contents.html">Contents</a>
-        <a href="search.html" class="active">Search</a>
+        <a href="index.html">$($Loc['Home'])</a>
+        <a href="contents.html">$($Loc['Contents'])</a>
+        <a href="search.html" class="active">$($Loc['Search'])</a>
     </nav>
     <main class="container">
         <div class="content-card">
-            <h3>Search the Book of Ideas</h3>
-            <input type="text" id="search-input" placeholder="Type to search..." style="width:100%; padding:1rem; font-size:1.1rem; border:2px solid var(--accent-gold); border-radius:8px; margin-bottom:1rem; font-family:'Lora',serif;">
+            <h3>$($Loc['Search'])</h3>
+            <input type="text" id="search-input" placeholder="$($Loc['TypeToSearch'])" style="width:100%; padding:1rem; font-size:1.1rem; border:2px solid var(--accent-gold); border-radius:8px; margin-bottom:1rem; font-family:'Lora',serif;">
             <div id="search-results"></div>
         </div>
     </main>
     <footer>
-        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+        <p>$($Loc['FooterText'])</p>
     </footer>
-    <script src="sidebar.js"></script>
+    <script src="${assetDepth}sidebar.js"></script>
+    <script src="${assetDepth}language_toggle.js"></script>
     <script>
         // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');
@@ -1540,7 +1737,7 @@ $searchPageHtml = @"
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase().trim();
             if (query.length < 2) {
-                searchResults.innerHTML = '<p style="color:#999;">Type at least 2 characters to search...</p>';
+                searchResults.innerHTML = '<p style="color:#999;">$($Loc['TypeTwoChars'])</p>';
                 return;
             }
 
@@ -1550,7 +1747,7 @@ $searchPageHtml = @"
             ).slice(0, 15);
 
             if (results.length === 0) {
-                searchResults.innerHTML = '<p style="color:#999;">No results found.</p>';
+                searchResults.innerHTML = '<p style="color:#999;">$($Loc['NoResults'])</p>';
             } else {
                 searchResults.innerHTML = results.map(item => {
                     let snippet = '';
@@ -1568,6 +1765,17 @@ $searchPageHtml = @"
 
         // Auto-focus
         searchInput.focus();
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('${assetDepth}service-worker.js').then(registration => {
+                    console.log('SW registered: ', registration.scope);
+                }).catch(err => {
+                    console.log('SW registration failed: ', err);
+                });
+            });
+        }
     </script>
 </body>
 </html>
