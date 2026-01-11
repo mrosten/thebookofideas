@@ -815,6 +815,16 @@ details.chapter-folder[open] summary.chapter-header::after {
   color: var(--primary-deep-blue);
 }
 
+/* Ensure Hebrew-marked elements render RTL and right-aligned when appropriate.
+   This helps when Hebrew text appears inside LTR pages (mobile or embedded). */
+.hebrew,
+p.hebrew,
+.hebrew p,
+html[dir="rtl"] .hebrew {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
 
 /* ===== Footnotes ===== */
 .footnotes {

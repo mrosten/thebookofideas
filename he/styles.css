@@ -815,6 +815,17 @@ details.chapter-folder[open] summary.chapter-header::after {
   color: var(--primary-deep-blue);
 }
 
+/* Ensure Hebrew paragraphs always render RTL and right-aligned on small screens
+   and when the element/class indicates Hebrew text. Use high specificity to
+   override competing mobile rules. */
+.hebrew,
+p.hebrew,
+.hebrew p,
+html[dir="rtl"] .hebrew {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
 
 /* ===== Footnotes ===== */
 .footnotes {
@@ -3497,6 +3508,15 @@ html[dir="rtl"] .nav-btn {
   html[dir="rtl"] li {
     text-align: right;
     direction: rtl;
+  }
+
+  /* Also enforce for elements marked with the `hebrew` class even when
+     the page `dir` isn't set (covers embedded Hebrew content). */
+  .hebrew,
+  p.hebrew,
+  .hebrew p {
+    direction: rtl !important;
+    text-align: right !important;
   }
 
   /* Fix activity button alignment for RTL */
