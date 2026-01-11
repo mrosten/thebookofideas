@@ -996,19 +996,16 @@ footer p {
     padding: 0.8rem 1rem;
     font-size: 0.85rem;
     flex-wrap: wrap;
-    /* Allow wrapping instead of horizontal scroll */
     display: flex !important;
     overflow: visible !important;
-    /* Ensure dropdowns can extend beyond */
   }
 
-  /* Make dropdown position fixed on mobile so it escapes any container */
+  /* Keep dropdown absolute but adjust positioning on mobile */
   .breadcrumb-dropdown {
-    position: fixed !important;
-    left: 10px !important;
-    right: 10px !important;
-    max-width: calc(100vw - 20px);
-    max-height: 60vh;
+    left: auto;
+    right: 0;
+    min-width: 200px;
+    max-width: 90vw;
   }
 
   .toc {
