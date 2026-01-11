@@ -111,6 +111,15 @@ $ChapterTranslations = @{
     'Decisions'              = 'החלטות'
     "Principles of Halacha"  = "עקרונות ההלכה"
     "Prayer"                 = "תפילה"
+    "Shabbat"                = "שבת"
+    "Festivals"              = "חגים"
+    "Kashrut"                = "כשרות"
+    "Israel"                 = "ישראל"
+    "Marriage and Family"    = "נישואין ומשפחה"
+    "Learning Torah"         = "לימוד תורה"
+    "Converts"               = "גיור"
+    "Non-Jews"               = "לא יהודים"
+    "The Argument"           = "המחלוקת"
 }
 
 # Ensure output directory exists
