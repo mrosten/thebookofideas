@@ -1,0 +1,7 @@
+[2026-01-11 10:53:52] [INFO] === Starting Automated Translation ===
+[2026-01-11 10:53:52] [INFO] English Root: .\split_book
+[2026-01-11 10:53:52] [INFO] Hebrew Root: .\split_book_he
+[2026-01-11 10:53:52] [INFO] Dry Run: False
+[2026-01-11 10:53:53] [INFO] Found 105 total sections
+[2026-01-11 10:53:53] [INFO] Sections to translate: 0
+[2026-01-11 10:53:53] [INFO] No sections need translation!

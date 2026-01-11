@@ -1,0 +1,54 @@
+[TITLE: אינווריאנטיות החוק]
+<blockquote class="fancy-quote">
+"כאשר הטעם לחוק נעלם, כך גם החוק." — העיקרון של הרשב"ם.
+</blockquote>
+
+<h4>הדינמיקה של הכאוס</h4>
+<p>נוסחאות ההלכה מביאות למגוון אינסופי של יישומים בגלל הווריאציות הקלות בנשמתו ובקו-העולם האינדיבידואליים של כל אדם. זהו <strong>המדע הרוחני של הכאוס</strong>. בלעדיו, אי אפשר להבין מדוע התורה מצווה עלינו "לא להוסיף" על המצוות. הגבלות יתר עלולות לרסק את דפוסי הכאוס הייחודיים המספקים את האנרגיה החיונית לעבודת האל. מטרת התורה שבעל פה היא לספק כלליות, אך כזו המכבדת את המצב האינדיבידואלי.</p>
+
+<div class="justice-balance">
+    <input type="radio" name="law-type" id="law-written" class="balance-toggle" checked>
+    <input type="radio" name="law-type" id="law-oral" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="law-written" class="balance-label label-righteous">כתוב: אינווריאנטי</label>
+        <label for="law-oral" class="balance-label label-righteous">בעל פה: סטטיסטי</label>
+    </div>
+
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-law-written">
+                <h5>המקור הקבוע</h5>
+                <p>התורה שבכתב אינווריאנטית (קבועה) על פני כל מערכות הייחוס. כמו חוקי הפיזיקה, היא נשארת קבועה, אם כי ההתבוננות בה עשויה להשתנות בהתאם לשאלה אם נמצאים במערכת אינרציאלית או מאיצה.</p>
+                <span class="status-badge badge-reward">בלתי משתנה</span>
+            </div>
+            <div id="panel-law-oral" style="display:none">
+                <h5>עולם ההסתברות</h5>
+                <p>רבות מהתורה שבעל פה מבוססות על הסתברות ושלטון הרוב. לפני שמקרה נידון, הוא דפוס גל של אפשרויות. ברגע שבית המשפט מתבונן ומחליט, הגל קורס לחלקיק של חוק.</p>
+                <span class="status-badge badge-reward">קריסת גל</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('input[name="law-type"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isWritten = document.getElementById('law-written').checked;
+            document.getElementById('panel-law-written').style.display = isWritten ? 'block' : 'none';
+            document.getElementById('panel-law-oral').style.display = isWritten ? 'none' : 'block';
+        });
+    });
+</script>
+
+<h4>י"ג המידות</h4>
+<p>שלוש עשרה הדרכים לגזור חוק מהתורה אינן רק מסורת; הן "משמיים". עם זאת, *היישום* שלהן נתון לדיון אנושי. חוק שהוכח דרך אחת משלוש עשרה המידות נושא משקל תנ"כי. מתח זה בין ה"אמת הפנימית" של הקבלה לבין ה"אמת החיצונית" של ההלכה הוא המשך של הסכסוך הראשוני בין יוסף לאחיו. זוהי מלחמה שחוזרת בכל דור, כאשר הרבנים נאבקים לשלב את תובנות המיסטיקנים עד שהן הופכות לחלק מהמסורת הקולקטיבית.</p>
+
+<div class="concept-box">
+<strong>מערכת הייחוס היחסית</strong>
+ישראל מתנהגת כגז בשיווי משקל; חוקי התורה חלים באופן הישיר ביותר שם. מחוץ למצב זה, עלינו להסתמך על שיטות סטטיסטיות כדי להבין את הרצון האלוהי. זו הסיבה שחוקים ש"יבטלו את מטרתם" (לדעת רבי שמעון) אינם חלים בסביבות שאינן בשיווי משקל.
+</div>
+
+<blockquote class="fancy-quote">
+"הסתברות היא חלק מהמארג של היקום הרוחני והפיזי."
+</blockquote>

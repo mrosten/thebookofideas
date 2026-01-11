@@ -1,0 +1,55 @@
+[TITLE: הדיאלקטיקה של החירות]
+<h4>רוח שנות ה-60</h4>
+<p>שנות ה-60 ייצגו שינוי עצום בחוכמה — הבנה שהממסד הקיים זקוק לרפורמה. עם זאת, המרד הזה לעיתים קרובות חסר יסוד מוצק. כדי למנוע "שנות ה-60" עתידיות מלהתפרק לאפטיה או למרד פנאטי, אנו זקוקים לסינתזה של השורשים הרוחניים והפילוסופiים הגדולים ביותר של העולם: התנ"ך, התלמוד, בודהה, ישו ורבי נחמן.</p>
+
+<div class="concept-box">
+<strong>רעידת המערכת</strong>
+ההיפים שירתו תפקיד מכריע: הם זעזעו את המערכת כך שרפורמות פנימיות יכלו להתרחש. בלעדיהם, המלחמה הקרה אולי מעולם לא הייתה מתפוגגת. הרפורמות החינוכיות שלהם העבירו את המיקוד לעבר הפרט, והוכיחו שאפילו ל"כאוס" יכול להיות תפקיד משקם.
+</div>
+
+<h4>חוכמה גולה</h4>
+<p>בחורבן בית ראשון, סודות התורה התפזרו. "הגלות הרוחנית" הזו מסבירה את צמיחתם הפתאומית של ענקי אינטלקט כמו פיתגורס, בודהה, אפלטון וסוקרטס — כל אחד נושא ניצוץ של ההתגלות המקורית לפינות שונות של העולם.</p>
+
+<div class="justice-balance">
+    <input type="radio" name="dualism-view" id="view-logic-det" class="balance-toggle" checked>
+    <input type="radio" name="dualism-view" id="view-emo-uncert" class="balance-toggle">
+    
+    <div class="balance-controls">
+        <label for="view-logic-det" class="balance-label label-righteous">עמוד הסדר</label>
+        <label for="view-emo-uncert" class="balance-label label-wicked">עמוד הזרימה</label>
+    </div>
+
+    <div class="consequence-grid">
+        <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-logic">
+                <h5>דטרמיניזם ושכל</h5>
+                <p><strong>גיבורים:</strong> איינשטיין, הגר"א, אריסטו.</p>
+                <p><strong>העולם:</strong> לוגיקה, סיבתיות, צורות מוגדרות, והמבנה הנוקשה של החוק. הוא מספק את ה"כלי" למציאות.</p>
+                <span class="status-badge badge-reward">סדר</span>
+            </div>
+            <div id="panel-flux" style="display:none">
+                <h5>אי-וודאות ורגש</h5>
+                <p><strong>גיבורים:</strong> הייזנברג, הבעל שם טוב, אפלטון.</p>
+                <p><strong>העולם:</strong> הסתברות, אור פנימי, ניצוצות מופשטים, וזרימת הלב. הוא מספק את ה"חיים" למציאות.</p>
+                <span class="status-badge badge-reward">כאוס-צמיחה</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('input[name="dualism-view"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            const isLogic = document.getElementById('view-logic-det').checked;
+            document.getElementById('panel-logic').style.display = isLogic ? 'block' : 'none';
+            document.getElementById('panel-flux').style.display = isLogic ? 'none' : 'block';
+        });
+    });
+</script>
+
+<h4>התנועה ההרמונית של האדם</h4>
+<p>התקדמות האנושות עוקבת אחר <strong>תנועה הרמונית</strong>. מאה זו ראתה תנועה מואצת לקראת דמוקרטיה וחירות, אך במקביל התמודדה עם המעמקים הנמוכים ביותר של מלחמות עולם ושפל כלכלי. תנודה זו היא חלק מהעידון של הנשמה כאשר היא מתקרבת לשיווי המשקל הסופי.</p>
+
+<blockquote class="fancy-quote">
+"אנו נכנסים לעידן חדש שבו הדתות ישמרו על זהותן תוך שילוב חוכמתן של אחרות — סינתזה עולמית של הרוח."
+</blockquote>

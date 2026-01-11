@@ -85,6 +85,32 @@ $L = @{
 
 $Loc = $L[$Language]
 
+# Title Translations
+$PartTranslations = @{
+    'Part I — Philosophy and Faith' = 'חלק א'' — פילוסופיה ואמונה'
+    'Part II — Halachah'            = 'חלק ב'' — הלכה'
+    'Part III — Life'               = 'חלק ג'' — חיים'
+    'Part IV — Politics'            = 'חלק ד'' — פוליטיקה'
+    'Part V — Ideas'                = 'חלק ה'' — רעיונות'
+    'Part VI — Christianity'        = 'חלק ו'' — נצרות'
+}
+
+$ChapterTranslations = @{
+    'The Song Of Creation'   = 'שירת הבריאה'
+    'The Song Of Faith'      = 'שירת האמונה'
+    'The Sabbath'            = 'השבת'
+    'The Song Of Philosophy' = 'שירת הפילוסופיה'
+    'Piety'                  = 'חסידות'
+    'Happiness'              = 'שמחה'
+    'Reward And Punishment'  = 'שכר ועונש'
+    'Eras Of Man'            = 'תקופות האדם'
+    'The Redemption'         = 'הגאולה'
+    'On Learning Torah'      = 'על לימוד תורה'
+    'Gemarah'                = 'גמרא'
+    'On Science'             = 'על המדע'
+    'Decisions'              = 'החלטות'
+}
+
 # Ensure output directory exists
 if (-not (Test-Path $websitePath)) {
     New-Item -ItemType Directory -Path $websitePath -Force | Out-Null
@@ -681,6 +707,10 @@ function New-BibliographyPage {
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
         <a href="search.html" id="search-link" aria-label="$($Loc['Search'])" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
         <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <button id="lang-toggle" aria-label="$($Loc['ToggleLanguage'])">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">$($Loc['LangCode'])</span>
+        </button>
         <h1>$($Loc['BookTitle'])</h1>
         <p class="subtitle">$($Loc['Bibliography'])</p>
     </header>
@@ -788,6 +818,10 @@ function New-GlossaryPage {
         <button id="sidebar-toggle" aria-label="Open Navigation" style="font-size:1.5rem; background:none; border:none; color:inherit; cursor:pointer; margin-right:10px;">☰</button>
         <a href="search.html" id="search-link" aria-label="$($Loc['Search'])" style="font-size:1.2rem; color:inherit; text-decoration:none; margin-right:10px;">🔍</a>
         <button id="theme-toggle" aria-label="$($Loc['ToggleDarkMode'])">🌙</button>
+        <button id="lang-toggle" aria-label="$($Loc['ToggleLanguage'])">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">$($Loc['LangCode'])</span>
+        </button>
         <h1>$($Loc['BookTitle'])</h1>
         <p class="subtitle">$($Loc['Glossary'])</p>
     </header>
@@ -1093,6 +1127,22 @@ $totalSections = 0
 $totalChapters = 0
 $allPartsData = @()
 
+$prevArrow = "← "
+$nextArrow = " →"
+
+if ($Language -eq "he") {
+    # User requested arrows to match English direction (Left for Prev, Right for Next)
+    # Standard RTL usually swaps them, but users find it confusing with mixed text.
+    # So we force them to match the visual position.
+    $prevArrow = "← "
+    $nextArrow = " →"
+    foreach ($p in $partMappings) {
+        if ($PartTranslations.ContainsKey($p.Title)) {
+            $p.Title = $PartTranslations[$p.Title]
+        }
+    }
+}
+
 $prevArrow = ""
 $nextArrow = ""
 
@@ -1107,8 +1157,13 @@ foreach ($part in $partMappings) {
     
     foreach ($chapter in $chapters) {
         $chapterNum = if ($chapter.Name -match 'chapter_(\d+)') { $matches[1] } else { "00" }
-        $chapterTitle = ($chapter.Name -replace 'chapter_\d+-', '' -replace '-', ' ').Trim()
-        $chapterTitle = (Get-Culture).TextInfo.ToTitleCase($chapterTitle)
+        $chapterTitleRaw = ($chapter.Name -replace 'chapter_\d+-', '' -replace '-', ' ').Trim()
+        $chapterTitle = (Get-Culture).TextInfo.ToTitleCase($chapterTitleRaw)
+        
+        if ($Language -eq "he" -and $ChapterTranslations.ContainsKey($chapterTitle)) {
+            $chapterTitle = $ChapterTranslations[$chapterTitle]
+        }
+        
         $chapterTitle = "$($Loc['Chapter']) $([int]$chapterNum): $chapterTitle"
         $chapterFolder = "chapter_$chapterNum"
         
@@ -1195,9 +1250,14 @@ foreach ($part in $partMappings) {
     
     foreach ($chapter in $chapters) {
         $chapterNum = if ($chapter.Name -match 'chapter_(\d+)') { $matches[1] } else { "00" }
-        $chapterTitle = ($chapter.Name -replace 'chapter_\d+-', '' -replace '-', ' ').Trim()
-        $chapterTitle = (Get-Culture).TextInfo.ToTitleCase($chapterTitle)
-        $chapterTitle = "Chapter $([int]$chapterNum): $chapterTitle"
+        $chapterTitleRaw = ($chapter.Name -replace 'chapter_\d+-', '' -replace '-', ' ').Trim()
+        $chapterTitle = (Get-Culture).TextInfo.ToTitleCase($chapterTitleRaw)
+
+        if ($Language -eq "he" -and $ChapterTranslations.ContainsKey($chapterTitle)) {
+            $chapterTitle = $ChapterTranslations[$chapterTitle]
+        }
+
+        $chapterTitle = "$($Loc['Chapter']) $([int]$chapterNum): $chapterTitle"
         
         $chapterFolder = "chapter_$chapterNum"
         # We need to collect sections FIRST
@@ -1537,13 +1597,19 @@ $(
                     $nextChTitle = ($nextChapter.Name -replace 'chapter_\d+-', '' -replace '-', ' ').Trim()
                     $nextChTitle = (Get-Culture).TextInfo.ToTitleCase($nextChTitle)
                     
+                    if ($Language -eq "he" -and $ChapterTranslations.ContainsKey($nextChTitle)) {
+                        $nextChTitle = $ChapterTranslations[$nextChTitle]
+                    }
+                    
                     # Construct link to next chapter's Section I
                     $nextLink = "../chapter_$nextChapterNum/section_i.html"
                     
                     # Try to get Section I title
                     $nextSecFile = Join-Path $nextChapter.FullName "section_i.txt"
                     $nextSecTitle = Get-SectionTitle -FilePath $nextSecFile
+                    
                     if ($nextSecTitle) {
+                        # Format: Chapter Title - Section I: Section Title
                         $nextLabel = "$nextChTitle - $($Loc['Section']) I: $nextSecTitle$nextArrow"
                     }
                     else {
