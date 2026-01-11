@@ -257,8 +257,8 @@ function New-SectionHTML {
         </div>
 
         <div class="page-nav">
-            <a href="$PrevLink" class="nav-btn prev">$PrevLabel</a>
-            <a href="$NextLink" class="nav-btn next">$NextLabel</a>
+            <a href="$PrevLink" class="nav-btn prev"><span>$PrevLabel</span></a>
+            <a href="$NextLink" class="nav-btn next"><span>$NextLabel</span></a>
         </div>
     </main>
     <footer>
@@ -1180,10 +1180,10 @@ $(
                         $prevSecTitle = Get-SectionTitle -FilePath $lastSecFile.FullName
                         if ($prevSecTitle) {
                             $prevSecNum = if ($lastSecFile.Name -match 'section_([ivx]+)\.txt') { $romanNumerals[$matches[1]] } else { "" }
-                            $prevLabel = "← $prevChTitle - Section ${prevSecNum}: $prevSecTitle"
+                            $prevLabel = "$prevChTitle - Section ${prevSecNum}: $prevSecTitle"
                         }
                         else {
-                            $prevLabel = "← Previous Chapter: $prevChTitle"
+                            $prevLabel = "Previous Chapter: $prevChTitle"
                         }
                     }
                     else {
@@ -1219,10 +1219,10 @@ $(
                                 $prevSecTitle = Get-SectionTitle -FilePath $lastSecFile.FullName
                                 if ($prevSecTitle) {
                                     $prevSecNum = if ($lastSecFile.Name -match 'section_([ivx]+)\.txt') { $romanNumerals[$matches[1]] } else { "" }
-                                    $prevLabel = "← $($prevPart.Title) - Section ${prevSecNum}: $prevSecTitle"
+                                    $prevLabel = "$($prevPart.Title) - Section ${prevSecNum}: $prevSecTitle"
                                 }
                                 else {
-                                    $prevLabel = "← Previous Part: $($prevPart.Title)"
+                                    $prevLabel = "Previous Part: $($prevPart.Title)"
                                 }
                             }
                             else {
@@ -1247,10 +1247,10 @@ $(
                 $prevSec = $chapterSectionList[$i - 1]
                 $prevLink = $prevSec.Filename
                 if ($prevSec.Title) {
-                    $prevLabel = "← Section $($prevSec.Num): $($prevSec.Title)"
+                    $prevLabel = "Section $($prevSec.Num): $($prevSec.Title)"
                 }
                 else {
-                    $prevLabel = "← Section $($prevSec.Num)"
+                    $prevLabel = "Section $($prevSec.Num)"
                 }
             }            
             $nextLink = ""
@@ -1261,10 +1261,10 @@ $(
                 $nextSec = $chapterSectionList[$i + 1]
                 $nextLink = $nextSec.Filename
                 if ($nextSec.Title) {
-                    $nextLabel = "Section $($nextSec.Num): $($nextSec.Title) →"
+                    $nextLabel = "Section $($nextSec.Num): $($nextSec.Title)"
                 }
                 else {
-                    $nextLabel = "Section $($nextSec.Num) →"
+                    $nextLabel = "Section $($nextSec.Num)"
                 }
             }
             else {
@@ -1286,10 +1286,10 @@ $(
                     $nextSecFile = Join-Path $nextChapter.FullName "section_i.txt"
                     $nextSecTitle = Get-SectionTitle -FilePath $nextSecFile
                     if ($nextSecTitle) {
-                        $nextLabel = "$nextChTitle - Section I: $nextSecTitle →"
+                        $nextLabel = "$nextChTitle - Section I: $nextSecTitle"
                     }
                     else {
-                        $nextLabel = "Next Chapter: $nextChTitle →"
+                        $nextLabel = "Next Chapter: $nextChTitle"
                     }
                 }
                 else {
@@ -1310,10 +1310,10 @@ $(
                             $nextSecFile = Join-Path $firstCh.FullName "section_i.txt"
                             $nextSecTitle = Get-SectionTitle -FilePath $nextSecFile
                             if ($nextSecTitle) {
-                                $nextLabel = "$($nextPart.Title) - Section I: $nextSecTitle →"
+                                $nextLabel = "$($nextPart.Title) - Section I: $nextSecTitle"
                             }
                             else {
-                                $nextLabel = "Start $($nextPart.Title) →"
+                                $nextLabel = "Start $($nextPart.Title)"
                             }
                         }
                         else {

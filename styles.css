@@ -696,12 +696,12 @@ details.chapter-folder[open] summary.chapter-header::after {
 }
 
 .nav-btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  /* Align to start to show beginning of text */
   min-width: 180px;
   max-width: 90%;
-  /* Prevent buttons from being too wide */
   padding: 0.8rem 1.5rem;
   background: white;
   color: var(--primary-deep-blue);
@@ -712,12 +712,19 @@ details.chapter-folder[open] summary.chapter-header::after {
   font-size: 0.95rem;
   font-weight: 600;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
   white-space: nowrap;
-  /* Prevent text wrapping */
+  /* Keep button single-line */
+}
+
+/* Ensure the text content is in a wrapper that can ellipsis */
+.nav-btn span {
+  white-space: nowrap;
   overflow: hidden;
-  /* Hide overflow */
   text-overflow: ellipsis;
-  /* Show ellipsis for long text */
+  flex: 1;
+  min-width: 0;
+  /* Allow flex item to shrink below content size */
 }
 
 .nav-btn:hover {
@@ -725,27 +732,19 @@ details.chapter-folder[open] summary.chapter-header::after {
   color: white;
   box-shadow: var(--shadow-medium);
   transform: translateY(-3px) scale(1.02);
-  border-color: transparent;
 }
 
+/* Arrows via CSS pseudo-elements - always visible */
 .nav-btn.prev::before {
   content: '←';
-  margin-right: 10px;
-  transition: transform 0.3s;
+  margin-right: 8px;
+  flex-shrink: 0;
 }
 
 .nav-btn.next::after {
   content: '→';
-  margin-left: 10px;
-  transition: transform 0.3s;
-}
-
-.nav-btn.prev:hover::before {
-  transform: translateX(-5px);
-}
-
-.nav-btn.next:hover::after {
-  transform: translateX(5px);
+  margin-left: 8px;
+  flex-shrink: 0;
 }
 
 /* ===== Book Images ===== */
@@ -996,12 +995,20 @@ footer p {
   .breadcrumb {
     padding: 0.8rem 1rem;
     font-size: 0.85rem;
-    overflow-x: auto;
-    white-space: nowrap;
+    flex-wrap: wrap;
+    /* Allow wrapping instead of horizontal scroll */
     display: flex !important;
-    /* Ensure it's always visible */
-    -webkit-overflow-scrolling: touch;
-    /* Smooth scrolling on mobile */
+    overflow: visible !important;
+    /* Ensure dropdowns can extend beyond */
+  }
+
+  /* Make dropdown position fixed on mobile so it escapes any container */
+  .breadcrumb-dropdown {
+    position: fixed !important;
+    left: 10px !important;
+    right: 10px !important;
+    max-width: calc(100vw - 20px);
+    max-height: 60vh;
   }
 
   .toc {
