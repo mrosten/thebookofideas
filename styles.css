@@ -696,6 +696,27 @@ details.chapter-folder[open] summary.chapter-header::after {
   font-size: 1.2rem;
 }
 
+/* ===== Cross-Reference Links ===== */
+.cross-ref {
+  color: var(--accent-gold);
+  text-decoration: underline dotted;
+  text-decoration-color: var(--accent-gold);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cross-ref:hover {
+  color: var(--primary-royal-blue);
+  text-decoration-style: solid;
+}
+
+.cross-ref-missing {
+  color: #cc0000;
+  background: rgba(255, 0, 0, 0.1);
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
 .nav-btn {
   display: flex;
   align-items: center;
@@ -2547,6 +2568,15 @@ body.dark-mode .section-grid a.active {
 body.dark-mode .nav-btn {
   background: var(--accent-gold);
   color: var(--primary-deep-blue);
+}
+
+/* Dark Mode: Cross-Reference Links */
+body.dark-mode .cross-ref {
+  color: var(--accent-gold-light);
+}
+
+body.dark-mode .cross-ref:hover {
+  color: white;
 }
 
 body.dark-mode .chapter-folder summary {

@@ -41,6 +41,40 @@ function Get-SectionTitle {
     return ""
 }
 
+# Convert [REF: ...] markup to hyperlinks
+function Convert-CrossReferences {
+    param(
+        [string]$Content,
+        [hashtable]$RefIndex
+    )
+    
+    # Pattern: [REF: Part I, Chapter 3, Section II] or [REF: Part I, Ch 3, Sec II "Optional Title"]
+    $pattern = '\[REF:\s*([^\]"]+?)(?:\s*"([^"]+)")?\s*\]'
+    
+    $result = [regex]::Replace($Content, $pattern, {
+            param($match)
+            $refKey = $match.Groups[1].Value.Trim().ToLower()
+            $customTitle = $match.Groups[2].Value
+        
+            # Normalize the key (handle various formats)
+            $refKey = $refKey -replace '\s+', ' '
+            $refKey = $refKey -replace 'chapter', 'ch' -replace 'section', 'sec'
+        
+            if ($RefIndex.ContainsKey($refKey)) {
+                $ref = $RefIndex[$refKey]
+                $displayText = if ($customTitle) { $customTitle } else { $ref.Title }
+                return "<a href='$($ref.Url)' class='cross-ref' title='$($ref.ChapterTitle)'>$displayText</a>"
+            }
+            else {
+                # Return original text with warning class if not found
+                Write-Host "  Warning: Reference not found: $refKey" -ForegroundColor Yellow
+                return "<span class='cross-ref-missing'>$($match.Value)</span>"
+            }
+        })
+    
+    return $result
+}
+
 # HTML template function
 function New-SectionHTML {
     param(
@@ -939,6 +973,36 @@ foreach ($part in $partMappings) {
 
 Write-Host "Found $($allPartsData.Count) parts with navigation data" -ForegroundColor Cyan
 
+# Build reference index for cross-references
+$referenceIndex = @{}
+foreach ($partInfo in $allPartsData) {
+    $partNum = if ($partInfo.Title -match 'Part\s+([IVX]+)') { $matches[1] } else { "" }
+    foreach ($ch in $partInfo.Chapters) {
+        $chNum = $ch.Num
+        foreach ($sec in $ch.Sections) {
+            $secNum = $sec.Num
+            # Build URL path (relative from section pages)
+            $url = "../../../parts/$($partInfo.Target)/$($ch.Folder)/$(($sec.Filename))"
+            
+            # Create multiple key variations for flexible matching
+            $keys = @(
+                "Part $partNum, Chapter $([int]$chNum), Section $secNum",
+                "Part $partNum, Ch $([int]$chNum), Sec $secNum",
+                "P$partNum C$([int]$chNum) S$secNum"
+            )
+            foreach ($key in $keys) {
+                $referenceIndex[$key.ToLower()] = @{
+                    Url          = $url
+                    Title        = $sec.Title
+                    PartTitle    = $partInfo.Title
+                    ChapterTitle = $ch.Title
+                }
+            }
+        }
+    }
+}
+Write-Host "Built reference index with $($referenceIndex.Count) entries" -ForegroundColor Cyan
+
 # SECOND PASS: Generate all HTML files
 
 foreach ($part in $partMappings) {
@@ -1144,6 +1208,9 @@ $(
             $section = $sections[$i]
             $sectionNum = if ($section.Name -match 'section_([ivx]+)\.txt') { $romanNumerals[$matches[1]] } else { "I" }
             $content = Get-Content $section.FullName -Raw -Encoding UTF8
+            
+            # Convert cross-references to hyperlinks
+            $content = Convert-CrossReferences -Content $content -RefIndex $referenceIndex
             
             # Determine prev/next links
             
