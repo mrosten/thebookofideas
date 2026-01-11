@@ -2515,6 +2515,35 @@ body.dark-mode .content-card {
   border: 1px solid var(--accent-gold);
 }
 
+/* Dark Mode: Breadcrumb Dropdown */
+body.dark-mode .breadcrumb-dropdown {
+  background-color: #121836;
+  border-color: var(--accent-gold);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .breadcrumb-dropdown a {
+  color: var(--text-dark);
+}
+
+body.dark-mode .breadcrumb-dropdown a:hover,
+body.dark-mode .breadcrumb-dropdown a.active {
+  background-color: var(--primary-royal-blue);
+  color: var(--accent-gold);
+}
+
+body.dark-mode .section-grid a {
+  background-color: #1a1f3c;
+  color: var(--accent-gold);
+  border: 1px solid var(--accent-gold);
+}
+
+body.dark-mode .section-grid a:hover,
+body.dark-mode .section-grid a.active {
+  background-color: var(--accent-gold);
+  color: var(--primary-deep-blue);
+}
+
 body.dark-mode .nav-btn {
   background: var(--accent-gold);
   color: var(--primary-deep-blue);
