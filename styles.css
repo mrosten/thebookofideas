@@ -1612,16 +1612,31 @@ footer p {
 
 .status-badge {
   display: inline-block;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .badge-reward {
   background: #d4edda;
   color: #155724;
+}
+
+/* Responsive Grid Helper */
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .responsive-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 /* ===== TOC Enhancements ===== */
@@ -2513,7 +2528,9 @@ body.dark-mode .balance-label:hover {
 
 body.dark-mode #joy-eq:checked~.balance-controls label[for="joy-eq"],
 body.dark-mode #joy-source:checked~.balance-controls label[for="joy-source"],
-body.dark-mode #joy-polarity:checked~.balance-controls label[for="joy-polarity"] {
+body.dark-mode #joy-polarity:checked~.balance-controls label[for="joy-polarity"],
+body.dark-mode #view-intellect:checked~.balance-controls label[for="view-intellect"],
+body.dark-mode #view-democracy:checked~.balance-controls label[for="view-democracy"] {
   background: var(--accent-gold) !important;
   color: #0a0e24 !important;
   font-weight: bold;
@@ -2521,6 +2538,28 @@ body.dark-mode #joy-polarity:checked~.balance-controls label[for="joy-polarity"]
 
 body.dark-mode .consequence-box strong {
   color: var(--accent-gold-light) !important;
+}
+
+/* Specific Dark Mode Contrast Fixes */
+body.dark-mode blockquote.fancy-quote {
+  color: #e6e9f2;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(212, 175, 55, 0.05));
+}
+
+body.dark-mode .badge-reward {
+  background: #1e3a1e;
+  color: #a8e6a8;
+  border: 1px solid #2d5a2d;
+}
+
+body.dark-mode .badge-punish {
+  background: #4a1d1d;
+  color: #f8baba;
+  border: 1px solid #7a2d2d;
+}
+
+body.dark-mode .status-badge {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Fix Light Mode Table of Contents Contrast */
