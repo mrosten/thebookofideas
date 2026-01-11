@@ -3799,3 +3799,15 @@ html[dir="rtl"] .sephirot-item {
   color: var(--primary-royal-blue);
   border-radius: 4px;
   transition: background 0.2s;
+/* ===== MOBILE RTL FIX (Workaround) ===== */
+@media (max-width: 768px) {
+  html[dir="rtl"] body,
+  html[dir="rtl"] .container,
+  html[dir="rtl"] .content-card,
+  html[dir="rtl"] p,
+  html[dir="rtl"] li,
+  html[dir="rtl"] div {
+    text-align: right !important;
+    direction: rtl !important;
+  }
+}
