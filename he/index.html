@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ספר הרעיונות של התורה</title>
-
+    <title>ספר רעיונות התורה</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,110 +12,77 @@
         href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap"
         rel="stylesheet">
 
-    <!-- MathJax for equations -->
+    <!-- Assets -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="manifest" href="../manifest.json">
+
+    <!-- Scripts -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <link rel="manifest" href="../manifest.json">
-    <link rel="stylesheet" href="../styles.css">
+    <script src="../assets/js/language_toggle.js" defer></script>
+    <!-- Add other global scripts here -->
 </head>
 
 <body>
-    <!-- Sidebar Container (Simplified/Placeholder for dynamic content or manual update later) -->
-    <div id="sidebar-container">
-        <div class="sidebar-header">
-            <h3>תוכן העניינים</h3>
-            <button id="close-sidebar" aria-label="סגור תפריט">×</button>
-        </div>
-        <div class="sidebar-scroll">
-            <div class="sidebar-part">
-                <ul class="sidebar-chapter-list">
-                    <li class="sidebar-chapter">
-                        <a href="contents.html">עבור לתוכן העניינים המלא</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div id="sidebar-overlay"></div>
-
+    <!-- Header -->
     <header>
-        <button id="sidebar-toggle" aria-label="פתח תפריט">☰</button>
-        <a href="search.html" id="search-link" aria-label="חיפוש">🔍</a>
-        <button id="theme-toggle" aria-label="מצב לילה">🌙</button>
-        <button id="lang-toggle" aria-label="החלף שפה">
+        <a href="../search.html" id="search-link" aria-label="Search">🔍</a>
+        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+        <button id="lang-toggle" aria-label="Switch Language">
             <span class="lang-icon">🌐</span>
             <span class="lang-text">EN</span>
         </button>
-        <h1>ספר הרעיונות של התורה</h1>
-        <p class="subtitle">מערכת מאוחדת של מדע, פילוסופיה וקבלה</p>
+        <div>
+            <h1>The Torah Book of Ideas</h1>
+            <p class="subtitle">בית</p>
+        </div>
     </header>
 
+    <!-- Nav -->
     <nav>
-        <a href="index.html" class="active">בית</a>
-        <a href="contents.html">תוכן העניינים</a>
+        <a href="../index.html">Home</a>
+        <a href="../contents.html">Contents</a>
+        <a href="../parts/index.html" class="active">בית</a>
     </nav>
 
+    <!-- Main Content -->
     <main class="container">
-        <div class="content-card">
-            <h2>הקדשה</h2>
-            <p>מוקדש להוריי <strong>פיליפ</strong> ו<strong>לילה רוזנבלום</strong>, האנשים הגדולים והחכמים ביותר שהכרתי,
-                ולילדיי.</p>
-        </div>
+        <!-- Breadcrumbs -->
+        <!-- Breadcrumbs -->
+        <div class='breadcrumb-item'><a href='../he/index.html'>ראשי</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../he/index.html'>בית</a><div class='dropdown-content'><a href='../he/index.html' class='active'>בית</a><a href='../he/parts/part_i_philosophy/chapter_01/section_i.html' class=''>חלק א' — פילוסופיה</a><a href='../he/parts/part_ii_halacha/chapter_01/section_i.html' class=''>חלק ב' — הלכה</a><a href='../he/contents.html' class=''>תוכן</a><a href='../he/parts/part_iii_life/chapter_01/section_i.html' class=''>part iii life</a></div></div><span class='separator'>&rsaquo;</span>
 
         <div class="content-card">
-            <h2>תודות</h2>
-            <p>תודות לבני משה שהשקיע את זמנו, זיעתו ודמעותיו בספר זה. חלק ניכר מהספר מבוסס על דיונים שערכתי איתו ועם
-                בני, נחמן יצחק. לאחיי דוד וקית' שעמדו לצידי כל השנים באש ובמים. הם האחים הטובים ביותר שניתן לבקש.</p>
-            <p>לא אני הגיתי את הרעיון להשתמש בפיזיקה להסביר את התורה. שאבתי אותו מהספר <em>בראשית והמפץ הגדול</em>.</p>
-        </div>
+            <h3>ספר רעיונות התורה</h3>
 
-        <div class="content-card">
-            <h2>מבוא</h2>
+            <p>ברוכים הבאים ל<strong>ספר רעיונות התורה</strong>.</p>
 
-            <blockquote>
-                "על ידי אמונת חכמים, אנו יכולים להוציא את המשפט שלנו לאור. על ידי אמונה בחכמי כל הדורות, אדם יכול למצוא
-                את העצה הנכונה לכל מצביו."
-                <cite>— רבי נחמן מברסלב</cite>
-            </blockquote>
+<p>יצירה זו חוקרת את המפגש בין תורה, פילוסופיה, מדע וחיים.</p>
 
-            <blockquote>
-                "שום דבר בעולם אינו חזק כמו רעיון שזמנו הגיע."
-                <cite>— ויקטור הוגו</cite>
-            </blockquote>
+<a href="contents.html">התחל לקרוא</a>
 
-            <p>תקוותי היא שספר זה יראה את השורש העליון של הפילוסופיה והמדע ויספק בסיס למערכת מאוחדת אחת של מדע,
-                פילוסופיה וקבלה.</p>
 
-            <p>העולם הוא סימפוניה המורכבת לכלים שונים המנגנים חלקים שונים של השיר שרק אלוהים יכול לשמוע. סימפוניה זו היא
-                "התגלות ייחודו של השם", והרשעים והאכזריים תורמים לה בדיוק כמו הצדיקים והאמיצים — שכן בסופו של דבר החושך
-                והרוע ייעלמו בפני האור, ומחיקם יגדל את שם השם בדיוק כמו ישועת הטובים והצודקים.</p>
-
-            <p>השורש והבסיס של דרכי הוא אמונה — אמונה בכל חכמי ההיסטוריה, ובמיוחד בחכמי ישראל. דווקא המחלוקות בין החכמים
-                עצמם הן שמאלצות אותי לנסח תיאוריה שתהיה עקבית עם הגמרא והאחרונים, כמו גם עם ההיסטוריה והעובדות הפשוטות
-                של המדע.</p>
 
         </div>
 
-        <div class="divider"></div>
-
+        <!-- Section Nav -->
         <div class="page-nav">
-            <span></span>
-            <a href="contents.html" class="nav-btn next">התחל לקרוא: תוכן העניינים</a>
+            
+            <a href='contents.html' class='nav-btn next'><span>הבא</span></a>
         </div>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <p>ספר הרעיונות של התורה — מסע דרך חוכמה, אמונה והבנה</p>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
     </footer>
-    <script src="../sidebar.js"></script>
-    <script src="../search.js"></script>
-    <script src="../language_toggle.js"></script>
-    <script src="../glossary_tooltip.js"></script>
-    <script src="../audio.js"></script>
-    <script src="../bookmarks.js"></script>
+
+    <!-- Scripts -->
+    <script src="../assets/js/search.js"></script>
+    <script src="../assets/js/glossary_tooltip.js"></script>
+    <script src="../assets/js/audio.js"></script>
+    <script src="../assets/js/bookmarks.js"></script>
+    <!-- Theme Toggle Logic (Inline for speed) -->
     <script>
-        // Theme Toggle
         const toggleBtn = document.getElementById('theme-toggle');
         const body = document.body;
         if (localStorage.getItem('theme') === 'dark') {
@@ -135,17 +101,6 @@
                 toggleBtn.textContent = '🌙';
             }
         });
-    </script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('../service-worker.js').then(registration => {
-                    console.log('SW registered: ', registration.scope);
-                }).catch(err => {
-                    console.log('SW registration failed: ', err);
-                });
-            });
-        }
     </script>
 </body>
 

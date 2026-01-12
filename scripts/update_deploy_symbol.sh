@@ -3,7 +3,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-OUT_FILE="$ROOT_DIR/deploy_symbol.json"
+OUT_FILE="$ROOT_DIR/assets/data/deploy_symbol.json"
 
 # Emoji list to choose from (keeps it visible and varied)
 EMOJIS=(🔵 🔴 🟢 🟡 ⚪ ⚫ 🔶 🔷 🔔 ✳️ ⭐️ ✨ 🔰 🛡️ 🧭 🕊️ 🔑 📝 🔎)

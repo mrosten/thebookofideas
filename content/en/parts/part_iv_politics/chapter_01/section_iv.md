@@ -1,0 +1,32 @@
+---
+title: "Chapter 1: Politics And The Torah — Section IV"
+part: "Part iii politics"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>Therefore, the Torah provided a system that point's up, yet would give them an enormous amount of freedom (within the basic political structure) for each individual to decide for himself how to get there. Societies where there was tremendous intellectual growth were not religiously or politically free societies. The Renaissance which existed and flourished in Italy a hundred years before it even reached the rest of Europe took place in a society of political intrigue and Papal rule. Mozart lived under the reign of Fredrick II. Socrates did pretty well in Athens for all his 90 years or so until it got to be a democracy and they killed him (Freedom and tolerance are important but have little to do with the type of government, rather with the type of people of the society.) Authoritarian rule can be rational if it is to cause the growth of the people.</p>
+            <p>Revolution is justified only when the rule is not for the benefit of the people, but not because of the type of government. Shmuel said, “there is no difference between this world and the days of the Messiah except for subjection by governments.” This seemed to have started at least with the concept of the Magna Carta. This is the beginning of the 6th thousand-year period which is when the Zohar says the process of the redemption will start, going every 60 years up to a higher level (now this statement of Shmuel is the subject an argument in the Gemarah: Rabbi Yochanan said the prophecies of all the prophets apply to the days of the Messiah, the Rambam brings both so he seems also to be saying that the redemption is a process that takes place over a long period of time and rising from level to level.) Now a democracy really shouldn't be any different than any tyranny for the masses can be just as evil as any dictator, however statistically speaking a large body of people aren't going to be too far from the mean (average value), so generally a democracy won't be too good or too bad (as long as one individual doesn't seize power), while any other form will vary according to who is the king at that time.</p>
+            <p>Therefore, one can ask why doesn't the Torah require a Democratic form of government? The answer is that the people did in fact choose their own king, for the Torah addresses the Jewish people as a whole “place upon you a king”, and the idea of the prophet or the Sanhedrin deciding was the way the people decided. (The</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

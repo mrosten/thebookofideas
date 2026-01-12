@@ -1,0 +1,78 @@
+---
+title: "פרק 10: גמרא — סעיף I"
+part: "חלק א' — פילוסופיה"
+chapter: "פרק 10"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<blockquote class="fancy-quote">
+            "כנס לממדים העמוקים יותר. פתח את הממד הרביעי של התלמוד." — שיטת האינווריאנטיות
+            </blockquote>
+            <div class="justice-balance">
+            <input type="radio" name="talmud-study" id="study-logic" class="balance-toggle" checked>
+            <input type="radio" name="talmud-study" id="study-kabbalah" class="balance-toggle">
+            <input type="radio" name="talmud-study" id="study-halacha" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="study-logic" class="balance-label label-righteous">לוגיקה עמוקה</label>
+            <label for="study-kabbalah" class="balance-label label-righteous">מיסטי</label>
+            <label for="study-halacha" class="balance-label label-righteous">מעשי</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-study-logic">
+            <h5>הלוגיקה של וריאציה אינסופית</h5>
+            <p>השיטה של רב חיים והתוספות: חדירה לעקרונות המופשטים. היא מוצאת את המבנה הבסיסי שנשאר אינווריאנטי (קבוע) על פני מקרים סותרים לכאורה.</p>
+            <span class="status-badge badge-reward">חוכמה מבנית</span>
+            </div>
+            <div id="panel-study-kabbalah" style="display:none">
+            <h5>מלכות דאצילות</h5>
+            <p>הגמרא כזרימה של חוכמה מהעולמות העליונים. זהו הממד ה"מיתי" שבו היסטוריה ורוח נפגשים. ההיסטוריה מוערכת דרך ההקשר של האיסיים והפרושים.</p>
+            <span class="status-badge badge-reward">מקור מיסטי</span>
+            </div>
+            <div id="panel-study-halacha" style="display:none">
+            <h5>קוד הפעולה</h5>
+            <p>יישום מעשי של התורה שבעל פה. בין אם מחמיר או מקל, שתי הגישות תקפות כיוון שהן מספקות את הכלים לעבודת האל בעולם המעשה.</p>
+            <span class="status-badge badge-reward">יצירת כלי</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="talmud-study"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const views = ['logic', 'kabbalah', 'halacha'];
+            views.forEach(v => {
+            document.getElementById('panel-study-' + v).style.display = document.getElementById('study-' + v).checked ? 'block' : 'none';
+            });
+            });
+            });
+            </script>
+            <h4>מקור התורה שבעל פה</h4>
+            <p>התורה שבעל פה לא חוכברה בחלל ריק. היא מייצגת את המסורות שנאספו של הסופרים, הפרושים, ואפילו קבוצות אזוטריות יותר כמו האיסיים. התלמוד, שנאסף לאחר חורבן בית המקדש, הוא יצירה מונומנטלית של מיון והערכה. בעוד שהוא נושא את "מלכות דאצילות", הוא גם יצירה אנושית של גאונות, מושפעת מההקשר הבדלני של זמנה. הבנת ההקשר ההיסטורי הזה אינה מפחיתה מממדו המיתי; היא חושפת את גדולתו האמיתית כקוד הישרדות חי ונושם.</p>
+            <div class="concept-box">
+            <strong>הפרספקטיבה הפנימית</strong>
+            אין לראות את הגמרא "מבחוץ" כטקסט היסטורי שטוח. במקום זאת, יש להיכנס לממדיה הפנימיים. כמו גאומטריה לא-אוקלידית, אמיתות התלמוד אינווריאנטיות (קבועות) רק כאשר צופים בהן מהמרכז הרוחני. זוהי יצירה שמעריכה את מיליוני המסורות (ברייתות) שריחפו סביב תקופת בית שני ומצמצמת אותן לחלקיק מתפקד של חוק.
+            </div>
+            <blockquote class="fancy-quote">
+            "התלמוד הוא בדיוק מה שהוא מתיימר להיות: אוסף והערכה של הדבר."
+            </blockquote>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

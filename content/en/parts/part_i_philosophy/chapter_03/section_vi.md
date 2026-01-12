@@ -1,0 +1,32 @@
+---
+title: "Chapter 3: The Song Of Philosophy — Section VI"
+part: "Part I — Philosophy"
+chapter: "Chapter 03"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>However, Hegel pointed out that Kant was wrong -- because he treats ideas as mental entities rather than logical entities within the set of logic space. But even if we would accept what Kant had to say, we could still show the existence of God on whatever level we are willing to concede exists. For we admit that the laws of logic work in our minds, he just asks how do we know they work in the outside world -- so he is willing to concede the existence of an outside world. Now, existence must exist and nothingness cannot exist, because if nothingness would exist, then it is not nothing - i.e., you cannot say about nothing the word "is", because if it is something then it is not nothing.</p>
+            <p>Now, if existence caused itself, when did it caused itself? Either before it existed or after. If before, then it couldn't have caused itself, if after - then it already existed, and needed nothing to cause it to exist. So, it must have been caused by a Creator who needed no cause to exist but exists in and of Himself. Since the existence of our own logic is created by some outside cause and that cause is not in our own minds, so the basic pattern of cause and effect hasn't been created by our own minds but comes from an outside cause.</p>
+            <p>So, cause and effect are not a product of our own minds. The limitation to one first cause is because if there would be an infinite number of causes then you could never get to cause anything to exist now for it would have had to travel in its causes an infinite number of times -- which is impossible, for it would never get to the "now" which has a discrete place in time. Thus, there is a limit to the number of causes.</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

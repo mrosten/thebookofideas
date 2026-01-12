@@ -1,0 +1,51 @@
+---
+title: "Chapter 9: On Learning Torah — Section III"
+part: "Part I — Philosophy"
+chapter: "Chapter 09"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>It is thus as it says in the beginning of <em>Shaar Ruach HaKodesh</em>. Here again [as I noted in the chapter Ideas in Science], we have the diagonal such that we only have the trace the things from the top left to the bottom right. Every level of Torah has a different inner light and meaning. Kabbalah is only the inner meaning of Torah horizontally, not vertically. This is obvious from books like the <em>Nefesh HaChayim</em> which says that the innerness of the words of prayer is in the letters themselves not in the kabalistic intentions. Also, the fact that the Torah says only a third verse can explain contradictions and not any outside explanation means that the Torah is postulating an inner meaning to itself in itself, not in the Oral law (since no outside explanations are permitted). Soloke in number theory if it is consistent, it must be incomplete. So, inside the Torah there must be a super-Torah. So, I postulate that the system of Torah in the above diagram from the Rashash continues downwards [and upwards.]</p>
+            <blockquote class="fancy-quote">
+            “To come to the truth of science and Kabbalah is possible by prayer. One should especially concentrate in the blessing Ahavah Raba before the Shema and in the blessing ‘give knowledge’, in Shemone Esre.”
+            <cite>— Reb Shemelke of Nickolsburg</cite>
+            </blockquote>
+            <div class="concept-box">
+            <strong>A Theory of Optimal Learning</strong>
+            My theory of learning is thus: When one gets up in the morning he is in a relaxed state of mind. In my opinion this state is the only time any real learning can be done. Talking with anyone or even saying ‘hello’ causes a break in the neuron connection that causes any learning done after that to not be absorbed — for we see that some things we learn and forget after some time. Yet other things stick inside one permanently. Therefore, all real learning has to be done in the morning.
+            <br><br>
+            [The Baal Shem Tov hinted to this, for he had a tradition from Achia HaShiloni that the day one has anger in the morning he won't be able to learn anything after that.]
+            </div>
+            <p>There are many things in the yidishkeit [the practice of the Torah] that theoretically prescribe one way but in practice is otherwise. Sometimes, the reason is that a person was created in a certain way such that the theory doesn't apply to him. For instance; theoretically, I think it is clear from the Zohar that <em>Tikun Chatzot</em> is more important than <em>Vesikin</em>. However, I believe for many people the need for Vesikin outweighs that of Chatzot because of their particular type of soul. This may apply also to living in Israel where clearly it it a great thing to all opinions even to the Rambam; however, there are hidden things that cause it not to be a mitzva.</p>
+            <p>In fact, nothing in the Torah can you really know is a mitzva until you really know what is going on in the hidden things. Just judging based on knowledge of the halacha is worse than not knowing at all — for when one knows nothing then he may follow his heart. If you ask then, why was the Torah given. The answer is to teach us to go into our hearts to find God and give us the basic principles that are really in our hearts and minds but from which we have become estranged. This is the Rambam's opinion that all the commandments are really based on reason and their force comes from the fact that they are already in our heart, not because they are written. This applies to learning. For, in theory one should learn slowly and review and not go further until he gets what he is learning now. But in fact, in practice, it is better not to do it in that way. The reason is that is the climbing way from the lower sepherah to the higher one step by step. But since faith is connected to the crown, if one simply has faith and learns simply, he comes to the highest knowledge, the knowledge that is higher than knowledge the crown. This is signified by the way books are set up. For as one reads from the top of the page to the bottom, he is going through the sephirot that are containing in the inner logic of the book. Then as he returns, he has effectively gone from crown to faith and back and this is absorbed into his soul. [I think one should each day learn only the amount he has set for himself to learn day by day, no more and no less].</p>
+            <p>Learning doesn't make one spiritual. All the above mentioned spiritual levels are only on the level of the spirit not the soul. Developing of one's spiritual self is by prayer and meditation.</p>
+            <div class="concept-box">
+            <strong>The Three Levels of Drawing Light</strong>
+            <ul>
+            <li><strong>Action:</strong> Draws the <em>nefesh</em>.</li>
+            <li><strong>Words of Torah:</strong> Draw the <em>spirit</em>.</li>
+            <li><strong>Quiet Thought:</strong> Draws the <em>soul</em>.</li>
+            </ul>
+            <p>This is something the Ari alluded to when he said that unifications are higher than Torah [Saint Frances of Assisi also mentioned this fact]. </div> Rabbi Nachman's way of learning is just to read the words out loud, and to do a little bit every day of each book one needs to learn — and if you do it in order and over the course of many years you will have completed at least once all of the books of Science, Math, Kabbalah, Halacha, etc. And in the end, you will understand much better than if you had labored over every point. But you can only succeed in this if you have faith in Rabbi Nachman, since only by faith will you have the stubbornness to continue this for many years before seeing results.] There is a hint in the Torah that just by wanting to learn and understand one does merit to it. For the work of the Tabernacle could be done only by the wise in heart as it says several places in Exodus. And in Exodus 36:2 it says, “every person wise in heart whom the Lord put wisdom in his heart, everyone whose heart stirred him up to come close to the work to do it.” Thus, we see that God put wisdom into the hearts of those who wanted to do the work.</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

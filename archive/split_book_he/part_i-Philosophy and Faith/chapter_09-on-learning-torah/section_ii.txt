@@ -1,0 +1,259 @@
+[TITLE: מבנה הידע]
+<div class="concept-box">
+<strong>המבנה הספירתי של הידע</strong>
+ממש כפי שהיקום הפיזי בנוי על פי האצלות האלוהיות (הספירות), כך גם נוף התורה והידע האנושי. ה"תרשים" המוזכר להלן ממפה כיצד תחומי לימוד שונים מתיישרים עם ערוצים רוחניים אלה. על ידי הבנת מבנה זה, אדם יכול לנווט בים הידע לא כאוסף אקראי של עובדות, אלא כמערכת מאוחדת של חוכמה אלוהית החיונית לתיקון הנשמה.
+</div>
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+המפתח הבא מפענח את ההתאמה בין הספירות לבין תחומי הלימוד השונים המוצגים בתרשים לעיל. כל מספר מייצג צומת ספציפי במערך רוחני זה:
+
+<!-- פעילות אינטראקטיבית: סייר ספירות-נושאים -->
+<div class="learning-activity">
+<div class="activity-header">
+<h4>📚 חקר אינטראקטיבי: התאמת ספירות לנושאי לימוד</h4>
+<p>לחץ על כל שורה כדי לחקור כיצד כל תחום לימוד מתחבר לשורש הרוחני שלו:</p>
+</div>
+<div class="sephirot-explorer">
+<div class="sephirot-item" data-id="8">
+<div class="sephirot-id">8</div>
+<div class="sephirot-subject">קבלה (הזוהר)</div>
+<div class="sephirot-context">שורש החוכמה הפנימית. ההמשך כלפי מטה זורם אל המקובלים המאוחרים יותר.</div>
+</div>
+<div class="sephirot-item" data-id="13">
+<div class="sephirot-id">13</div>
+<div class="sephirot-subject">פילוסופיה (שיטת הרמב"ם)</div>
+<div class="sephirot-context">מייצגת חקירה רציונלית. (הערה: הרמח"ל לא היה מסכים עם מיקום זה, ורואה בפילוסופיה דבר חיצוני).</div>
+</div>
+<div class="sephirot-item" data-id="14">
+<div class="sephirot-id">14</div>
+<div class="sephirot-subject">ביולוגיה</div>
+<div class="sephirot-context">חקר "החי והצומח" של היקום, המושרש בתכונה האלוהית של גיוון החיים.</div>
+</div>
+<div class="sephirot-item" data-id="15">
+<div class="sephirot-id">15</div>
+<div class="sephirot-subject">כימיה</div>
+<div class="sephirot-context">חומר והטרנספורמציות שלו.</div>
+</div>
+<div class="sephirot-item" data-id="16">
+<div class="sephirot-id">16</div>
+<div class="sephirot-subject">פיזיקה</div>
+<div class="sephirot-context">חוקי היסוד של הכוחות והאנרגיה.</div>
+</div>
+<div class="sephirot-item" data-id="17">
+<div class="sephirot-id">17</div>
+<div class="sephirot-subject">מתמטיקה</div>
+<div class="sephirot-context">הלוגיקה המופשטת העומדת בבסיס המציאות הפיזית.</div>
+</div>
+<div class="sephirot-item" data-id="18">
+<div class="sephirot-id">18</div>
+<div class="sephirot-subject">תלמוד</div>
+<div class="sephirot-context">ה"אור החיצוני". ההארה שלו ממשיכה אנכית כלפי מטה דרך המפרשים.</div>
+</div>
+<div class="sephirot-item" data-id="24">
+<div class="sephirot-id">24</div>
+<div class="sephirot-subject">משנה</div>
+<div class="sephirot-context">יסוד התורה שבעל פה. המשכה הוא דרך הפוסקים: הרי"ף, הרמב"ם, הרא"ש, הטור, השולחן ערוך.</div>
+</div>
+<div class="sephirot-item" data-id="27">
+<div class="sephirot-id">27</div>
+<div class="sephirot-subject">תנ"ך</div>
+<div class="sephirot-context">דבר האלוהים הכתוב, יסוד הכל.</div>
+</div>
+<div class="sephirot-item" data-id="28">
+<div class="sephirot-id">28</div>
+<div class="sephirot-subject">תרגום</div>
+<div class="sephirot-context">התרגום/הפירוש, המגשר בין לשון הקודש לאומות.</div>
+</div>
+</div>
+</div>
+
+<!-- טבלה מקורית לעיון -->
+<details class="reference-table">
+<summary>📊 הצג טבלה במבנה מקורי</summary>
+<table class="data-table">
+<thead>
+<tr>
+<th>מזהה</th>
+<th>נושא</th>
+<th>ההקשר הרוחני</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>8</td><td>קבלה (הזוהר)</td><td>שורש החוכמה הפנימית. ההמשך כלפי מטה זורם אל המקובלים המאוחרים יותר.</td></tr>
+<tr><td>13</td><td>פילוסופיה (שיטת הרמב"ם)</td><td>מייצגת חקירה רציונלית. (הערה: הרמח"ל לא היה מסכים עם מיקום זה, ורואה בפילוסופיה דבר חיצוני).</td></tr>
+<tr><td>14</td><td>ביולוגיה</td><td>חקר "החי והצומח" של היקום, המושרש בתכונה האלוהית של גיוון החיים.</td></tr>
+<tr><td>15</td><td>כימיה</td><td>חומר והטרנספורמציות שלו.</td></tr>
+<tr><td>16</td><td>פיזיקה</td><td>חוקי היסוד של הכוחות והאנרגיה.</td></tr>
+<tr><td>17</td><td>מתמטיקה</td><td>הלוגיקה המופשטת העומדת בבסיס המציאות הפיזית.</td></tr>
+<tr><td>18</td><td>תלמוד</td><td>ה"אור החיצוני". ההארה שלו ממשיכה אנכית כלפי מטה דרך המפרשים.</td></tr>
+<tr><td>24</td><td>משנה</td><td>יסוד התורה שבעל פה. המשכה הוא דרך הפוסקים: הרי"ף, הרמב"ם, הרא"ש, הטור, השולחן ערוך.</td></tr>
+<tr><td>27</td><td>תנ"ך</td><td>דבר האלוהים הכתוב, יסוד הכל.</td></tr>
+<tr><td>28</td><td>תרגום</td><td>התרגום/הפירוש, המגשר בין לשון הקודש לאומות.</td></tr>
+</tbody>
+</table>
+</details>
+
+<h3>תוכנית הלימודים היומית</h3>
+כדי לשמור על תזונה רוחנית מאוזנת, הרצוי הוא לבלוע "שיעור אחד" מכל אחת מארבע הקטגוריות העיקריות מדי יום. לדוגמה:
+<ol>
+<li><strong>תנ"ך</strong> (תורה שבכתב)</li>
+<li><strong>משנה/הלכה</strong> (חוק מקודד)</li>
+<li><strong>תלמוד</strong> או <strong>מדע</strong> ("המשא ומתן" של החוכמה)</li>
+<li><strong>קבלה</strong> (הסודות)</li>
+</ol>
+
+<h3>ספרי התפארת (זעיר אנפין)</h3>
+ברמת <strong>זעיר אנפין</strong> (המידות הרגשיות הספציפיות של האל, המקושרות לעיתים קרובות ל"תפארת"), אנו מוצאים ספרייה של יצירות המאזנות בין השכל לבין הלב. הספרים הנובעים מ<strong>תפארת דאצילות</strong> כוללים:
+<ul>
+<li><strong>כתר:</strong> <em>סיפורי מעשיות</em> (סיפורי רבי נחמן) - הרמה הגבוהה ביותר, הפשוטה ביותר, אך העמוקה ביותר.</li>
+<li><strong>חוכמה:</strong> <em>תניא</em> - הגישה השכלית לעבודת השם.</li>
+<li><strong>בינה:</strong> <em>נועם אלימלך</em> - העומק הרגשי של הצדיקים.</li>
+<li><strong>מלכות ושש המידות:</strong> <em>ליקוטי מוהר"ן</em> ו<em>ספר המידות</em>.</li>
+</ul>
+
+(הערה: סיווג זה תואם את השקפת הרמב"ם וחובות הלבבות על עבודת האל דרך שכל ומידות מעודנים).</p>
+
+†
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+<div class="concept-box">
+<strong>מיפוי ספירות: הנביאים והכתובים</strong>
+התרשים לעיל מפרט את ה"פיזיות" של ספירת התפארת (זעיר אנפין). במבנה מורכב זה, כל אות מתאימה לערוץ של השפעה אלוהית:
+<ul>
+<li><strong>כ (כתר):</strong> שורש חמשת חומשי תורה.</li>
+<li><strong>ח, ב, ח (חוכמה, בינה, חסד):</strong> שורשי ה*נביאים*. באופן ספציפי, העמודות הימנית והשמאלית מחזיקות את הנביאים.</li>
+<li><strong>ג, ת, נ (גבורה, תפארת, נצח):</strong> העמודה האמצעית מחזיקה את שורשי ה*כתובים*, כגון תהילים ומשלי.</li>
+</ul>
+</div>
+
+<h3>יצירת המלכות: המבנה המשנתי</h3>
+התרשים הבא ממחיש את עולם ה<strong>יצירה</strong>, המתאים למשנה. ששת סדרי המשנה ממפים ישירות לספירות התחתונות של עולם זה.
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+<ul>
+<li><strong>זרעים, מועד, נשים:</strong> שלוש המידות האמצעיות [גבורה, תפארת, חסד] הן השורש של שלושת הסדרים הראשונים הללו.</li>
+<li><strong>נזיקין, קדשים, טהרות:</strong> שלוש המידות התחתונות [נצח, הוד, יסוד] יוצרות את השורש של השלושה האחרונים.</li>
+</ul>
+
+משמעות הדבר היא שלימוד הוא מעשה של הנדסה רוחנית. על ידי לימוד המסכתות הספציפיות, אדם מושך שמות אלוהיים ספציפיים לתוך הכלים המתאימים להם:
+
+<ul>
+<li><strong>זרעים:</strong> מושך את האור של השם <strong>אלף אלף פלא</strong> מהכלים העליונים לתוך <strong>חסד</strong>.</li>
+<li><strong>מועד:</strong> מושך את האור של <strong>אלהים</strong> לתוך <strong>גבורה</strong>.</li>
+<li><strong>נשים:</strong> מושך את האור של <strong>אבג יתץ...</strong> לתוך <strong>תפארת</strong>.</li>
+<li><strong>נזיקין:</strong> מושך את האור של <strong>אלא</strong> לתוך <strong>נצח</strong>.</li>
+<li><strong>קדשים:</strong> מושך את האור המורכב של <strong>אלהים אלי אל אלא</strong> לתוך <strong>הוד</strong>.</li>
+<li><strong>טהרות:</strong> מושך את האור של <strong>שדי</strong> (Shaddai) לתוך <strong>יסוד</strong>.</li>
+</ul>
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+<h3>הרשת האינסופית: ארבעת עולמות הלימוד</h3>
+בהבנת זאת, אנו רואים שהתלמוד אינו מונוליטי. ה"תלמוד" שאנו לומדים בדרך כלל הוא לעיתים קרובות רק <em>תלמוד של הנפש</em> (הרמה הנמוכה ביותר של הנשמה). זה מסביר מדוע הוא יכול לפעמים להרגיש יבש או מנותק. המטרה היא לטפס בסולם. התלמוד אינו שלם מכיוון שנשמותיהם של רבים מהאמוראים (חכמי התלמוד) היו מושרשות ב<strong>תפארת דאצילות</strong>, אך הטקסט שבידינו ירד.
+
+המבנה האמיתי הוא רשת פרקטלית, שבה כל רמה קיימת בתוך כל רמה אחרת:
+
+<!-- פעילות אינטראקטיבית: סייר ארבעת העולמות -->
+<div class="learning-activity">
+<div class="activity-header">
+<h4>🌍 חקר אינטראקטיבי: רשת ארבעת העולמות הפרקטלית</h4>
+<p>לחץ על כל עולם או רמת לימוד כדי לראות כיצד כל טקסט מתבטא ברחבי ארבעת העולמות הרוחניים:</p>
+</div>
+<div class="four-worlds-grid">
+<div class="world-section" data-world="atzilut">
+<div class="world-header">
+<span class="world-name">אצילות</span>
+<span class="world-desc">עולם הקרבה האלוהית</span>
+</div>
+<div class="world-levels">
+<div class="level-item" data-level="kabbalah"><span class="level-name">קבלה</span><span class="level-content">ה"קבלה של הקבלה" (המהות הטהורה ביותר)</span></div>
+<div class="level-item" data-level="talmud"><span class="level-name">תלמוד</span><span class="level-content">הלוגיקה של האלוהות</span></div>
+<div class="level-item" data-level="mishna"><span class="level-name">משנה</span><span class="level-content">מבנה האצילות</span></div>
+<div class="level-item" data-level="bible"><span class="level-name">תנ"ך</span><span class="level-content">הדבר באצילות</span></div>
+</div>
+</div>
+<div class="world-section" data-world="beriah">
+<div class="world-header">
+<span class="world-name">בריאה</span>
+<span class="world-desc">עולם הכסא/השכל</span>
+</div>
+<div class="world-levels">
+<div class="level-item" data-level="kabbalah"><span class="level-name">קבלה</span><span class="level-content">קבלה של השכל</span></div>
+<div class="level-item highlighted" data-level="talmud"><span class="level-name">תלמוד</span><span class="level-content"><strong>תלמוד של תלמוד</strong> (לימוד עמק סטנדרטי)</span></div>
+<div class="level-item" data-level="mishna"><span class="level-name">משנה</span><span class="level-content">משנה של השכל</span></div>
+<div class="level-item" data-level="bible"><span class="level-name">תנ"ך</span><span class="level-content">תנ"ך של השכל</span></div>
+</div>
+</div>
+<div class="world-section" data-world="yetzirah">
+<div class="world-header">
+<span class="world-name">יצירה</span>
+<span class="world-desc">עולם הרגש/הצורות</span>
+</div>
+<div class="world-levels">
+<div class="level-item" data-level="kabbalah"><span class="level-name">קבלה</span><span class="level-content">קבלה של משנה</span></div>
+<div class="level-item" data-level="talmud"><span class="level-name">תלמוד</span><span class="level-content">תלמוד של משנה</span></div>
+<div class="level-item highlighted" data-level="mishna"><span class="level-name">משנה</span><span class="level-content"><strong>משנה של משנה</strong> (חוק סטנדרטי)</span></div>
+<div class="level-item" data-level="bible"><span class="level-name">תנ"ך</span><span class="level-content">תנ"ך של משנה</span></div>
+</div>
+</div>
+<div class="world-section" data-world="asiyah">
+<div class="world-header">
+<span class="world-name">עשייה</span>
+<span class="world-desc">המרחב-זמן הפיזי</span>
+</div>
+<div class="world-levels">
+<div class="level-item" data-level="kabbalah"><span class="level-name">קבלה</span><span class="level-content">קבלה של התנ"ך</span></div>
+<div class="level-item" data-level="talmud"><span class="level-name">תלמוד</span><span class="level-content">תלמוד של התנ"ך</span></div>
+<div class="level-item" data-level="mishna"><span class="level-name">משנה</span><span class="level-content">משנה של התנ"ך</span></div>
+<div class="level-item highlighted" data-level="bible"><span class="level-name">תנ"ך</span><span class="level-content"><strong>תנ"ך של התנ"ך</strong> (קריאה פשוטה)</span></div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- טבלה מקורית לעיון -->
+<details class="reference-table">
+<summary>📊 הצג טבלה במבנה מקורי</summary>
+<table class="data-table">
+<thead>
+<tr><th>עולם</th><th>רמה</th><th>תוכן</th></tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="4"><strong>אצילות</strong><br><em>עולם הקרבה האלוהית</em></td>
+<td>קבלה</td><td>ה"קבלה של הקבלה" (המהות הטהורה ביותר)</td></tr>
+<tr><td>תלמוד</td><td>הלוגיקה של האלוהות</td></tr>
+<tr><td>משנה</td><td>מבנה האצילות</td></tr>
+<tr><td>תנ"ך</td><td>הדבר באצילות</td></tr>
+<tr>
+<td rowspan="4"><strong>בריאה</strong><br><em>עולם הכסא/השכל</em></td>
+<td>קבלה</td><td>קבלה של השכל</td></tr>
+<tr><td>תלמוד</td><td><strong>תלמוד של תלמוד</strong> (לימוד עמק סטנדרטי)</td></tr>
+<tr><td>משנה</td><td>משנה של השכל</td></tr>
+<tr><td>תנ"ך</td><td>תנ"ך של השכל</td></tr>
+<tr>
+<td rowspan="4"><strong>יצירה</strong><br><em>עולם הרגש/הצורות</em></td>
+<td>קבלה</td><td>קבלה של משנה</td></tr>
+<tr><td>תלמוד</td><td>תלמוד של משנה</td></tr>
+<tr><td>משנה</td><td><strong>משנה של משנה</strong> (חוק סטנדרטי)</td></tr>
+<tr><td>תנ"ך</td><td>תנ"ך של משנה</td></tr>
+<tr>
+<td rowspan="4"><strong>עשייה</strong><br><em>המרחב-זמן הפיזי</em></td>
+<td>קבלה</td><td>קבלה של התנ"ך</td></tr>
+<tr><td>תלמוד</td><td>תלמוד של התנ"ך</td></tr>
+<tr><td>משנה</td><td>משנה של התנ"ך</td></tr>
+<tr><td>תנ"ך</td><td><strong>תנ"ך של התנ"ך</strong> (קריאה פשוטה)</td></tr>
+</tbody>
+</table>
+</details>
+

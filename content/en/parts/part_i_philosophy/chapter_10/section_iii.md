@@ -1,0 +1,36 @@
+---
+title: "Chapter 10: Gemarah — Section III"
+part: "Part I — Philosophy"
+chapter: "Chapter 10"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<div class="concept-box">
+            <strong>The Mathematics of Mitzvot</strong>
+            Every mitzvah has a mathematical function determining how much Divine light it draws. And that differs according to the parameters of the person's soul (vessel). So, it is conceivable for a mitzvah to contain no light unless the basic initial conditions are met, like having good character traits.
+            </div>
+            <p>Torah is only a reflection of the higher spiritual reality of Wisdom as the Zohar says, “Torah is the fallen leaves of Wisdom.” Wisdom in turn is only a reflection of the true spiritual reality of the Crown. And all this applies on each level of the ten sephirot. For instance, the Spiritual reality of Formation is reflected in the Mishna but the higher reality there is in the <em>Sefer Haichalot</em> (if you have the right version of that book). The light there is even a higher level but still isn't to be compared to the vessels of Creation, which is Gemarah (which explains the great light that many feel when they learn Gemarah…) The idea of tolerance is contained in the Torah in the way of a hint for there is an argument about the application of many laws of the Torah in many different situations. The traditional way of looking at this is deterministic, i.e., that rabbis disagree about it until it is brought to the Sanhedrin for a vote to decide the absolute truth. This implies the laws are deterministic but not the application. It is possible that the idea of the Sanhedrin itself is statistical and not deterministic since we find that the Torah itself says if an individual knows that the Sanhedrin has made a mistake, he is not allowed to follow it. Even though the aspect of the Torah of “forbidden, permitted, unclean, clean, innocent, guilty” was given from the aspect of the Tree of Knowledge of Good and Evil, it has an aspect of holiness that will be included in holiness in the future. Perhaps from this we can derive tolerance as a principle that exists in that No Man's Land between the opinions that permit and those that forbid.</p>
+            <p>The sages of the Talmud say that the evil inclination leaves the rest of the world and rests only on Israel. Then it leaves Israel and rests only on the Torah scholars. That is the imp of the perverse that doesn't care if something is pleasurable or not. All that matters is that it should be against the Torah. It's the evil angel that wrestled with Jacob that appeared to him as a Torah sage because that particular evil angel knows the law very well and put pleasure into things that would have no physical or emotional satisfaction except for the fact that this imp knows it is forbidden.</p>
+            <p>The oral law is like a brick of gold that stretches from Moses until the center of the empty space [vertically]. [Prayer is going back up]. The Oral Law as contained in the Talmud is only one small horizontal slice. Since the Talmud stretches vertically this would apply also to the written law or prophecy and Kabbalah etc. Thus, we find a continuation after the Talmud of the light of the Talmud in the Geonim and later authorities.</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

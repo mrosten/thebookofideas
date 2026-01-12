@@ -1,0 +1,75 @@
+---
+title: "Chapter 1: Principles Of Halacha — Section I"
+part: "Part II — Halachah"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<blockquote class="fancy-quote">
+            "It is not in heaven." — The principle of earthly jurisdiction.
+            </blockquote>
+            <h4>The Permanence of the Word</h4>
+            <p>The commandments of the Torah are not temporary suggestions; they are defined as eternal world-constants. From the Sabbath to the Dietary Laws, the text declares these structures to be "forever." The Talmud serves as the central code of this law, providing a framework where even disagreements are part of the legal fabric. In the absence of a central Sanhedrin, we operate on a principle of adaptive stability: stricter in biblical matters, lenient in rabbinical ones.</p>
+            <div class="feature-image">
+            <img src="../../../../images/four_worlds_map.png" alt="Blueprint of Creation Visual">
+            </div>
+            <div class="justice-balance">
+            <input type="radio" name="halacha-source" id="source-majority" class="balance-toggle" checked>
+            <input type="radio" name="halacha-source" id="source-revelation" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="source-majority" class="balance-label label-righteous">Earthly Majority</label>
+            <label for="source-revelation" class="balance-label label-wicked">Heavenly Revelation</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-majority">
+            <h5>The World of Probability</h5>
+            <p><strong>Mechanism:</strong> Statistics and majority rule. This is the "Chaos" method—judging reality based on the consensus of earthly authorities. It allows for a stable, communal society.</p>
+            <span class="status-badge badge-reward">Stability</span>
+            </div>
+            <div id="view-revelation" style="display:none">
+            <h5>The World of Correction</h5>
+            <p><strong>Mechanism:</strong> Direct prophetic insight (Tzadikim). This is the "Correction" method—seeing the law as it exists in the higher worlds. It provides the vertical truth that statistics may miss.</p>
+            <span class="status-badge badge-reward">Direct Truth</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="halacha-source"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isMajority = document.getElementById('source-majority').checked;
+            document.getElementById('view-majority').style.display = isMajority ? 'block' : 'none';
+            document.getElementById('view-revelation').style.display = isMajority ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>Kabbalah as the Legal Compass</h4>
+            <p>According to Rabbi Chayim Vital, a legal decision made without the light of the mysteries (Kabbalah) is inherently incomplete. This does not invalidate the rational legalism of Maimonides or the Talmud, but it places them within a larger context. The law is not just a set of social rules; it is a description of how spiritual energy flows through the worlds. A judge must understand not just the "case," but the "cosmic effect."</p>
+            <div class="concept-box">
+            <strong>The Individual Prophet</strong>
+            The law as it applies to the general public often differs from the law as it applies to the individual. Every heart receives unique "hints" and intuitions from the Divine. To ignore your internal "Small Prophecy" because of external advice—even from a scholar—is to risk the penalty of the prophet who transgresses his own word.
+            </div>
+            <blockquote class="fancy-quote">
+            “Everything is fixed, and the choice is given.” — Pirkei Avot.
+            </blockquote>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

@@ -1,0 +1,33 @@
+---
+title: "Chapter 4: Ways Of Life — Section VI"
+part: "Part iii life"
+chapter: "Chapter 04"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>victory is yours when you yield to your friend” -- Sophocles .) And if they are a true friend and family, they won't prevent him from his positive dreams. Also tempering revelation with reason and rationality has a strong effect of preventing fanaticism and the guilty Puritan complex. According to The Duties of The Heart the entire Torah is based on the idea of gratitude. It's important never to forget the kindness someone has done for you no matter what happened before or after. However according to the Rambam in the commentary on the Mishna the whole Torah is based on faith. This idea of Torah has deeply affected Judaism until today. He says that no matter what one does he will get to the Garden of Eden [i.e., the Jewish Garden of Eden, not Christian one depends on belief in Jesus] if he believes in the 13-principles.</p>
+            <p>And if he doesn't believe in them, it doesn't matter what he does, he will never get to the Garden of Eden. However, in the Talmud we find everything depends on one's deeds. You get exactly what you give. This would seem to contradict Rambam. If we would have only the Rambam we would say that deeds matter only if there is already faith. However, we find The Alter from Slobadka and the Baal Shem Tov held that deeds and faith are closely interlinked. The Alter says that evil deeds show that the faith itself is flawed and is only outward, while the Baal Shem Tov holds that evil deeds bring to an inner lack of faith. According to this people that are good have inner faith deep inside their heart even if they aren't aware of it. People that are bad may express faith outwardly but really don't have it. Perhaps this is the opinion of the Rambam himself for in the laws of repentance he says the Garden of Eden depends on good deeds and wisdom.</p>
+            <p>The bubble one makes for himself to isolate himself from the world will revolt and rebel against him. This applies to individuals that think they can hide in yeshiva, and to whole communities as well. The reason is the world is governed by the laws of chaos and strife, so if one shuts the world out the chaos has to overtake his particular bubble inside, and then it's worse since it is confined to a smaller radius. You can't fight entropy forever. One's happiness depends on being oneself, not on getting things (or someone) he thinks he needs. If one is himself, he will automatically get the things he really needs. The reason is that the higher light doesn't flow through constricted vessels.</p>
+            <p>When you</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

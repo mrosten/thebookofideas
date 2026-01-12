@@ -1,0 +1,32 @@
+---
+title: "Chapter 2: Roots Of Science — Section XVIII"
+part: "Part iv"
+chapter: "Chapter 02"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>The Torah applies on many different levels, the microscopic and macroscopic, e.g., the interactions between subatomic particles is described in the parashah of forbidden sexual relationships, e.g., the interaction of an electron and an anti-electron is described by the law on the prohibition of sex between a brother and sister. The Torah also applies to the physics of stars and higher spiritual planes. On the human level also there are many levels of application. People can keep the Shabbat on a physical level but sill desecrate it on a spiritual level and vise versa.</p>
+            <p>The reason Rabbi Nachman says “There is nothing besides Him” is literal in the Torah the subject of the verb is understood to be ‘the doer of the verb” without its being written. So the subject of the verb exists is 'anything that does it', and here the verse is saying there is nothing which does this verb except God. After Eliezer saw that Rivka had fulfilled his conditions why wasn't he convinced that she was the right one? He asked give me water and she agreed and then she said and I will give water to all your camels too. And thus she did. Why wasn't that enough “why does it say after that the man was astounded at her, being quiet to know if God had given  him success or not? The answer is the next verse, “When the camels finished drinking then he took the jewelry etc.” For you can give a camel to drink and it can finish it and you have to give it more. Eliezer wanted to see if she would do more than just do what she said she would do. He wanted to see if she would COMPLETE what she said she would do. Only then could he know that she was worthy to be Issac's wife.</p>
+            <p>“And Moses called to Betzalel and  to Eliav and to every person wise of heart that God put wisdom in his heart, all that decided to come close to the work to do it.” Exodus 36:2. It is clear that just by the fact that they wanted to do God's work, God gave them the wisdom necessary to do it. Wisdom isn't necessary to learn, only the desire to do the work and to actually do it. The wisdom God will add later. The idea of the Strange Loop exists in the Torah, e.g., “Remember what Amalek did to you.” Now, if the Torah hadn't commanded us to forget Amalek, no one would remember him. But, since the Torah commands us to be sure not to forget to</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

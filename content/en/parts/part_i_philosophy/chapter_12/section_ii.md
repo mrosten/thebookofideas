@@ -1,0 +1,39 @@
+---
+title: "Chapter 12: Decisions — Section II"
+part: "Part I — Philosophy"
+chapter: "Chapter 12"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<div class="concept-box">
+            <strong>The Principle of Equilibrium</strong>
+            Equilibrium is a major principle in life. What one does to improve his situation invariably changes the balance, and one cannot always foresee the consequences. Leonardo da Vinci believed in a balanced life: developing the artist, the scientist, and the physical body simultaneously.
+            </div>
+            <p>Why is it that "experts" often seem to lack common sense? Perhaps talent is selective. A brilliant mind may be trivial in other areas. Therefore, one must cultivate <strong>situational awareness</strong> and not rely blindly on credentials. <strong>The Envious Gods</strong> Herodotus relates a letter from Amasis to Polycrates concerning the danger of perpetual success:</p>
+            <blockquote class="fancy-quote">
+            “It is a pleasure to hear of a friend and ally prospering, but thy exceeding prosperity does not cause me joy, forasmuch as I know that the gods are envious... For never yet did I hear tell of anyone succeeding in all his undertakings, who did not meet with calamity at last... throw away that which thou valuest most, so that it may be sure never to come any more into the sight of man.”
+            </blockquote>
+            <p>This ancient wisdom speaks to the need for balance. If things are too perfect, something is off-kilter. The human brain itself is "just large enough to work." If it were larger and more complex, the biological balance would be thrown off; perhaps that is why dinosaurs with larger brains never developed civilizations. <strong>Head vs. Heart</strong> Since the head and the heart are often in opposition, and the heart is more in tune with the Divine: <em>   If you know what your head says but are confused about your heart—<strong>do the opposite of your head.</strong> </em>   Why? Because if they were in agreement, you wouldn't be confused. The confusion means your heart is screaming "No" while your logic is drowning it out.</p>
+            <p><strong>The Enemy is Dissipation</strong> The worst enemy is dissipation. There are a million "good" things to do that will waste your time. As soon as one resolves to do something truly meaningful, a conspiracy arises—not to stop him, but to distract him with trivialities. Do your main work in the morning. The Sages say: "When one accepts the yoke of Torah, the other yokes of mundane things are taken from him."</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

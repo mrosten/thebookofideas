@@ -1,0 +1,32 @@
+---
+title: "Chapter 3: The Usa — Section III"
+part: "Part iii politics"
+chapter: "Chapter 03"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>the middle for people to grow and develop, but problems arise when each side assumes it’s a two person zero sum game, i.e., what one side wins the other side loses. In that case the conflict creates a situation where both sides lose. By cooperation both would increase the market for their ideas. There are two tendencies now: One, is the expansion of the political entity from state into a global state. But since that spreads the power thinly there is an opposite tendency to contract the political entity into ethnic religious groups and global corporations [economic states]. The conflict between these two forces causes a pattern of chaos to emerge. The second pattern is back to the Middle Ages when there was not “state”, just loyalty to the Catholic church or to Islam in a general (but very real way) and to one's particular landowner or feudal lord or prince. In the U.S.A. the courts no longer judge by the constitution, but by who has more money to buy a better lawyer - and juries now always decide along ethnic lines.</p>
+            <p>The second way is because of peoples tremendous fear of freedom and the intense emotional isolationism of today. Therefore, ideas of globalization which are simply another form of colonialism can't apply in countries where the center of mass is the ethnic principle like the countries of South East Asia. It is likely that those countries will eventually confiscate the assets of American and European investors. Once the light of enlightenment [Royalty] was in Israel, then it passed to ancient Greece, then to Rome, and then to Europe. The light shone from Europe to America. Now a civilized a nation is judged by how “Westernized” it is. That light will return to Israel, but the light of foundation is specifically for America.</p>
+            <p>To a large degree America and Israel seem to me to be very religious countries. For where there is freedom of religion, whatever religion or belief people have will be real, while where it is forced, it won't be real. A little bit of the real thing is much better than a lot of the wrong thing. Freud suggested that the unconscious was the real cause of behavior, and that moral values were projections of the unconscious. Therefore, the idea of absolute values, responsibility and rationality was a myth. This thinking still shapes the minds of psychoanalysts and psychotherapists, and many have become influenced by that point of view. This is I believe the reason for the decay of values even among the pseudo religious that keep the rituals of each religion, but in terms of real morality are quite lacking.</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

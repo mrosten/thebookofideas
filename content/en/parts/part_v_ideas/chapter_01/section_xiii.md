@@ -1,0 +1,32 @@
+---
+title: "Chapter 1: Ideas In Kabbalah — Section XIII"
+part: "Part iv"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>know about the straight ones since even though they are called straight they are formed like cylinders. The Torah is linearly independent, i.e., b 1 r 1 e 1 i 1 s 1 h 1 i 1 t 1 + b 2 a 2 r 2 e 2 + … = The numerical value of the verse. This is the intent of the sages when they say, “there is no freedom except for Torah.” With the first verse of the Torah, it is possible to show this even in the form it is in in the Torah, for it can be put into Echelon form:</p>
+            <div class='image-container'><img src='../../../images/image021.gif' alt='Book Image' class='book-image'></div>
+            <p>The linearly independent solutions are related to one homogeneous differential equation of order six. Apparently, that is the equation of the Creation. The torsion of the verse has to be more than zero which gives us a right-handed system of sephirot since the vectors described are independent. So Sciy i (x)</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

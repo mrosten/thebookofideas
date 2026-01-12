@@ -1,0 +1,32 @@
+---
+title: "Chapter 1: Politics And The Torah — Section X"
+part: "Part iii politics"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>who were Chassidim and the Jews of Bessarabia, who were traditionalist, and the Jews of Old Romany who were assimilated. They were all wiped out except for the assimilated Jews of Old Romany, and all the non­religious Jews who didn't listen to the rabbis and emigrated to America or became Zionists and went to Israel. It has been said to me that the rebbes wanted their Chasidim to die righteous in Europe and not unrighteous in America or Israel, but then why did Rabbi Wasserman try to escape – it is only because the axle of his wagon broke that he went back (as he said himself). Did the axle decide the halachah?!? First the halachah was the Jews should live, and then the axle determined that they should die? Some have tried to say that the Gerer Rebbe urged his chassidim to leave, yet Rabbi Shimon Huberband wrote in the Warsaw Ghetto “The Rebbe of Ger, like the majority of Polish rebbes, opposed settlement in the land of Israel.</p>
+            <p>If the Rebbe of Ger had ordered his chassidim, among whom were thousands of very rich industrialists, to make Aliyah to Eretz Israel , the situation of both the communities in Israel and in Poland would have been different”. They killed European Jewry by the hopes they inspired in them. [The Sages of the Talmud in fact say (Shabbat, page 139A) “If you see a generation in which judgments have come upon it, go out and inspect the judges of Israel, for all retributions that come into the world come because of the judges of Israel.” All this should be enough to disprove the religious view that the Jews of Europe were wiped out because they weren't religious enough. It would seem the opposite is true.</p>
+            <p>We Learn from Gödel’s second theorem that the only versions of formal number theory which assert their own consistency are inconsistent. This is a general problem for all humankind; for in fact how can anyone know if they themselves are sane? Don't they have to use their own logic to figure that out, but how can they trust their own logic if they are insane? Therefore, the majority of people are used as a guide to what is sane. Yet see where the majority of people have gotten us! The majority of people are selfish, cruel, and stupid. The world's history is that of war, crime, violence, and cruelty. [And the psychologists who determine what is normal behavior have the highest divorce rate of any group in America.] [Also, I noticed something strange about those who go into psychiatry. They are usually the particularly weird ones that have a need to fit in. And invariably they are the ones that the studies in university are done on. So, you have a neurotic group of people dictating to the rest of humankind the standards of normal behavior and they have their studies on their own neurotic group to back up their claims.]  Throughout history it has always been the ones who refused to fit in that have contributed the ideas necessary to making the world any better.</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

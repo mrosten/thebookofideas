@@ -1,0 +1,72 @@
+---
+title: "Chapter 1: Jesus Christ — Section IV"
+part: "Part VI — Christianity"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<blockquote class="fancy-quote">
+            "The Trinity is the infinite God coming into finite limits." — The Expansion of the Mind.
+            </blockquote>
+            <h4>The Scaling of the Divine</h4>
+            <p>The concept of the Trinity can be understood through the lens of Cantor's cardinal numbers—a scaling of infinities that allows the human mind to expand. The Divine Essence limits itself in time and space—manifesting as the Temple, the Sinai revelation, or a unified saint—in order for finite man to have a conceptual "handle" on the Infinite. This is not a division of God, but a series of "Manifestation Levels" designed to elevate the human consciousness from the physical to the spiritual.</p>
+            <div class="justice-balance">
+            <input type="radio" name="infinity-logic" id="view-alpha0" class="balance-toggle" checked>
+            <input type="radio" name="infinity-logic" id="view-alpha1" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="view-alpha0" class="balance-label label-righteous">Alpha-0 (Faith)</label>
+            <label for="view-alpha1" class="balance-label label-righteous">Alpha-1 (Spirit)</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-alpha0">
+            <h5>The Life Force of Faith</h5>
+            <p>The human <em>Nefesh</em> (Life Force) receives the Light of God on the level of Alpha-0—the first type of infinity. This is the domain of basic faith and action, the foundational level where the soul connects to the Divine through countable deeds.</p>
+            <span class="status-badge badge-reward">Discrete Grounding</span>
+            </div>
+            <div id="panel-alpha1" style="display:none">
+            <h5>The Light of Beauty</h5>
+            <p>The human <em>Ruach</em> (Spirit) receives the Light of Alpha-1—the second type of infinity. The role of Jesus was to allow this second infinity to permeate the consciousness of Man, shifting the spirit from the countable rules of the Law into the continuous ocean of Divine Beauty.</p>
+            <span class="status-badge badge-reward">Continuous Expansion</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="infinity-logic"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isAlpha1 = document.getElementById('view-alpha1').checked;
+            document.getElementById('panel-alpha0').style.display = isAlpha1 ? 'none' : 'block';
+            document.getElementById('panel-alpha1').style.display = isAlpha1 ? 'block' : 'none';
+            });
+            });
+            </script>
+            <h4>The Next Type of Infinity</h4>
+            <p>While Jesus brought the Light of Beauty (Alpha-1) to the world, the work of Rabbi Nachman is to prepare the soul (<em>Neshamah</em>) to receive the next level of infinity: the Light of <em>Binah</em> (Understanding). This represents a further expansion of the human vessel, where the "Internal Energy" of the individual is synchronized with a higher spiritual frequency. The progression from the Father (Essence) to the Son (Manifestation) to the Saint (Correction) is a continuous journey through the hierarchy of Divine infinities, each stage making the Infinity of God more accessible to the finite heart.</p>
+            <div class="concept-box">
+            <strong>The Mouth of Moses</strong>
+            The Bible frequently describes the Presence of God speaking through an angel or through the "Mouth of Moses." This is the same principle as the manifestation of Christ: the Infinite limiting itself in a finite vessel to reveal its Infinity to the highest level of man—the <em>Yechida</em>. In this sense, the "Incarnation" is not a unique Christian event, but a fundamental mechanism of revelation occurring throughout Torah history.
+            </div>
+            <blockquote class="fancy-quote">
+            “The goal is for the soul to receive the light of the next type of infinity.”
+            </blockquote>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

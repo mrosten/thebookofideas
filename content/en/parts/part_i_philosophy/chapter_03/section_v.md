@@ -1,0 +1,52 @@
+---
+title: "Chapter 3: The Song Of Philosophy — Section V"
+part: "Part I — Philosophy"
+chapter: "Chapter 03"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<div class="concept-box">
+            <strong>Historical Reincarnation</strong>
+            History is a cyclical sifting process.
+            <ul>
+            <li><strong>The Flood to Holocaust:</strong> Rabbi Isaac Luria teaches that the evil generation of the Flood was reincarnated in the generation of the Tower of Babel, then the First Temple's destruction, and finally the Holocaust. Each time, they are punished and sifted.</li>
+            <li><strong>Sparks of Prophets:</strong> Nietzsche was a spark of Jeremiah (pure Judgment). Because he wasn't Jewish, he lacked the "integration" of Kindness, which is the defining Jewish characteristic.</li>
+            </ul>
+            <p></div></p>
+            <h4>Unified Myth</h4>
+            <p>The Bible, the Sutras, the Talmud, Jesus, and Socrates may seem to contradict, but they are different facets of the same Truth.</p>
+            <blockquote class="fancy-quote">
+            "Some people are content to poke around the stones... I think it is wiser to assemble them into one great building and then to ride the elevator to the top to see further."
+            </blockquote>
+            <h4>God in History</h4>
+            <p>God is both secular and religious.</p>
+            <ul class="clean-list">
+            <li><strong>Secular:</strong> On the level of the <em>Upper 3 Sephirot</em>. (Thinkers of Greece/Rome).</li>
+            <li><strong>Religious:</strong> On the level of the <em>Lower 7 Sephirot</em>. The battle of Good vs Evil.</li>
+            </ul>
+            <div class="concept-box">
+            <strong>The Wave Pattern</strong>
+            The constant flux between these poles creates the wave pattern of Western civilization. Einstein united forces; Rambam united Reason and Revelation; Spinoza united Philosophy and Math. This creates the <strong>Integrated Soul</strong>.
+            </div>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

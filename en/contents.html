@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of Contents</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="manifest" href="../manifest.json">
+
+    <!-- Scripts -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../assets/js/language_toggle.js" defer></script>
+    <!-- Add other global scripts here -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="../search.html" id="search-link" aria-label="Search">🔍</a>
+        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+        <button id="lang-toggle" aria-label="Switch Language">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">HE</span>
+        </button>
+        <div>
+            <h1>The Torah Book of Ideas</h1>
+            <p class="subtitle">Contents</p>
+        </div>
+    </header>
+
+    <!-- Nav -->
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../contents.html">Contents</a>
+        <a href="../parts/index.html" class="active">Contents</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Breadcrumbs -->
+        <!-- Breadcrumbs -->
+        <div class='breadcrumb-item'><a href='../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../en/contents.html'>Contents</a><div class='dropdown-content'><a href='../en/contents.html' class='active'>Contents</a><a href='../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Part iii life</a><a href='../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span>
+
+        <div class="content-card">
+            <h3>Table of Contents</h3>
+
+            <h3><a href="parts/part_i_philosophy/chapter_01/section_i.html">Part I — Philosophy</a></h3>
+<h3><a href="parts/part_ii_halacha/chapter_01/section_i.html">Part II — Halachah</a></h3>
+<h3><a href="parts/part_iii_life/chapter_01/section_i.html">Part III — Life</a></h3>
+<h3><a href="parts/part_iv_politics/chapter_01/section_i.html">Part IV — Politics</a></h3>
+<h3><a href="parts/part_v_ideas/chapter_01/section_i.html">Part V — Ideas</a></h3>
+<h3><a href="parts/part_vi_christianity/chapter_01/section_i.html">Part VI — Christianity</a></h3>
+
+
+
+        </div>
+
+        <!-- Section Nav -->
+        <div class="page-nav">
+            <a href='index.html' class='nav-btn prev'><span>Previous</span></a>
+            <a href='parts/part_i_philosophy/chapter_01/section_i.html' class='nav-btn next'><span>Next</span></a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/search.js"></script>
+    <script src="../assets/js/glossary_tooltip.js"></script>
+    <script src="../assets/js/audio.js"></script>
+    <script src="../assets/js/bookmarks.js"></script>
+    <!-- Theme Toggle Logic (Inline for speed) -->
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+    </script>
+</body>
+
+</html>

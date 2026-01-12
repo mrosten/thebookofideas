@@ -1,0 +1,1859 @@
+Chapter 2   - Roots of Science
+
+Introduction
+
+Science
+
+and Kabbalah are two distinct fields with apparently no relationship between
+
+them. Yet Einstein wrote that the object of all science is to coordinate our
+
+experiences and to bring them into a logical system. He also said that there is
+
+no real qualitative difference between those sense perceptions which are common
+
+to different individuals (and in that sense impersonal) and those which are
+
+experienced by only one person. Those which are common to different people are
+
+really no more factual than those which are experienced by one. Kabbalah
+
+involves personal experience which however can be verified by its effects in
+
+the inter-personal world.
+
+It's my
+
+hope that this section will coordinate experience (spiritual and scientific)
+
+and bring them all into a logical system.
+
+It is
+
+also my hope to show how Science and Kabbalah can illuminate the other as long
+
+as each keeps its respective parameters in mind. When either forgets it's
+
+boundaries it usually does notoriously badly. Physics describes reality based
+
+on models taken from every day experience and these models work. I am trying
+
+here to find what the true inner model of Physics is by using the Kabbalah,
+
+i.e., I'm trying to find the spiritual realities upon which the physical world
+
+is based.
+
+·
+
+The two
+
+kinds of circular and straight sephirot are the root of the uncertainty of the
+
+continuum hypothesis (that Cantor hypothesized that there is no set that has a
+
+cardinal number between
+
+a
+
+0
+
+(the cardinal number of elements of the set of all natural
+
+numbers) and “c” (the cardinal number of the set of all rational and irrational
+
+numbers) where each kind of valid math can be built on either opposite
+
+assumption.
+
+·
+
+The
+
+circular sephirot have a base of p. In turn the root of that is the contradiction
+
+of the emptiness of the empty space though it must have the presence of God in
+
+it. (The emptiness is Godliness, but we can't find God there.)
+
+·
+
+Perhaps
+
+gravity has a counterpart like the electric force with the magnetic force --
+
+and that something could cause a red shift in gravity waves like gravity causes
+
+for light waves. [In General Relativity, gravity is conservative, like the
+
+electric force. I wonder about a possible counterpart like the magnetic force. At
+
+any rate, since everything in creation seems to contain Strange Loops, I would
+
+imagine that the universe does form a loop and though gravity doesn't form
+
+loops on a small scale perhaps it does on a large scale. Perhaps this could
+
+explain the fact that the galaxies don't fly apart. If gravity is in fact like
+
+the electromagnetic force, if it would change over the course of time, you
+
+would get its counterpart. Now any accelerating system like the earth and the
+
+sun [or the galaxy] is changing over time, so perhaps this system is emitting
+
+some other type of waves besides gravitational waves. Yet since the density of
+
+the galaxy is so small, we just don't notice it.
+
+·
+
+The light
+
+of the sephirot isn't all the same, but the light of 52 is a spiritual-electric
+
+field and the light of 45 is a magnetic field and together they create a
+
+spiritual electromagnetic wave by the oscillation of the name 52 at the top of
+
+the empty space.
+
+·
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+is an inverse square law
+
+just like
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+because speed is a
+
+measure of space-time like length is a measure of space. So, the force that
+
+turns energy to matter is an inverse square force. (So, if c was a variable,
+
+the less it would be, the more mass you would have, so c
+
+2
+
+takes the
+
+place of r
+
+2
+
+in a higher realm. But what would come after that a
+
+2
+
+,
+
+the acceleration of light? And after that, I guess, would be the change in the
+
+acceleration with respect to time, and so for every dimension up you add.
+
+·
+
+Current
+
+is described by a differential equation that has a solution only with a complex
+
+number. Perhaps that is because mass has a complex part of itself as in
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+.
+
+That is
+
+the same part that can travel faster than light.
+
+Mass that
+
+is infinite can travel at the speed of light and that mass is
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+, i.e.,
+
+the first
+
+uncountable type of infinity that can be contained within some
+
+limit, like
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+.
+
+It is
+
+probably obvious to most scientists
+
+,
+
+but since I
+
+haven't seen this mentioned anywhere, I think it is proper to say this. The
+
+inverse square laws are a result of the fact that the surface area of the
+
+sphere is
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+, i.e., since the force
+
+coming out of any object is diluted over the area of a sphere the further out
+
+you go, gravity or the electromagnetic force must be reduced by a factor of r
+
+2
+
+.
+
+Every
+
+physical body has extension into imaginary space (not the fourth dimension, but
+
+into space times 'I'). This makes every mass, even if in a random chaotic
+
+shape, symmetrical. If you stop the vibrations at the nodes, you increase the
+
+frequency which increases the energy. This particularly should apply to the
+
+strings of which the atom is made. Also, to the galactic strings, so that at
+
+places where the galaxies don't form there should be an increase of energy.
+
+[Looking at this now I am not so sure for wasn't that the independent variable
+
+idea with the electron i.e., how someone wanted to explain the uncertainty of
+
+electron, and I seem to recall that was refuted experimentally. However, the
+
+imaginary numbers do seem to pop up in the most common places like electric
+
+current]
+
+·
+
+The order
+
+of adding up the electrons to the chemical elements and the order of the
+
+unification table and the order of the table for proving the equivalence of the
+
+set of positive rational fractions with all natural numbers [Cantor's diagonal
+
+method] and the way of doing certain continuous integrals like <???>
+
+ò
+
+(x
+
+3
+
+)(
+
+e
+
+x
+
+)
+
+is the same pattern of the parallel 45-degree lines through the
+
+table:
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+The root
+
+of this is the fact that at the beginning before the correction the order of
+
+the worlds was horizontal, then it changed to vertical e.g., the mitzvah of
+
+teffilin had all the other mitzvot in it, like Shabbat of tefillin, prayer of
+
+tefillin etc. Then it was changed to take the tefillin of all the other mitzvot
+
+and put them into tefillin so that tefillin is only tefillin, i.e., tefillin of
+
+Shabbat, tefilin of prayer etc., this happened in all the world so the order of
+
+all the worlds was switched. The sixteen levels of this GUT relate to the
+
+sixteen components of the stress energy tensor (even though it reduces down to
+
+ten components) which is related on the next parallel level of the Typo-genetic
+
+Code by which each pair of ACGT codes for an amino acid, thus;
+
+Tab
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+=
+
+A
+
+C
+
+G
+
+T
+
+A
+
+cuts
+
+dels
+
+swir
+
+C
+
+mvs
+
+mvls
+
+copr
+
+offl
+
+G
+
+inas
+
+incr
+
+ingr
+
+intl
+
+T
+
+rpyr
+
+rpul
+
+lpyl
+
+lpul
+
+Each
+
+level of the hierarchy of Creation is based on similar matrices. This is why
+
+the diagonal functions keep showing up like the trace [for Cantor], the
+
+determinant [for the volume of the universe], characteristic polynomials, the
+
+relation between each level of creation is thus;
+
+If A is
+
+the matrix of the Genetic Code and B is that of the table of the elements, then
+
+A = P
+
+- 1
+
+BP. Now
+
+we have to find Matrix P to get the connection, and P
+
+-1
+
+represent
+
+the two Strange Loops on every level like the two ladders of the double helix
+
+of the DNA.
+
+Now we
+
+can learn from this that if f[B]=f[A], then f[T] = f[T]s. So, the function that
+
+works between levels can also work on the same level on the inverse base of
+
+that level. The question is what operations does this describe for TNT or the
+
+Genetic Code or Emanation Creation Formation and Space-time?
+
+The
+
+diagonal argument seems to run thought creation as we see above, [i.e., the
+
+matrices of every level seem to have this weird affinity with the diagonal] I
+
+would like to suggest. then the Genetic Code and this GUT and the table of
+
+elements can all be represented by a diagonal matrix such that.
+
+T(u
+
+1
+
+) = k
+
+1
+
+u
+
+1
+
+T(u
+
+2
+
+) = k
+
+2
+
+u
+
+2
+
+...................
+
+T(u
+
+n
+
+)=  k
+
+n
+
+u
+
+n
+
+Thus, the
+
+eigenvectors u
+
+11
+
+, u
+
+2...
+
+u
+
+n
+
+are linearly
+
+independent. This suggests that every substance, life, atoms, etc., are
+
+four-dimensional creatures but the elementary particles of the GUT scheme are
+
+five dimensional.
+
+Thus, it
+
+seems that there was some flattening out process between the creation of the
+
+elementary particles and the forming of atoms.
+
+·
+
+Perhaps
+
+the universe is expanding inside another 5-D universe which is expanding inside
+
+a 6-d universe etc., to infinity.
+
+·
+
+Perhaps
+
+the physical expansion of the Universe in 3-Dimensional space is due to the
+
+fact that the universe is described by a matrix. The determinant of that matrix
+
+gives the volume of the universe.
+
+·
+
+Space is
+
+a set of infinities (Cantor's Infinities), (these are the substances of
+
+Spinoza). This is the deeper meaning of the infinities of the electron.
+
+·
+
+The 1
+
+st
+
+100 elements were divided into 10 sephirot, e.g., hydrogen is
+
+royalty
+
+of
+
+royalty, helium is
+
+Foundation of Royalty
+
+. (After the correction helium
+
+is
+
+Royalty
+
+of
+
+Foundation
+
+.)
+
+·
+
+It seems
+
+possible that the 12 elementary substances that
+
+The Book of Creation (sefer
+
+Yetzirah)
+
+refers to, are the six quark flavors and six leptons. The 8-gluons
+
+of the strong interaction plus the two gluons of the electro­-weak interaction
+
+(the photon and weak boson), are the light of the sephirot of the physical
+
+universe. It’s amazing that in the
+
+Eitz Chayim
+
+, in the description of
+
+akudim
+
+,
+
+we find light interacting with light which predicted the existence of gluons
+
+besides the photon. The 6 quarks are the 6 sephirot of
+
+Zeir Anpin
+
+,
+
+cgt + nhi
+
+= ud + cs + tb
+
+(Kindness)(Judgement)(Beauty)+(Victory)(Splendor)(Foundation)=(up)(down)+
+
+(charm)(strange)+(truth)
+
+(beauty) [Or in the new notation (top0(bottom)] and the six leptons are the 6
+
+sephirot of nukba, while the light is drawn from the higher sephirot. Another
+
+way of looking at it is the particles correspond to the right hand and left
+
+hand sephirot i.e.,
+
+wisdom
+
+,
+
+kindness
+
+,
+
+victory
+
+= top, charm
+
+up and understanding, power, splendor = strange, down, bottom and the middle
+
+interaction gluons are the middle mediating sephirot.
+
+·
+
+The
+
+wave-particle duality is from the root of the circular and straight sephirot
+
+which led to the two worlds Akudim (streaked-waves) and Nekudim
+
+(dotted-particles), which in turn led to the doubts that arise in the raisha
+
+delo isyada (the peak that is impossible to know, which the
+
+Eitz Chayim
+
+goes into great length to explain what the doubts that are that are there. It's
+
+interesting to note the doubts of the uncertainty principle arise from the wave
+
+particle duality and the doubts in the unknown peak arise from the duality of
+
+the streaked and spotted worlds.
+
+·
+
+Electro-magnetic
+
+waves are a combination of the light of 45 and 52 -- (45 is the electric part).
+
+·
+
+The
+
+Lorentz transformation is identified in terms of 10 parameters:
+
+·
+
+The relative velocity.
+
+·
+
+The 3 top sephirot.
+
+·
+
+The angles between the spatial coordinates
+
+(the 3 middle sephirot), and
+
+·
+
+The space-time coordinates of the origin of
+
+one coordinate system with respect to the other (the 4 lower sephirot).
+
+Since
+
+velocity corresponds to the 3 higher sephirot, the velocity of light is the
+
+same in all frames of reference -- since it is above space and time. (The
+
+concept of the higher 3 sephirot being above space and time is a very common
+
+concept in Kabbalah). (To the photons themselves time doesn't move, all space
+
+is one point, and its equivalent mass at that velocity is undefined.) (It's
+
+also well known that the 3 middle ones refer to the directions of space.)
+
+·
+
+The first
+
+100 elements are divided into the 10 sephirot of rulership of the physical
+
+universe e.g., hydrogen is rulership of rulership. Helium is the foundation of
+
+rulership. But after the correction helium is rulership of foundation, etc.,
+
+and the order is vertical, not horizontal (as Rabbi Sar Shalom Sharabi explains
+
+in
+
+Nahar Shalom
+
+)
+
+·
+
+7 rows of
+
+the periodic table correspond to the seven levels surrounding royalty, and the
+
+four orbitals (s, p, d, f) are the four letters of the Ineffable Name.
+
+·
+
+The 10 sephirot
+
+of electro-magnetic radiation are:
+
+1.
+
+Gamma rays.
+
+2.
+
+X- rays.
+
+3.
+
+Ultra-violet is the first three sephirot.
+
+4.
+
+The visible spectrum is parallel to the 6 sephirot
+
+of Beauty (violet, indigo, blue, green, yellow, orange). Red, infrared and
+
+radio waves are Royalty.
+
+All these
+
+are the sephirot of the light while the elements are sephirot of the vessels.
+
+·
+
+When we
+
+view the world from the Unification Table, we see that each particle can be
+
+reduced to some set of 5 binary numbers just like in any computer, and the
+
+state of the universe is given by the fields associated with these particles
+
+(as Frank Wilczek writes in
+
+Longing for the Harmonies
+
+). This is because
+
+the 10 sephirot are really 5 (as Rabbi Chayim Vital explains at the end of the
+
+Eitz Chayim that there really are only 5 but they are known as 10 for the 6
+
+th
+
+of Zeir Anpin are really just characteristics of Beauty -- not individual sephirot).
+
+And each universe consists of combinations of the 5 sephirot. So, the physical
+
+universe is an intricate “computer” program of the world of Formation on the
+
+“computer” of Creation, and so on.
+
+·
+
+There is
+
+a spiritual space and time just like the physical. The laws of the spiritual
+
+space-time continuum are the Divine Names and unifications which are parallel
+
+to the mathematical formulas in the physical realm. (This explains the idea
+
+that Yom Kippur is above time i.e., the spiritual time-flow, not the physical.
+
+Also, this explains different statements of the Sages about the universe, which
+
+seem to contradict the physical one (as the Ramchal says).
+
+Why then
+
+is math and physics considered holy to the Rambam? — because if it is connected
+
+to fear of God it is the vessel for the higher holiness, and the explanation of
+
+the higher sepherot, and the singularity of the infinite light in the center of
+
+the empty space makes it the center of the physical realm.
+
+Also,
+
+since Royalty is connected directly to the Crown, when it goes up it is
+
+immediately attached to the Crown — similar to the fact that the highest
+
+holiness can be reached only in the physical world by doing the physical
+
+commandments, not in the higher worlds, for only here shines the light of the
+
+Crown.
+
+Also, the
+
+hidden holiness of science and math stems from the fact that the formulas are
+
+the Divine unifications of the circular sephirot.
+
+·
+
+Darkness,
+
+which the Talmud implies is a creation in itself refers to the electro-magnetic
+
+field that permeates the universe which isn't ether but a mathematical field
+
+which obeys Einstein's laws and has a separate existence in itself besides
+
+light — (see Looking for the Harmonies by Frank Wilczek, p.g. 346 note 161).
+
+·
+
+It's
+
+amazing how in nature totally unconnected events have the same laws connecting
+
+them, like the number of ways “h” heads will appear if we toss a coin “n” times
+
+which is:
+
+†
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+which is
+
+different than the number of combinations of n things taken h at a time  but
+
+both have the exact same equation:
+
+†
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+Another
+
+example is cosh  xdx  =  sinh x + c  and cos xdx = sin x + c .
+
+Even  though
+
+†
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+have been unconnected until Euler
+
+found the connection. The new ideas in the field of chaos also illustrate this.
+
+These are indicative of inner connections that cause dissimilar things to be
+
+connected by the same laws. [Something connected with this is the fact that the
+
+Schwarzschild radius comes out to be exactly the same as if it was formulated
+
+in Newtonian terms thus:
+
+1/2mv
+
+2
+
+=
+
+GmM/r,so
+
+R=2GM/c2]
+
+[Also in
+
+basic first year Physics, some of the laws of different systems turn out
+
+identical, both in mechanics and in electro-magnetism.]
+
+·
+
+The
+
+microscopic world is based on probability while the macroscopic world is based
+
+on classical physics. The connection is that between the world of chaos and of
+
+correction. Chaos is the higher root but then from the elements of chaos
+
+(atoms) God created the macroscopic world based on correction. Spiritually also
+
+we are only microscopically subject to the laws of chaos but our macroscopic
+
+souls are based on correction. So its true that individual prayer depends on
+
+not being observed only on the higher level of chaos but there still is a level
+
+of correction where flow exists despite being observed.
+
+·
+
+The
+
+number of laws of the Torah (10 general, 613 specific) equals the number of the
+
+components of the field of the empty space (i.e. 10 sephirot, and 613 parts of
+
+the soul). Of the Ten Commandments only the last 6 determine the rate of
+
+spiritual change while the first 4 limit the initial conditions, but allow for
+
+any arbitrary rate of change (this is if you go by the divisions of the Hebrew
+
+Bible and count every paragraph as one commandment. This is actually how the
+
+Catholic Church divides them.)) The reason for the division 6 and 4 is that the
+
+letter He (the 5 colors) divides up into a Vav (6) and a Dalet (4) as it comes
+
+down through the world of waves (Akudim). Then the Vav is divided into two
+
+Vavs, 6 quarks and 6 leptons. From here it seems that the 6 quarks and leptons
+
+come from the 6 field equations of General Relativity that determine future
+
+events.
+
+·
+
+The
+
+determinant of the matrix that determines the universe isn't equal to zero, so
+
+that matrix has to have a unique solution — and so it has to have the same
+
+number of variables as equations. I think that gives a 4x4 matrix, since the
+
+variables are the position in space and time.
+
+·26
+
+The
+
+inverse-square laws of the universe come as one equation:
+
+KMm + G M m m + (some constant for the weak force) M m + (some
+
+constant for the strong force) M m=r
+
+2
+
+[This is the equation of a 4D
+
+sphere].
+
+·
+
+“When a
+
+rotating black hole forms the outer horizon it settles like a quivering bubble
+
+toward the ultimate stable state represented by Kerr's solution to Einstein's
+
+equations. This quivering of the outer horizon produces ripples in space-time,
+
+gravitational waves, that spread both outward and inward. The ones that fall in
+
+are blue shifted. Since
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+, the inflow of blue shifted gravitational radiation
+
+that carries energy will produce an increase in the mass inside the black hole,
+
+increasing a core mass that starts out with just five times the mass of the sun
+
+going to
+
+10
+
+57
+
+times the mass of the entire universe.
+
+This
+
+can't reach the outer universe, but at the big crunch when all the black holes
+
+merge, such intense gravitational fields are involved that the whole universe
+
+will collapse to the Plank scale. The rest of the collapse takes only
+
+10
+
+-43
+
+seconds (Plank time).
+
+At that
+
+time the Bekenstein-Hawking formula for the entropy of the black hole becomes
+
+meaningless and the total entropy is reduced drastically.
+
+At the
+
+same time, because there is no duration less than
+
+10
+
+-43
+
+seconds (just like there is no distance shorter than
+
+10
+
+-33
+
+centimeters),
+
+the collapsing universe 10
+
+-43
+
+seconds away from the singularity
+
+bounces back to become an expanding universe (since this doesn't defy entropy).
+
+This
+
+does away (almost) with the problem of the buildup of entropy from one cycle of
+
+an oscillating universe to the next. But there still is a small buildup of
+
+entropy from one cycle to the next. It seems possible that the origins of the
+
+universe can be traced back through successively shorter cycles to some initial
+
+tiny seed, a baby universe produced by a quantum fluctuation out of nothing at
+
+all”.
+
+-- Unveiling The Edge of Time,
+
+by John Gribbin
+
+“And God said let there be light, and there was light.” -
+
+-
+
+Genesis 1:3
+
+·28
+
+DpxDt³(h/4p)
+
+is also a quality which is impossible to know the exact amount. This may relate
+
+to uncertainty of momentum or time. For the uncertainty of momentum is
+
+inversely proportional to p.
+
+·
+
+The speed
+
+of light is the same for all observers because it is the speed of time through
+
+the 5th dimension.
+
+·
+
+The idea
+
+of the four elements of air, fire, water and ground is quite literal (but also
+
+simply means the states of energy, gas, liquid and solid. The Kabbalah, when it
+
+took over this idea from the Greeks, meant it in a different way than the
+
+Greeks, i.e., that the four letters of the Ineffable Name permeate every aspect
+
+of creation. So, on every level there is a division into four parts which are
+
+really 8 because the Kabbalah puts together the Ineffable Name with Adonai e.g.,
+
+each of the four represent a state, but also represent the actual substances
+
+that make up fire or water. I would like to suggest my own four primordial
+
+substances that existed in the early universe quarks, leptons, photons, gluons
+
+(ground, water, fire, air).
+
+·
+
+I would
+
+like to suggest that String Theory has its roots in the four flows coming from Adam
+
+Kadmon: notes, vowels, crowns and letters, -- e.g., the Crown of Wisdom are
+
+musical notes, and the nine lower
+
+sephirot
+
+are the vowels, and the Crown
+
+of Understanding are the crowns of the letters, and the lower nine sephirot are
+
+letters.
+
+Now all
+
+of these four levels are in the form of letters, but the letters of the Crown
+
+of Wisdom are in the form of musical notes. The crowns themselves are letters
+
+in the form of the circular notes e.g.
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+i.e.,
+
+closed strings -- the open strings are vowels and crowns. This works amazingly
+
+well, for it is a great principle in kabbalah that each particle in the
+
+physical realm contains a letter. When we find that the letters themselves come
+
+in this way, it seems to be a confirmation of string theory in Kabbalah, though
+
+it is far from confirmed in the physical realm. [I know that looks suspiciously
+
+like the tertiary structures of the proteins.]
+
+·
+
+This is
+
+probably superfluous to mention but I find it very interesting that the DNA
+
+molecule have 26 parts which is the numerical value of the Four letter name of
+
+God
+
+éä”åä
+
+which relates to the sepherah of Beauty which is the
+
+sepherah of Man. The bases GTCA clearly are the four letters Aleph Dalet Nun
+
+Yod, thus:
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+And their
+
+inner root is Yod He Vav He and the specific shape of the letter Aleph
+
+determines the structure of the DNA, i.e., the bottom “kotz” is the base, or
+
+Malchut... [The Vav is an extended Yod.] The fifteen operations are the
+
+numerical value of the first two letters
+
+é”ä.
+
+Now, here the connections are clear, but
+
+what would be the result of knowing this I don't know.
+
+I suspect
+
+that with this knowledge each discipline can teach about the other, but this
+
+job is usually left for the discoverer of the idea itself. Each nucleotide is
+
+made up of three letters which correspond to the division of the name 72 into
+
+groups of three letters each:
+
+[
+
+{acid(ACGT), base(phosphate), sugar(ribose)} = {judgement, beauty, kindness}.]
+
+There are
+
+10 nucleotides per revolution which corresponds to the  10 letters of the name
+
+45. The DNA is Kindness and Judgement together [the name 72 and 42, each
+
+containing ten four-letter names as the inner light].
+
+Out of
+
+this combination comes the mRNA [beauty, the name 22]. It goes through the
+
+three lower sephirot Eternity, Splendor, Foundation -- and out comes Royalty: the
+
+proteins.
+
+·33
+
+Even
+
+though there is no known way of summing up all infinitely many Feynman diagrams,
+
+to get an expression for a fully renormalized electron, I think the secret may
+
+be contained in an idea along these lines: the area under the curve of y=1/x is
+
+finite even though it is infinitely long i.e.,
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+. Thus, there is a way
+
+for the strange loops that encompass creation to be brought down to one point
+
+though we may not know what it is.
+
+·
+
+The five
+
+Peano Axioms
+
+[12]
+
+capture the essence of natural numbers as the axioms of Euclid capture the
+
+essence of Plane Geometry. After one has them, he can theoretically build up by
+
+axioms and rules of logic the complete system. These axioms are the atoms of
+
+the system and correspond to the five
+
+partzufim
+
+[forms] of Crown,
+
+Father, Mother, Son, Daughter. The five axioms of Human behavior are the last
+
+five of the Ten Commandments. [This is in accordance with the Rambam's way of
+
+looking at the commandments as having their reality and essence in pure logic. According
+
+to him, the commandments have a reality separate from the fact that they are
+
+written in the Torah -- for even if they weren't we would have to obey them
+
+from reason. Thus, I am inclined to believe that these last five are axioms in
+
+the sense that transgressing them evokes a bad reaction on a person as a law of
+
+nature. Thus, even in cases where one thinks he has some permission from the
+
+Oral Law, I think one shouldn't depend on it.
+
+·
+
+I think
+
+gravity is simply an inverse rubber band, i.e., matter pulls space-time out of
+
+shape. But instead of the distortion in shape pulling things apart it pushes
+
+them together. [I also think the electro-magnetic field is the same thing].
+
+<div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
+    <img src="../../../images/" alt="Book Image" style="width: 100%; height: auto;">
+</div>
+
+Chapter 3 – Torah Ideas
+
+·
+
+And God said,
+
+“let there be light and there was light.” That is the thread of his infinite
+
+light which shone into the darkness of the empty space.
+
+And God
+
+said, “Let there be a firmament,” which was the roof top of the empty space to
+
+divide between his infinite light, and the empty space.
+
+The
+
+waters above the empty space I don't know. The waters below are the space-time
+
+continuum.
+
+The seven
+
+days of creation are the seven circles of light before the straight light was
+
+created.
+
+The
+
+luminaries are wisdoms letting in God's infinite light, through the firmament
+
+into the empty space.
+
+·
+
+The
+
+non-Jews at the time of Mordechai and Ester: The 1
+
+st
+
+verse says they
+
+became Jewish because the fear of the Jews fell upon them, i.e. the fear of
+
+that which the Jews fear fell upon them, i.e. fear of the punishment of God. A
+
+later verse says they became Jewish because the fear of Mordechai fell upon
+
+them, i.e. that fear that Mordechai feared, i.e. fear and awe of the greatness
+
+of God.
+
+·
+
+“The king
+
+of Sodom said to Abraham give me the soul and the money take for yourself”, i.e.,
+
+the evil inclination offers one lots of money as long as he sells his soul.
+
+·
+
+God said
+
+to Abraham go from your land from your birthplace and your father's house to
+
+the land I will show you, i.e., from the 3 dimensions of his world into the 4th
+
+dimension. Later, this actually occurred as the sages say on the verse, “and He
+
+took him outside,” i.e., out of the 3D of this world. (This idea is hinted to
+
+in one of Rabbi Nachman's stories.)
+
+·
+
+The trait
+
+of Abraham is kindness. Therefore, his test was to see if he could be cruel in
+
+a case where God demanded it. The trait of Jacob is truth, therefore his test
+
+was to see if he could lie in the case where God demanded it. For Gods will is
+
+the definition of truth and kindness. — so, when God commands a cruel deed that
+
+deed is by definition kind. That is why the verse attributes kindness to
+
+Abraham, because he was willing to be cruel when God demanded it. So, when he
+
+was kind we know the kindness was real because it was connected to God. The
+
+same goes for Jacob.
+
+·
+
+Abraham
+
+could be a Lamdan [dialectic Talmudic scholar] when he wanted to. He said, “She
+
+is my sister,” even though he had to stretch the truth beyond recognition to
+
+say so. But when God told him “Bring up Issac as a burn offering,” in which
+
+case he could have said it means bring up, i.e., put him on the alter and then
+
+take him down — which was in fact the final intention. But when it came to a
+
+commandment of God he didn't try to find a way out by using semantics.
+
+·
+
+How did
+
+Esther know on the 2nd day to ask the King her request and not the 1
+
+st
+
+?
+
+Because on the 1st day he asked “What is your request, Esther,” but on the 2nd
+
+day he asked  “What is your request, Queen Esther?”
+
+·
+
+On the 3
+
+rd
+
+day (the 3
+
+rd
+
+trait Beauty — the 3
+
+rd
+
+day when the Torah
+
+was given) Esther (the Divine Presence) stood before the inner house of the
+
+King (the singularity of infinite light in the center of the empty space). She
+
+was wearing the surrounding light so the King was pleased with her. He reached out
+
+with the golden rod (the thin beam of his infinite light). She touched it and
+
+was saved.
+
+·
+
+Every
+
+verse in the Torah is a matrix by which the subject of that verse comes into
+
+being. A matrix is an array of numbers, each representing the value of a
+
+variable. These variables can be algebraic, here I mean the term to be applied
+
+to spiritual variables and variable equations in the creation.
+
+·
+
+On Rosh
+
+HaShanah there is a new Big Bang due to the reversing of Einstein's equations
+
+for a black hole. On Yom Kippur time stands still because the light from Rosh
+
+HaShanah gets to the bottom of the empty space where there is the singularity.
+
+So, as a result of repentance one should experience a new birth.
+
+·
+
+The days
+
+of creation are actually the 7 divine traits and not time at all. Only in the
+
+lower garden of Eden did time pass. In the upper garden of Eden it is still
+
+Friday, the day Adam was thrown out. After Adam was thrown out he began to
+
+measure time at the rate of the physical universe. This is not dependent on the
+
+‘Shemita opinion.’ It's just that in the higher and lower worlds time passes at
+
+different rates — and in Atzilus there is no time at all. However, this can go
+
+along with the Shemita opinion — for as time went slowly in Gan Eden, billions
+
+of years passed in the physical universe.
+
+(The
+
+Shemita opinion puts us in the 4th cycle of 7000 year periods each of which has
+
+a 1000 year day. This is the opinion of Rabbi Issaac of Acco who lived about
+
+800 years ago. It's interesting that this opinion corresponds to modern
+
+astronomy). However, if we accept that Rabbi Nachman objected to the Shemita
+
+principle then it is possible that the time axis of the physical universe was
+
+simply folded up into a little ball of string where theoretically you could
+
+have miles of string in the distance of a few inches. The Shemita idea seems to
+
+be supported by the fact that the Torah says that first God created heaven and
+
+earth without saying how long that took. Then it goes through a different world
+
+of creation in which there was a spiritual garden of Eden that Adam was placed
+
+in. This isn't in the physical universe at all. Then, it says he was thrown out
+
+of the garden of Eden and into the physical world which had been created before
+
+that. So, an honest look at the Torah shows that it never even implies anywhere
+
+how long the creation of the physical universe was.
+
+·
+
+The
+
+contradiction between the Divine fore-knowledge and free will is that God knows
+
+what one will chose not just from the future but from now (i.e. not just
+
+because He knows the future). This contradiction is the root of Quantum
+
+Mechanics.
+
+·
+
+Creativity
+
+on the right side of the brain is from the
+
+sepherah
+
+of Wisdom. Order is
+
+from the left from the sepherah of Understanding. Logical creativity which
+
+relates to order, and a deeper creativity, is the combination of the two called
+
+Knowledge — but all three permeate the entire body as it says in Drush HaDaas
+
+at the end of the Eitz Chayim.
+
+The
+
+deeper creativity is much more covered, and with the vessel of Eternity Splendor
+
+and Foundation of Understanding and Eternity, Splendor and Foundation of Wisdom.
+
+(This last comment is referring just to Emanation, which is different than the
+
+whole picture referred to in Drush HaDaas.) Thus, we find creative people who
+
+aren't smart — because smartness in general is from the sepherah of
+
+understanding which is open and quick to understand. But the deeper sepherah of
+
+Wisdom is slow and not quick to understand, but after a long process of
+
+absorbing the idea, it is able to create something totally new — which the left-brain
+
+people reject, because it's too off-beat for them. Thus, we find that Einstein
+
+was a slow learner.
+
+·
+
+Everything
+
+under the level of the lower six sephirot (which are opposites) turns into its
+
+opposite and then back again, in constant oscillation. So we find the
+
+enlightened Islam of the middle ages becoming the barbaric Islam of today, and
+
+the dark Christianity of the Middle Ages becoming the loving Christianity of
+
+today. The same loving Chasidut of the Baal Shem Tov has become the fascist
+
+Chasidut of today. Only by one rising up to the level of the 3 first sephirot
+
+can one escape this pattern. I think science is in its root on that level (i.e.
+
+what the sages call the higher wisdom) However when science falls from its
+
+higher root it can become just a tool for evil (the Torah is on the level of
+
+Beauty one of the lower sephirot.)
+
+·
+
+When the
+
+angel called out, “Abraham Abraham” and he said “here I am” and he said “put
+
+out not your hand to the child, and do nothing to him for now I know that you
+
+fear God, and you have not withheld your son, your only one from me.” (Or more
+
+literally your singularity from me i.e. the center part of his being i.e. the
+
+center of the black hole.)
+
+·
+
+The Torah
+
+applies on many different levels, the microscopic and macroscopic, e.g., the
+
+interactions between subatomic particles is described in the
+
+parashah
+
+of
+
+forbidden sexual relationships, e.g., the interaction of an electron and an
+
+anti-electron is described by the law on the prohibition of sex between a
+
+brother and sister. The Torah also applies to the physics of stars and higher
+
+spiritual planes. On the human level also there are many levels of application.
+
+People can keep the Shabbat on a physical level but sill desecrate it on a
+
+spiritual level and vise versa.
+
+·
+
+The
+
+reason Rabbi Nachman says “There is nothing besides Him” is literal in the
+
+Torah the subject of the verb is understood to be ‘the doer of the verb”
+
+without its being written. So the subject of the verb exists is 'anything that
+
+does it', and here the verse is saying there is nothing which does this verb
+
+except God.
+
+·
+
+After Eliezer
+
+saw that Rivka had fulfilled his conditions why wasn't he convinced that she
+
+was the right one? He asked give me water and she agreed and then she said and
+
+I will give water to all your camels too. And thus she did. Why wasn't that
+
+enough “why does it say after that the man was astounded at her, being quiet to
+
+know if God had given  him success or not? The answer is the next verse, “When
+
+the camels finished drinking then he took the jewelry etc.” For you can give a
+
+camel to drink and it can finish it and you have to give it more. Eliezer
+
+wanted to see if she would do more than just do what she said she would do. He
+
+wanted to see if she would
+
+COMPLETE
+
+what she said she would do. Only
+
+then could he know that she was worthy to be Issac's wife.
+
+·
+
+“And
+
+Moses called to Betzalel and  to Eliav and to every person wise of heart that
+
+God put wisdom in his heart, all that decided to come close to the work to do
+
+it.” Exodus 36:2. It is clear that just by the fact that they wanted to do
+
+God's work, God gave them the wisdom necessary to do it. Wisdom isn't necessary
+
+to learn, only the desire to do the work and to actually do it. The wisdom God
+
+will add later.
+
+·
+
+The idea
+
+of the Strange Loop exists in the Torah, e.g., “Remember what Amalek did to
+
+you.” Now, if the Torah hadn't commanded us to forget Amalek, no one would
+
+remember him. But, since the Torah commands us to be sure not to forget to
+
+forget Amalek,
+
+now
+
+we all remember him.
+
+Just like
+
+the double negatives in genetics. Even Hegel noticed the double negatives.
+
+These things indicate a deeper level. Just like for number theory to be correct
+
+we need to postulate super-numbers. [This indicates the need for the Oral Law. However,
+
+since the 13 principles, by which the Torah is explained, teaches that such
+
+contradictions need to be explained by a third verse which is on the level of
+
+the written law, so I am not so sure about this last point unless we go like
+
+the Rambam who considers the things derived by the Thirteen Principles to be
+
+Rabbinical. Perhaps the Torah itself hints to its own inner level?]
+
+·
+
+The
+
+Strange Loops exist through the Torah. We do all the mitzvot in gratitude that
+
+God brought us out of slavery, but we are allowed to own slaves. Yaakov lied
+
+saying I am Esau, but we attribute the trait of Truth to him, “Give truth to
+
+Yakov...” [Unless that means give him truth because he doesn't have any]. But
+
+if the spies to Israel said the truth we get on their backs. We borrow the
+
+money of the Egyptians, but we don't give it back because we earned it, but we
+
+don't pay back our slaves. Abraham was ready to do a very cruel deed, but we
+
+attribute the trait of kindness to him. “Honor your father and mother”, yet
+
+Moses praised the tribe of Levi for killing their parents when they were guilty
+
+of idolatry. “Who says to his father and mother I have not seen them...”
+
+The truth
+
+is, all these things point to a deeper level, as strange loops do. [But the
+
+simple explanation is that the patriarchs and the Jewish people were and are
+
+flawed, but God chose them anyway.
+
+·
+
+Every
+
+openly evil deed done by anyone Jewish in the Bible we have an excuse — e.g.,
+
+for “The Holy spirit told him so.” Every good deed by a non-Jew we attribute it
+
+to evil motives. The reason is that the Talmud was written at a period of
+
+extreme animosity towards the Gentiles. Now even though it is inspired by God
+
+it still comes through the vessels of the souls of the people then.
+
+·
+
+Abraham
+
+said, “the gods tricked me”. Apparently, he believed there are other gods but
+
+that they are under the rule of the One Creator. This isn't a new point. The
+
+Sages obviously believed the angels or princes appointed over each nation is
+
+its god, and Michael is the archangel of Israel, as it says in Daniel.
+
+·
+
+When Rashi
+
+says ‘Tikun Sofrim’ it means simply that the verse was changed later by the
+
+sofrim. Apparently, this happened also in the verse “he set the boundaries of
+
+the nations according to the number of the children of Israel.” The Dead Sea Scrolls
+
+have the number of the children of God. This isn't
+
+apikorsus
+
+to believe —
+
+unless you want to say too that Rashi was an
+
+apikorus
+
+. To tell the truth,
+
+modern orthodoxy would consider the Rambam also to be an apikorus.
+
+·
+
+The oral
+
+law are the meanings that the written text triggers, and the written law is the
+
+open and hidden meanings that are contained in the text itself. In reality,
+
+there is no way to totally understand the meaning of any verse of the torah
+
+since that would mean understanding the implications of its connections to
+
+every person until the end of time. That is why there is no infallible method
+
+for telling true from false statements in number theory —because statements
+
+imply meaning, which has infinite levels. [GEB, p. 561, 582]
+
+·
+
+The
+
+dichotomy between Relativity and quantum mechanics is possibly related to the
+
+Strange Loops in Mathematical logic, i.e.,  relativity is from the sephirot of
+
+Yosher, and quantum reality is from Igulim.
+
+·
+
+There is
+
+a special type of holiness the Patriarchs handed down one to the other. This is
+
+the subject of the blessings. This is different than a normal blessing one
+
+gives to another but a special type of holiness in quality and quantity. This
+
+came to Joseph as Rashi explains on the verses of the blessing Yakob gave to
+
+him. Rashi says there “The blessing of the Patriarchs”. Thus the Jewish people
+
+are only the physical descendants of the Patriarchs. To find the people that
+
+received the blessing of Joseph one would have to know where his two tribes
+
+went to, for the Jewish people today are Judah and Benjamin. It seems there is
+
+a different spiritual Israel, different than the Jewish people that received
+
+this blessing.
+
+[28]
+
+Each
+
+sentence of the Torah has a noun which is the root of matter and a verb which
+
+is the root of energy.So the four worlds corresponding to the four Hebrew words
+
+for doing or making refer to the four forces.The strong force- physicality.The
+
+weak force-formation. The electromagnetic force-creation.Gravitation Emanation.
+
+

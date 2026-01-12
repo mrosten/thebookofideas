@@ -1,0 +1,72 @@
+---
+title: "Chapter 1: Jesus Christ — Section I"
+part: "Part VI — Christianity"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<blockquote class="fancy-quote">
+            "The Yeshu of the Talmud is not Jesus Christ of Nazareth." — The Chronological Gap.
+            </blockquote>
+            <h4>The Discrepancy of Seder Olam</h4>
+            <p>The argument against Jesus often relies on references in the Talmud to a person named "Yeshu." However, historical records and the "Seder Olam" indicate that there were at least three different individuals by that name. The Yeshu mentioned as the disciple of Rabbi Yehoshua Ben Perachiya lived at the beginning of the Second Temple period—roughly 400 years before the birth of Jesus of Nazareth. Conflating these figures is a common historical error that obscures the true nature of the messianic development. To admit that the Yeshu of the Talmud is a different person is not a defense of Christianity, but an adherence to historical and chronological fact.</p>
+            <div class="justice-balance">
+            <input type="radio" name="jesu-logic" id="view-talmud" class="balance-toggle" checked>
+            <input type="radio" name="jesu-logic" id="view-history" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="view-talmud" class="balance-label label-righteous">The Talmudic Yeshu</label>
+            <label for="view-history" class="balance-label label-righteous">Jesus of Nazareth</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-talmud">
+            <h5>The Era of Perachiya</h5>
+            <p>The Yeshu of the Gemara lived during a time of early sectarian shifts. His story, while cautionary within the Jewish tradition, belongs to a different geopolitical and spiritual context than the rise of the Roman-era Christianity.</p>
+            <span class="status-badge badge-reward">Early Second Temple</span>
+            </div>
+            <div id="panel-history" style="display:none">
+            <h5>The Era of Destruction</h5>
+            <p>Jesus of Nazareth appeared during the final decline of the Second Temple. The non-Christian documents that corroborate his life do not align with the Talmudic timeline, suggesting a distinct spiritual phenomenon that would eventually claim the title of "Messiah son of Joseph."</p>
+            <span class="status-badge badge-reward">Late Roman Period</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="jesu-logic"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isHist = document.getElementById('view-history').checked;
+            document.getElementById('panel-talmud').style.display = isHist ? 'none' : 'block';
+            document.getElementById('panel-history').style.display = isHist ? 'block' : 'none';
+            });
+            });
+            </script>
+            <h4>The Authority of Abulafia</h4>
+            <p>The Kabbalist Rabbi Abraham Abulafia—an authority cited by Rabbi Chayim Vital and Rabbi Moshe Cordovero—presents a radically different view. He identifies Jesus as the <em>Messiah son of Joseph</em>, a preliminary stage of redemption centered in the Sepherah of <em>Yesod</em> (Foundation). While Abulafia notes that the later church fell into idolatry, he characterizes Jesus’s original level as a legitimate messianic potential. This perspective, found in microfilmed manuscripts at the national library, suggests that the validity of Jesus as a spiritual event is a legitimate debate within the inner halls of Judaism.</p>
+            <div class="concept-box">
+            <strong>The Debate of the Rishonim</strong>
+            Since the validity of Jesus’s role is a matter of debate among major authorities like the Rosh, Abulafia, and the Rambam, neither a total acceptance nor a total exclusion can be dogmatically forced upon Judaism. The "Lion of Kabbalah" often leads to conclusions that differ from the surface-level historical narratives of the Shulchan Aruch.
+            </div>
+            <blockquote class="fancy-quote">
+            “Who can go after the lion?” — On the Kabbalistic authority of Abulafia.
+            </blockquote>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

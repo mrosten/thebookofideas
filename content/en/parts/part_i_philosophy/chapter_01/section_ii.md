@@ -1,0 +1,68 @@
+---
+title: "Section II — Spinoza's Proof of God"
+part: "Part I — Philosophy"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+
+
+<div class="concept-box">
+<strong>The Logic of Existence</strong>
+The core of Baruch Spinoza's proof is that God defines existence itself.
+<ol>
+<li>Existence needs no cause because its essence is to exist.</li>
+<li>If something exists, it either causes itself or is caused by something else.</li>
+<li>Tracing the chain of causes backwards (vertically) or across systems (horizontally) must eventually arrive at a Substance that is self-causing.</li>
+</ol>
+</div>
+
+<p>Spinoza argues that <strong>Substance</strong> (God) includes existence in His essence. He didn't want to define God merely as the "First Cause" (because who says the chain must end?), but rather as Existence Itself.</p>
+<ul class="clean-list">
+<li><strong>Hegel</strong> refined this: "Being" must contain its opposite "Nothingness," leading to "Becoming."</li>
+<li><strong>The Torah</strong> anticipated this: God's name <em>Ehyeh</em> ("I Will Be") implies an infinite progression of dialectic.</li>
+</ul>
+
+<div class="concept-box">
+<strong>The Seven Axioms of Spinoza</strong>
+<ol>
+<li>Everything which exists, exists either in itself or in something else.</li>
+<li>That which cannot be conceived through anything else must be conceived through itself.</li>
+<li>From a given definite cause an effect necessarily follows; conversely, if no definite cause be granted, it is impossible that an effect can follow.</li>
+<li>The knowledge of an effect depends on and involves the knowledge of a cause.</li>
+<li>Things which have nothing in common cannot be understood by means of the other.</li>
+<li>A true idea must correspond with its ideate or object.</li>
+<li>If a thing can be conceived as non-existing, its essence does not involve existence.</li>
+</ol>
+</div>
+
+<p>Spinoza's proof is like the <strong>Henkin Sentence</strong> in logic ("This sentence is provable"), which proves itself by asserting its own provability. It reflects on itself, forming a "Strange Loop" that reaches out of the system.</p>
+
+<p>Russell and Kant criticized this, arguing one cannot jump from an "Idea" to "Existence." But Spinoza wasn't talking about a mere idea; he was talking about the <em>True Idea</em> or Essence. Spinoza's system is consistent, so it must reach out into another plane—just as Number Theory requires super-numbers to complete itself.</p>
+
+<blockquote class="fancy-quote">
+Ultimately, the faith of the Torah is logically provable, but only if you have faith in these seven axioms, which correspond to the seven lower sephirot of Royalty.
+</blockquote>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

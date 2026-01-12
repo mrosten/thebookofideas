@@ -1,0 +1,32 @@
+---
+title: "Chapter 4: Ways Of Life — Section X"
+part: "Part iii life"
+chapter: "Chapter 04"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>Astrology is forbidden to the Rambam but permitted to most other authorities like Tosphot and the Ramban . “ Truth is the most powerful thing in the world. It can pierce through great mountains” — Rabbi Eliezer Shik. It is an absolutely essential part of any home to have at least one guest. There are homeless people in every place. There are always people who need a helping hand. Letting someone sleep on the couch is important for every home. Yet one should never overdo his kindness in such a way that makes it hard to keep it up. Don't be too kind, just a little kind. We see in the Torah that Abraham was kind to the angels, but Lot went out of his way to beg them to come in and made a very big deal about it. In such a way one gets worn out quickly. It is better to do it with tzimtzum [control-and limit.] In the hierarchy of spaces there is a space called emotional space where the components are emotions. [There is also one called Idea Space where ideas interact.]</p>
+            <div class='image-container'><img src='../../../images/image010.gif' alt='Book Image' class='book-image'></div>
+            <p>I j =k; j k =i; k i =j. Love multiplied by truth = victory. Love of love of Judgement Love of Truth love of eternity doing kindness. The sephirot</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

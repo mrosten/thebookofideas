@@ -1,0 +1,78 @@
+---
+title: "Chapter 3: Shabbat — Section I"
+part: "Part II — Halachah"
+chapter: "Chapter 03"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<blockquote class="fancy-quote">
+            "If a person never contradicts himself, it must be that he says nothing." — The Principle of Complexity.
+            </blockquote>
+            <h4>The Event Horizon of Sunset</h4>
+            <p>The entry and exit of Shabbat are defined by a boundary of light. A major debate (Rabbenu Tam vs. the first sunset) exists because of the interval between the setting sun and the appearance of the "medium stars." To truly know a medium star, one must perceive the entire set of stars in a clear sky—a statistical observation that places the true end of the day roughly 90 minutes after sunset. While many follow the lenient first sunset for the start of Shabbat to be safe, the exit requires the full weight of the stars to ensure the sanctity of the day is preserved.</p>
+            <div class="feature-image">
+            <div class="visual-placeholder">
+            <div class="visual-placeholder-icon">🕯️</div>
+            <div class="visual-placeholder-text">Event Horizon of Shabbat Visual</div>
+            </div>
+            <p></div></p>
+            <div class="justice-balance">
+            <input type="radio" name="domain-view" id="domain-stringent" class="balance-toggle" checked>
+            <input type="radio" name="domain-view" id="domain-lenient" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="domain-stringent" class="balance-label label-righteous">Stringent (Rambam)</label>
+            <label for="domain-lenient" class="balance-label label-wicked">Lenient (Rashi)</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="view-stringent">
+            <h5>The Geometry of Space</h5>
+            <p><strong>Definition:</strong> Any road 32 feet wide is a public domain. Carrying four steps there is a Biblical violation. In this view, most modern community "Eruvs" are ineffective because the space itself is inherently public.</p>
+            <span class="status-badge badge-reward">Sacred Walls</span>
+            </div>
+            <div id="view-lenient" style="display:none">
+            <h5>The Population Metric</h5>
+            <p><strong>Definition:</strong> A public domain only exists where 600,000 people pass daily. In this view, a community Eruv is valid even in a Biblical matter because modern density rarely meets this specific "Desert" standard.</p>
+            <span class="status-badge badge-reward">Community Flow</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="domain-view"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isStr = document.getElementById('domain-stringent').checked;
+            document.getElementById('view-stringent').style.display = isStr ? 'block' : 'none';
+            document.getElementById('view-lenient').style.display = isStr ? 'none' : 'block';
+            });
+            });
+            </script>
+            <h4>The Sovereignty of the Eruv</h4>
+            <p>Carrying on Shabbat represents the transfer of an object from the individual domain to the public domain. To the Rambam, the physical dimensions of the space (the "16 amot") are the deciding factor. To Rashi and the Tosafot, it is the social dimension (the number of people). Because the Shulchan Aruch presents both views, a person should strive to be strict, respecting the silence of the public space, yet one may depend on the lenient community standard in times of great necessity.</p>
+            <div class="concept-box">
+            <strong>The Midnight Watch</strong>
+            In a place where city lights do not obstruct the view—like a desert—the stars reveal the true rhythm of the universe. The delay of 60 to 90 minutes is not an arbitrary rule; it is the physical time required for the "medium light" of the cosmos to become visible to the human eye once the dominant light of the sun has fully retreated.
+            </div>
+            <blockquote class="fancy-quote">
+            “Shabbat is the architecture of time; the Eruv is the architecture of space.”
+            </blockquote>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

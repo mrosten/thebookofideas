@@ -1,0 +1,37 @@
+---
+title: "Section III"
+part: "Part I — Philosophy"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+
+
+<p>Spinoza's Seven Axioms: 1. Everything which exists, exists either in itself or in something else. 2. That which cannot be conceived through anything else must be conceived through itself. 3. From a given definite cause an effect necessarily follows and, on the other hand, if no definite cause be granted, it is impossible that an effect can follow. 4. The knowledge of an effect depends on and involves the knowledge of a cause. 5. Things which have nothing in common cannot be understood, the one by means of the other; the conception of one does not involve the conception of the other.</p>
+
+<p>6. A true idea must correspond with its ideate or object. 7. If a thing can be conceived as non-existing, its essence does not involve existence. Spinoza Further Detail As to B. Russell's and Kant's criticism of Spinoza's proof of God, where they differentiate between the existence of a thing and the idea of a thing, I must mention that Spinoza deals with the true idea or the essence which isn't the same as the idea. This however doesn't disprove Kant's major thesis. You need Hegel for that. Russell didn't accept the concept of a strange loop and tried to disprove it by a hierarchical method, but his principle of a self-consistent formal system without loops has been disproven. Kant and Russell couldn't accept the fact that a self-consistent formal system can be forced out of itself into a higher or lower level of existence. Thus, they couldn't accept Spinoza's proof.</p>
+
+<p>Spinoza does postulate cause and effect, so assuming this, would Kant say the mind causes itself? If so then it would be God by Spinoza definition, and this is apparently not the case anyway!</p>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

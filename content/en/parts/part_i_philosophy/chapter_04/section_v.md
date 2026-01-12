@@ -1,0 +1,31 @@
+---
+title: "Chapter 4: Piety — Section V"
+part: "Part I — Philosophy"
+chapter: "Chapter 04"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>The soul will rebel if ignored. The Jewish soul demands the Torah and the commandments. For this reason, I have had to show how Torah itself gives the freedom necessary to develop artistically or scientifically. Baalei Teshuva didn't make up the desire to be religious. It is the essential core of all Mankind. Even Einstein said that the basic essence of a scientist is the desire to understand the universe and that is essentially a religious principle. The families of those who get the religious "bug" must learn to grin and bear it for many years and still stick with him/her. In the end they will appreciate it… It is not an aberration, it is a profound instinct in man, but it can cause a lot of upsets in the family and friends.</p>
+            <p>Each side must learn the importance of sticking with the other for our families are not accidental. They are essential parts of one's soul. Life is about accepting our family and friends for who they are and not thinking that we are going to improve anything by going elsewhere — or else life is about learning this lesson.</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

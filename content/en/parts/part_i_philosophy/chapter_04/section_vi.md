@@ -1,0 +1,31 @@
+---
+title: "Chapter 4: Piety — Section VI"
+part: "Part I — Philosophy"
+chapter: "Chapter 04"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>"One has to be on the same wavelength as God to receive his Word, power receivers, closeness to him by a pure lifestyle, or big antennas won't help unless you've got the right wavelength." -- Keith Moore "One has to be rein trained, like power steering i.e., willing to listen to a small hint from God and not to need a big revelation or an angel to come from heaven. God sends his spirit to a person willing to obey small hints like Moses going aside to see the burning bush." – Keith Moore Meditation is the main theme of Rabbi Shneur Zalman however it is mentioned by Rabbi Nachman as the calling to God from the depths of one's heart without voice or words. The Books of musar emphasize it as "Contemplation of the Soul" of the Chovot Halevavot.</p>
+            <p>The Sages of the Talmud said the first Chasidim used to wait one hour before and after every prayer. Then it was asked in the Gemara, "Then for the three prayers every day it comes out to be nine hours. When did they learn anything? The Gemara answered, since they were Chasidim [i.e., pious] their learning was guarded / blessed inside of them. To the person that said "guarded" it was only guarded. To the person that said blessed, their learning was actually increased." Now it is clear that they weren't praying or learning but meditating. [Since the main problem in meditation is the discipline needed, I suggest taking an oath to sit and do it for a certain amount of time. An oath is a powerful tool because it turns a motivation to do a good thing into a motivation not to transgress a very serious sin which is stronger. The idea of oaths was given by the Torah to help the weak of spirit. Incidentally an oath should only be taken day by day, never for more than that since, "Who knows what tomorrow may bring?"</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

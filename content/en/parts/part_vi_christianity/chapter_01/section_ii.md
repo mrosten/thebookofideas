@@ -1,0 +1,72 @@
+---
+title: "Chapter 1: Jesus Christ — Section II"
+part: "Part VI — Christianity"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<blockquote class="fancy-quote">
+            "Jesus is the sephirah of Foundation... a pipeline for the light of Kindness." — The Abulafian Insight.
+            </blockquote>
+            <h4>The Foundation of the Fall</h4>
+            <p>The spiritual biography of the Messiah son of Joseph is rooted in the "Breaking of the Vessels." During the primordial shattering of the world of <em>Nekudim</em>, the vessel of <em>Yesod</em> (Foundation) broke because it could not contain the intense light descending from the higher Sephirot. This broken vessel fell into the lower world of Creation. In the Kabbalistic view, God "fixed" this vessel and brought it back into the world of Emanation, empowering it to hold the Light of <em>Chesed</em> (Kindness). Jesus, unified with this trait of Foundation, serves as a spiritual pipeline through which Divine Kindness can flow into a world of broken vessels.</p>
+            <div class="justice-balance">
+            <input type="radio" name="ben-joseph-logic" id="view-prelude" class="balance-toggle" checked>
+            <input type="radio" name="ben-joseph-logic" id="view-completion" class="balance-toggle">
+            <div class="balance-controls">
+            <label for="view-prelude" class="balance-label label-righteous">Foundation (Prelude)</label>
+            <label for="view-completion" class="balance-label label-righteous">Royalty (Completion)</label>
+            </div>
+            <div class="consequence-grid">
+            <div class="consequence-box earth-box" style="grid-column: span 2;">
+            <div id="panel-prelude">
+            <h5>The Role of Joseph</h5>
+            <p>The Messiah son of Joseph (Foundation/Yesod) acts as the intermediary. His job is to draw the light of Kindness into the world of action, preparing the way for a deeper structural change. This is the stage of "Universal Outreach" where the name of God is spread across the nations.</p>
+            <span class="status-badge badge-reward">Intermediate Pipeline</span>
+            </div>
+            <div id="panel-completion" style="display:none">
+            <h5>The Role of David</h5>
+            <p>The Messiah son of David (Royalty/Malchut) represents the final completion of the process. His role is to establish the Kingdom of God on earth, uniting all branches of the spiritual tree under a single, unified law of Truth. This stage requires the stable vessels built during the preliminary "Joseph" phase.</p>
+            <span class="status-badge badge-reward">Final Unity</span>
+            </div>
+            <p></div> </div> </div></p>
+            <script>
+            document.querySelectorAll('input[name="ben-joseph-logic"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+            const isComp = document.getElementById('view-completion').checked;
+            document.getElementById('panel-prelude').style.display = isComp ? 'none' : 'block';
+            document.getElementById('panel-completion').style.display = isComp ? 'block' : 'none';
+            });
+            });
+            </script>
+            <h4>The Branches of the Tree</h4>
+            <p>As Rabbi Yehuda HaLevi wrote in "The Kuzari," both Christianity and Islam are predicted branches of Judaism that share in the messianic benefits. The Rambam adds that these faiths serve to spread the "Words of the Torah" and the "Law of Truth" over the whole world. While the Christian concept of a "second Torah" remains alien to Jewish theology, major halachic authorities like Rashi, the Rashba, and Rabbi Yaakov Emden recognize Christianity as the "part" of the Torah designated for the non-Jewish nations—a necessary stage in the global recognition of the One God.</p>
+            <div class="concept-box">
+            <strong>The Vessel of Kindness</strong>
+            Jesus, by being unified with the trait of Foundation, contains the Light of Kindness. This distinguishes his role from the broader Christian theology of divinity. In the Kabbalistic framework, he is a "Unified Soul" who serves as a conduit for the high-intensity energy of Divine benevolence to reach those who are still separated from the direct light of the Law.
+            </div>
+            <blockquote class="fancy-quote">
+            “Jesus was a prelude to the redemption... a strengthening of the broken vessel.”
+            </blockquote>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

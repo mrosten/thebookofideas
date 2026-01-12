@@ -1,0 +1,73 @@
+# AI Action Log
+Started on: 2026-01-12
+
+## Session: Pivot to Hybrid Markdown System
+User requested a transition from "HTML First" to "Hybrid Markdown".
+Goal: Centralize layout in templates, keep content in Markdown.
+
+[ACTION] Validated Implementation Plan.
+[ACTION] Initializing directory structure:
+- src/tboi/content/en
+- src/tboi/content/he
+- src/tboi/templates
+- src/tboi/scripts (updated)
+
+[ACTION] Created Master Layout Template: `src/tboi/templates/layout.html`.
+- Defined placeholders: {{CONTENT_BODY}}, {{PAGE_TITLE}}, {{ASSET_PATH}}, etc.
+- Centralized Header, Footer, and Scripts.
+
+[ACTION] Created Build Script: `src/tboi/scripts/build.ps1`.
+- Regex-based Markdown parser (Headers, Bold, Links).
+- Support for Frontmatter (YAML metadata).
+- Dynamic Path Injection for assets.
+- Language-aware direction and strings.
+
+[THOUGHTS]
+User requested detailed logging of "thoughts".
+Current State: Infrastructure (Template + Script) is ready.
+Next Step: Pilot Test. I need to prove that `build.ps1` can actually generate a valid HTML page from a Markdown file.
+Target: Part I, Chapter 1, Section III (EN and HE).
+Plan:
+1. Extract content from the existing `section_iii.html` files.
+2. Create `src/tboi/content/en/parts/part_i/chapter_01/section_iii.md`.
+3. Create `src/tboi/content/he/parts/part_i/chapter_01/section_iii.md`.
+4. Frontmatter will contain: title, part, chapter, prev, next.
+5. Body will contain: The text content (Spinoza's Axioms).
+6. Run `src/tboi/scripts/build.ps1`.
+7. Check if `src/tboi/en/parts/part_i/chapter_01/section_iii.html` is regenerated correctly.
+
+[ACTION] Manual Creation of Markdown Content.
+- Created `src/tboi/content/en/parts/part_i/chapter_01/section_iii.md`.
+- Created `src/tboi/content/he/parts/part_i/chapter_01/section_iii.md`.
+- Both files include Frontmatter (Title, Start/End links) and Body content.
+
+[ACTION] Running Build Script Pilot Test.
+- Executing `src/tboi/scripts/build.ps1`.
+- Expecting generation of `src/tboi/en/parts/part_i/chapter_01/section_iii.html` and Hebrew equivalent.
+
+[THOUGHTS]
+The build script reported "Build Complete!".
+Now verifying the "artifact" files in `src/tboi/en/...` and `src/tboi/he/...`.
+I need to check:
+1. Is the Title correct?
+2. Is the Sidebar injected?
+3. Are the Asset Paths correct (`../../../../assets/...`)?
+4. Is the Body Content (Spinoza's Axioms) present?
+
+[FIX] Fixing Metadata Quotes.
+- Found that `.Trim('"')` was insufficient or ineffective in previous regex match context.
+- Implemented explicit `StartsWith`/`EndsWith` check and substring removal for quotes.
+- Re-running build to confirm `<title>` strings are clean.
+
+[ACTION] Bulk Conversion: Part I Chapter 01.
+- Converted Section I, II, IV, V (EN & HE).
+- Source: Existing HTML files in src/tboi/en and src/tboi/he.
+- Destination: src/tboi/content/en and src/tboi/content/he.
+
+[ACTION] Created Markdown Files.
+- Created section_i.md, section_ii.md, section_iv.md, section_v.md in both en and he.
+- Preserved HTML structure for complex elements (concept-box).
+- Updated Frontmatter linking.
+
+[ACTION] Running Build Script.
+- Regenerated all HTML files from the new content.

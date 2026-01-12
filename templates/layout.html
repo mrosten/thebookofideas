@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="{{LANG_CODE}}" dir="{{DIR}}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PAGE_TITLE}}</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="{{ASSET_PATH}}assets/css/styles.css">
+    <link rel="manifest" href="{{ASSET_PATH}}manifest.json">
+
+    <!-- Scripts -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="{{ASSET_PATH}}assets/js/language_toggle.js" defer></script>
+    <!-- Add other global scripts here -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="{{ASSET_PATH}}search.html" id="search-link" aria-label="Search">🔍</a>
+        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+        <button id="lang-toggle" aria-label="Switch Language">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">{{LANG_TOGGLE_TEXT}}</span>
+        </button>
+        <div>
+            <h1>The Torah Book of Ideas</h1>
+            <p class="subtitle">{{PART_TITLE}}</p>
+        </div>
+    </header>
+
+    <!-- Nav -->
+    <nav>
+        <a href="{{ASSET_PATH}}index.html">Home</a>
+        <a href="{{ASSET_PATH}}contents.html">Contents</a>
+        <a href="{{PART_INDEX_LINK}}" class="active">{{PART_TITLE}}</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Breadcrumbs -->
+        <!-- Breadcrumbs -->
+        {{BREADCRUMB_HTML}}
+
+        <div class="content-card">
+            <h3>{{SECTION_TITLE}}</h3>
+
+            {{CONTENT_BODY}}
+
+        </div>
+
+        <!-- Section Nav -->
+        <div class="page-nav">
+            {{PREV_BUTTON}}
+            {{NEXT_BUTTON}}
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>The Torah Book of Ideas — A journey through wisdom, faith, and understanding</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="{{ASSET_PATH}}assets/js/search.js"></script>
+    <script src="{{ASSET_PATH}}assets/js/glossary_tooltip.js"></script>
+    <script src="{{ASSET_PATH}}assets/js/audio.js"></script>
+    <script src="{{ASSET_PATH}}assets/js/bookmarks.js"></script>
+    <!-- Theme Toggle Logic (Inline for speed) -->
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        } else {
+            toggleBtn.textContent = '🌙';
+        }
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = '🌙';
+            }
+        });
+    </script>
+</body>
+
+</html>

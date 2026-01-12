@@ -1,0 +1,49 @@
+---
+title: "Chapter 3: The Song Of Philosophy — Section I"
+part: "Part I — Philosophy"
+chapter: "Chapter 03"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<div class="concept-box">
+            <strong>Reciprocity and Oneness</strong>
+            The ultimate purpose of creation is the revelation of God's Oneness. This is accomplished through the universal trait of <strong>Reciprocity</strong>—"what one gives is what one receives."
+            <ul>
+            <li><strong>Rewarding Good / Punishing Evil:</strong> This reveals God's Oneness by sifting out the bad.</li>
+            <li><strong>The Method of Chaos:</strong> Slight variations in events cause infinite chaos, yet this chaos ultimately aligns to reveal Oneness in the Next World.</li>
+            </ul>
+            <p></div></p>
+            <h4>The Divine Lack</h4>
+            <p>Man was created to express God's Goodness. Paradoxically, before creation, there was a "lack" in the Divine Traits—the lack of revelation. As Hegel suggested, each trait implies its opposite. As long as a trait is not being used, it lacks the quality of <em>being</em>.</p>
+            <blockquote class="fancy-quote">
+            To correct the "deficits" of Goodness and Wisdom, God created the <strong>Circular Sephirot</strong> (surrounding) and the <strong>Straight Sephirot</strong> (filling).
+            </blockquote>
+            <h4>The Nature of Oneness</h4>
+            <p>The idea that "God is One" means there is one Creator and one Cause.</p>
+            <ul class="clean-list">
+            <li>It does <strong>not</strong> mean "one quality" or "one quantity" (which would imply divisibility/definition).</li>
+            <li>It means that nothing exists besides Him; everything derives its existence constantly from Him.</li>
+            <li>This refutes the Aristotelian idea that "existence" is a separate property shared by things. God <em>is</em> Existence.</li>
+            </ul>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->

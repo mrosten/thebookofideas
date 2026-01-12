@@ -1,0 +1,31 @@
+---
+title: "Chapter 1: Jesus Christ — Section XV"
+part: "Part VI — Christianity"
+chapter: "Chapter 01"
+prev: ""
+next: ""
+---
+
+
+
+            
+
+<p>subsequent generations make similar mistakes. Now, the Anshei Keneset HaGedolah were so great that God kept trying to convince them of their mistake until they finally gave in, but who says that God would do that with later sages? One of the objections I have heard against Jesus is that the Sanhedrin of the time killed him. But, the Talmud says that Herod killed all the Rabbis of the Pharisees who had Semichah, and there was left only one Rabbi, Baba Ben Buta — that was when Jesus was only a year old or so. So, when Jesus was about thirty, how could the Sanhedrin have very many true rabbis on it. Where could they have come from, except the Sadducees. Anyway, we find opinions among the Christian scholars that Scribes in the New Testament was changed from the original word ‘Sadducees’.</p>
+            <p>[In the Greek, they are very close. At the time the disciples of Paul were editing the documents to be included in the New Testament the Sadducees were on good terms with them and the scribes and pharisees had become enemies. [On the subject of the stirring dirt and water on Shabbat that Jesus did, cf. Beitza, Chapter 4, in the Rosh [Rabbainu  Asher]. Jesus held like Rashi in that Rosh. On the subject of washing the hands, Jesus held like the Gemara in Chulin and the Zohar that the first washing before eating is a mitzvah not an obligation, or he depended on the washing from the morning. He also held like the Yerushalmi in Zeraim and the Gemara in Suchah that the Sages don't have the authority to uproot anything from the Torah even for a positive command. The Gemara in Succah holds that we don't put off a mitzvah of the Torah for a rabbinical decree as it says, “we don't take the lulav on the first day of yom tov that falls on Shabbat,</p>
+            
+            
+        </div>
+
+</div>
+
+<!-- Section Nav -->
+
+</div>
+
+<!-- Section Nav -->
+
+
+
+        </div>
+
+        <!-- Section Nav -->
