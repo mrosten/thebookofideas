@@ -3,12 +3,6 @@ title: "Section II — Spinoza's Proof of God"
 part: "Part I — Philosophy"
 chapter: "Chapter 01"
 ---
-title: "Section II — Spinoza's Proof of God"
-part: "Part I — Philosophy"
-chapter: "Chapter 01"
-prev: ""
-next: ""
----
 
             
 
