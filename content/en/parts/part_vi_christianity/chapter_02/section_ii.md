@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Rabbi Nachman provided specific "Rectifications"—such as the five specific Torah portions—to help mitigate these judgments. By reciting and internalizing these passages, the individual can create a spiritual "buffer" that allows them to receive New Knowledge without being consumed by the accompanying chaos.</p>
             <span class="status-badge badge-reward">Stable Transience</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="judgement-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

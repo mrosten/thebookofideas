@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>amot. The ability of the righteous like Bava Sali to see beyond the confines of space is because they are spiritually raised to spiritual 5 space where they can see space and time laid out before them as a map. ·<???> The surrounding lights of the sephirot (Chayah and Yechidah) are fields, not lights per say. The light from understanding (Binah) is related to the electromagnetic force, in that the hashmal outer covering of Zeir and Nukbah come from it. Binah is composed of higher and lower levels, as the Ari goes into at great length.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

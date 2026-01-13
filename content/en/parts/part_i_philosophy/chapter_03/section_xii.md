@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Rabbi Nachman creates in every individual chapter a revolving system, and all the systems revolve around a common set of basic axioms. I believe that the Bible and Jesus represent one revolving system (on one axis God, and the basic 13 axioms of faith) and that is the reason for their power). God created the world based on two principles, chaos and order, which stem from the Divine names, 63 and 45. The purpose of creation is to integrate them and bring them up to the name 72. An old philosophy paper I wrote as a teenager: A. "To examine an object pedantically is not to think. It is an examination by a specific formula which has no bearing on the idea itself. It is examination from a different viewpoint than that of the idea's maker and cannot do (accomplish) anything. It is insensitivity to the idea. It is lack of understanding. [For example] to examine myself from an entirely psychological and rational point of view is not to understand myself.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

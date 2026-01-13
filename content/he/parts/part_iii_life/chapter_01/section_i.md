@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -20,7 +18,7 @@ next: ""
             <div class="visual-placeholder-icon">🌳</div>
             <div class="visual-placeholder-text">עץ המשפחה כשורש רוחני</div>
             </div>
-            <p></div></p>
+            </div>
             <div class="justice-balance">
             <input type="radio" name="family-view" id="sephirot" class="balance-toggle" checked>
             <input type="radio" name="family-view" id="friends" class="balance-toggle">
@@ -39,7 +37,7 @@ next: ""
             <p><strong>חברי אמת:</strong> מייצגים את ה<em>מקיפים</em> (האורות החיצוניים) המגנים ומאירים עלינו מבחוץ.</p>
             <p><strong>אויבים:</strong> מייצגים את ה<em>קליפות</em> הנוצרות או על ידי כלים שבורים או על ידי "החלל הפנוי" שבו הסתיר אלוהים את נוכחותו.</p>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="family-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -62,14 +60,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

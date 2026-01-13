@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Some of the other things which are odd about America is the attitude towards sex. Homosexuality is legal but wholesome sex between people already biologically ready and in need of it is not (i.e., teenagers). But, then again, there is no concept of wholesome sex in America. If a man has sex with many women, it's legal as long as they aren't his wives; killing life by contraceptives and abortion and masturbation is considered OK but creating life by sex between teenagers who are biologically ready and have much more intense feelings of love than adults, is not. Creating life by cloning is not. Creating more life by granting men the right to many wives is not. Biblical values would do this and the world quite a bit of good.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

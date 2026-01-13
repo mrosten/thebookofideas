@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>day (the 3 rd trait Beauty — the 3 rd day when the Torah was given) Esther (the Divine Presence) stood before the inner house of the King (the singularity of infinite light in the center of the empty space). She was wearing the surrounding light so the King was pleased with her. He reached out with the golden rod (the thin beam of his infinite light). She touched it and was saved. Every verse in the Torah is a matrix by which the subject of that verse comes into being. A matrix is an array of numbers, each representing the value of a variable. These variables can be algebraic, here I mean the term to be applied to spiritual variables and variable equations in the creation.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

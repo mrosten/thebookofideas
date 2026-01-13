@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -74,7 +72,7 @@ next: ""
             <div class="sephirot-subject">Targum</div>
             <div class="sephirot-context">The translation/interpretation, bridging the holy tongue to the nations.</div>
             </div>
-            <p></div> </div> <!-- Original Table for Reference --> <details class="reference-table"> <summary>📊 View Original Table Format</summary></p>
+            </div> </div> <!-- Original Table for Reference --> <details class="reference-table"> <summary>📊 View Original Table Format</summary></p>
             <div class="table-wrapper"><table class="data-table">
             <thead>
             <tr>
@@ -123,7 +121,7 @@ next: ""
             <li><strong>w, u, k (Wisdom, Understanding, Kindness):</strong> The roots of the Prophets (<em>Nevi'im</em>). Specifically, the Right and Left columns hold the prophets.</li>
             <li><strong>p, b, v (Power, Beauty, Victory):</strong> The Middle Column holds the roots of the Sacred Writings (<em>Ketuvim</em>), such as Psalms and Proverbs.</li>
             </ul>
-            <p></div></p>
+            </div>
             The next diagram illustrates the world of <strong>Formation (Yetzirah)</strong>, which corresponds to the Mishna. The six orders of the Mishna map directly to the lower sephirot of this world.
             <div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
             <img src="../../../../images/" alt="Book Image" style="width: 100%; height: auto;">
@@ -164,7 +162,7 @@ next: ""
             <div class="level-item" data-level="mishna"><span class="level-name">Mishna</span><span class="level-content">The Structure of Emanation</span></div>
             <div class="level-item" data-level="bible"><span class="level-name">Bible</span><span class="level-content">The Word in Emanation</span></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="world-section" data-world="beriah">
             <div class="world-header">
             <span class="world-name">Creation (Beriah)</span>
@@ -176,7 +174,7 @@ next: ""
             <div class="level-item" data-level="mishna"><span class="level-name">Mishna</span><span class="level-content">Mishna of the Intellect</span></div>
             <div class="level-item" data-level="bible"><span class="level-name">Bible</span><span class="level-content">Bible of the Intellect</span></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="world-section" data-world="yetzirah">
             <div class="world-header">
             <span class="world-name">Formation (Yetzirah)</span>
@@ -188,7 +186,7 @@ next: ""
             <div class="level-item highlighted" data-level="mishna"><span class="level-name">Mishna</span><span class="level-content"><strong>Mishna of Mishna</strong> (Standard Law)</span></div>
             <div class="level-item" data-level="bible"><span class="level-name">Bible</span><span class="level-content">Bible of Mishna</span></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="world-section" data-world="asiyah">
             <div class="world-header">
             <span class="world-name">Action (Asiyah)</span>
@@ -200,7 +198,7 @@ next: ""
             <div class="level-item" data-level="mishna"><span class="level-name">Mishna</span><span class="level-content">Mishna of the Bible</span></div>
             <div class="level-item highlighted" data-level="bible"><span class="level-name">Bible</span><span class="level-content"><strong>Bible of the Bible</strong> (Simple Reading)</span></div>
             </div>
-            <p></div> </div> </div> <!-- Original Table for Reference --> <details class="reference-table"> <summary>📊 View Original Table Format</summary></p>
+            </div> </div> </div> <!-- Original Table for Reference --> <details class="reference-table"> <summary>📊 View Original Table Format</summary></p>
             <div class="table-wrapper"><table class="data-table">
             <thead>
             <tr><th>World</th><th>Level</th><th>Content</th></tr>
@@ -239,14 +237,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

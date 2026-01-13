@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>subsequent generations make similar mistakes. Now, the Anshei Keneset HaGedolah were so great that God kept trying to convince them of their mistake until they finally gave in, but who says that God would do that with later sages? One of the objections I have heard against Jesus is that the Sanhedrin of the time killed him. But, the Talmud says that Herod killed all the Rabbis of the Pharisees who had Semichah, and there was left only one Rabbi, Baba Ben Buta — that was when Jesus was only a year old or so. So, when Jesus was about thirty, how could the Sanhedrin have very many true rabbis on it. Where could they have come from, except the Sadducees. Anyway, we find opinions among the Christian scholars that Scribes in the New Testament was changed from the original word ‘Sadducees’.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

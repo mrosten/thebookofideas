@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>People however do differ in their tendencies based on their DNA structure so there definitely is an effect on people by being born Jewish, but it isn't the same as when the actual soul is Jewish - which is independent of how one was born.] It's interesting to notice that the Rambam places philosophers and scientists on a higher spiritual plane than people who know the whole Talmud and keep all the commandments of the Torah. I however divide people according to their character traits: v The Artist v The Scientist-Philosopher v The Religious Scholar v The Business Man (normally religious) v The Leach.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

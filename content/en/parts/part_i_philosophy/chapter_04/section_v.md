@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The soul will rebel if ignored. The Jewish soul demands the Torah and the commandments. For this reason, I have had to show how Torah itself gives the freedom necessary to develop artistically or scientifically. Baalei Teshuva didn't make up the desire to be religious. It is the essential core of all Mankind. Even Einstein said that the basic essence of a scientist is the desire to understand the universe and that is essentially a religious principle. The families of those who get the religious "bug" must learn to grin and bear it for many years and still stick with him/her. In the end they will appreciate it… It is not an aberration, it is a profound instinct in man, but it can cause a lot of upsets in the family and friends.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The Torah is only to teach us what reason requires. I think ethics is this principle: doing those actions [or words or thoughts] that are in accord with reason and the heart. [I think this way was also the Rambam’s intent though he didn't express it as such.] Thus, there is a certain criteria of reason that if the heart disagrees it means that one's reason is wrong. There is here a basic question for the nature of the standards is different. The traditional way of looking at the laws of the Torah or morality in general is that it is some standard rule of conduct, and that theoretically there is some infinite or finite set of rules for all situations. The Rambam's way is that there is no external set of rules, only internal rules within each person's heart and mind that we may be unaware of because of the physicality of the body that causes us not to hear our minds or heart.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

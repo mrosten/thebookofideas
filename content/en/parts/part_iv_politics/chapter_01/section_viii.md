@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The exact difference between Rabbi Nachman and the Medieval Authorities of the Torah is the same as the Difference between Martin Luther and the Catholic Church. To Rabbi Nachman and Martin Luther salvation is dependent completely on faith, and in particular faith in some saint. However, in the Catholic faith and to the Rambam we find the affirmation of man's dignity and the belief that man could aspire to be like God based on his own efforts. Yet, I would like to suggest that Rabbi Nachman is a bit different than Luther since Luther's idea of faith was negative -- it was a reaction against doubt rooted in his negative feeling about life. Rabbi Nachman's idea of faith was an expression of oneness with the Creator and affirmation of Life. It is faith in God as He is manifested in one's own heart.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

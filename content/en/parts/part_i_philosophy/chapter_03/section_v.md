@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -17,7 +15,7 @@ next: ""
             <li><strong>The Flood to Holocaust:</strong> Rabbi Isaac Luria teaches that the evil generation of the Flood was reincarnated in the generation of the Tower of Babel, then the First Temple's destruction, and finally the Holocaust. Each time, they are punished and sifted.</li>
             <li><strong>Sparks of Prophets:</strong> Nietzsche was a spark of Jeremiah (pure Judgment). Because he wasn't Jewish, he lacked the "integration" of Kindness, which is the defining Jewish characteristic.</li>
             </ul>
-            <p></div></p>
+            </div>
             <h4>Unified Myth</h4>
             <p>The Bible, the Sutras, the Talmud, Jesus, and Socrates may seem to contradict, but they are different facets of the same Truth.</p>
             <blockquote class="fancy-quote">
@@ -39,14 +37,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

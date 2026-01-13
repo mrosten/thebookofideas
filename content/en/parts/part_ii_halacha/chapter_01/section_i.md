@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -37,7 +35,7 @@ next: ""
             <p><strong>Mechanism:</strong> Direct prophetic insight (Tzadikim). This is the "Correction" method—seeing the law as it exists in the higher worlds. It provides the vertical truth that statistics may miss.</p>
             <span class="status-badge badge-reward">Direct Truth</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="halacha-source"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -62,14 +60,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>gates], not idolaters. In the old Kabbalah we find prayers addressed to the sephirot [traits] of God. We find an Amora going to the grave of his father saying, “Save me! Save me!” — from his enemies. We ask the angels for blessings on Friday night. At what point does praying to a trait of God not constitute idolatry and  to a stone yes? Aren't they both creations of God? The Rambam explains that the prohibition on idolatry refers to the way idolatry originally started — that is, the generation of Enosh saw the stars in Heaven, and reasoned that since God has attributed honor to these creations it is right that we do so also, and so they started worshiping them.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

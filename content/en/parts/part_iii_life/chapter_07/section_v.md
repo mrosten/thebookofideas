@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>completely different paths. One was into prayer, another into good deeds, another into learning and so on. Jesus contains the vessels of Tohu [chaos] and thus majors in physical healing, and in bringing people to the Garden of Eden in the next world; which is also so to speak relevant to the vessels of the light, which are people's souls, and the actual surroundings of those souls in the next world. Rabbi Nachman has to do with more with the drawing of the infinite light of the crown, or of wisdom its vessel. He has very little to do with healing anybody or miracles in general.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>.] The ten traits of the five basic sephirot are bases for those sephirot. i.e., they are linearly independent. The Zohar says there are nine palaces above the sephirot that are not light or spirit or souls. They are, in the spiritual realm, the equivalent of the nine components of the force-density tensor. This is because they are made, as the Zohar says, by the impulses of the nine lower sephirot on the crown. [Even though I have not seen this anywhere, I suppose these nine “palaces” are the eight white hairs of Arich, and the first tikun of the beard which come to Zeir Anpin.] tx = Understanding(= Txxi) + Knowledge (= Txyj) + Wisdom (= Txz k) ty = Power (= Tyxi) + Beauty(=Tyyj) + Kindness(=Tyzk) tz=Splendor (= Tzxj) + Foundation(=Tzyj) + Eternity (= Tzzk) These are not the sephirot but the result of the sephirot hitting the crown. And they are the vessels of the infinite light which is hvhy = F(total) = ò ncos q Tds <???> The correspondence between the circular and straight sephirot is clearly the basis of the lower world of logic and will, and then the physical creation as we can see from the following diagram †</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

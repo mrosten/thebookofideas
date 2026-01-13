@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>says in the beginning of Shaar Ruach HaKodesh . Here again [as I noted in the chapter I deas in Science ], we have the diagonal such that we only have the trace the things from the top left to the bottom right. Every level of Torah has a different inner light and meaning. Kabbalah is only the inner meaning of Torah horizontally, not vertically. This is obvious from books like the Nefesh HaChayim which says that the innerness of the words of prayer is in the letters themselves not in the kabalistic intentions. Also, the fact that the Torah says only a third verse can explain contradictions and not any outside explanation means that the Torah is postulating an inner meaning to itself in itself, not in the Oral law (since no outside explanations are permitted). Soloke in number theory if it is consistent, it must be incomplete.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

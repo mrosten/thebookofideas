@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -29,7 +27,7 @@ next: ""
             <li><strong>Mental Needs:</strong> Knowledge and the skill of thinking.</li>
             <li><strong>Spiritual Needs:</strong> Knowledge of God and the infinite soul.</li>
             </ol>
-            <p>The needs of the body are finite, but the needs of the soul are infinite. Free will is the choice of where on this spiral to work at any given moment. </div></p>
+            <p>The needs of the body are finite, but the needs of the soul are infinite. Free will is the choice of where on this spiral to work at any given moment. </div>
             <h4>Tangled Hierarchies</h4>
             <p>Victor Frankl observed that "giving a man a <strong>reason</strong> to live" allows him to find the "how." This reason must be the right goal—the meeting of internal needs through virtue and habit.</p>
             <div class="concept-box">
@@ -43,14 +41,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

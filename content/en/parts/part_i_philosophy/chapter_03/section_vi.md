@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>However, Hegel pointed out that Kant was wrong -- because he treats ideas as mental entities rather than logical entities within the set of logic space. But even if we would accept what Kant had to say, we could still show the existence of God on whatever level we are willing to concede exists. For we admit that the laws of logic work in our minds, he just asks how do we know they work in the outside world -- so he is willing to concede the existence of an outside world. Now, existence must exist and nothingness cannot exist, because if nothingness would exist, then it is not nothing - i.e., you cannot say about nothing the word "is", because if it is something then it is not nothing.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

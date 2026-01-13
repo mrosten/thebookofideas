@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>how long the creation of the physical universe was. The contradiction between the Divine fore-knowledge and free will is that God knows what one will chose not just from the future but from now (i.e. not just because He knows the future). This contradiction is the root of Quantum Mechanics. Creativity on the right side of the brain is from the sepherah of Wisdom. Order is from the left from the sepherah of Understanding. Logical creativity which relates to order, and a deeper creativity, is the combination of the two called Knowledge — but all three permeate the entire body as it says in Drush HaDaas at the end of the Eitz Chayim.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

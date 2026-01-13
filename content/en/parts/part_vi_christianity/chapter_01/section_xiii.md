@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>3. The Chayot: “I the Chayot that I had see on the river Cevarand, on it was the Presence of God. (Chayot can mean animal in Hebrew). It refers to a type of angel that is the higher spirit of the animal kingdom. 4. Jesus. “Also, the Presence spoke through the mouth of Moses”. 5. God also spoke frequently in the Bible through an angel to reveal His Infinity to the highest level of man, the Yechida. One of the arguments I have heard against Jesus is that the three requirements of the Messiah were not fulfilled by him, i.e., the three requirements the Rambam gives: of building the Temple, returning all Israel to the 613 commandments, and gathering the dispersed of Israel.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

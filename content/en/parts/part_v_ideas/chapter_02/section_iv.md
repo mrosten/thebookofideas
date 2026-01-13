@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Above the binary code lies the Divine Will. Here, the "Traits" of the patriarchs are refined through tests that challenge their nature. When Abraham acts cruelly because God demands it, his "cruelty" becomes a higher form of kindness. This is the non-binary logic of the spirit that "overwrites" the standard code of behavior.</p>
             <span class="status-badge badge-reward">Qualitative Truth</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="comp-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

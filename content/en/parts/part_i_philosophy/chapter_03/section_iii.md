@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -17,7 +15,7 @@ next: ""
             <li><strong>Reason (Spinoza/Hegel):</strong> Deals with the logical proof of God's presence in the physical universe.</li>
             <li><strong>Revelation (Torah/Prophecy):</strong> Deals with the spiritual realm which, while mathematical, transcends logical proof.</li>
             </ul>
-            <p>Rabbi Nachman and Rambam appear to disagree on which is superior, but they simply operate in different domains. Reason clarifies Revelation, but only Faith can cross the final gap to the Absolute. </div></p>
+            <p>Rabbi Nachman and Rambam appear to disagree on which is superior, but they simply operate in different domains. Reason clarifies Revelation, but only Faith can cross the final gap to the Absolute. </div>
             <h4>The Limits of Logic</h4>
             <p>Kant argued that logic only proves God in the mind, not in reality. However, if we admit that <em>any</em> law (like Cause and Effect) works in the "real world," we have bridged the gap.</p>
             <ul class="clean-list">
@@ -32,7 +30,7 @@ next: ""
             <li><strong>Prop XIV:</strong> Besides God, no substance can be granted or conceived.</li>
             <li><strong>Prop XV:</strong> Whatsoever is, is in God, and without God nothing can be, or be conceived.</li>
             </ol>
-            <p></div></p>
+            </div>
             <p><strong>Aristotle's Prime Mover:</strong> Since an infinite regression of movers is impossible (like Zeno's paradox), there must be a Prime Mover which moves things by <em>attraction</em> (Love) rather than propulsion.</p>
             <p><strong>Hegel's Dialectic:</strong> Truth evolves through contradictions (Thesis-Antithesis-Synthesis). This process is like a Möbius strip that eventually encircles the Absolute.</p>
             <blockquote class="fancy-quote">
@@ -44,14 +42,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

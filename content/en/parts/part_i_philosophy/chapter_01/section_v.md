@@ -6,11 +6,7 @@ prev: ""
 next: ""
 ---
 
-
-
             
-
-
 
 <p>Idea - Flux of Secular/Religious Litvak/Chasid The idea that nothing exists besides God is on the level of, "He surrounds all worlds", i.e., the circular sephirot. But on the level of the straight sephirot, in which God fills all worlds, His life energy is divided among the different levels that exist in the order of creation. That is, even though his infinite light is everywhere and nothing exists besides It, It is not manifest in the individual creations. The light that is manifest in individual creations is divided by level.</p>
 
@@ -20,18 +16,6 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
 
-<!-- Section Nav -->
 
-</div>
-
-<!-- Section Nav -->
-
-
-
-        </div>
-
-        <!-- Section Nav -->

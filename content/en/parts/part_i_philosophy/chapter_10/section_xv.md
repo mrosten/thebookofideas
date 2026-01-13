@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>To come to the truth of Science and Kabbalah is by fear of God, but too much fear of God isn't good as it says in proverbs, “Don't be righteous overly much.” For instance, there is the personality of the 'artist', whose whole personality can be ruined by fear of God if it isn't done in the right way with moderation. He needs his evil inclination alive and well to function as a creator. (What I mean by an artist is one who may be an artist in music or in science and kabbalah also. Creativity knows no bounds.) But he needs not to do sin also. But the scientist philosopher type isn't ruined by a lot of fear of God.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

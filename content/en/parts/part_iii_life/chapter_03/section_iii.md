@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>points out often )? The problem with that is that there are other gods besides Him, so to speak, but they aren't gods but angels appointed over their specific tasks. So, when it says there is nothing besides Him, it has to be taken literally, that none of the things God created have any existence without Him. In a practical vein the actual existence of matter is the condensed light of God. It is not from the empty space but from the light that was drawn into Akudim, the light returned up and the vessels stayed behind and thus became solidified.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

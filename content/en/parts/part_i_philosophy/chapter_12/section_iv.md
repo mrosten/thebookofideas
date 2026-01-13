@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Learning to know who to trust among people also is an important skill. For money management is a skill which is like any other skill. Some are good at it and others are not. For those who are not it is important to at least tell who you can trust in your monetary affairs. Or in other personal decisions, many times the nearest and dearest to us advise things based on their own hatreds and prejudices without our own interest in mind. Someone close to me was advised by people he trusted to leave me and found himself in a whole lot of trouble for several years.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <h4>The Soul-Mate Percentage</h4>
@@ -38,7 +36,7 @@ next: ""
             <p>Driven by curiosity, creativity, and the desire to build something new. It is the marriage of the philosopher and the creator.</p>
             <span class="status-badge badge-reward">Creative</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="marriage-type"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -64,14 +62,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

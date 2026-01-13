@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">HE</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">Part iii life</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">HE</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">Part iii life</a>
+        <a href="../../../../en/parts/part_iii_life/chapter_01/section_i.html" class="active">Part iii life</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 04</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class='active'>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class=''>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 4: Ways Of Life — S...</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class='active' title='Chapter 4: Ways Of Life — Section I'>Chapter 4: Ways Of Life — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_ii.html' class='' title='Chapter 4: Ways Of Life — Section II'>Chapter 4: Ways Of Life — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_iii.html' class='' title='Chapter 4: Ways Of Life — Section III'>Chapter 4: Ways Of Life — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_iv.html' class='' title='Chapter 4: Ways Of Life — Section IV'>Chapter 4: Ways Of Life — Section IV</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_ix.html' class='' title='Chapter 4: Ways Of Life — Section IX'>Chapter 4: Ways Of Life — Section IX</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_v.html' class='' title='Chapter 4: Ways Of Life — Section V'>Chapter 4: Ways Of Life — Section V</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_vi.html' class='' title='Chapter 4: Ways Of Life — Section VI'>Chapter 4: Ways Of Life — Section VI</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_vii.html' class='' title='Chapter 4: Ways Of Life — Section VII'>Chapter 4: Ways Of Life — Section VII</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_viii.html' class='' title='Chapter 4: Ways Of Life — Section VIII'>Chapter 4: Ways Of Life — Section VIII</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_x.html' class='' title='Chapter 4: Ways Of Life — Section X'>Chapter 4: Ways Of Life — Section X</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_xi.html' class='' title='Chapter 4: Ways Of Life — Section XI'>Chapter 4: Ways Of Life — Section XI</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 04</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class='active'>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class=''>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 4: Ways Of Life — S...</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class='active' title='Chapter 4: Ways Of Life — Section I'>Chapter 4: Ways Of Life — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_ii.html' class='' title='Chapter 4: Ways Of Life — Section II'>Chapter 4: Ways Of Life — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_iii.html' class='' title='Chapter 4: Ways Of Life — Section III'>Chapter 4: Ways Of Life — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_iv.html' class='' title='Chapter 4: Ways Of Life — Section IV'>Chapter 4: Ways Of Life — Section IV</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_ix.html' class='' title='Chapter 4: Ways Of Life — Section IX'>Chapter 4: Ways Of Life — Section IX</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_v.html' class='' title='Chapter 4: Ways Of Life — Section V'>Chapter 4: Ways Of Life — Section V</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_vi.html' class='' title='Chapter 4: Ways Of Life — Section VI'>Chapter 4: Ways Of Life — Section VI</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_vii.html' class='' title='Chapter 4: Ways Of Life — Section VII'>Chapter 4: Ways Of Life — Section VII</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_viii.html' class='' title='Chapter 4: Ways Of Life — Section VIII'>Chapter 4: Ways Of Life — Section VIII</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_x.html' class='' title='Chapter 4: Ways Of Life — Section X'>Chapter 4: Ways Of Life — Section X</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_xi.html' class='' title='Chapter 4: Ways Of Life — Section XI'>Chapter 4: Ways Of Life — Section XI</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 4: Ways Of Life — Section I</h3>
@@ -62,7 +69,7 @@
             <div class="visual-placeholder-icon">👁️</div>
             <div class="visual-placeholder-text">The Eye of Providence</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Uncertainty Principle of Faith</h4>
             <p>God operates the world between two poles: absolute <strong>Bitachon</strong> (Trust) and <strong>Hishtadlut</strong> (Effort). Like the uncertainty principle in physics, the exact point where a soul belongs is dynamic. It is a tension between the <em>Circular Sephirot</em> (Nature/Elohim), which require a vessel of action, and the <em>Straight Sephirot</em> (Infinite Light), which descend regardless of the vessel. The goal is not to balance them, but to know which universe you are currently living in.</p>
             <div class="concept-box">
@@ -72,7 +79,7 @@
             <li><strong>The Circular Vessel (Nature):</strong> One does the minimal effort to "hold" the blessing. The hands work, but the heart knows the source. This is the path for the majority.</li>
             <li><strong>The Straight Line (Miracle):</strong> For the rare individual who can truly "give up" on the world, the world gives up its claim on him. He survives by the "Bread of the Mighty" (Manna), sustained directly by the Will of God.</li>
             </ul>
-            <p></div></p>
+            </div>
             <h4>Prophecy in the Night</h4>
             <p>Prophecy did not end; it went underground. The Rambam notes that almost all prophets received their messages while asleep, when the static of the conscious ego is silenced. In our era, a dream is often "more than a dream." It is a broadcast from the soul, bypassing the jamming signals of the anxious mind. To sleep with faith is to tune the receiver.</p>
             <blockquote class="fancy-quote">
@@ -84,15 +91,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -100,8 +99,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../en/parts/part_iii_life/chapter_03/section_iii.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 3: Sex — Section III</div></a>
+            <a href='../../../../en/parts/part_iii_life/chapter_04/section_ii.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 4: Ways Of Life — Section II</div></a>
         </div>
     </main>
 

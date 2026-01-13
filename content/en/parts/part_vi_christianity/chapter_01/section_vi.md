@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>mother's side. Jesus quoted the Torah when tempted by the evil one, “The Lord Your God You shall fear and Him alone you shall serve.” It seems clear that Jesus believed one must serve God alone, not Jesus. The Torah also says, “There is nothing besides God.” Coming to this knowledge of the oneness and uniqueness of God -- loving him and fearing him and keeping His commandments -- is what the Torah defines as serving God. Because of the uncertainty principle, there will always be questions on Jesus or any saint that can't be answered. Like the fall of Rome, the crusades, the treatment of Galilio. If you believe in the Torah and the Talmud, there will be questions you can't answer either.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

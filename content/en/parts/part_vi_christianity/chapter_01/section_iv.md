@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The human <em>Ruach</em> (Spirit) receives the Light of Alpha-1—the second type of infinity. The role of Jesus was to allow this second infinity to permeate the consciousness of Man, shifting the spirit from the countable rules of the Law into the continuous ocean of Divine Beauty.</p>
             <span class="status-badge badge-reward">Continuous Expansion</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="infinity-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

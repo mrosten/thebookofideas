@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>up room but may come in handy. I think there are some people who give up too quickly and others who don't give up even when they should. You should try to know yourself and see which type you are so that you will know how to compensate. If you are the type who gives up on things too quickly you will know the next time you want to give up that you should stick it out. The lacks in our character are precisely placed there so that we will refer all those areas to God and come to him in prayer asking for help. For even though we need His help in everything we do, those areas are made specially to remind us of our limitations and to run to God for help.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

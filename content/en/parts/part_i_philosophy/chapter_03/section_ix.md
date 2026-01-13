@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Rabbi Issac Luria says that the generations from Adam to Noah were evil and so were reborn at the time of the flood to receive their punishment, in this world. Similarly, the generations before the dispersion and the tower of Babylon. Similarly, the generations before the destruction of the 1st Temple. And similarly, the generations before the Holocaust. The purpose of the creation of the world is the revelation of the oneness of God. This is accomplished by the trait of what one gives is what one gets. By the rewarding of good and truth and punishment of evil is revealed the oneness of God. This happens on every level, in every society, in every level of existence. This is the process of sifting out of the bad, and the bringing up of the good, in order to be included in the oneness of God.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

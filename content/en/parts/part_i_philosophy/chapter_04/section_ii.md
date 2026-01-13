@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -22,7 +20,7 @@ next: ""
             <li><strong>Sacred Time:</strong> The early <em>Chasidim</em> meditated for hours before and after prayer. Their wisdom was "guarded" and "blessed" within them as a result.</li>
             <li><strong>Oaths:</strong> Making a daily oath to meditate is a powerful tool to turn simple motivation into a sacred duty.</li>
             </ul>
-            <p></div></p>
+            </div>
             <h4>The Physics of Fear</h4>
             <p>Fear of God is the literal key to wisdom and physical longevity. Studies show that religious commitment significantly lowers rates of heart disease, cancer, and hypertension. This "Awe" acts like an RLC circuit for the mind, enabling it to receive the Infinite Light.</p>
             <h4>Rambam's Path to Perfection</h4>
@@ -59,7 +57,7 @@ next: ""
             <p>Reaching toward the Divine. The study of the "Works of the Chariot" (Maaseh Merkavah), where philosophy meets the highest spiritual truth.</p>
             <span class="status-badge badge-reward">Transcendence</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="rambam-path"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -78,14 +76,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

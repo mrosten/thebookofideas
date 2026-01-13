@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>In that same lesson in the Lekutai Moharan , vol 1. chapt. 6, we see that the amount that the honor of God is increased depends on how much the person has changed from a state of sin to the state of good and the change one has of greater honor to lesser, i.e. the honor of God isn't dependent on one's being good but rather on change from a lower to a higher state, and similarly there is a need for an active lessening of ones own honor. Therefore the proper relationship is : Honor of God = D State of goodness is that goodness or goodness] / D Self-honor .</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

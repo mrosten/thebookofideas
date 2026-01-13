@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The world oscillates between poles—Rome vs. Byzantium, USA vs. Russia. This creates a "middle space" where people can grow. The danger occurs when one side assumes a "Zero-Sum Game," attempting to destroy the other. Cooperation increases the market for ideas; total victory by one side leads only to tyranny.</p>
             <span class="status-badge badge-reward">Dynamic Equilibrium</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="republic-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

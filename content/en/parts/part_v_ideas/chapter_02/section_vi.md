@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>elementary particles and the forming of atoms. Perhaps the universe is expanding inside another 5-D universe which is expanding inside a 6-d universe etc., to infinity. Perhaps the physical expansion of the Universe in 3-Dimensional space is due to the fact that the universe is described by a matrix. The determinant of that matrix gives the volume of the universe. Space is a set of infinities (Cantor's Infinities), (these are the substances of Spinoza). This is the deeper meaning of the infinities of the electron.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

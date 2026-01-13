@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>oracle that he was the wisest, because he knew that he knew nothing. Don't look for it in the Guide because it's not there. Rabbi Nachman's war wasn't against philosophy, but the so called propagandists of France at that time known as the “philosophes”. And against subjugating revelation to reason, but he agreed that you need both, as we see in the Lekutai Moharan Vol 1 Chapt 1, Chapt 61 Vol 2, Chapt 91, and Sefer Hamidot , Daat vol. 2 num. 2 The struggle between reason and faith has had a long history in Judaism, Islam and Christianity. The regular scientists and clergy always seem to be at odds while the great geniuses of science and religion always point in the same direction to the essential fact that there is no true conflict, and that revelation and reason are both necessary and possible to achieve. This conflict and oscillation between these two poles are what spurns growth. This oscillation creates the spiritual waves that shape the existence of humankind.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

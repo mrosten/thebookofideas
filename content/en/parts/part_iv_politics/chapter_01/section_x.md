@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>who were Chassidim and the Jews of Bessarabia, who were traditionalist, and the Jews of Old Romany who were assimilated. They were all wiped out except for the assimilated Jews of Old Romany, and all the non­religious Jews who didn't listen to the rabbis and emigrated to America or became Zionists and went to Israel. It has been said to me that the rebbes wanted their Chasidim to die righteous in Europe and not unrighteous in America or Israel, but then why did Rabbi Wasserman try to escape – it is only because the axle of his wagon broke that he went back (as he said himself). Did the axle decide the halachah?!? First the halachah was the Jews should live, and then the axle determined that they should die? Some have tried to say that the Gerer Rebbe urged his chassidim to leave, yet Rabbi Shimon Huberband wrote in the Warsaw Ghetto “The Rebbe of Ger, like the majority of Polish rebbes, opposed settlement in the land of Israel.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

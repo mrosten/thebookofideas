@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The two types of prayer are speaking with God when the light flows horizontally from the circular sephirot and praying up to God when the light flows from the straight sephirot, vertically. This is why by the graves of the righteous it is usually easier to pray since the light is vertical, while away from there one can only talk with God horizontally unless by some merit, he can draw the vertical light upon himself. The reason one must pray very hard before he is answered is because the Zohar says God is hidden and revealed. Which means that there are quantum states of prayer. So just like in the atom if you put some small amount of energy into the electron, the atom acts as a whole and hides its inner workings. Only if you give it a lot of energy will the electron budge individually. Thus, it is with prayer. Sometimes to get an answer you need to put a lot of time and effort into your prayers.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

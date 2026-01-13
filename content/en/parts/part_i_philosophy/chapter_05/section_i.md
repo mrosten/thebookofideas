@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -41,7 +39,7 @@ next: ""
             <p>Great pleasure often coincides with great pain to preserve the global balance. Every "vast" thing that enters mortality often brings its own shadow.</p>
             <span class="status-badge badge-punish">Shadow Light</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="joy-thermo"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -61,7 +59,7 @@ next: ""
             <li><strong>Heisenberg:</strong> Failing his PhD exam on micro-resolution led him to develop the Uncertainty Principle.</li>
             <li><strong>The First Lady:</strong> A woman (Barbara Bush) once had her reputation ruined by false rumors, only for the subsequent defense to lead her to meet and marry a future President.</li>
             </ul>
-            <p>Judgments (unhappiness) often come from a higher source than simple blessings. When integrated through attachment to God, these judgments turn into the greatest inspirations. </div></p>
+            <p>Judgments (unhappiness) often come from a higher source than simple blessings. When integrated through attachment to God, these judgments turn into the greatest inspirations. </div>
             <blockquote class="fancy-quote">
             “Nothing that is vast enters into the life of mortals without a curse.” — Sophocles
             </blockquote>
@@ -71,14 +69,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

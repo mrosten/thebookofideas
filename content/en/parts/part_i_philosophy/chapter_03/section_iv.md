@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -20,7 +18,7 @@ next: ""
             <li><strong>Wave Functions:</strong> Ideas travel as wave functions. Negative thoughts about others create interference patterns.</li>
             <li><strong>The Uncertainty Principle:</strong> This principle applies to all aspects of life. It is the root of Free Will—the tension between thinking for oneself and listening to sages.</li>
             </ul>
-            <p></div></p>
+            </div>
             <h4>Revolving Systems</h4>
             <p>Ideas rotating around a common axis generate "rest energy" and "energy of motion."</p>
             <ul class="clean-list">
@@ -41,14 +39,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>יופי הוא הספירה האמצעית (<strong>תפארת</strong>). התבוננות ב"צורות יפות" ומוזיקה מחייה נשמה שהתייבשה. ללא חשיפה ליפה, הנשמה אינה יכולה לרטוט בתהודה עם גלי האנרגיה של העולמות העליונים.</p>
             <span class="status-badge badge-reward">ריפוי הנשמה</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="math-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -57,14 +55,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

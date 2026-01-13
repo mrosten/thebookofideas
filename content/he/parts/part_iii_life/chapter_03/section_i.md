@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -22,7 +20,7 @@ next: ""
             </div>
             <div class="union-core"></div>
             </div>
-            <p></div></p>
+            </div>
             <h4>התגובה הרוחנית</h4>
             <p>מין הוא הביטוי הפיזי של התמזגות מטאפיזית. הוא לעולם אינו "ניטרלי". כאשר שתי נשמות מתחברות ללא כלי המחויבות, האנרגיה שנוצרת אינה נעלמת — היא ניתזת. היא מגיבה נגד היחיד ככוח קנאי, וגובה מחיר בדלדול רוחני ובדיסוננס פנימי. אך כאשר הכלי שלם, המעשה הופך למנגנון של איחוד עליון, המושך את ה<em>אור המקיף</em> אל תוך גופם של האוהבים ממש.</p>
             <div class="justice-balance">
@@ -44,7 +42,7 @@ next: ""
             <p>עונג המבוקש לשם עצמו נותר כלוא ב"כלים השבורים". הוא מחקה את האור אך חסר את חום החיים. לאורך זמן, הוא יוצר התמכרות לתחושה תוך הרעבת הנשמה, ומוביל לבדידות עמוקה ובלתי מוסברת.</p>
             <span class="status-badge badge-punish">פרגמנטציה</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="sex-mode"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -69,14 +67,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

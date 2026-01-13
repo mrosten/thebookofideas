@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Kabbalah anyway and the wrestling is the vessels of correction trying to contain the light of chaos until the dawn, i.e., the rising of the light of the name 72. I think the real explanation is that  first Yaacob had to fight God [good] and then evil Esau which is what every person has to go through in order to come to that level of God — beyond space-time and conception. For a person to come what he must come to he first has to fight evil, then he has to fight God, and then becomes a man. [There is a certain point a person needs to come to, a critical mass, so to speak, for him to start to wake up.] This is represented by the fact that God put the fiery angels before the path to Gan Eden. For one must go through Hell and Heaven to come to the Tree of Life .</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

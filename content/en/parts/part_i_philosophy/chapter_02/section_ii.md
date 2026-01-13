@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -17,7 +15,7 @@ next: ""
             <li><strong>The Lower 7 Sephirot (Religion):</strong> This is the realm of "Religion"—rules, rewards, and suffering. It corresponds to the emotional attributes. Here, the battle is between Good and Evil (x-axis).</li>
             <li><strong>The Upper 3 Sephirot (Light):</strong> Above organized religion, the air clears. We are closer to the vertical Light. Here, the battle is not between Good and Evil, but between <strong>Truth and Mistake</strong>.</li>
             </ul>
-            <p></div> This model explains the Rambam's view that Job's suffering stemmed from a lack of knowledge (science/philosophy). Job was righteous (perfect in the Lower 7), but he lacked the higher perspective. Organized religion, by nature, cannot fit every soul perfectly. If applied with rigor, it causes chaos; if applied loosely, it averages out.</p>
+            </div> This model explains the Rambam's view that Job's suffering stemmed from a lack of knowledge (science/philosophy). Job was righteous (perfect in the Lower 7), but he lacked the higher perspective. Organized religion, by nature, cannot fit every soul perfectly. If applied with rigor, it causes chaos; if applied loosely, it averages out.</p>
             <h4>Freedom vs. Religion</h4>
             <div class="justice-balance">
             <input type="radio" name="freedom-religion" id="humanism" class="balance-toggle" checked>
@@ -38,7 +36,7 @@ next: ""
             <p><strong>Source:</strong> <em>World of Correction</em> (Tikun/Brudim).</p>
             <p>The structured vessel, focused on stability, tradition, and collective discipline.</p>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="freedom-religion"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -62,14 +60,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

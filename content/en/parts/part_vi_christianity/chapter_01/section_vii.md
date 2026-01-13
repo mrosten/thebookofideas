@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>1. Egypt under Ptolemy Soter. 2. The Indian territories and part of Afghanistan which were given to an Indian ruler in return for military help. 3. The Seleucid Empire . 4. Macedon. This would imply that the next few verses would be referring to Jesus who was in fact at the latter time of the Greek Kingdom, after the Greeks were protected and freed by Roman decree [so at least they could be described as a kingdom if not an empire]. The verses later in Daniel 11 say openly that a messiah would arise during the empire that comes after the fall of the Greek empire and that could only be the Roman empire. The Talmud also says that the Messiah would come only when the Roman empire would spread over the whole world. Since the Talmud also says about Achashvairosh that his empire spread over the entire world would mean the whole known world at that time, this would imply that the messiah came when the Roman Empire was at its peak, not necessarily over the whole world, but the whole ‘known world’ at that time, which was during the rule of  Tiberius, when the Roman Empire reached its peak.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

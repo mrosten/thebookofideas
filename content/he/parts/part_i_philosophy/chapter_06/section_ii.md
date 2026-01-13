@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -28,7 +26,7 @@ next: ""
             <div class="pan pan-l"></div>
             <div class="pan pan-r"></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="consequence-grid">
             <div class="consequence-box earth-box">
             <h5>החיים על פני האדמה (זמני)</h5>
@@ -40,7 +38,7 @@ next: ""
             <span class="status-badge badge-reward">שגשוג</span>
             <p>קבלת שכר עבור מעשים טובים מעטים כאן; אין שורש נותר לעולם הבא.</p>
             </div>
-            <p></div></p>
+            </div>
             <div class="consequence-box heaven-box">
             <h5>העולם הבא (נצחי)</h5>
             <div id="righteous-heaven">
@@ -51,7 +49,7 @@ next: ""
             <span class="status-badge badge-punish">אובדן</span>
             <p>תשלום עבור רוב של חטאים.</p>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('.balance-toggle').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -73,7 +71,7 @@ next: ""
             <li><strong>גן עדן אמצעי:</strong> לאלו ששמרו על דיבורם ודיברו דברי אמת.</li>
             <li><strong>גן עדן עליון:</strong> לאלו שמחשבותיהם ורגשותיהם הפנימיים שולבו לתוך האור.</li>
             </ol>
-            <p></div></p>
+            </div>
             <p>בסופו של דבר, צדקת האל אינה הצהרת "אם-אז" פשוטה, אלא ניפוי עמוק של כל רמה של התודעה האנושית.</p>
             
             
@@ -81,14 +79,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

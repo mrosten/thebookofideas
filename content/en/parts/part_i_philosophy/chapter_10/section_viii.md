@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>2. The political people [people keeping and learning the laws of the Torah] from the world of Formation [on the level of good and evil]. 3. Scientists and philosophers are from Creation. 4. The highest level of those attached to God are from Emanation and included in Aristotle's contemplative category. [The religious divisions are horizontal and not vertical. Spiritual Judaism is on the inside to the left [God's right], Legal Judaism is on the inside to the right, Protestantism is just outside of Judaism on the left.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

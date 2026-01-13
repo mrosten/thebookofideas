@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>doesn't make one spiritual. All the above mentioned spiritual levels are only on the level of the spirit not the soul. Developing of one's spiritual self is by prayer and meditation. One needs learning to provide the vessels to contain the light of prayer and meditation, and one needs good deeds to contain the light of learning. However, the drawing of the light is specifically by silent thought. Action draws the nefesh ; words of Torah draw the spirit, and quiet thought draws the soul. This is something the Ari alluded to when he said that unifications are higher than Torah [Saint Frances of Assisi also mentioned this fact].</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

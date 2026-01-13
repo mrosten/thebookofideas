@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">HE</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">Part II — Halachah</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">HE</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">Part II — Halachah</a>
+        <a href="../../../../en/parts/part_ii_halacha/chapter_01/section_i.html" class="active">Part II — Halachah</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html'>Part II — Halachah</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class='active'>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 02</a><div class='dropdown-content'><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_ii_halacha/chapter_02/section_i.html' class='active'>Chapter 02</a><a href='../../../../en/parts/part_ii_halacha/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_ii_halacha/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_ii_halacha/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_ii_halacha/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_ii_halacha/chapter_07/section_i.html' class=''>Chapter 07</a><a href='../../../../en/parts/part_ii_halacha/chapter_08/section_i.html' class=''>Chapter 08</a><a href='../../../../en/parts/part_ii_halacha/chapter_09/section_i.html' class=''>Chapter 09</a><a href='../../../../en/parts/part_ii_halacha/chapter_10/section_i.html' class=''>Chapter 10</a><a href='../../../../en/parts/part_ii_halacha/chapter_11/section_i.html' class=''>Chapter 11</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 2: Prayer — Section II</span><div class='dropdown-content'><a href='../../../../en/parts/part_ii_halacha/chapter_02/section_i.html' class='' title='Chapter 2: Prayer — Section I'>Chapter 2: Prayer — Section I</a><a href='../../../../en/parts/part_ii_halacha/chapter_02/section_ii.html' class='active' title='Chapter 2: Prayer — Section II'>Chapter 2: Prayer — Section II</a><a href='../../../../en/parts/part_ii_halacha/chapter_02/section_iii.html' class='' title='Chapter 2: Prayer — Section III'>Chapter 2: Prayer — Section III</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html'>Part II — Halachah</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class='active'>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 02</a><div class='dropdown-content'><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_ii_halacha/chapter_02/section_i.html' class='active'>Chapter 02</a><a href='../../../../en/parts/part_ii_halacha/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_ii_halacha/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_ii_halacha/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_ii_halacha/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_ii_halacha/chapter_07/section_i.html' class=''>Chapter 07</a><a href='../../../../en/parts/part_ii_halacha/chapter_08/section_i.html' class=''>Chapter 08</a><a href='../../../../en/parts/part_ii_halacha/chapter_09/section_i.html' class=''>Chapter 09</a><a href='../../../../en/parts/part_ii_halacha/chapter_10/section_i.html' class=''>Chapter 10</a><a href='../../../../en/parts/part_ii_halacha/chapter_11/section_i.html' class=''>Chapter 11</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 2: Prayer — Section II</span><div class='dropdown-content'><a href='../../../../en/parts/part_ii_halacha/chapter_02/section_i.html' class='' title='Chapter 2: Prayer — Section I'>Chapter 2: Prayer — Section I</a><a href='../../../../en/parts/part_ii_halacha/chapter_02/section_ii.html' class='active' title='Chapter 2: Prayer — Section II'>Chapter 2: Prayer — Section II</a><a href='../../../../en/parts/part_ii_halacha/chapter_02/section_iii.html' class='' title='Chapter 2: Prayer — Section III'>Chapter 2: Prayer — Section III</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 2: Prayer — Section II</h3>
@@ -75,7 +82,7 @@
             <p>While you choose your actions, you do <strong>not</strong> choose what happens to you as a result. The circumstances, the outcomes, and the "destiny" of your environment are the domain of God. We pray to align our choices with the highest possible outcome.</p>
             <span class="status-badge badge-reward">Providence</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="destiny-mode"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -100,15 +107,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -116,8 +115,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../en/parts/part_ii_halacha/chapter_02/section_i.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 2: Prayer — Section I</div></a>
+            <a href='../../../../en/parts/part_ii_halacha/chapter_02/section_iii.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 2: Prayer — Section III</div></a>
         </div>
     </main>
 

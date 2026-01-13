@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The Baal Shem Tov was given by the Messiah three things to do, and three unifications - that if people would do them, the Messiah would come. I would like to take a guess as to what they might be based on the things that the Baal Shem Tov himself was careful in, i.e.: 1) Mikvah 2) Praying at sunrise 3) Learning in the way of just saying the words quickly and without repeating anything. I would guess the things to learn would be the four categories that the Arizal said to learn every day, i.e., the Bible, Halacha, Gemara, Kabbalah. (The Rambam held that science is in the category of Gemara. So, this turns out to be the Bible, Halacha, Science, Kabbalah).</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Social pressure or the husband's poor religious choices (e.g., card playing, Sabbath desecration) do not legally mandate a divorce. If a Get is given merely to satisfy social demands, it carries the risk of being spiritually void, leaving the woman in a state of legal uncertainty.</p>
             <span class="status-badge badge-reward">Void Covenant</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="separation-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -61,14 +59,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

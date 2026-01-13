@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <h4>The Spirit of the 1960s</h4>
@@ -39,7 +37,7 @@ next: ""
             <p><strong>The World:</strong> Probability, inner light, abstract sparks, and the flow of the heart. It provides the "Life" for reality.</p>
             <span class="status-badge badge-reward">Chaos-Growth</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="dualism-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -60,14 +58,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

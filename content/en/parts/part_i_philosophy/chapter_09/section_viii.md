@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>doesn't apply to him. For instance; theoretically, I think it is clear from the Zohar that Tikun Chatzot is more important than v esikin . However, I believe for many people the need for Vesikin outweighs that of Chatzot because of their particular type of soul. This may apply also to living in Israel where clearly it it a great thing to all opinions even to the Rambam; however, there are hidden things that cause it not to be a mitzva . In fact, nothing in the Torah can you really know is a mitzva until you really know what is going on in the hidden things. Just judging based on knowledge of the halacha is worse than not knowing at all — for when one knows nothing then he may follow his heart. If you ask then, why was the Torah given. The answer is to teach us to go into our hearts to find God and give us the basic principles that are really in our hearts and minds but from which we have become estranged.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

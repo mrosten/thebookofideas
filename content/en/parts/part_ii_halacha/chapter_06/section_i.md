@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -20,7 +18,7 @@ next: ""
             <div class="visual-placeholder-icon">🕍</div>
             <div class="visual-placeholder-text">Citizenship of the Heart</div>
             </div>
-            <p></div></p>
+            </div>
             <div class="concept-box">
             <strong>Three Views on Ascension</strong>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
@@ -36,7 +34,7 @@ next: ""
             <h5>The Structural Requirement (Rav Huna)</h5>
             <p>Rav Huna holds that Biblical holiness requires a King and the Urim and Tumim. Without these, the holiness is Rabbinical — a precious shadow of the original light.</p>
             </div>
-            <p></div> </div></p>
+            </div> </div>
             <h4>The Freedom of the Singular</h4>
             <p>Torah theology often hides the vast regions of free will behind a veil of absolute law. Yet, in the question of Israel, the Talmudic authorities provide valid paths for both staying in the lands of origin and ascending to the peak of Zion. This choice is not between good and evil, but between two equally valid expressions of a soul's mission. One must listen to the "small prophecy" of the inner heart; it is a positive commandment to obey one's own character and individual mission within the wider framework of the Law.</p>
             <div class="concept-box">
@@ -52,14 +50,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

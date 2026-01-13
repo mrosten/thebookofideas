@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -20,7 +18,7 @@ next: ""
             <div class="visual-placeholder-icon">🕯️</div>
             <div class="visual-placeholder-text">Event Horizon of Shabbat Visual</div>
             </div>
-            <p></div></p>
+            </div>
             <div class="justice-balance">
             <input type="radio" name="domain-view" id="domain-stringent" class="balance-toggle" checked>
             <input type="radio" name="domain-view" id="domain-lenient" class="balance-toggle">
@@ -40,7 +38,7 @@ next: ""
             <p><strong>Definition:</strong> A public domain only exists where 600,000 people pass daily. In this view, a community Eruv is valid even in a Biblical matter because modern density rarely meets this specific "Desert" standard.</p>
             <span class="status-badge badge-reward">Community Flow</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="domain-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -65,14 +63,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

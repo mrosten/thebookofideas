@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Nations possess different "lights." Israel is the light of spiritual intensity, while America holds the "light of political stability." When intense spiritual forces clash without the anchor of such stability, the advice of history (and prophetic warnings) suggests a strategy of caution and rhythmic distance until the total light is revealed.</p>
             <span class="status-badge badge-reward">Political Wisdom</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="israel-politics"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

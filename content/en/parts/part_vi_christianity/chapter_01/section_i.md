@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Jesus of Nazareth appeared during the final decline of the Second Temple. The non-Christian documents that corroborate his life do not align with the Talmudic timeline, suggesting a distinct spiritual phenomenon that would eventually claim the title of "Messiah son of Joseph."</p>
             <span class="status-badge badge-reward">Late Roman Period</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="jesu-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>the middle for people to grow and develop, but problems arise when each side assumes it’s a two person zero sum game, i.e., what one side wins the other side loses. In that case the conflict creates a situation where both sides lose. By cooperation both would increase the market for their ideas. There are two tendencies now: One, is the expansion of the political entity from state into a global state. But since that spreads the power thinly there is an opposite tendency to contract the political entity into ethnic religious groups and global corporations [economic states]. The conflict between these two forces causes a pattern of chaos to emerge. The second pattern is back to the Middle Ages when there was not “state”, just loyalty to the Catholic church or to Islam in a general (but very real way) and to one's particular landowner or feudal lord or prince. In the U.S.A. the courts no longer judge by the constitution, but by who has more money to buy a better lawyer - and juries now always decide along ethnic lines.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

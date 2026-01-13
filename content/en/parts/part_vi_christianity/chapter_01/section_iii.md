@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>While the Talmud possesses the authority to interpret the Law, the moral state of those who study it sometimes raises questions about its "Practical Validity." Unlike a physics experiment that yields the predicted result, the spiritual experiment of the Yeshiva often fails to produce the "Good Person" it promises, leading to a search for a more potent Divine inspiration.</p>
             <span class="status-badge badge-reward">Internal Struggle</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="verify-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

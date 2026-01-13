@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>To the Rambam in the Guide [III:51] the division of people is (from highest to lowest): a. The prophets (the Crown). b. The philosophers (Wisdom) [of the schools of Aristotle and Plato, not the rival schools of Greek thought of Epicurus or the several other types that the Sages and the Rambam didn't go for]. c. The scientists (Understanding) (Jewish or not). d. Those who keep the commandments and know the Talmud. (Knowledge-Glory with Royalty). e. Those who keep the commandments (Royalty). f. Those that don't keep the commandments.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

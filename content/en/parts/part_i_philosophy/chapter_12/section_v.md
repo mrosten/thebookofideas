@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>more into the sight of man. Then, if thy good fortune be not thenceforth checkered with ill, save thyself from harm by again doing as I have counselled.” Equilibrium is a major principle in life. What one does to improve his situation invariably changes the balance. One can't foresee the consequences of that change. But if the situation one is in is in any way livable, then to change it is probably a mistake. Moving from one place to another changes a balance and should never be done unless absolutely necessary. Also, in every person there is a balance of talent. If smart in one thing invariably he will be foolish in another. The most talented of people tend to lack simple common sense I have become convinced that most people tend to be the exact opposite of what they appear.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

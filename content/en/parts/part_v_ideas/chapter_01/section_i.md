@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>In the Kabbalistic view, numbers are the building blocks of the vessels. The name of a thing is its mathematical frequency. By understanding the numerical ratios (Gematria) of the Sephirot, one can begin to model the flow of Divine energy through the different dimensions of space.</p>
             <span class="status-badge badge-reward">Animated Light</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="math-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

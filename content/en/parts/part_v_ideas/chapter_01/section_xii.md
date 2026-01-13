@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Wisdom will have integer-spin like Photons or in general any particles whose exchange generates some interaction. This is a problem, for bosons carry all the interactions -- so aren't there left-handed interactions from the sephirot of power? The answer is that there are only four interactions, from the names 72 (right), 63 (left), 45 (right), 52 (left), and the four are always symmetric until some Higgs field breaks the symmetry. Since Royalty and Beauty are rotating on their own axis, they emit wave radiation from of the four types of waves (72, 63, 45, 52). Since Royalty rotates around Beauty they consist of a closed system, and give off Name-72 waves, which involves a loss of their energy of motion and rest energy. Therefore, they need to receive more energy into order to keep up the oscillation. (If not, they just float away as name 72 radiation waves.</p>
@@ -23,14 +21,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

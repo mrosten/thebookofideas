@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>of each day which are dependent on it. [This would mean also during the days from Rosh Hashanah until Succot. But I think that is going too far and one should pray with the intentions then and depend on the opinion of the Ramchal in his book on the intentions where he mentions that distinction and I think it is clear that he felt one should pray with the intentions all the time.] One should put all the intentions into one, i.e., unite all the divine names into one point. For one's children he should say the part in Genesis which deals with creation every day of the week. - Sefer Hamidos.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

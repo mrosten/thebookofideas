@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Since the Jewish people do not have the surrounding light of the circular sephirot their only evil is in community actions [actions that can be ascribed only to the community at large] like acquiescence to evil that their leaders and rabbis do, but individually they are righteous. That is why punishment comes upon them usually as a group as in the Holocaust, but individually their fear of God brings them blessing physically mentally and financially and in their children. The Christians on the other hand are collectively righteous as in America while individually they are usually coarse Goyim. [This is why Christian Evangelists can do miracles only in large groups where all the collective prayers and faith join together to draw the soul of Jesus, while individual Jewish saints generally can do only private miracles.] This is the reason why the Jewish people can't make a nation at peace even within itself much less with the Arab world surrounding it since they lack that outer light. This is the intention of the prophets when they prophesied that the Jewish people would have bad leaders as a result of their sins, i.e., the prophets saw the outer light would be taken from them and replaced by klipot so that the actions of the Jewish people as a whole would be evil though individually each person would be righteous. This is also the intent of the Zohar when it refers to “Rabbis that are Jewish demons”. And this is the intent of the Sages when they blame the world’s problems on the Jewish leaders and rabbis of each generation. They aren't engaged in hyperbole but a statement of fact.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

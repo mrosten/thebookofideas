@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The Rambam writes that making anything a mediator between you and God is idolatry (just the same as serving anything besides God. So, apparently there should be a problem doing any mitzvah which is supposed to bring you close to God and bring blessing from God. Now, the idea that a mediator is against the Torah isn't accepted by all authorities. So, to them there is no problem with the Gemarah saying that when you have someone sick at home you should go to the Torah scholar to pray for you; nor with the Gemarah about the saint who was having trouble with his neighbors and went to the grave of his father asking for help; nor with the Gemarah saying that if people would be able to go to the grave of Moses to pray, the redemption would come right away.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

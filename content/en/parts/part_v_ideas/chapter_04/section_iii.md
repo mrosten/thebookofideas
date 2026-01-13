@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Though Rabbi Nachman attacked the Guide to the Perplexed, there are many principles that he gets from there, like that “taking care of the body comes before taking care of the soul,” ( Guide III:27). Or the idea that prophecy is an extension of the power of imagination [the Guide II:38], the idea that prophecy is by an angel to all prophets except Moses [the Guide II:24]. Advice from Rabbi Nachman has to be taken with a grain of salt, i.e., what he would call Tzitzum. The mikvah may be able to sweeten judgements but what about the guy that was killed in Israel going to the mikvah and the child that died after his parent put him in the  freezing mikvah of the Ari. in Safed.Even if one has had seed come out of him at night, Rabbi Nachman said it is nothing unless it came also with sexual thoughts. The reason the mikvah no  longer works like it did for the Baal Shem Tov is that for him it was a time for  private prayer.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

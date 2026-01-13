@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>the left is emanation. There are ten empty spaces, and each is divisible into ten, which are divisible into ten ad infinitum. Each one is on a different plane, i.e., the three dimensional sphere is surrounded by a 4-D sphere which is surrounded etc. Each has its own surrounding sephirot in its own dimension. For instance, our empty space is surrounded by Royalty of the Infinite One which is surrounded etc. Like this:</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

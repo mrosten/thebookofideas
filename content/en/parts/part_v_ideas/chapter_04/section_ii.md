@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The horizontal axis is the domain of personal will. Even on the "Left" side of the ladder, there is a right and a left. A person who is considered "evil" by communal standards may still possess a spark of goodness if their internal x-coordinate is closer to the Infinite Column than a complacent "righteous" person.</p>
             <span class="status-badge badge-reward">Active Rectification</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="rank-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -22,7 +20,7 @@ next: ""
             </div>
             <div class="union-core"></div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Spiritual Reaction</h4>
             <p>Sex is the physical manifestation of a metaphysical fusion. It is never "neutral." When two souls connect without the container of commitment, the energy created does not disappear—it ricochets. It reacts against the individual like a jealous force, exacting a price in spiritual depletion and internal dissonance. But when the vessel is whole, the act becomes a mechanism of higher unification, drawing the <em>Or Makif</em> (Surrounding Light) into the very bodies of the lovers.</p>
             <div class="justice-balance">
@@ -44,7 +42,7 @@ next: ""
             <p>Pleasure sought for its own sake remains trapped in the "Broken Vessels." It mimics the light but lacks the heat of life. Over time, it creates an addiction to the sensation while starving the soul, leading to a profound, unexplainable loneliness.</p>
             <span class="status-badge badge-punish">Fragmentation</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="sex-mode"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -69,14 +67,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

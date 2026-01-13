@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">HE</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">Part I — Philosophy</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">HE</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">Part I — Philosophy</a>
+        <a href="../../../../en/parts/part_i_philosophy/chapter_01/section_i.html" class="active">Part I — Philosophy</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html'>Part I — Philosophy</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class='active'>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 12</a><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_i_philosophy/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_i_philosophy/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_i_philosophy/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_i_philosophy/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_i_philosophy/chapter_07/section_i.html' class=''>Chapter 07</a><a href='../../../../en/parts/part_i_philosophy/chapter_08/section_i.html' class=''>Chapter 08</a><a href='../../../../en/parts/part_i_philosophy/chapter_09/section_i.html' class=''>Chapter 09</a><a href='../../../../en/parts/part_i_philosophy/chapter_10/section_i.html' class=''>Chapter 10</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_i.html' class=''>Chapter 11</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_i.html' class='active'>Chapter 12</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 12: Decisions — Sec...</span><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_i.html' class='active' title='Chapter 12: Decisions — Section I'>Chapter 12: Decisions — Section I</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_ii.html' class='' title='Chapter 12: Decisions — Section II'>Chapter 12: Decisions — Section II</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_iii.html' class='' title='Chapter 12: Decisions — Section III'>Chapter 12: Decisions — Section III</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_iv.html' class='' title='Chapter 12: Decisions — Section IV'>Chapter 12: Decisions — Section IV</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_ix.html' class='' title='Chapter 12: Decisions — Section IX'>Chapter 12: Decisions — Section IX</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_v.html' class='' title='Chapter 12: Decisions — Section V'>Chapter 12: Decisions — Section V</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_vi.html' class='' title='Chapter 12: Decisions — Section VI'>Chapter 12: Decisions — Section VI</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_vii.html' class='' title='Chapter 12: Decisions — Section VII'>Chapter 12: Decisions — Section VII</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_viii.html' class='' title='Chapter 12: Decisions — Section VIII'>Chapter 12: Decisions — Section VIII</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_x.html' class='' title='Chapter 12: Decisions — Section X'>Chapter 12: Decisions — Section X</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_xi.html' class='' title='Chapter 12: Decisions — Section XI'>Chapter 12: Decisions — Section XI</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_xii.html' class='' title='Chapter 12: Decisions — Section XII'>Chapter 12: Decisions — Section XII</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html'>Part I — Philosophy</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class='active'>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 12</a><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_i_philosophy/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_i_philosophy/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_i_philosophy/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_i_philosophy/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_i_philosophy/chapter_07/section_i.html' class=''>Chapter 07</a><a href='../../../../en/parts/part_i_philosophy/chapter_08/section_i.html' class=''>Chapter 08</a><a href='../../../../en/parts/part_i_philosophy/chapter_09/section_i.html' class=''>Chapter 09</a><a href='../../../../en/parts/part_i_philosophy/chapter_10/section_i.html' class=''>Chapter 10</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_i.html' class=''>Chapter 11</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_i.html' class='active'>Chapter 12</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 12: Decisions — Sec...</span><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_i.html' class='active' title='Chapter 12: Decisions — Section I'>Chapter 12: Decisions — Section I</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_ii.html' class='' title='Chapter 12: Decisions — Section II'>Chapter 12: Decisions — Section II</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_iii.html' class='' title='Chapter 12: Decisions — Section III'>Chapter 12: Decisions — Section III</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_iv.html' class='' title='Chapter 12: Decisions — Section IV'>Chapter 12: Decisions — Section IV</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_ix.html' class='' title='Chapter 12: Decisions — Section IX'>Chapter 12: Decisions — Section IX</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_v.html' class='' title='Chapter 12: Decisions — Section V'>Chapter 12: Decisions — Section V</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_vi.html' class='' title='Chapter 12: Decisions — Section VI'>Chapter 12: Decisions — Section VI</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_vii.html' class='' title='Chapter 12: Decisions — Section VII'>Chapter 12: Decisions — Section VII</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_viii.html' class='' title='Chapter 12: Decisions — Section VIII'>Chapter 12: Decisions — Section VIII</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_x.html' class='' title='Chapter 12: Decisions — Section X'>Chapter 12: Decisions — Section X</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_xi.html' class='' title='Chapter 12: Decisions — Section XI'>Chapter 12: Decisions — Section XI</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_xii.html' class='' title='Chapter 12: Decisions — Section XII'>Chapter 12: Decisions — Section XII</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 12: Decisions — Section I</h3>
@@ -63,7 +70,7 @@
             <li><strong>Situational Awareness:</strong> Like a fighter pilot, be aware of the whole sphere, not just the front.</li>
             <li><strong>Active Waiting:</strong> Putting oneself in God's hands does not mean sleeping; it means doing nothing until the clear will of God appears.</li>
             </ol>
-            <p></div> Trust in God and simplicity. If you don't know something, it is because <em>Vesikin Vesikin</em>—God doesn't want you to know yet. To trust in God means learning to live with doubt until He solves the problem. <strong>The Rules of Engagement:</strong> <em>   <strong>Independent Confirmation:</strong> Verify what you hear from a source other than yourself. </em>   <strong>Be Prepared:</strong> Like the Boy Scouts. When I went to Ukraine, I was told to take a sleeping bag. I thought it foolish for an indoor trip, but it saved me from freezing.</p>
+            </div> Trust in God and simplicity. If you don't know something, it is because <em>Vesikin Vesikin</em>—God doesn't want you to know yet. To trust in God means learning to live with doubt until He solves the problem. <strong>The Rules of Engagement:</strong> <em>   <strong>Independent Confirmation:</strong> Verify what you hear from a source other than yourself. </em>   <strong>Be Prepared:</strong> Like the Boy Scouts. When I went to Ukraine, I was told to take a sleeping bag. I thought it foolish for an indoor trip, but it saved me from freezing.</p>
             <p>*   <strong>The Ignatius Principle:</strong> “In time of desolation never to make a change; but to be firm... in the resolutions and determination in which one was the day preceding.” (St. Ignatius of Loyola). <strong>On Advice:</strong> Never make a life decision under pressure, emotional need, or sexual desire. Find a way to relax—Winston Churchill made his major WWII decisions in the bathtub! Be wary of the "good advice" of others, even Rabbis, if it diminishes your free will. We saw in the Holocaust that relying on authority figures sometimes led to inaction. Retain your agency.</p>
             <blockquote class="fancy-quote">
             “There is such a thing as putting oneself in God's hands. It is not seeking advice from dreams, angels, or intuition. It is actively doing nothing until that very second that God makes one know.”
@@ -74,15 +81,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -90,8 +89,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../en/parts/part_i_philosophy/chapter_11/section_xi.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 11: On Science — Section XI</div></a>
+            <a href='../../../../en/parts/part_i_philosophy/chapter_12/section_ii.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 12: Decisions — Section II</div></a>
         </div>
     </main>
 

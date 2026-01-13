@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">HE</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">Part I — Philosophy</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">HE</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">Part I — Philosophy</a>
+        <a href="../../../../en/parts/part_i_philosophy/chapter_01/section_i.html" class="active">Part I — Philosophy</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html'>Part I — Philosophy</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class='active'>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 05</a><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_i_philosophy/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_i_philosophy/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_i_philosophy/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_i.html' class='active'>Chapter 05</a><a href='../../../../en/parts/part_i_philosophy/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_i_philosophy/chapter_07/section_i.html' class=''>Chapter 07</a><a href='../../../../en/parts/part_i_philosophy/chapter_08/section_i.html' class=''>Chapter 08</a><a href='../../../../en/parts/part_i_philosophy/chapter_09/section_i.html' class=''>Chapter 09</a><a href='../../../../en/parts/part_i_philosophy/chapter_10/section_i.html' class=''>Chapter 10</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_i.html' class=''>Chapter 11</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_i.html' class=''>Chapter 12</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 5: Happiness — Sect...</span><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_i.html' class='' title='Chapter 5: Happiness — Section I'>Chapter 5: Happiness — Section I</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_ii.html' class='' title='Chapter 5: Happiness — Section II'>Chapter 5: Happiness — Section II</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_iii.html' class='active' title='Chapter 5: Happiness — Section III'>Chapter 5: Happiness — Section III</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html'>Part I — Philosophy</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class='active'>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 05</a><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_i_philosophy/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_i_philosophy/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_i_philosophy/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_i.html' class='active'>Chapter 05</a><a href='../../../../en/parts/part_i_philosophy/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_i_philosophy/chapter_07/section_i.html' class=''>Chapter 07</a><a href='../../../../en/parts/part_i_philosophy/chapter_08/section_i.html' class=''>Chapter 08</a><a href='../../../../en/parts/part_i_philosophy/chapter_09/section_i.html' class=''>Chapter 09</a><a href='../../../../en/parts/part_i_philosophy/chapter_10/section_i.html' class=''>Chapter 10</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_i.html' class=''>Chapter 11</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_i.html' class=''>Chapter 12</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 5: Happiness — Sect...</span><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_i.html' class='' title='Chapter 5: Happiness — Section I'>Chapter 5: Happiness — Section I</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_ii.html' class='' title='Chapter 5: Happiness — Section II'>Chapter 5: Happiness — Section II</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_iii.html' class='active' title='Chapter 5: Happiness — Section III'>Chapter 5: Happiness — Section III</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 5: Happiness — Section III</h3>
@@ -62,7 +69,7 @@
             <li><strong>Taxation:</strong> Taking from one to give to another (outside of cases of misfortune) is a failure to treat equals as equals.</li>
             <li><strong>The Balance:</strong> A balanced system of judges is necessary to prevent a disenfranchised class from becoming "anti-morality" and destroying society.</li>
             </ul>
-            <p></div></p>
+            </div>
             <h4>Beyond Freedom</h4>
             <p>Hegel saw history as the Spirit's quest for <strong>Freedom</strong> (corresponding to the Divine Name 63). The Torah, however, points to an even higher level: <strong>Attachment to God</strong> (the Name 72).</p>
             <div class="concept-box">
@@ -71,7 +78,7 @@
             <li><strong>Name 63 (Tohu/Tikun):</strong> Represents the integration of chaos and order into political freedom.</li>
             <li><strong>Name 72 (Chesed):</strong> Represents pure happiness and unity with the Infinite Source.</li>
             </ul>
-            <p>Marxism failed because it ignored the spiritual needs of the soul, assuming only material dialectics matter. But history proves that when physical needs are met, the soul's cry for God only grows louder. </div></p>
+            <p>Marxism failed because it ignored the spiritual needs of the soul, assuming only material dialectics matter. But history proves that when physical needs are met, the soul's cry for God only grows louder. </div>
             <h4>Everything is God</h4>
             <p>The Master, the Baal Shem Tov, suggested that it is proper to desire physical beauty and music, for these act as bridges to the Divine. Rambam agreed, advising those with heavy hearts to surround themselves with "lovely forms" and melody. Since there is nothing besides God, every beautiful thing is a window into His presence.</p>
             <blockquote class="fancy-quote">
@@ -83,15 +90,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -99,8 +98,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../en/parts/part_i_philosophy/chapter_05/section_ii.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 5: Happiness — Section II</div></a>
+            <a href='../../../../en/parts/part_i_philosophy/chapter_06/section_i.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 6: Reward And Punishment — Section I</div></a>
         </div>
     </main>
 

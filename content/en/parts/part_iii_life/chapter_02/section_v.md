@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>as many types of marriage as there are types of human beings. However, the basic types are: 1. The spiritual marriage: This marriage is the revelation of an already existing bond. This one can weather all obstacles, since its essence is eternal. But it requires that both mates be homo-spiritualis — spiritual beings. 2. The fun marriage: This is the marriage of the scientist philosopher whose motivating principle is curiosity and creativity. 3. The reasonable marriage: Not bad if based on feeling also, but reason is a very poor basis for human relationships.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

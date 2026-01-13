@@ -6,11 +6,7 @@ prev: ""
 next: ""
 ---
 
-
-
             
-
-
 
 <div class="concept-box">
 <strong>The Paradox of Infinity</strong>
@@ -52,18 +48,6 @@ The idea that "nothing exists besides God" is on the level of the <strong>Circul
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
 
-<!-- Section Nav -->
 
-</div>
-
-<!-- Section Nav -->
-
-
-
-        </div>
-
-        <!-- Section Nav -->

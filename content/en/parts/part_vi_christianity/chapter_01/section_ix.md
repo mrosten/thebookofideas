@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>between this and the 4 times 4 matrix of the four Divine names: 72, 63, 45, 52. The only connection I have ever been able to find is in the first blessing of the Shemone Esre where Foundation is brought up to Glory which is the sepherah that is associated with the Divine name of four letters.) One of the arguments used against the trinity is that God can't come down to earth in a bodily form, yet we find in the Gemarah Sa­nhedrin (95b) that he did just that as it says there, “Rabbi Abahu said that ‘if the verse didn't write it, it would be impossible to say’. The verse states: ‘On that day God will shave with the razor on the other side of the river the king of Assyria, the head and the hair of the feet and also the beard he will take away. The Holy One, Blessed is He, came and appeared to him [Sancheriv] as an old man. He said to him, “when you go to the kings of the east and the west, what will you say?” He answered, “I am also worried about this, what should we do?” He said, “Go and disguise yourself.” He asked, “how should I do that?” He said, “go bring me a scissors and I'll give you a haircut”. “From where should I get it?” “Go into that house over there.” He went and found some ministering angles who appeared to him as men and they were grinding date seeds. He said “give me a scissor”. They said “first grind one seed and well give you a pair”. By the time he got back it was already dark. He said “bring a lamp” he went and got one. As he was coming a spark touched his beard and his beard caught fire. He came and he gave him a hair cut. Rav Papa said that explains the common saying “if you singe an Assyrian and he liked it burn his beard also.” I can imagine many will think that this Gemara doesn't mean this literally, however, that is not so since Rabbi Abahu said, “If the verse didn't say this it would be impossible to say.” Now, if the whole story is just a parable, then it would be possible to say. Rather, Rabbi Abahu is saying that this verse is saying something so contrary to reason that if it didn't say it, it would be impossible to say, i.e., that God himself came down to Earth in a physical body to give Sancheriv a haircut.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

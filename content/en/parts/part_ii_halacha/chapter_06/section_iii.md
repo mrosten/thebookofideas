@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>there can never be peace until the Muslims give up the Koran. [Shavuot 16a] Rabbi Eliezer held the first Holiness was only as long as the Jewish people stayed there. This is the halacha to all authorities. Rav Huna held that the holiness of the land of Israel needs to be established by a King and the Urim and Tumim. The halacha is like Rav Huna to all the authorities. Tosphot puts these two together and comes up with the idea that teruma and maaser nowadays is only rabbinical, not biblical. This means in plain english that to this opinion the holiness of the land of Israel nowadays is only rabbinical, not biblical. Thus, even if we concede to the Ramban that there is a biblical mitzvah of living in Israel [which the Rambam doesn't hold with anyway] still who says you can fulfill it nowadays by living in Israel. Biblically speaking Israel isn't holy, only rabbinically, at least according to this last way of thinking... However, there are opinions that it is Biblically holy also None of these reasons would be sufficient to cause one not to live in Israel except that Jesus said when you see Jerusalem surrounded by armies get up and leave.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

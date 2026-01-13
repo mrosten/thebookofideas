@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>limitless, so you do have to deal with the fact that any goal to be achieved well is going to need your entire attention. The problem with hatred is that one becomes that which he hates, because the side of holiness doesn't hate anything in the way of wanting it destroyed, rather corrected and saved. The way of being saved from ones enemies is to judge them on the scale of merit. And pray for their good, spiritual and physical, in this world and the next, then your prayer will reflect off them like a mirror right back to you. And it may help them also.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>(I would like to point out that this doesn't disagree with Rabbi Nachman whose tirade against the “philosophers” of the Enlightenment of the 1700s has little to do with philosophy. They assumed that by pure reason without revelation they could construct a utopia. They were a new class of what we would call intellectuals, or social critics and reformers. Rabbi Nachman was speaking about the group that in his days was called specifically the “philosophers”. That point of view is diametrically opposed to the view held generally in the 1800s of Romanticism which believes that moral passion and emotion count more than reason. This is closer to Rabbi Nachman’s point of view.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

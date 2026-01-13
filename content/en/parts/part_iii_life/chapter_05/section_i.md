@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -18,7 +16,7 @@ next: ""
             <div class="visual-placeholder-icon">🤝</div>
             <div class="visual-placeholder-text">The Bond of Adversity</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Test of the Half-Friend</h4>
             <p>A true friend is a rarity that can only be identified in the furnace of adversity. As the ancient Arabic parable suggests, a young man may believe he has fifty friends, but his father—with all his years—claims only "one friend and one half-friend." A true friend is the one who, seeing you in a moment of extreme danger or disgrace, immediately pulls you inside, burns the evidence of your shame, and locks the door without requiring a single word of explanation.</p>
             <div class="concept-box">
@@ -33,7 +31,7 @@ next: ""
             <h5>The True Friend</h5>
             <p>The one who jumps when you jump. They ask no questions until the vessel is safe. They operate on the level of the <strong>Heart</strong>, where loyalty exceeds the logic of self-preservation.</p>
             </div>
-            <p></div> </div></p>
+            </div> </div>
             <h4>The Flow of Favor</h4>
             <p>There is a spiritual "waterfall" to relationships. Someone who has already done you a favor is statistically more likely to do you another than someone you have done a favor for. This is because they have already established a "Giving Flow" toward your level; they occupy a higher spiritual plane in that specific context, and energy flows naturally from High to Low.</p>
             <div class="concept-box">
@@ -49,14 +47,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

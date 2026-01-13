@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -22,7 +20,7 @@ next: ""
             <li><strong>The Basic Level:</strong> God alone is the center of gravity.</li>
             <li><strong>The Practical Level:</strong> We often "orbit" around tools or people (Jesus, Rabbi Nachman, Halacha, Israel) to find God.</li>
             </ul>
-            <p>The right way is to concentrate on God alone, using these "tools" as means to an end, not end-points of focus. </div></p>
+            <p>The right way is to concentrate on God alone, using these "tools" as means to an end, not end-points of focus. </div>
             <h4>The Wave of Progress</h4>
             <p>People's growth often follows a <strong>Sine Function</strong>. High points are followed by lows as we prepare for the next world. Unhappiness often comes from the <em>pursuit</em> of happiness. True Enlightenment (like Jacob's) involves both the promise from God and the struggle with the "Enemy."</p>
             <div class="concept-box">
@@ -34,7 +32,7 @@ next: ""
             <li><strong>Hisbodedut:</strong> Solitude and meditation in the forest.</li>
             <li><strong>Halacha:</strong> The objective law.</li>
             </ul>
-            <p>Everything depends on the individual's stamina and intelligence. There is no one-size-fits-all doctrine; there are only tools for the soul. </div></p>
+            <p>Everything depends on the individual's stamina and intelligence. There is no one-size-fits-all doctrine; there are only tools for the soul. </div>
             <h4>The State of Solitude</h4>
             <p>Praying alone (or meditating in a closet like Descartes) allows the soul to return to its <strong>Wave State</strong>. When observed or fixed in community, spiritual energy "collapses" into a particle—a vessel with specific time and space. Solitude preserves the wave-like connection to the Infinite.</p>
             
@@ -43,14 +41,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

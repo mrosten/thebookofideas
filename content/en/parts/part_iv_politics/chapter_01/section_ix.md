@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>rise of the modern state and capitalism has created two types of people: 1) the callous that has been born and bred to know that he has the face the world alone and has little sympathy for anyone especially in business;2) the fearful of this vast aloneness of the world and run into totalitarian systems to provide them with emotional and financial support. This is the cause of fascism and communism and the rise of the fundamentalist religions today orthodox Judaism, fundamentalist Islam and Fundamentalist Christianity and the Eastern cults. None of this has to do with an intellectual search for truth but for security in an insecure world. Thus, whatever truth may have been in any or all of these religions has been obliterated to make fundamentalist doctrines that would feed the need of the people. The world today is a lonely place.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

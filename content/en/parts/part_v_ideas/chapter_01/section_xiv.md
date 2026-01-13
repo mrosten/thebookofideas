@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>1 0 for all c: And so, the Wronskian determinant doesn't vanish at the origin. So, the torsion 1 0 So we have either right handed or left handed sephirot since,</p>
@@ -29,14 +27,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

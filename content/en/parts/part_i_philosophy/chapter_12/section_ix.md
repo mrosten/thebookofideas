@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Sicily: Accordingly, they resolved to relieve it the next morning. Meanwhile Phrynichus, the Athenian commander, had received precise intelligence of the fleet from Leros, and when his colleagues expressed a wish to keep the sea and fight it out, flatly refused either to stay himself or to let them or anyone else do so if he could help it. Where they could hereafter contend, after full and undisturbed preparation, with an exact knowledge of the number of the enemy’s fleet and of the force which they could oppose to him, he would never allow the reproach of disgrace to drive him into a risk that was unreasonable. It was no disgrace for an Athenian fleet to retreat when it suited them: put it as they would, it would be more disgraceful to be beaten, and to expose the city not only to disgrace, but to the most serious danger. After its late misfortunes it could hardly be justified in voluntarily taking the offensive even with the strongest force, except in a case of absolute necessity: much less than without compulsion could it rush upon peril of its own seeking. He told them to take up their wounded as quickly as they could and the troops and stores w hich they had brought with them and leaving behind what they had taken from the enemy's country, in order to lighten the ships, to sail off to Samos, and there concentrating all their ships to attack as opportunity served. As he spoke so he acted; and thus, not now more than afterwards, nor in this alone but in all that he had to do with, did Phrynichus show himself a man of sense. In this way that very evening the Athenians broke up from before Miletus, leaving their victory unfinished, and the Argives, mortified at their disaster, promptly sailed off home from Samos.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>sephirah and holds the node of the soul in place so the right and left sephirot can vibrate in resonance with the energy waves coming from the higher sephirot. The root of Physics and Math is in the worlds which are above the world of Emanation, and thus at the time of the breaking of the vessels they fell into the lower worlds. But if one learns them with fear of God, they have the power to bring one up to his higher root (This is the reason the sciences have been emphasized by the non-Jews who are from the same world).</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

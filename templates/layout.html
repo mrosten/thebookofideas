@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="{{ASSET_PATH}}search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">{{LANG_TOGGLE_TEXT}}</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">{{PART_TITLE}}</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="{{ASSET_PATH}}search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">{{LANG_TOGGLE_TEXT}}</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="{{ASSET_PATH}}index.html">Home</a>
         <a href="{{ASSET_PATH}}contents.html">Contents</a>
         <a href="{{PART_INDEX_LINK}}" class="active">{{PART_TITLE}}</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        {{BREADCRUMB_HTML}}
+        <div class="breadcrumb">
+            {{BREADCRUMB_HTML}}
+        </div>
 
         <div class="content-card">
             <h3>{{SECTION_TITLE}}</h3>

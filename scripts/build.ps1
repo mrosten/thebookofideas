@@ -1,8 +1,8 @@
 # Static Site Generator Build Script
 param (
-    [string]$ContentDir = "src/tboi/content",
-    [string]$TemplateDir = "src/tboi/templates",
-    [string]$OutputDir = "src/tboi",
+    [string]$ContentDir = "$PSScriptRoot/../content",
+    [string]$TemplateDir = "$PSScriptRoot/../templates",
+    [string]$OutputDir = "$PSScriptRoot/..",
     [switch]$Watch,
     [switch]$RebuildSitemap
 )
@@ -285,12 +285,45 @@ foreach ($file in $Files) {
 
 
     # Nav Links
-    $pageHtml = $pageHtml.Replace("{{PART_INDEX_LINK}}", "${assetPath}parts/index.html") # TODO: Fix specific index links
+    # Fix Part Index Link: Find the first section of this part in the sitemap
+    $partFirstSection = $Sitemap | Where-Object { $_.lang -eq $lang -and $_.part -eq $meta['part'] } | Select-Object -First 1
+    $partIndexUrl = "#"
+    if ($partFirstSection) {
+        $partIndexUrl = "${assetPath}$($partFirstSection.path)"
+    }
+    $pageHtml = $pageHtml.Replace("{{PART_INDEX_LINK}}", $partIndexUrl)
+
     $pageHtml = $pageHtml.Replace("{{CONTENT_BODY}}", $bodyHtml)
     
-    # Prev/Next Buttons
-    $prevBtn = if ($meta['prev']) { "<a href='$($meta['prev'])' class='nav-btn prev'>" + $(if ($lang -eq 'he') { '<span>הקודם</span>' }else { '<span>Previous</span>' }) + "</a>" } else { "" }
-    $nextBtn = if ($meta['next']) { "<a href='$($meta['next'])' class='nav-btn next'>" + $(if ($lang -eq 'he') { '<span>הבא</span>' }else { '<span>Next</span>' }) + "</a>" } else { "" }
+    # Auto-Calculate Prev/Next from Sitemap
+    $prevBtn = ""
+    $nextBtn = ""
+    
+    if ($currentEntry) {
+        # Get all entries for this language, ordered (Sitemap should already be ordered)
+        $langEntries = $Sitemap | Where-Object { $_.lang -eq $lang }
+        $currIdx = $langEntries.IndexOf($currentEntry)
+        
+        if ($currIdx -gt 0) {
+            $prevEntry = $langEntries[$currIdx - 1]
+            $url = "${assetPath}$($prevEntry.path)"
+            # Card Style Prev
+            $prevBtn = "<a href='$url' class='nav-card prev'>"
+            $prevBtn += "<div class='label'>" + $(if ($lang -eq 'he') { 'הקודם' }else { 'Previous' }) + "</div>"
+            $prevBtn += "<div class='title'>$($prevEntry.title)</div>"
+            $prevBtn += "</a>"
+        }
+        
+        if ($currIdx -lt ($langEntries.Count - 1)) {
+            $nextEntry = $langEntries[$currIdx + 1]
+            $url = "${assetPath}$($nextEntry.path)"
+            # Card Style Next
+            $nextBtn = "<a href='$url' class='nav-card next'>"
+            $nextBtn += "<div class='label'>" + $(if ($lang -eq 'he') { 'הבא' }else { 'Next' }) + "</div>"
+            $nextBtn += "<div class='title'>$($nextEntry.title)</div>"
+            $nextBtn += "</a>"
+        }
+    }
     
     $pageHtml = $pageHtml.Replace("{{PREV_BUTTON}}", $prevBtn)
     $pageHtml = $pageHtml.Replace("{{NEXT_BUTTON}}", $nextBtn)

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>. By learning the mishnayot Seeds one draws the light of the name mlp la pla from the top four vessels into the vessel of kindness. By learning tractate Times, one draws from the light of the name myhla into the vessel of Power. The tractate Women draw the light of the name tvabe into the vessels of Beauty. By learning Damages, one draws the light of the name laa into the vessel of Victory. Learning the tractate Sacrifices one draws the light of the name myhla yhla hla laa into the vessel of S plendor .</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

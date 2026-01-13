@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Torah), not chasidut, not Musar, not Halacha, not Gemara, etc. Others have different answers to bring the redemption. Nothing has helped and still the redemption isn't here and still the sole and single advice of Rabbi Chayim Vital isn't done. He wrote that 500 years ago and it's still not done. All the Musar and Chassidus and Halacha haven't helped. Maybe Kabbalah is dangerous but nothing else has done better. And still the one simple piece of advice of Rabbi Chayim Vital isn't done - learn Kabbalah all day and the redemption will come.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

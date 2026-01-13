@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>"One has to be on the same wavelength as God to receive his Word, power receivers, closeness to him by a pure lifestyle, or big antennas won't help unless you've got the right wavelength." -- Keith Moore "One has to be rein trained, like power steering i.e., willing to listen to a small hint from God and not to need a big revelation or an angel to come from heaven. God sends his spirit to a person willing to obey small hints like Moses going aside to see the burning bush." – Keith Moore Meditation is the main theme of Rabbi Shneur Zalman however it is mentioned by Rabbi Nachman as the calling to God from the depths of one's heart without voice or words. The Books of musar emphasize it as "Contemplation of the Soul" of the Chovot Halevavot.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

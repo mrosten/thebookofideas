@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="justice-balance">
@@ -31,7 +29,7 @@ next: ""
             <p><strong>תוצאה:</strong> חשיפת תבניות נסתרות, שבירת מגבלות מנטליות, ומציאת "אור הצל" שמאחורי המילים.</p>
             <span class="status-badge badge-reward">פרדוקס</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="mirror-study"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -53,14 +51,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

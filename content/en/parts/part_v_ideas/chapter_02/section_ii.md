@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The Infinite Light (<em>Ohr Ein Sof</em>) is uncountable and continuous. It cannot be divided or segmented. When the individual's soul expands to encompass this infinity, it enters a state where the boundaries between "self" and "other" dissolve into the first uncountable type of infinity.</p>
             <span class="status-badge badge-reward">Infinite Flow</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="continuum-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

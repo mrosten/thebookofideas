@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>You can't object with Zeno's paradox that this same logic would disprove motion since causes are discrete things and you need in fact one discrete cause to cause another: while measuring the distance is something we impose on the moving ball. When you get to the first cause you come to God. Thus, there is a creator and he is one. Now, since time and space may curve in on themselves, we could say that the number of causes is finite but keeps going around in a circle. But that still is not an objection since we are still thinking in a time loop going around in a larger time space. The point is we still are reduced to cause and effect which has to have a limit.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Rambam holds that one can accept a ger toshav From Amalek. Therefore, in his opinion the seven commandments of Noach take even the Seven nations or Amalek out of the category of Milchemet Mitzvah. Since the mitzvot of obligatory war and non-obligatory war are semuchim [adjacent] they are parallel. Therefore, the seven mitzvot take other nations out of the category of non-obligatory war [to the Rambam]. This provides a different basis of looking at non-Jews other than the accepted way. The accepted way however is the opinion of the authorities brought in Shulchan Aruch. At any rate even to the other authorities, taxation on other nations is a political necessity. One nation in the world has to be the policeman.  The reason one state in America isn't a threat to another is that the Federal government is over them all.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

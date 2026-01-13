@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>everybody needs someone to talk to that won't be judgmental, will listen without interrupting, and just render impartial advice as best they can, [that is the reason there were Catholic priests]. The Devil couldn't destroy America all by himself since he is only one angel, so he sent the psycho therapists to do his work for him. There can't be spiritual growth in New York, since the city is the root of the broken vessels which don't connect with each other. Growth can only be in a friendly atmosphere. You can be a saint in NY, but I don't think you can grow.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

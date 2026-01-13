@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <h4>The Echo of the Curse</h4>
@@ -31,7 +29,7 @@ next: ""
             <p>While you choose your actions, you do <strong>not</strong> choose what happens to you as a result. The circumstances, the outcomes, and the "destiny" of your environment are the domain of God. We pray to align our choices with the highest possible outcome.</p>
             <span class="status-badge badge-reward">Providence</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="destiny-mode"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -56,14 +54,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

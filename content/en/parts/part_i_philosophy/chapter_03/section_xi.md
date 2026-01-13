@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>One can combine two points of view into one by considering the combination of each point in the first and the second and drawing a line through each of them into the new space of the name 45. This is in the straight sephirot and the same can be done in the circular sephirot. The uncertainty principle applies to all aspects of life and is the root of free will. For instance the conflict between freedom of thought (thinking for yourself) and listening to the wise. We find in the Torah itself this conflict, for even though we are supposed to listen to the Sanhedrin, still there is a whole section of the Torah which describes the types of sacrifice which must be brought when the Sanhedrin makes a mistake. And the Sages say that if one knew they were wrong, yet still acted on their opinion, he is responsible for his own actions.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

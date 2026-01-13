@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>beautiful from others.True Torah life can take root among all Jews, but it must adapt to the sensitivities and nature of the people in each area and community. Any attempt to impose the fascist Judaism of Brooklyn and the ultra-orthodox in Israel on the rest of Jewry will fail.The Baal Shem Tov and his followers were the last leaders to know this principle. [It so happens that they were saints also, but in practical terms they also knew the need to adapt to the people and see the higher spiritual root of each community they were in. Many of the customs they explained the higher spiritual significance of were indigenous to those communities and not customs carved in stone for all people everywhere.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

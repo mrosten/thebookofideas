@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>physical realm contains a letter. When we find that the letters themselves come in this way, it seems to be a confirmation of string theory in Kabbalah, though it is far from confirmed in the physical realm. [I know that looks suspiciously like the tertiary structures of the proteins.] This is probably superfluous to mention but I find it very interesting that the DNA molecule have 26 parts which is the numerical value of the Four letter name of God éä”åä which relates to the sepherah of Beauty which is the sepherah of Man. The bases GTCA clearly are the four letters Aleph Dalet Nun Yod, thus:</p>
@@ -22,14 +20,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

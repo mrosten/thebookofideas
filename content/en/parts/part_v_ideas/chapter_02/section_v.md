@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>-1 represent the two Strange Loops on every level like the two ladders of the double helix of the DNA. Now we can learn from this that if f[B]=f[A], then f[T] = f[T]s. So, the function that works between levels can also work on the same level on the inverse base of that level. The question is what operations does this describe for TNT or the Genetic Code or Emanation Creation Formation and Space-time? The diagonal argument seems to run thought creation as we see above, [i.e., the matrices of every level seem to have this weird affinity with the diagonal] I would like to suggest. then the Genetic Code and this GUT and the table of elements can all be represented by a diagonal matrix such that.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

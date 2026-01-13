@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>= ud + cs + tb (Kindness)(Judgement)(Beauty)+(Victory)(Splendor)(Foundation)=(up)(down)+ (charm)(strange)+(truth) (beauty) [Or in the new notation (top0(bottom)] and the six leptons are the 6 sephirot of nukba, while the light is drawn from the higher sephirot. Another way of looking at it is the particles correspond to the right hand and left hand sephirot i.e., wisdom , kindness , victory = top, charm up and understanding, power, splendor = strange, down, bottom and the middle interaction gluons are the middle mediating sephirot.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

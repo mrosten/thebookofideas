@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <h4>רוח שנות ה-60</h4>
@@ -39,7 +37,7 @@ next: ""
             <p><strong>העולם:</strong> הסתברות, אור פנימי, ניצוצות מופשטים, וזרימת הלב. הוא מספק את ה"חיים" למציאות.</p>
             <span class="status-badge badge-reward">כאוס-צמיחה</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="dualism-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -60,14 +58,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

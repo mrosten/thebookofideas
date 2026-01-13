@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>is found mainly in front of Adam Kadmon, but there is some slight probability of the light being found elsewhere, and so we find some light in the back of the light of . It's clear that the Vessels were broken because of there being too much energy inside the vessel (so if there was let's say a lower sephirah's light it would be o.k.). So, when before he says the vessels weren't fixed as one male and female it would seem he means that if the vessels would have been fixed as one there would have been strength to hold the light. However, why in the higher sephirot weren't they broken? It would seem that this is because the light of the Crown was made to hold its very intense light so the rest of the light couldn't break it. They all have the same wavelength, when they are up there in the Crown, but the lower light has a smaller amplitude, so the amplitudes combine but don't break the vessel since its made for that wavelength. But the problem with this is that shouldn't the vessel break at their own resonance frequency? Perhaps the nekudim are spiritual neutrons that are absorbed into the vessels and cause them to break apart by atomic fission. Its not that they break by the force of the impact. The breaking of the vessels was a chain reaction. The energy given off was (The mass of the sephirot)</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

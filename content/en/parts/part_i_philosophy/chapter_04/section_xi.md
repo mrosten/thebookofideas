@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>In general, I have noticed that modern day Orthodox Judaism is a totally different religion than that of the Rambam, and the other Jewish Sages of the Medieval period. To me, that seems ironic, for they claim that the other Jews have gone off the path. It seems that orthodox Judaism has been on a downward-spiral for some time to take the spirituality out of religion. If you'll notice in Hamlet, that Hamlet felt that since in his prayer he hadn't succeed to connect with God, that it wasn't really a prayer. Shakespeare’s whole attitude towards that is that this was in fact the case, for he considers it ironic that he was spared by seeming to pray. So, we see a general attitude that trying to pray isn't necessarily praying, but in orthodox Judaism all the prayers are exactly like that, and if one even attempts to put a little extra into his prayers, he is looked down upon and all the more so if he tries to pray with the intentions of the Kabbalah. [Nowadays, Orthodoxy has become an anti-spiritual movement].</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

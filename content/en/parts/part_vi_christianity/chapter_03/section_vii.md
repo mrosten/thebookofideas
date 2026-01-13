@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>creating one large vessel it would make sense to do that with the different systems and then drawing into them the light of the name 45 the Torah. Rabbi Nachman holds that the name 52 is a measure of the entropy of the universe “Science” has come to pervade human thought. In the 1800s it undermined the authority of the Bible, and certainly of the Talmud. It also affected faith in that it became a rival faith. The objective achievements of “science” along with the weakness of Christianity to check violence, impressed the common man, and led him to believe in the new faith of “science”. Respect for it grew in proportion to its achievements. “Science” has already pervaded every aspect of human life while religion has failed in its major objective of understanding the basic meaning of life.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

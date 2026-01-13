@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -26,7 +24,7 @@ next: ""
             <div class="signal"></div>
             <div class="signal"></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="justice-balance">
             <input type="radio" name="festival-logic" id="view-doubt" class="balance-toggle" checked>
             <input type="radio" name="festival-logic" id="view-prophetic" class="balance-toggle">
@@ -46,7 +44,7 @@ next: ""
             <p>According to the Yerushalmi and the Zohar, specifically regarding Rosh Hashanah, the two days represent a "Long Day" of judgment established by the Prophets. This dual nature is part of the spiritual architecture of the year and transcends simple communication issues.</p>
             <span class="status-badge badge-reward">Eternal Decree</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="festival-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -71,14 +69,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

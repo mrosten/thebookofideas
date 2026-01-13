@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>know about the straight ones since even though they are called straight they are formed like cylinders. The Torah is linearly independent, i.e., b 1 r 1 e 1 i 1 s 1 h 1 i 1 t 1 + b 2 a 2 r 2 e 2 + … = The numerical value of the verse. This is the intent of the sages when they say, “there is no freedom except for Torah.” With the first verse of the Torah, it is possible to show this even in the form it is in in the Torah, for it can be put into Echelon form:</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

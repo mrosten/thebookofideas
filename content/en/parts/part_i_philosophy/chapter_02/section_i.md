@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -21,7 +19,7 @@ next: ""
             <li><strong>The Mystic:</strong> Faith manifests as the understanding of God.</li>
             <li><strong>The Devout:</strong> Faith becomes the vessel for needs. While a non-devout person must act physically to achieve a result, a devout person's faith <em>is</em> the action.</li>
             </ul>
-            <p></div> According to the Jewish viewpoint, most spiritual systems represent a valid frame of reference locally, provided they meet certain criteria (e.g., Noahide Laws for non-Jews). However, mixing them randomly "mixes up the flow."</p>
+            </div> According to the Jewish viewpoint, most spiritual systems represent a valid frame of reference locally, provided they meet certain criteria (e.g., Noahide Laws for non-Jews). However, mixing them randomly "mixes up the flow."</p>
             <h4>Faith and Reason</h4>
             Today, we can empirically test many claims of the Sages. Religion itself may have little effect on character—it is a tool, a map, but not the vehicle. To truly ascend, one must combine Faith and Wisdom.
             <blockquote class="fancy-quote">
@@ -36,14 +34,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

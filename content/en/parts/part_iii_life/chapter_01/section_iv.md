@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>character of Nitrogen in connection with one more. A Seven child family is inert like N2, but must avoid any connection with nitroglycerine-people, so that it doesn't form bonds resulting in TNT. Parents - spend time teaching your children your philosophy or they will get the world-views from elsewhere, i.e., spending time with them to teach math or just to talk isn't the same thing. Teenagers have to be bad. So let them be bad in something not so bad. When your teen comes home from school and wants to talk, never turn him down even if it is daily for hours. If he can't talk to you, he will find someone else to talk to that won't necessarily be to your liking.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Human emotions are the most powerful forces bending and breaking and building societies, philosophies, ideas, creating and destroying worlds, spiritual and physical. But of all the emotions, love is the most powerful, the highest of the seven lower sephirot (forces), but lower than the three higher ones (fields). At the time of the revival of the dead they and all those who are supposed to be together will be together - but that can only be accomplished by the readiness to give up one's life for each other in this world. But understanding is also on the level of self-sacrifice which shine upon those that love each other; and that merit isn't just for them but for the correction of the whole world - to create a better world at the time of the revival of the dead so that all loved ones will be able to be together forever in God's light in the physical and spiritual world which will all be one at that time, in the world that will be above time and space.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>the learning of the Talmud as from the Mikvah. The Noam Elimelech said: Moses came to his level by doing unifications every day immediately (in the morning) when he woke up. [The Ari said Moses and Binyahu ben Yehodaya both did that type of service.] Rabbi Nachman said the main thing is “hisbodedut”, private conversation with God. These are three types of Divine service that three saints said could bring a person to a high spiritual level. I wonder if these maybe are the “three types of service” that the Messiah revealed to the Baal Shem Tov that if any person would do them along with three specific unifications, they would be able to “make unifications and rise to the higher worlds like you.” The Baal Shem Tov had to swear not to reveal them, but it would make sense to say that he himself did them. Though he did many types of service we know the mikvah was a major factor. For other things he did, we would only be guessing if they help. Anyone could suggest a bunch of things that happened to appeal to them, like learning Gemara , learning Zohar , fasting, davening early at sunrise, saying the midnight prayer, this would all be speculation.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

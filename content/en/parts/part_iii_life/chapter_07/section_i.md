@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -18,7 +16,7 @@ next: ""
             <div class="visual-placeholder-icon">🔥</div>
             <div class="visual-placeholder-text">The Event Horizon of Holiness</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Necessity of Connection</h4>
             <p>Even with perfect virtue and study, a soul remains disconnected from God unless the Divine Light is specifically shone upon it. To bridge this gap, one must be attached to a human vessel that is already connected to that vertical Light—a <strong>Saint</strong>. This is the root of the commandment to "attach yourself to God"; since God is a "consuming fire," we attach ourselves to Him through those who house His presence.</p>
             <div class="concept-box">
@@ -33,7 +31,7 @@ next: ""
             <h5>The Hidden Saint (Lamed Vav)</h5>
             <p>They are accelerating so fast toward God that they become invisible to inertial observers. Their world-line is a hyperbola—the "Event Horizon" of holiness.</p>
             </div>
-            <p></div> </div></p>
+            </div> </div>
             <h4>The Three Keys to Ascent</h4>
             <p>How does one reach the level of a Saint? According to the testimony of the masters, there are three primary keys that polish the vessel for the Divine Shine:</p>
             <ul>
@@ -54,14 +52,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

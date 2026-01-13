@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>victory is yours when you yield to your friend” -- Sophocles .) And if they are a true friend and family, they won't prevent him from his positive dreams. Also tempering revelation with reason and rationality has a strong effect of preventing fanaticism and the guilty Puritan complex. According to The Duties of The Heart the entire Torah is based on the idea of gratitude. It's important never to forget the kindness someone has done for you no matter what happened before or after. However according to the Rambam in the commentary on the Mishna the whole Torah is based on faith. This idea of Torah has deeply affected Judaism until today. He says that no matter what one does he will get to the Garden of Eden [i.e., the Jewish Garden of Eden, not Christian one depends on belief in Jesus] if he believes in the 13-principles.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

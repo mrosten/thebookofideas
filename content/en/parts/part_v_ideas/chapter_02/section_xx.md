@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>have the number of the children of God. This isn't apikorsus to believe — unless you want to say too that Rashi was an apikorus . To tell the truth, modern orthodoxy would consider the Rambam also to be an apikorus. The oral law are the meanings that the written text triggers, and the written law is the open and hidden meanings that are contained in the text itself. In reality, there is no way to totally understand the meaning of any verse of the torah since that would mean understanding the implications of its connections to every person until the end of time. That is why there is no infallible method for telling true from false statements in number theory —because statements imply meaning, which has infinite levels. [GEB, p. 561, 582] The dichotomy between Relativity and quantum mechanics is possibly related to the Strange Loops in Mathematical logic, i.e.,  relativity is from the sephirot of Yosher, and quantum reality is from Igulim.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

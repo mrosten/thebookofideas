@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Despite the technical leniencies, the established custom is to maintain a rigorous guard. The immersion in a Mikvah or a natural body of water (even a prepared swimming pool) acts as a "rebirth," ensuring the next cycle of life begins in a state of absolute spiritual clarity.</p>
             <span class="status-badge badge-reward">Traditional Guard</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="purity-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

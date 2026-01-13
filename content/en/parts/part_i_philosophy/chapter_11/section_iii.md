@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Beauty is the middle sephirah (<strong>Tiferet</strong>). Contemplating "beautiful figures" and music revives a soul that has dried up. Without exposure to the beautiful, the soul cannot vibrate in resonance with the energy waves of the higher worlds.</p>
             <span class="status-badge badge-reward">Soul Healing</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="math-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -57,14 +55,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

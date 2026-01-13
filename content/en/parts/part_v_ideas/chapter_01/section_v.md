@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The root of the Sephirot manifests in four archetypal shapes: the Eagle (Top), the Lion (Left), the Bull (Right), and the Person (Adam Kadmon). These shapes represent the coordinate axes of the Divine Chariot, where the time-axis is inverted—a spiritual "reversal" where man eventually rules over the angelic forces.</p>
             <span class="status-badge badge-reward">Archetypal Geometry</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="unified-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

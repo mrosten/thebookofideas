@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Secularism, following the philosophical shifts of Kant, threw out both the Bible and traditional logic, attempting to build morality on the shifting sands of "Scientific" adjustment. This has led to a digital morality where laws are based on unproven theories, creating a society that is often more oppressive in its "tolerance" than the religion it replaced.</p>
             <span class="status-badge badge-reward">Rational Flux</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="cross-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

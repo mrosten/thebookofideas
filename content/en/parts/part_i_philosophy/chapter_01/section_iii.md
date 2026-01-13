@@ -6,11 +6,7 @@ prev: ""
 next: ""
 ---
 
-
-
             
-
-
 
 <p>Spinoza's Seven Axioms: 1. Everything which exists, exists either in itself or in something else. 2. That which cannot be conceived through anything else must be conceived through itself. 3. From a given definite cause an effect necessarily follows and, on the other hand, if no definite cause be granted, it is impossible that an effect can follow. 4. The knowledge of an effect depends on and involves the knowledge of a cause. 5. Things which have nothing in common cannot be understood, the one by means of the other; the conception of one does not involve the conception of the other.</p>
 
@@ -20,18 +16,6 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
 
-<!-- Section Nav -->
 
-</div>
-
-<!-- Section Nav -->
-
-
-
-        </div>
-
-        <!-- Section Nav -->

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>the corpses of the Kittim”. Here is mentioned the fact that there were a few verses of Isaiah that we don't have in the present day Isaiah. These verses clearly speak about a messiah that will be killed by the ruler of the people and sanctioned by the high priest and armies of the Kittim, i.e. the Romans, according to the Targum Unkelos. This explains references that Jesus and Paul made to verses predicting his death that we don't have in our present day Bible. A further objection I have heard is against the virgin birth. Christians usually bring a proof to the virgin birth from Isaiah 7:14. Jewish people arguing against them point out that the word “ almah ” doesn't mean a virgin but a young girl.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

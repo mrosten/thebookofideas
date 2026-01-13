@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The uncertainties of the world of akudim (the wave pattern of the sepherot , literally “streaked”) come in mathematical wave form in probability space. The distance between the sephirah of the crown and wisdom is (2-1) (r) if r is the radius of the empty space. (As you continue down you keep the same order). (As the empty space expands and contracts the radius varies, so at one period in time one might be able to rise from one level to the next easily since there is just a small distance to go and at other periods in history or in one's own life it might be very difficult). (As we progress toward the singularity in the center, humanity goes from one level to the next very quickly. I know many people have wondered why it took humanity such a long time to make any slight bit of progress in the olden days while now it seems every 10 years, we enter into a new century. (And every century is 1000 years of the old time). However, the expanding of the empty space caused a spiritual red shift of the light as it came down to us. One of the reasons that the light that we receive in the physical universe is much denser and more physical than the spiritual light in the higher worlds is that the light has gone through the whole empty space to reach us, and that empty space is expanding so there is a red shift in the frequency of the light. So, this explains why to the Ari there is a change is the essential nature of the light as it travels a distance in the higher worlds.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

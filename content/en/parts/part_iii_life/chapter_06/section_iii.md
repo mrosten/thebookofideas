@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>sacrifice to the image of the emperor. However, after much effort was spent explaining to the Roman officials that the Christians were not a part of Judaism, the persecutions began at the time of Judge Pilany and continued for two hundred years. Now, to me it seems obvious who was the most anxious to exclude the Christians from Judaism. In fact, there was a very rich agnostic who wanted to exclude all references to the Jewish root of Jesus in the four Gospels — and was told to take his money and leave. It seems the early church wanted to preserve their Jewish roots. So, praying/cursing and hatred against the Christians just seems to have backfired against us. Perhaps it's about time to admit our mistake.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

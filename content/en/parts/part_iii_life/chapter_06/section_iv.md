@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>peace with conflict. By doing kindness (many times) one suffers, but one should know that suffering would have come upon him anyway, in a different form, except that by doing the kindness the judgement is weakened. Learning heavy books which have to be done sitting down should be by making a pile of them on one side of the desk and doing the amount necessary and transferring them one by one to the opposite side of the desk. For lighter books one should lie down and hold them over his head so the blood rushes to the head and concentration is easier.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

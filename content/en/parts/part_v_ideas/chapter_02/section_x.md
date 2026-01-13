@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>found the connection. The new ideas in the field of chaos also illustrate this. These are indicative of inner connections that cause dissimilar things to be connected by the same laws. [Something connected with this is the fact that the Schwarzschild radius comes out to be exactly the same as if it was formulated in Newtonian terms thus: 1/2mv 2 = GmM/r,so R=2GM/c2] [Also in basic first year Physics, some of the laws of different systems turn out identical, both in mechanics and in electro-magnetism.] The microscopic world is based on probability while the macroscopic world is based on classical physics. The connection is that between the world of chaos and of correction. Chaos is the higher root but then from the elements of chaos (atoms) God created the macroscopic world based on correction. Spiritually also we are only microscopically subject to the laws of chaos but our macroscopic souls are based on correction. So its true that individual prayer depends on not being observed only on the higher level of chaos but there still is a level of correction where flow exists despite being observed.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

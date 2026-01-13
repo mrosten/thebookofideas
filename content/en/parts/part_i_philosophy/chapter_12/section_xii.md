@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>group for a reason. All you can do is to go into detail in order to help person be careful if and when the warning signs do arrive. She went to gehinom to sing praises to God. As for myself, I have avoided evil. This is based a lot on the sages that say not to start up with evil people. I admire Barbara’s approach, but she always suffered afterwards. After she had been through some confrontation I would go to her apartment and let me tell you — she was so wiped out she literally couldn't move to clean a thing, this is a person who is usually clean to the n th degree.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

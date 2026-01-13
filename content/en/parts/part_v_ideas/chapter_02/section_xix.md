@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>forget Amalek, now we all remember him. Just like the double negatives in genetics. Even Hegel noticed the double negatives. These things indicate a deeper level. Just like for number theory to be correct we need to postulate super-numbers. [This indicates the need for the Oral Law. However, since the 13 principles, by which the Torah is explained, teaches that such contradictions need to be explained by a third verse which is on the level of the written law, so I am not so sure about this last point unless we go like the Rambam who considers the things derived by the Thirteen Principles to be Rabbinical. Perhaps the Torah itself hints to its own inner level?] The Strange Loops exist through the Torah. We do all the mitzvot in gratitude that God brought us out of slavery, but we are allowed to own slaves. Yaakov lied saying I am Esau, but we attribute the trait of Truth to him, “Give truth to Yakov...” [Unless that means give him truth because he doesn't have any]. But if the spies to Israel said the truth we get on their backs. We borrow the money of the Egyptians, but we don't give it back because we earned it, but we don't pay back our slaves. Abraham was ready to do a very cruel deed, but we attribute the trait of kindness to him. “Honor your father and mother”, yet Moses praised the tribe of Levi for killing their parents when they were guilty of idolatry. “Who says to his father and mother I have not seen them...” The truth is, all these things point to a deeper level, as strange loops do. [But the simple explanation is that the patriarchs and the Jewish people were and are flawed, but God chose them anyway.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

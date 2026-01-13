@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The Straight Sephirot act like an electric current flowing through a conductor. They represent the focused application of the 613 Commandments. This "linear light" requires a specific vessel (Israel) to manifest, producing the focused intensity needed to correct the broken vessels of the world.</p>
             <span class="status-badge badge-reward">Covenantal Current</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="singularity-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -39,7 +37,7 @@ next: ""
             <p>יישום מעשי של התורה שבעל פה. בין אם מחמיר או מקל, שתי הגישות תקפות כיוון שהן מספקות את הכלים לעבודת האל בעולם המעשה.</p>
             <span class="status-badge badge-reward">יצירת כלי</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="talmud-study"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -65,14 +63,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

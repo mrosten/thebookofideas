@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Zeno's proof that there is no motion is that before an object can go any distance it has to go half that distance. And before it can go that much it has to go a half of the last amount. Thus, by an infinite progression it is impossible to move since the object always has to travel an infinitesimal amount — and infinitesimal amounts can't add up since you need an infinite amount of them to add up to anything. It has seemed to me in general to answer Zeno's paradox to say that space is quantized. Just like there is no time below Plank time, there is no space past a certain point. However, Calculus derives motion by reducing the distance of the motion down to an infinitely small amount and by this it derives the true equations of motion.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

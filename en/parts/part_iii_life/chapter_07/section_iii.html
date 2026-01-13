@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">HE</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">Part iii life</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">HE</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">Part iii life</a>
+        <a href="../../../../en/parts/part_iii_life/chapter_01/section_i.html" class="active">Part iii life</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 07</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class='active'>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 7: Saints — Section...</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class='' title='Chapter 7: Saints — Section I'>Chapter 7: Saints — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_ii.html' class='' title='Chapter 7: Saints — Section II'>Chapter 7: Saints — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_iii.html' class='active' title='Chapter 7: Saints — Section III'>Chapter 7: Saints — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_iv.html' class='' title='Chapter 7: Saints — Section IV'>Chapter 7: Saints — Section IV</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_v.html' class='' title='Chapter 7: Saints — Section V'>Chapter 7: Saints — Section V</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_vi.html' class='' title='Chapter 7: Saints — Section VI'>Chapter 7: Saints — Section VI</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 07</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class='active'>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 7: Saints — Section...</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class='' title='Chapter 7: Saints — Section I'>Chapter 7: Saints — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_ii.html' class='' title='Chapter 7: Saints — Section II'>Chapter 7: Saints — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_iii.html' class='active' title='Chapter 7: Saints — Section III'>Chapter 7: Saints — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_iv.html' class='' title='Chapter 7: Saints — Section IV'>Chapter 7: Saints — Section IV</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_v.html' class='' title='Chapter 7: Saints — Section V'>Chapter 7: Saints — Section V</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_vi.html' class='' title='Chapter 7: Saints — Section VI'>Chapter 7: Saints — Section VI</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 7: Saints — Section III</h3>
@@ -62,7 +69,7 @@
             <div class="visual-placeholder-icon">✡️</div>
             <div class="visual-placeholder-text">The Union of Messiahs</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Mediator Paradox</h4>
             <p>There is a deep debate in tradition regarding mediators. The Rambam warns that making any creation a mediator between you and God is a form of idolatry. Yet, we see the Sages visiting the graves of their fathers for help, or seeking the prayers of the righteous when in distress. The resolution lies in the fact that a true Saint is <em>one</em> with the Divine frequency of Emanation. When you attach yourself to a Saint, you are not serving a "creation," but aligning yourself with one of the specified vessels God uses to transmit His service.</p>
             <div class="concept-box">
@@ -77,7 +84,7 @@
             <h5>Messiah of Joseph (The Foundation)</h5>
             <p><strong>Archetype:</strong> The Repairer. The frequency of "Chaos" (Tohu) used for healing, physical miracles, and the restoration of the "Broken Vessels." It is the root of the "Next World" within this world.</p>
             </div>
-            <p></div> </div></p>
+            </div> </div>
             <h4>The Missing Frequency</h4>
             <p>Sometimes, even a great Saint or genius lacks certain knowledge because a specific "radio frequency" is missing from their soul’s equipment. This explains how massive historical errors—like the rejection of Jesus by the Saints of his time, or Rabbi Akiva’s misidentification of the Messiah—can occur. One needs both the Davidic and Josephic frequencies; one Sephirah by itself produces no energy. Only when they revolve around each other are useful fruits produced.</p>
             <div class="concept-box">
@@ -95,15 +102,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -111,8 +110,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../en/parts/part_iii_life/chapter_07/section_ii.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 7: Saints — Section II</div></a>
+            <a href='../../../../en/parts/part_iii_life/chapter_07/section_iv.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 7: Saints — Section IV</div></a>
         </div>
     </main>
 

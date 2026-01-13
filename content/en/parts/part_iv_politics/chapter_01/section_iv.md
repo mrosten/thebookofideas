@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Therefore, the Torah provided a system that point's up, yet would give them an enormous amount of freedom (within the basic political structure) for each individual to decide for himself how to get there. Societies where there was tremendous intellectual growth were not religiously or politically free societies. The Renaissance which existed and flourished in Italy a hundred years before it even reached the rest of Europe took place in a society of political intrigue and Papal rule. Mozart lived under the reign of Fredrick II. Socrates did pretty well in Athens for all his 90 years or so until it got to be a democracy and they killed him (Freedom and tolerance are important but have little to do with the type of government, rather with the type of people of the society.) Authoritarian rule can be rational if it is to cause the growth of the people.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

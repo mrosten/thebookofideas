@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>approaching. I don't mean that we can't approach Him directly because obviously we can, but rather that it helps to have a little help. Why else do we do the mitzvot ? Because God said to. Well, God also said about the angel he was sending before the Jewish people, “Don't disobey him for my Name is in him.” So here, God himself has indicated the significance of an intermediary. (“Other gods” are other levels not attached to the “rope of holiness”, i.e., that are not manifestations of God.) [In every generation, there were and will always be one part of the Torah that will be politically incorrect. The Rambam made a somewhat reactionist theology against Christianity but the simple way the sages look at the Torah is thus, as I have written. E.g., when they explained that God called Jacob ‘God’ as Rashi brings down in Genesis that would seem to go against the Rambam that you can't call a person God [the Raavad in fact disagreed with the Rambam and held that believing that God was or can be manifested in a body is not against the Torah].</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

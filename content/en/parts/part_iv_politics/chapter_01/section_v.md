@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Torah doesn't specify the way to pick and just leaves it up to the people themselves. And this is the smartest thing because it really doesn't make any difference. People get the type of government they deserve and the kind of life they deserve and the kind of spouse they deserve.) [The way the people decided who would be king is by the Sanhedrin or the prophet. Either way was acceptable.] Every utopia has failed. From “The City of God” of Saint Augustine and the “Utopia” of Thomas Moore and Plato's “Republic”. Zionism which assumed that since the Jews were financially successful in foreign lands, they would be all the more so in their even failed since Israel exists on the money of American Jews. Even the Democracy in the U.S.A. is becoming increasingly totalitarian in nature.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>At first non-Jews had a soul from the outside of the klipah even their good inclination is from the klipah. But when they began to believe the one God they drew a higher holiness on themselves from their higher root. This applies to non-Jewish nations as a whole also, for every nation is like a whole person with some people representing the head and some the hands and others the heart and others the soul. The reason God brought Bach, Beethoven, and Mozart was to create music that would tie ones soul to the higher sephirah (divine trait). That is Bach - glory, Mozart - kindness, Beethoven - Judgment, Handel - Royalty.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

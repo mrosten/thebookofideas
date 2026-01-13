@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The Rambam's writes, “Consequently he who wishes to reach perfection, must first study Logic, and then the different parts of Mathematics in their right order, then physics, then Metaphysics (what today we call philosophy) -- [The Guide I:34]. Then when God sees that your spiritual vessels are ready, He will shine his light on you [The Guide III:52]. However, he says in connection with prophecy, that even after proper preparation, there is no guarantee that He will give you prophecy for the Rambam held that intuition is like IQ — it is a naturally born power, of which some people have more and some less — but everyone has to some degree [The Guide II:32 and 38]. He held the prophets increased this faculty by learning. The Rambam obviously held that there is a point that what is internalized in the mind becomes part of the spirit — similar to Hegel. However, I think that by meditation, which corresponds to the level of the Crown, one can increase his degree of intuition and awareness of God's will. The fact that the Rambam held the gift of prophecy to be a naturally-born thing, which God adds to if one merits, explains why the Jewish sages in the past that don't seem to have meditated, merited to great spiritual levels. But it is also possible that they did meditate, for the unifications of the Ari and Rabbi Abulafia are clearly in thought (not speech) though some of them can be spoken — but not many.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

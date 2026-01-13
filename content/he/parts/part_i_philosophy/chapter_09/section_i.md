@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>שפות אחרות, כמו אנגלית, מכילות את ה<strong>אור החיצוני</strong>. הן מספקות את ההשפעה הרגשית ואת קו העלילה הכולל שלעיתים קרובות אובד בלימוד עברי טכני. "ואהבת לרעך כמוך" מרגיש כמו סיסמה בעברית, אך כתנועה באנגלית.</p>
             <span class="status-badge badge-reward">השפעה</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="learning-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

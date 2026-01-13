@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>letters  were written over several years and perhaps represent Paul's later ideas, but they still give us the basic gist of Paul's ideas - which the true disciples of Jesus had made clear was totally against the true doctrines of Jesus - and they threatened to excommunicate him if he would teach such false teachings, which as it turned out he actually did teach. However it may be that Paul held like Rashi in Macot 24 (“The righteous shall live by his faith”), so I think Paul is legitimate. However, his hatred of the Law seems to have simply replaced the laws of God of the old Testament with new meaningless rituals of the Catholic church. I just don't see a point to attacking the laws of the Torah to the extent that he does. I guess he wanted to emphasize the importance of loving the tzadik, and that that is the only hope of salvation but  that doesn't seem to me to justify attacking God's laws.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

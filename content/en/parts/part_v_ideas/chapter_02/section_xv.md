@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>st verse says they became Jewish because the fear of the Jews fell upon them, i.e. the fear of that which the Jews fear fell upon them, i.e. fear of the punishment of God. A later verse says they became Jewish because the fear of Mordechai fell upon them, i.e. that fear that Mordechai feared, i.e. fear and awe of the greatness of God. “The king of Sodom said to Abraham give me the soul and the money take for yourself”, i.e., the evil inclination offers one lots of money as long as he sells his soul.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

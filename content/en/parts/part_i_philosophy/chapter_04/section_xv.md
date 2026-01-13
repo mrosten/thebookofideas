@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>One of the benefits of there being religious people even though they are jerks is that the gate into holiness would be closed by the klipot completely if they weren't standing in the door. So even though the religious are themselves an obstacle to the service of God still they benefit us by keeping the door open. There is a normal distribution of how many people [Jewish, Christian, etc] can or should be religious. This is because there are ten sephirot and the sepherah of piety is Judgment. The orthodox are Judgement, which is 10% of all Jews [However, a recent study shows the orthodox are about 7% of American Jews.] The Rashi that explains that people should not try to keep all the mitzvot [because if they would, then no one would merit to the next world] was written for those people who are not allowed to be religious, for being religious isn't their root and it is forbidden for them to try to be religious and it would hurt them spiritually if they would try.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">HE</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">Part iii life</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">HE</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">Part iii life</a>
+        <a href="../../../../en/parts/part_iii_life/chapter_01/section_i.html" class="active">Part iii life</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 06</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class='active'>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class=''>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 6: Success — Section I</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class='active' title='Chapter 6: Success — Section I'>Chapter 6: Success — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_ii.html' class='' title='Chapter 6: Success — Section II'>Chapter 6: Success — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_iii.html' class='' title='Chapter 6: Success — Section III'>Chapter 6: Success — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_iv.html' class='' title='Chapter 6: Success — Section IV'>Chapter 6: Success — Section IV</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 06</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class='active'>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class=''>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 6: Success — Section I</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class='active' title='Chapter 6: Success — Section I'>Chapter 6: Success — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_ii.html' class='' title='Chapter 6: Success — Section II'>Chapter 6: Success — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_iii.html' class='' title='Chapter 6: Success — Section III'>Chapter 6: Success — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_iv.html' class='' title='Chapter 6: Success — Section IV'>Chapter 6: Success — Section IV</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 6: Success — Section I</h3>
@@ -62,7 +69,7 @@
             <div class="visual-placeholder-icon">📐</div>
             <div class="visual-placeholder-text">The Geometry of Destiny</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Tzelem of Greatness</h4>
             <p>Every person is born with a certain <em>Tzelem</em> (Form)—a unique world-line in time and space that they are destined to fill. Real success is not about imposing an external order on your life, but about discovering and honoring that internal form. Most people waste years trying to force themselves into a mold that was never meant for them. As Christopher Morley said: "There is only one success—to be able to spend your life in your own way."</p>
             <div class="concept-box">
@@ -76,7 +83,7 @@
             <li>Punishing friends while trying to appease enemies.</li>
             <li>Ignoring the acquisition of vertical skills.</li>
             </ul>
-            <p></div></p>
+            </div>
             <div>
             <h5>The Winner's Way (Accumulation)</h5>
             <ul>
@@ -84,7 +91,7 @@
             <li>The Noam Elimelech Way: A little bit of everything, every day.</li>
             <li>The Michelangelo Obsession: Satisfying the Art, not the clock.</li>
             </ul>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <h4>The Hunger for Perfection</h4>
             <p>Success requires an obsession with truth. When Pope Julius II asked Michelangelo when the Sistine Chapel would be done, he replied: "When I shall have done all that I believe required to satisfy art." This is the same spirit that drove the production of <em>Titanic</em>—not a concern for deadlines or cost, but a sacred goal to honor the facts without compromise. Success is the outer light that surrounds a person when they have polished their inner details to match the higher vision.</p>
             <div class="concept-box">
@@ -100,15 +107,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -116,8 +115,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 5: Friendship — Section I</div></a>
+            <a href='../../../../en/parts/part_iii_life/chapter_06/section_ii.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 6: Success — Section II</div></a>
         </div>
     </main>
 

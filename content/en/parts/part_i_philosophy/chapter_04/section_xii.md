@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>It is a very worthwhile experience not to get your prayers answered so that you realize that your prayers and trusting on God and your good deeds can't cause God to do your will. This is the case no matter how powerful and deep your prayers are. It is a big ego trip to think that with your prayers you can force him to do your will. Trust and prayer are good things when done with the right viewpoint - that God will do what he knows to be the right thing no matter what. But prayer also can help but only sometimes.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

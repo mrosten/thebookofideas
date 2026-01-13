@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>universe can be traced back through successively shorter cycles to some initial tiny seed, a baby universe produced by a quantum fluctuation out of nothing at all”. -- Unveiling The Edge of Time, by John Gribbin “And God said let there be light, and there was light.” - - Genesis 1:3 ·28 DpxDt³(h/4p) is also a quality which is impossible to know the exact amount. This may relate to uncertainty of momentum or time. For the uncertainty of momentum is inversely proportional to p. The speed of light is the same for all observers because it is the speed of time through the 5th dimension.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

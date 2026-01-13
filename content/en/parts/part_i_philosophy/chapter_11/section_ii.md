@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -19,7 +17,7 @@ next: ""
             <li><strong>The Religious Scholar</strong> (The Guardian of Law)</li>
             <li><strong>The Business Man</strong> (The Sustainer)</li>
             </ul>
-            <p></div> Each of these should have the same focal point: The King (God). If they face the King, they are aligned. If they face sideways, their spiritual value is reduced, as described by the "Cosine of the Angle."</p>
+            </div> Each of these should have the same focal point: The King (God). If they face the King, they are aligned. If they face sideways, their spiritual value is reduced, as described by the "Cosine of the Angle."</p>
             <div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
             <img src="../../../../images/" alt="Book Image" style="width: 100%; height: auto;">
             </div>
@@ -35,14 +33,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

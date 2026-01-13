@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <h4>אחוז ההתאמה לזיווג</h4>
@@ -38,7 +36,7 @@ next: ""
             <p>מונעים על ידי סקרנות, יצירתיות, והרצון לבנות משהו חדש. אלה הם נישואי הפילוסוף והיוצר.</p>
             <span class="status-badge badge-reward">יצירתי</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="marriage-type"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -64,14 +62,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

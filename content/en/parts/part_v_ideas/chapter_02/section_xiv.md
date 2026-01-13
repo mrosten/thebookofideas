@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>though we may not know what it is. The five Peano Axioms <sup>[12]</sup> capture the essence of natural numbers as the axioms of Euclid capture the essence of Plane Geometry. After one has them, he can theoretically build up by axioms and rules of logic the complete system. These axioms are the atoms of the system and correspond to the five partzufim [forms] of Crown, Father, Mother, Son, Daughter. The five axioms of Human behavior are the last five of the Ten Commandments. [This is in accordance with the Rambam's way of looking at the commandments as having their reality and essence in pure logic. According to him, the commandments have a reality separate from the fact that they are written in the Torah -- for even if they weren't we would have to obey them from reason. Thus, I am inclined to believe that these last five are axioms in the sense that transgressing them evokes a bad reaction on a person as a law of nature. Thus, even in cases where one thinks he has some permission from the Oral Law, I think one shouldn't depend on it.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

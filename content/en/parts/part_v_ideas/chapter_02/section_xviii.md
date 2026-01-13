@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The Torah applies on many different levels, the microscopic and macroscopic, e.g., the interactions between subatomic particles is described in the parashah of forbidden sexual relationships, e.g., the interaction of an electron and an anti-electron is described by the law on the prohibition of sex between a brother and sister. The Torah also applies to the physics of stars and higher spiritual planes. On the human level also there are many levels of application. People can keep the Shabbat on a physical level but sill desecrate it on a spiritual level and vise versa.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

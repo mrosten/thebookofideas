@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <h4>The Fence of Choice</h4>
@@ -38,7 +36,7 @@ next: ""
             <p>There is no gap between God and the Law. Instead, there is a bridge: <strong>God → Reason/Logic → Law</strong>. The Torah is the "shredding" of higher wisdom. When the reason for a specific law no longer applies in a unique situation, the law itself may require a "sin for the sake of God" to preserve its true intent.</p>
             <span class="status-badge badge-reward">Adaptive Truth</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="intent-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -64,14 +62,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

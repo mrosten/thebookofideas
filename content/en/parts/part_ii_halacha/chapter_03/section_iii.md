@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Paper money is allowed to be handled on the Sabbath since it isn't in the category of what the Gemarah calls “maot” [coins] it is rather in the category of Business documents which one isn't allowed to read. (This is like the Rambam. However many other Rishonim hold business documents are muktzah.) The only permission to handle coins that I know of is Rashi on page 143a of Shabbat that the bones there are “hard and not fit for a dog” and rav Nachman in the gemara says that is the opinion of Beit Hillel. [There is the other Stam Mishna on page 142b, which obviously holds coins are muktza — so we have stam against stam .] Brushing teeth on the Shabbat with toothpaste is permitted. The melachah where some people get the idea that it is prohibited from is the melachah of smoothing dirt or some substance over a surface like a stove to cover it up which has nothing to do with brushing teeth.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

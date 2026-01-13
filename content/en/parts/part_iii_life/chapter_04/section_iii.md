@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -18,7 +16,7 @@ next: ""
             <div class="visual-placeholder-icon">⚖️</div>
             <div class="visual-placeholder-text">The Scale of Individual Sovereignty</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Supreme Individual</h4>
             <p>The difference between a free society and a tyranny often rests on a single philosophical pivot. John Locke placed human rights supreme and government secondary, creating the blueprint for the free West. Rousseau, by contrast, made the "General Will" supreme, effectively drafting the architecture for modern terror. Spiritual freedom follows the Lockean model: your rights are rooted in the <em>Sephirah</em> of Wisdom (Chochmah), a realm that exists above the legislative tampering of any earthly court.</p>
             <div class="concept-box">
@@ -33,7 +31,7 @@ next: ""
             <h5>Rousseau (Tohu/Chaos)</h5>
             <p>The "General Will" decides what is permitted. The individual is absorbed into the collective. This aligns with the "World of Chaos," where the lights are too intense for independent vessels, leading to shattering.</p>
             </div>
-            <p></div> </div></p>
+            </div> </div>
             <h4>Personality as the Door</h4>
             <p>There are no accidents in the spiritual economy. Everything that happens to you is a direct broadcast to your specific personality structure. If you see failure, it is not a punishment but a diagnostic signal pointing to a trait ("Midah") that requires calibration. Happiness is not found by changing the scenery; it is found by changing the receiver. The key to this internal lock is <em>Hitbodedut</em>—the private, unscripted conversation with the Infinite.</p>
             <div class="concept-box">
@@ -49,14 +47,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

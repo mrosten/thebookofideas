@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -20,7 +18,7 @@ next: ""
             <div class="visual-placeholder-icon">💍</div>
             <div class="visual-placeholder-text">The Union of Lights</div>
             </div>
-            <p></div></p>
+            </div>
             <div class="concept-box">
             <strong>The Marriage of World-Views</strong>
             The current era involves a profound spiritual process: combining the <em>Straight</em> and <em>Circular</em> Sephirot. This represents the merging of the vessels of "Correction" (Tikun) with the intense "Light of Chaos" (Tohu). This spiritual dynamic explains why many connections today cross traditional boundaries—they are attempting to integrate these two divergent lights into a single, unified Name of 72.
@@ -33,7 +31,7 @@ next: ""
             <ul>
             <li><strong>The Marriage Dance:</strong> Men naturally exert a tremendous burst of energy during the "wooing" process. Once married, they often regress to their original internal state. This is not deception; it is a law of nature, similar to the mating dance of bees.</li>
             </ul>
-            <p></div></p>
+            </div>
             <blockquote class="fancy-quote">
             “My bounty is as boundless as the sea, my love as deep; the more I give to thee, the more I have, for both are infinite.” — Juliet
             </blockquote>
@@ -43,14 +41,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

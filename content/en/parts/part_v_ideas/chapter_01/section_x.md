@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>It seems from this that as God puts more energy into the empty space the radius gets bigger. The singularity of infinite light in the center of the empty space is what causes it to be curved. The outer light surrounding the straight sephirot is the magnetic field from the name 52 surrounding a current-bearing conductor of the light of the name 45. The circular sephirot are rotating in an external magnetic field and that is how they create the electric current of the straight sephirot, as the sages said, “there is a sphere that circles around in the world”.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

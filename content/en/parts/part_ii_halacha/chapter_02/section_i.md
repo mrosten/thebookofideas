@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -20,7 +18,7 @@ next: ""
             <div class="visual-placeholder-icon">🪜</div>
             <div class="visual-placeholder-text">Quantum Prayer Ascent Visual</div>
             </div>
-            <p></div></p>
+            </div>
             <div class="justice-balance">
             <input type="radio" name="prayer-mode" id="mode-legal" class="balance-toggle" checked>
             <input type="radio" name="prayer-mode" id="mode-kabbalah" class="balance-toggle">
@@ -40,7 +38,7 @@ next: ""
             <p>Focuses on the "Soul" of the law: rising at midnight (Tikkun Chatzot), using specific Divine unifications, and prioritizing the intentions (Kavanot) of the Ari. In cases of conflict, the secret path takes precedence for the seeker.</p>
             <span class="status-badge badge-reward">Spirit/Light</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="prayer-mode"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -72,14 +70,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

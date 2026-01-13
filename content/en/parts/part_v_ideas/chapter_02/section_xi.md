@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>KMm + G M m m + (some constant for the weak force) M m + (some constant for the strong force) M m=r 2 [This is the equation of a 4D sphere]. “When a rotating black hole forms the outer horizon it settles like a quivering bubble toward the ultimate stable state represented by Kerr's solution to Einstein's equations. This quivering of the outer horizon produces ripples in space-time, gravitational waves, that spread both outward and inward. The ones that fall in are blue shifted. Since</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

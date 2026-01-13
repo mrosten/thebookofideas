@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>the Rambam holds differently than this, and he believes that thinking that one needs any kind of middle-man between one and the Creator is idolatry. This has to be understood in context — for to the Rambam there is a higher plane than Good and evil, that is Truth and falsehood, and the great evil of idolatry is that it is falsehood. What makes it worse than other mistakes is that it depends on what one makes a mistake about. Making a mistake about mundane things isn't so bad as making a mistake about God. However, most authorities, even in the Talmud don't hold this way, and until this day it is the custom of Jews everywhere to go to their holy men for a blessing.</p>
@@ -22,14 +20,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

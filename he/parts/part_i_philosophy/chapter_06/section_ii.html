@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">EN</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">חלק א' — פילוסופיה</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">EN</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">חלק א' — פילוסופיה</a>
+        <a href="../../../../he/parts/part_i_philosophy/chapter_01/section_i.html" class="active">חלק א' — פילוסופיה</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../he/index.html'>ראשי</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html'>חלק א' — פילוסופיה</a><div class='dropdown-content'><a href='../../../../he/index.html' class=''>בית</a><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class='active'>חלק א' — פילוסופיה</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class=''>חלק ב' — הלכה</a><a href='../../../../he/contents.html' class=''>תוכן</a><a href='../../../../he/parts/part_iii_life/chapter_01/section_i.html' class=''>part iii life</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>פרק 6</a><div class='dropdown-content'><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class=''>פרק 1</a><a href='../../../../he/parts/part_i_philosophy/chapter_10/section_i.html' class=''>פרק 10</a><a href='../../../../he/parts/part_i_philosophy/chapter_11/section_i.html' class=''>פרק 11</a><a href='../../../../he/parts/part_i_philosophy/chapter_12/section_i.html' class=''>פרק 12</a><a href='../../../../he/parts/part_i_philosophy/chapter_02/section_i.html' class=''>פרק 2</a><a href='../../../../he/parts/part_i_philosophy/chapter_03/section_i.html' class=''>פרק 3</a><a href='../../../../he/parts/part_i_philosophy/chapter_04/section_i.html' class=''>פרק 4</a><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_i.html' class=''>פרק 5</a><a href='../../../../he/parts/part_i_philosophy/chapter_06/section_i.html' class='active'>פרק 6</a><a href='../../../../he/parts/part_i_philosophy/chapter_07/section_i.html' class=''>פרק 7</a><a href='../../../../he/parts/part_i_philosophy/chapter_08/section_i.html' class=''>פרק 8</a><a href='../../../../he/parts/part_i_philosophy/chapter_09/section_i.html' class=''>פרק 9</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>פרק 6: שכר ועונש — סעיף II</span><div class='dropdown-content'><a href='../../../../he/parts/part_i_philosophy/chapter_06/section_i.html' class='' title='פרק 6: שכר ועונש — סעיף I'>פרק 6: שכר ועונש — סעיף I</a><a href='../../../../he/parts/part_i_philosophy/chapter_06/section_ii.html' class='active' title='פרק 6: שכר ועונש — סעיף II'>פרק 6: שכר ועונש — סעיף II</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../he/index.html'>ראשי</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html'>חלק א' — פילוסופיה</a><div class='dropdown-content'><a href='../../../../he/index.html' class=''>בית</a><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class='active'>חלק א' — פילוסופיה</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class=''>חלק ב' — הלכה</a><a href='../../../../he/contents.html' class=''>תוכן</a><a href='../../../../he/parts/part_iii_life/chapter_01/section_i.html' class=''>part iii life</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>פרק 6</a><div class='dropdown-content'><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class=''>פרק 1</a><a href='../../../../he/parts/part_i_philosophy/chapter_10/section_i.html' class=''>פרק 10</a><a href='../../../../he/parts/part_i_philosophy/chapter_11/section_i.html' class=''>פרק 11</a><a href='../../../../he/parts/part_i_philosophy/chapter_12/section_i.html' class=''>פרק 12</a><a href='../../../../he/parts/part_i_philosophy/chapter_02/section_i.html' class=''>פרק 2</a><a href='../../../../he/parts/part_i_philosophy/chapter_03/section_i.html' class=''>פרק 3</a><a href='../../../../he/parts/part_i_philosophy/chapter_04/section_i.html' class=''>פרק 4</a><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_i.html' class=''>פרק 5</a><a href='../../../../he/parts/part_i_philosophy/chapter_06/section_i.html' class='active'>פרק 6</a><a href='../../../../he/parts/part_i_philosophy/chapter_07/section_i.html' class=''>פרק 7</a><a href='../../../../he/parts/part_i_philosophy/chapter_08/section_i.html' class=''>פרק 8</a><a href='../../../../he/parts/part_i_philosophy/chapter_09/section_i.html' class=''>פרק 9</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>פרק 6: שכר ועונש — סעיף II</span><div class='dropdown-content'><a href='../../../../he/parts/part_i_philosophy/chapter_06/section_i.html' class='' title='פרק 6: שכר ועונש — סעיף I'>פרק 6: שכר ועונש — סעיף I</a><a href='../../../../he/parts/part_i_philosophy/chapter_06/section_ii.html' class='active' title='פרק 6: שכר ועונש — סעיף II'>פרק 6: שכר ועונש — סעיף II</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>פרק 6: שכר ועונש — סעיף II</h3>
@@ -72,7 +79,7 @@
             <div class="pan pan-l"></div>
             <div class="pan pan-r"></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="consequence-grid">
             <div class="consequence-box earth-box">
             <h5>החיים על פני האדמה (זמני)</h5>
@@ -84,7 +91,7 @@
             <span class="status-badge badge-reward">שגשוג</span>
             <p>קבלת שכר עבור מעשים טובים מעטים כאן; אין שורש נותר לעולם הבא.</p>
             </div>
-            <p></div></p>
+            </div>
             <div class="consequence-box heaven-box">
             <h5>העולם הבא (נצחי)</h5>
             <div id="righteous-heaven">
@@ -95,7 +102,7 @@
             <span class="status-badge badge-punish">אובדן</span>
             <p>תשלום עבור רוב של חטאים.</p>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('.balance-toggle').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -117,7 +124,7 @@
             <li><strong>גן עדן אמצעי:</strong> לאלו ששמרו על דיבורם ודיברו דברי אמת.</li>
             <li><strong>גן עדן עליון:</strong> לאלו שמחשבותיהם ורגשותיהם הפנימיים שולבו לתוך האור.</li>
             </ol>
-            <p></div></p>
+            </div>
             <p>בסופו של דבר, צדקת האל אינה הצהרת "אם-אז" פשוטה, אלא ניפוי עמוק של כל רמה של התודעה האנושית.</p>
             
             
@@ -125,15 +132,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -141,8 +140,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../he/parts/part_i_philosophy/chapter_06/section_i.html' class='nav-card prev'><div class='label'>הקודם</div><div class='title'>פרק 6: שכר ועונש — סעיף I</div></a>
+            <a href='../../../../he/parts/part_i_philosophy/chapter_07/section_i.html' class='nav-card next'><div class='label'>הבא</div><div class='title'>פרק 7: תקופות האדם — סעיף I</div></a>
         </div>
     </main>
 

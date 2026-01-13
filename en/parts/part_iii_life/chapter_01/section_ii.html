@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">HE</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">Part iii life</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">HE</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">Part iii life</a>
+        <a href="../../../../en/parts/part_iii_life/chapter_01/section_i.html" class="active">Part iii life</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 01</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class=''>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 1: Family — Section II</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='' title='Chapter 1: Family — Section I'>Chapter 1: Family — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_ii.html' class='active' title='Chapter 1: Family — Section II'>Chapter 1: Family — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_iii.html' class='' title='Chapter 1: Family — Section III'>Chapter 1: Family — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_iv.html' class='' title='Chapter 1: Family — Section IV'>Chapter 1: Family — Section IV</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_v.html' class='' title='Chapter 1: Family — Section V'>Chapter 1: Family — Section V</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 01</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class=''>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 1: Family — Section II</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='' title='Chapter 1: Family — Section I'>Chapter 1: Family — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_ii.html' class='active' title='Chapter 1: Family — Section II'>Chapter 1: Family — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_iii.html' class='' title='Chapter 1: Family — Section III'>Chapter 1: Family — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_iv.html' class='' title='Chapter 1: Family — Section IV'>Chapter 1: Family — Section IV</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_v.html' class='' title='Chapter 1: Family — Section V'>Chapter 1: Family — Section V</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 1: Family — Section II</h3>
@@ -70,7 +77,7 @@
             <li><strong>Maximize Minimal Gains:</strong> Focus on the small, daily victories rather than trying to "get everything" at once.</li>
             <li><strong>Interactive Negotiation:</strong> In a free society, children are acutely aware of their autonomy. Treat their input as an axiom—something that <em>means</em> something by definition.</li>
             </ul>
-            <p></div></p>
+            </div>
             <blockquote class="fancy-quote">
             "Let teenagers be 'bad' in things that aren't so bad. If they want to talk for hours when they come home, listen. If they can't talk to you, they'll find someone else who will."
             </blockquote>
@@ -79,7 +86,7 @@
             <div class="visual-placeholder-icon">⚗️</div>
             <div class="visual-placeholder-text">The Nitrogen Family Stability</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Nitrogen Family</h4>
             <p>A family with seven children takes on the inert character of Nitrogen (N₂). It is stable and strong, but it must be careful of "Nitroglycerine" personalities that might form explosive bonds (TNT). To maintain stability, parents must invest heavily in teaching their own philosophy, or the world will gladly provide a substitute.</p>
             
@@ -88,15 +95,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -104,8 +103,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 1: Family — Section I</div></a>
+            <a href='../../../../en/parts/part_iii_life/chapter_01/section_iii.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 1: Family — Section III</div></a>
         </div>
     </main>
 

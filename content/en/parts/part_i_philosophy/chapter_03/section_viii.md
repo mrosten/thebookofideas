@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>To Hegel, by dialect, one can come to knowledge, by an infinite progression of dialect until one comes to the Absolute. [Dialect is the process by which every logical reality is shown to be implicitly self-contradictory and thus imply the need for a new, wider category that contains them and resolves them until one comes to the Absolute Idea. So, if we take the limit as the dialect approaches infinity, we get to God. Aristotle's proof of God is that even if we would believe it possible for there to be an infinite progression of causes so you could never get to the first cause, still, by that same reasoning nothing could move for it would need to go back to an infinite number of causes to finally get to move. [This seems to me to be like Zeno's paradox]. Thus, there has to be a Prime Mover. But if it were moving then it also would need a mover. Thus, the prime mover must move things without being moved itself. That is, by causing motion by attraction rather than by propulsion. Attractive causes operate on intelligences, so it is an intelligence that keeps a star in motion. So, the intelligence causes the star to move by means of its moving toward the prime mover. Now to move and not be moved, that Prime Mover must not be matter. Now, all matter have to have form but not all form needs to have matter. Thus, the prime mover is form without matter. If we substitute existence instead of motion, we get a more modern proof that works along Hegel's lines of God being the Prime Idea that combines the opposites of Being and non-Being, i.e., Becoming — which answers the infinitesimal problem (for Becoming can only be on an infinitesimal level, one dx at a time.) This is Spinoza's proof that God is one. Here Spinoza limits the Creator of each universe, physical, spiritual, spiritual of spiritual etc., [horizontally], and the first cause [vertically] to One, by the fact that only one substance can be conceived with infinite attributes. That is, there is only one First Cause of all the sets. The immediate level of spirituality above every level is referred to as God in a borrowed way, since it is the manifestation of God, but not really God, who is outside the set of all causes, but also the set of all causes and the set of all the sets of all causes, etc...</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

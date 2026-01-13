@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>For mitzvot that you don't feel light from you will not get any reward in the next world therefrom. There really is not all that much difference between here and there. So, if you don’t feel any light then believe me, there isn't any. This is why the Torah only promises good in this world for doing the mitzvot. Since the next world is not dependent on mitzvoth, only this world is. However, if you feel the light then in all likelihood you are on the right track for there too. However, since getting there is such a fragile thing it is worth it to have a guarantee. So, this is why it is worth it to get to the grave of Rabbi Nachman, say the ten psalms and give a penny for charity, in which case he promised he would take that person that does this out of hell, an unpleasant place by all accounts.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

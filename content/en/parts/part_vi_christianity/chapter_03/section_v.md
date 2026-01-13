@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>It seems to me that the world points defined by place and time are only approximations as in General Relativity and it's really only the properties of the field around one determine his spirituality and closeness with God. As Rebbi said to Antoninus, “Esau, but not all Esau”, i.e., what the Torah says in general is only an approximation unless it says “all”. Of course the idea of the mitzvot is to draw the field energy. Every family has its specific energy field around it. There is a disagreement among the first authorities if the Jewish and gentile soul is the same thing. The other authorities say there is a difference in the souls and this opinion I have followed in this book since it is of Rabbi Luria also.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

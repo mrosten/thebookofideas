@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Orchard are considered learning Torah (on the highest level which he mentions there.) To answer the contradiction to the Rambam I would say science is on the level of the worlds above Emanation, that if you learn it to bring yourself to God, it’s a part of Torah and included in the worlds of holiness. (See Lekutei Moharan Vol. 1, Chapt. 19, and Vol. 2, Chapt 78, and Chapt. 91, where Rabbi Nachman answers this himself in basically the same way.) The knowledge of science which there is today wasn't known to the Gra or the Chasam Sofer who agreed with the Sefer HaBris which is actually just the science that was known then. A lot of that science is actually not correct. But still the Ramchal says that which is relevant to the outer aspects of the physical world isn't Torah. Only that which relates to the inner part of this world, or which relates to the inner or outer part of the higher worlds is Torah. The reason may be that as you rise pyramidally, the Torah includes whatever is in a time-like direction. The Rambam could answer this however by saying that science is the explanation of the inner-laws by which the physical universe works.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

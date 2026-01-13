@@ -6,11 +6,7 @@ prev: ""
 next: ""
 ---
 
-
-
             
-
-
 
 <div class="concept-box">
 <strong>הלוגיקה של הקיום</strong>
@@ -51,18 +47,6 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
 
-<!-- Section Nav -->
 
-</div>
-
-<!-- Section Nav -->
-
-
-
-        </div>
-
-        <!-- Section Nav -->

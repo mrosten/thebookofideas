@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>your children. Respect your children. They are the same people they will be when they are adults. If you are angry with your children, this is a sure sign that judgements are dwelling on you. Assume you are wrong. Rabbi Nachman gave said some advice which I think is particularly appropriate for raising children. One of his major principles was, “Not to be stubborn about anything in the world”, which in Hebrew has a little different connotation than in English. It means not to force any issue with children. Also, he said not to slug them. Which in modern day Breslov is interpreted to mean not to hit them at all but I can't imagine that Rabbi Nachman really meant that. However, it probably is a good idea to not hit at all.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

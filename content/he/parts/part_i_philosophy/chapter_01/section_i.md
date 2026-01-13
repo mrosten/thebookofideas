@@ -6,11 +6,7 @@ prev: ""
 next: ""
 ---
 
-
-
             
-
-
 
 <div class="concept-box">
 <strong>פרדוקס האינסוף</strong>
@@ -52,18 +48,6 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
 
-<!-- Section Nav -->
 
-</div>
-
-<!-- Section Nav -->
-
-
-
-        </div>
-
-        <!-- Section Nav -->

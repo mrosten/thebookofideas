@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Moharan , Sefer HaMidot [six middle sephirot] [Malchut]. [This is only to the Rambam and Chovot Halevavot ] This next diagram is a close up of physicality of beauty (zeir anpin): †</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">EN</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">חלק ב' — הלכה</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">EN</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">חלק ב' — הלכה</a>
+        <a href="../../../../he/parts/part_ii_halacha/chapter_01/section_i.html" class="active">חלק ב' — הלכה</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../he/index.html'>ראשי</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html'>חלק ב' — הלכה</a><div class='dropdown-content'><a href='../../../../he/index.html' class=''>בית</a><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class=''>חלק א' — פילוסופיה</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class='active'>חלק ב' — הלכה</a><a href='../../../../he/contents.html' class=''>תוכן</a><a href='../../../../he/parts/part_iii_life/chapter_01/section_i.html' class=''>part iii life</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>פרק 1</a><div class='dropdown-content'><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class='active'>פרק 1</a><a href='../../../../he/parts/part_ii_halacha/chapter_10/section_i.html' class=''>פרק 10</a><a href='../../../../he/parts/part_ii_halacha/chapter_11/section_i.html' class=''>פרק 11</a><a href='../../../../he/parts/part_ii_halacha/chapter_02/section_i.html' class=''>פרק 2</a><a href='../../../../he/parts/part_ii_halacha/chapter_03/section_i.html' class=''>פרק 3</a><a href='../../../../he/parts/part_ii_halacha/chapter_04/section_i.html' class=''>פרק 4</a><a href='../../../../he/parts/part_ii_halacha/chapter_05/section_i.html' class=''>פרק 5</a><a href='../../../../he/parts/part_ii_halacha/chapter_06/section_i.html' class=''>פרק 6</a><a href='../../../../he/parts/part_ii_halacha/chapter_07/section_i.html' class=''>פרק 7</a><a href='../../../../he/parts/part_ii_halacha/chapter_08/section_i.html' class=''>פרק 8</a><a href='../../../../he/parts/part_ii_halacha/chapter_09/section_i.html' class=''>פרק 9</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 1: Principles Of Ha...</span><div class='dropdown-content'><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class='' title='פרק 1: עקרונות ההלכה — סעיף I'>פרק 1: עקרונות ההלכה — סעיף I</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_ii.html' class='' title='פרק 1: עקרונות ההלכה — סעיף II'>פרק 1: עקרונות ההלכה — סעיף II</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_iii.html' class='active' title='Chapter 1: Principles Of Halacha — סעיף III'>Chapter 1: Principles Of Halacha — סע...</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../he/index.html'>ראשי</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html'>חלק ב' — הלכה</a><div class='dropdown-content'><a href='../../../../he/index.html' class=''>בית</a><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class=''>חלק א' — פילוסופיה</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class='active'>חלק ב' — הלכה</a><a href='../../../../he/contents.html' class=''>תוכן</a><a href='../../../../he/parts/part_iii_life/chapter_01/section_i.html' class=''>part iii life</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>פרק 1</a><div class='dropdown-content'><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class='active'>פרק 1</a><a href='../../../../he/parts/part_ii_halacha/chapter_10/section_i.html' class=''>פרק 10</a><a href='../../../../he/parts/part_ii_halacha/chapter_11/section_i.html' class=''>פרק 11</a><a href='../../../../he/parts/part_ii_halacha/chapter_02/section_i.html' class=''>פרק 2</a><a href='../../../../he/parts/part_ii_halacha/chapter_03/section_i.html' class=''>פרק 3</a><a href='../../../../he/parts/part_ii_halacha/chapter_04/section_i.html' class=''>פרק 4</a><a href='../../../../he/parts/part_ii_halacha/chapter_05/section_i.html' class=''>פרק 5</a><a href='../../../../he/parts/part_ii_halacha/chapter_06/section_i.html' class=''>פרק 6</a><a href='../../../../he/parts/part_ii_halacha/chapter_07/section_i.html' class=''>פרק 7</a><a href='../../../../he/parts/part_ii_halacha/chapter_08/section_i.html' class=''>פרק 8</a><a href='../../../../he/parts/part_ii_halacha/chapter_09/section_i.html' class=''>פרק 9</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 1: Principles Of Ha...</span><div class='dropdown-content'><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class='' title='פרק 1: עקרונות ההלכה — סעיף I'>פרק 1: עקרונות ההלכה — סעיף I</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_ii.html' class='' title='פרק 1: עקרונות ההלכה — סעיף II'>פרק 1: עקרונות ההלכה — סעיף II</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_iii.html' class='active' title='Chapter 1: Principles Of Halacha — סעיף III'>Chapter 1: Principles Of Halacha — סע...</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 1: Principles Of Halacha — סעיף III</h3>
@@ -59,7 +66,7 @@
             <blockquote class="fancy-quote">
             "The mitzvot were given only to refine the creatures." — Midrash Tanchuma
             </blockquote>
-            <p></div></p>
+            </div>
             <h4>The Three Pillars of Law</h4>
             <p>The Rambam (Maimonides) categorizes the reasons for the commandments into three main areas, aiming to perfect society and the individual soul:</p>
             <div class="feature-image">
@@ -67,7 +74,7 @@
             <div class="visual-placeholder-icon">⚖️</div>
             <div class="visual-placeholder-text">The Structure of Divine Law</div>
             </div>
-            <p></div></p>
+            </div>
             <div class="concept-box">
             <strong>The Rambam's Classification (Guide III:31)</strong>
             <ol>
@@ -75,7 +82,7 @@
             <li><strong>Social Order:</strong> To establish a just society and prevent violence (e.g., Do not murder).</li>
             <li><strong>Character Refinement:</strong> To train the self in good traits and separate from bad habits (e.g., Dietary laws).</li>
             </ol>
-            <p></div></p>
+            </div>
             <h4>God and Logic</h4>
             <p>There is a debate between Rabbi Shimon and Rabbi Yehuda regarding whether we can derive the scope of a law from its reason (<em>Darshinan Taama D'kra</em>). However, all agree that the laws <em>have</em> reasons. It is not "God vs. Logic"; rather, it is <strong>God = Reason</strong>. As the Zohar states, "Torah is the spreading out of the Higher Wisdom."</p>
             <div class="justice-balance">
@@ -97,7 +104,7 @@
             <p><strong>Example:</strong> The widow represents the <em>Shekhinah</em> (Divine Presence) in exile. Taking a pledge disrupts the flow of light to the lower worlds. The physical reason encompasses the spiritual one.</p>
             <span class="status-badge badge-reward">Divine Flow</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="reason-mode"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -113,15 +120,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -129,8 +128,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../he/parts/part_ii_halacha/chapter_01/section_ii.html' class='nav-card prev'><div class='label'>הקודם</div><div class='title'>פרק 1: עקרונות ההלכה — סעיף II</div></a>
+            <a href='../../../../he/parts/part_ii_halacha/chapter_02/section_i.html' class='nav-card next'><div class='label'>הבא</div><div class='title'>פרק 2: תפילה — סעיף I</div></a>
         </div>
     </main>
 

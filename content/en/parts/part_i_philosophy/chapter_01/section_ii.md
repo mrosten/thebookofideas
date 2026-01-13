@@ -6,11 +6,7 @@ prev: ""
 next: ""
 ---
 
-
-
             
-
-
 
 <div class="concept-box">
 <strong>The Logic of Existence</strong>
@@ -51,18 +47,6 @@ Ultimately, the faith of the Torah is logically provable, but only if you have f
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
 
-<!-- Section Nav -->
 
-</div>
-
-<!-- Section Nav -->
-
-
-
-        </div>
-
-        <!-- Section Nav -->

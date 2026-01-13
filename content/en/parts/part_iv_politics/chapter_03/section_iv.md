@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>We have come to the time Bertrand Russell feared, “When science has become venerable, it will control our lives as much as religion has ever. I foresee the time when all who care for the freedom of the human spirit will have to rebel against a scientific tyranny.” - Marriage And Morals , Bertrand Russell. However, this is to be taken in context. There are many standard procedures in medicine and valid approaches in psychology. These should be used. The same Rabbi Nachman who despised doctors, when the first vaccine came out, said “you have to take your children even in the middle of the winter to the village where they are giving the vaccine.” – The appendix of the Book of 13 stories.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>.) The actual amount of power given to the king is a debate in Mesechet Sanhedrin . In one opinion he has very little power and in another he is a real monarch. And the King is chosen by a prophet or the Sanhedrin. So, Democracy seems to have no root from the Torah. And this is amazing, since the Torah does deal with social and political and civil issues. So, in conclusion freedom within Biblical Law is an important principle of the Bible and the Oral Law -- not democracy. The Torah allows the Jewish people to choose any type of king or government it wants, in any way it wants. All that matters to the Torah is the fulfillment of the mitzvot; it really doesn't care what type of government there is. It is well borne out by history that every form of government has had periods in reigns of terror and periods in freedom. The government will never be better than the people of the country.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

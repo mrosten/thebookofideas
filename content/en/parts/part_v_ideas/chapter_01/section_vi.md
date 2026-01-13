@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The ten circular sephirot are actually energy waves emanating from the vibration of the roof of the empty space. The dot in the middle also vibrates and gives off its own circular sephirot. So actually Faith, Sexual purity etc., are actually energy waves. Every individual gives them off by the degree he holds on to every trait. The area under the singularity of the infinite light is negative time, to the right is positive space, to the left negative space from where the worlds of negative probabilities emerge. Imaginary space is the opposite side.</p>
@@ -21,14 +19,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

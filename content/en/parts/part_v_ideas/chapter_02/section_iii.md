@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Light is characterized by the electromagnetic spectrum. Gamma rays and X-rays represent the higher Sephirot (Wisdom/Understanding), while the visible spectrum (Violet to Orange) parallels the six Sephirot of Beauty. Red, infrared, and radio waves represent the grounding frequency of Royalty.</p>
             <span class="status-badge badge-reward">Vibrant Energy</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="periodic-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

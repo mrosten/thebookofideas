@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -41,7 +39,7 @@ next: ""
             <p>Digital text is not considered permanent writing ("Ashurit"). It is a transitory light-vessel. While drawing is forbidden, simple interaction with text falls between two rabbinical leniencies.</p>
             <span class="status-badge badge-reward">Virtual Domain</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="modern-shabbat"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -67,14 +65,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

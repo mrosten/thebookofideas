@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>good yeshivot, that a rabbi never knew Torah - for if he really could learn why did he feel it necessary to get semicha ? There was an American hero that had a motto never to retreat from an enemy. I have noticed a similar characteristic in Israelis. In fact, I heard of two fellows, one American and the other an Israeli who somehow their wives had been complaining about them to some rabbis. The first group called in the American on some pretext and corned him with the divorce documents. He thought if he were a nice guy his wife would return. He signed the documents and that was the end of him and his family.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

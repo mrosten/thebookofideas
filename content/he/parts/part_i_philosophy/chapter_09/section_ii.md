@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -74,7 +72,7 @@ next: ""
             <div class="sephirot-subject">תרגום</div>
             <div class="sephirot-context">התרגום/הפירוש, המגשר בין לשון הקודש לאומות.</div>
             </div>
-            <p></div> </div> <!-- טבלה מקורית לעיון --> <details class="reference-table"> <summary>📊 הצג טבלה במבנה מקורי</summary></p>
+            </div> </div> <!-- טבלה מקורית לעיון --> <details class="reference-table"> <summary>📊 הצג טבלה במבנה מקורי</summary></p>
             <div class="table-wrapper"><table class="data-table">
             <thead>
             <tr>
@@ -123,7 +121,7 @@ next: ""
             <li><strong>ח, ב, ח (חוכמה, בינה, חסד):</strong> שורשי ה<em>נביאים</em>. באופן ספציפי, העמודות הימנית והשמאלית מחזיקות את הנביאים.</li>
             <li><strong>ג, ת, נ (גבורה, תפארת, נצח):</strong> העמודה האמצעית מחזיקה את שורשי ה<em>כתובים</em>, כגון תהילים ומשלי.</li>
             </ul>
-            <p></div></p>
+            </div>
             התרשים הבא ממחיש את עולם ה<strong>יצירה</strong>, המתאים למשנה. ששת סדרי המשנה ממפים ישירות לספירות התחתונות של עולם זה.
             <div class="feature-image" style="width: 80%; margin: 1.5rem auto;">
             <img src="../../../../images/" alt="Book Image" style="width: 100%; height: auto;">
@@ -164,7 +162,7 @@ next: ""
             <div class="level-item" data-level="mishna"><span class="level-name">משנה</span><span class="level-content">מבנה האצילות</span></div>
             <div class="level-item" data-level="bible"><span class="level-name">תנ"ך</span><span class="level-content">הדבר באצילות</span></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="world-section" data-world="beriah">
             <div class="world-header">
             <span class="world-name">בריאה</span>
@@ -176,7 +174,7 @@ next: ""
             <div class="level-item" data-level="mishna"><span class="level-name">משנה</span><span class="level-content">משנה של השכל</span></div>
             <div class="level-item" data-level="bible"><span class="level-name">תנ"ך</span><span class="level-content">תנ"ך של השכל</span></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="world-section" data-world="yetzirah">
             <div class="world-header">
             <span class="world-name">יצירה</span>
@@ -188,7 +186,7 @@ next: ""
             <div class="level-item highlighted" data-level="mishna"><span class="level-name">משנה</span><span class="level-content"><strong>משנה של משנה</strong> (חוק סטנדרטי)</span></div>
             <div class="level-item" data-level="bible"><span class="level-name">תנ"ך</span><span class="level-content">תנ"ך של משנה</span></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="world-section" data-world="asiyah">
             <div class="world-header">
             <span class="world-name">עשייה</span>
@@ -200,7 +198,7 @@ next: ""
             <div class="level-item" data-level="mishna"><span class="level-name">משנה</span><span class="level-content">משנה של התנ"ך</span></div>
             <div class="level-item highlighted" data-level="bible"><span class="level-name">תנ"ך</span><span class="level-content"><strong>תנ"ך של התנ"ך</strong> (קריאה פשוטה)</span></div>
             </div>
-            <p></div> </div> </div> <!-- טבלה מקורית לעיון --> <details class="reference-table"> <summary>📊 הצג טבלה במבנה מקורי</summary></p>
+            </div> </div> </div> <!-- טבלה מקורית לעיון --> <details class="reference-table"> <summary>📊 הצג טבלה במבנה מקורי</summary></p>
             <div class="table-wrapper"><table class="data-table">
             <thead>
             <tr><th>עולם</th><th>רמה</th><th>תוכן</th></tr>
@@ -239,14 +237,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

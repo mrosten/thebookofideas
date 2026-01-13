@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>factor of k again — since your inspiration was increased by by that amount. So you get (inspiration) (k 2 ) If you do that n times, your inspiration will be (inspiration) ( k 2 ). Now back to the beginning. At the time you did the second repentance you also do a repentance on your first repentance since your realize that it wasn't complete. The first time you repent on your first repentance you get some inspiration. The second time you get (inspiration)(k). The next time you get (inspiration) (k 2 ). Now, at the time you do your third repentance on the sin, and the second repentance on the first repentance, you do your first repentance on the second repentance.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The more you hate someone, the more you need not say anything negative about them - for afterwards how will you ask them for forgiveness? For the sin of slander, one loses his entire portion in the Future World. So, without that forgiveness, one is in deep trouble. This is besides the fact that all one's good deeds go to the one slandered. So, despite the fact that these motivations are selfish, it still is worthwhile not to lose your eternity. The most powerful prayer you can say is to name those that have hurt you and release them from guilt.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

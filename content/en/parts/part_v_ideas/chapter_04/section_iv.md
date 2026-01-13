@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>the grave of Rabbi Nachman. However, the idea of serving God is not to be attached to any saint but to God alone; one should try to attach himself to God directly. Attaching oneself to a saint may not be idolatry, since the saint is attached himself to God, but it still isn't the main idea. However, unattachment to God as when one's mind is occupied with things separate from God, is idolatry. Yet, by faith that there is nothing besides Him, one can serve God by himself himself all things. Rabbi Nachman apparently hold s that prayer is above Torah, and the Talmud says learning Torah [even one word -- the mishnah in Peah makes clear that there is no lower limit to the amount, i.e., even an infinitesimal amount of learning is more than all the commandments -- which includes prayer] is above all mitzvot . One [Rabbi Nathan’s] explanation is that prayer for physical things is below Torah, as the sages mentioned about the student in an incident that he was praying when he should have been learning. Yet this isn't a good answer since Rabbi Yochanan disagrees in that very case and says, “If only a person would pray all day”.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

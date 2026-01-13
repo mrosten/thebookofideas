@@ -6,11 +6,7 @@ prev: ""
 next: ""
 ---
 
-
-
             
-
-
 
 <p>Idea - God is infinitely distant behind many screens To use the things scientists cannot explain to prove the existence of God is not the right approach, for what will be done when science gets around to explaining these things (as has happened many times before)? The only real proofs I have seen are Spinoza's and Descartes'. But it seems that God has removed His light from the Empty Space and the closer we come to proving Him the further He recedes. So we see that after God's existence is proved logically, Kant comes around and attacks the ability of logic to prove anything. And as we reveal His presence in the empty space that He has created the further into the background he recedes. He hides himself in an infinite series of hidings, i.e. first he hides and then he hides that hiding, so that you do not know that he is hidden, then he hides that hiding, so that you don't know that he is hiding that he is hiding the hiding etc.</p>
 
@@ -22,18 +18,6 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
 
-<!-- Section Nav -->
 
-</div>
-
-<!-- Section Nav -->
-
-
-
-        </div>
-
-        <!-- Section Nav -->

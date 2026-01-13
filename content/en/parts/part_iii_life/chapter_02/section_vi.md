@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The genius of the species wants improvement of the species so promiscuous sex is not good because it is aimed at quantity, not quality. Marriage is possibly good since the mates check out each other beforehand to see if they are compatible which is in fact irrelevant but what does matter is that they convey the information true the genius of the species which knows if the female male aspects complement each other. If so, they get sexually aroused. None of this has anything to do with compatibility or character.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

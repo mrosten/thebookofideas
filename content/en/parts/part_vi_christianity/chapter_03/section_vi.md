@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>The ethical system of the Duties of the Heart (which is the basis of the ethical system of Judaism) is almost identical to the system of Christian authors who were about 200 years before it. -(Those same authors provided the Islamic thinkers with their system also. However this isn't to say that Jews aren't creative or original, but their special power is that of integration -i.e. the welding together is disparate ideas to come out with a result where the whole is more and better than the parts.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

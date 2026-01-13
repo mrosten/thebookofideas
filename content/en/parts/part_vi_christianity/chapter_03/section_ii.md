@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The discovery of Relativity in the Jewish year 5666 marked a further acceleration of this process. As the number of scientists doubled every fifteen years, the fervor for progress cooled under the shadow of nuclear and chemical holocausts. The "Religion of Science" has been debunked by its own consequences, leading mankind back to a desperate search for the very answers it once thought it had outgrown.</p>
             <span class="status-badge badge-reward">Atomic Reflection</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="progress-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

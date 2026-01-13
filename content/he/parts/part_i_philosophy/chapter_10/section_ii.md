@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>רבות מהתורה שבעל פה מבוססות על הסתברות ושלטון הרוב. לפני שמקרה נידון, הוא דפוס גל של אפשרויות. ברגע שבית המשפט מתבונן ומחליט, הגל קורס לחלקיק של חוק.</p>
             <span class="status-badge badge-reward">קריסת גל</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="law-type"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>emotions of the evil side are love of cruelty, love of sex as a physical act, love of lying, or not learning wisdom etc. T wo things one must be careful to avoid: fame and illicit sex [i.e., sex outside of marriage]. The reason is not that either of these things are evil, but because they are dangerous. Sex and honor are incredibly powerful sources of energy and just like atomic energy, if not handled with extreme caution they can be deadly. Now sex even in marriage is by no means necessarily holy but certainly less dangerous since there is at least the surrounding light of the marriage commitment.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

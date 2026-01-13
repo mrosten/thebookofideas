@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Biblical values recognize the biological and spiritual readiness of the individual. While modern society legalizes depravity among adults but legislates morality for the youth, a returned Biblical perspective would honor the intensity and holiness of love, the creation of life (through sex or even cloning), and the restoration of the family structure.</p>
             <span class="status-badge badge-reward">Natural Alignment</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="tyranny-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

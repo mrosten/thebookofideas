@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>Fear of God is the key to wisdom, but many times the fear of God of the parents results in the wisdom of the children. Other times depending on its strength it causes the person that has it to be wise. University professors will in general have religious parents which resulted in their children being wise. Since Fear of God is such a key factor in wisdom and besides that we have Rabbi Nachman's way of learning, I would like to suggest a way of learning that would result in even a person of lesser intellect becoming wise: (a) Learn books of ethics and fear of God every day and keep what they say to do.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

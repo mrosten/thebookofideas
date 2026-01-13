@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="concept-box">
@@ -15,7 +13,7 @@ next: ""
             <blockquote class="fancy-quote">
             "The mitzvot were given only to refine the creatures." — Midrash Tanchuma
             </blockquote>
-            <p></div></p>
+            </div>
             <h4>The Three Pillars of Law</h4>
             <p>The Rambam (Maimonides) categorizes the reasons for the commandments into three main areas, aiming to perfect society and the individual soul:</p>
             <div class="feature-image">
@@ -23,7 +21,7 @@ next: ""
             <div class="visual-placeholder-icon">⚖️</div>
             <div class="visual-placeholder-text">The Structure of Divine Law</div>
             </div>
-            <p></div></p>
+            </div>
             <div class="concept-box">
             <strong>The Rambam's Classification (Guide III:31)</strong>
             <ol>
@@ -31,7 +29,7 @@ next: ""
             <li><strong>Social Order:</strong> To establish a just society and prevent violence (e.g., Do not murder).</li>
             <li><strong>Character Refinement:</strong> To train the self in good traits and separate from bad habits (e.g., Dietary laws).</li>
             </ol>
-            <p></div></p>
+            </div>
             <h4>God and Logic</h4>
             <p>There is a debate between Rabbi Shimon and Rabbi Yehuda regarding whether we can derive the scope of a law from its reason (<em>Darshinan Taama D'kra</em>). However, all agree that the laws <em>have</em> reasons. It is not "God vs. Logic"; rather, it is <strong>God = Reason</strong>. As the Zohar states, "Torah is the spreading out of the Higher Wisdom."</p>
             <div class="justice-balance">
@@ -53,7 +51,7 @@ next: ""
             <p><strong>Example:</strong> The widow represents the <em>Shekhinah</em> (Divine Presence) in exile. Taking a pledge disrupts the flow of light to the lower worlds. The physical reason encompasses the spiritual one.</p>
             <span class="status-badge badge-reward">Divine Flow</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="reason-mode"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -69,14 +67,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -28,7 +26,7 @@ next: ""
             <div class="pan pan-l"></div>
             <div class="pan pan-r"></div>
             </div>
-            <p></div></p>
+            </div>
             <div class="consequence-grid">
             <div class="consequence-box earth-box">
             <h5>Life on Earth (Temporal)</h5>
@@ -40,7 +38,7 @@ next: ""
             <span class="status-badge badge-reward">Prosperity</span>
             <p>Receiving reward for few good deeds here; no root remains for the Next World.</p>
             </div>
-            <p></div></p>
+            </div>
             <div class="consequence-box heaven-box">
             <h5>The Next World (Eternal)</h5>
             <div id="righteous-heaven">
@@ -51,7 +49,7 @@ next: ""
             <span class="status-badge badge-punish">Loss</span>
             <p>Payment for a majority of sins.</p>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('.balance-toggle').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -73,7 +71,7 @@ next: ""
             <li><strong>Middle Gan Eden:</strong> For those who guarded their speech and spoke words of truth.</li>
             <li><strong>Higher Gan Eden:</strong> For those whose inner thoughts and feelings were integrated into the Light.</li>
             </ol>
-            <p></div></p>
+            </div>
             <p>Ultimately, God's justice is not a simple "if-then" statement, but a deep sifting of every level of human consciousness.</p>
             
             
@@ -81,14 +79,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>A formal Kiddushin creates a permanent spiritual bond between husband and wife, recognized in the Upper Worlds. It provides a more protected "vessel" for the Divine Light, though it requires a formal, legal exit strategy (Get) should the union fail.</p>
             <span class="status-badge badge-reward">Spiritual Armor</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="relationship-path"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

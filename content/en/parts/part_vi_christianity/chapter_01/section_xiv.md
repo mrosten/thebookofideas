@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>in me.” And, in fact, his promise to bring that generation into Israel would have been a false prophecy if not for the two people of the generation that did believe in him all the way: Calev Ben Yefune and Hoshea Ben Nun. But at any rate God's purpose will not be thwarted totally, and we find with the introduction of the Magna Carta in the beginning of the 6th millennium when God did promise the redemption, that the yoke of the nations has slowly been lifted off Israel, who are now able to live in relative freedom compared to the chaos and suffering under the Romans and the Dark Ages.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

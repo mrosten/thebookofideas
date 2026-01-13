@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>small things? The Talmudic discussions of Abbaye and Rava.” (This is the Talmudic source of the Rambam, Mishna Torah Book 1, Chapter 4). It is interesting to note that the mother of all books of musar of Torah literature, the Duties of the Heart puts science, the study of logic, and ethics on a higher spiritual plane than Torah. It is even more shocking than the Rambam, because it says this in so many words in his introduction: “I have seen fit to conclude the introduction of this book with a story that will make you zealous to understand its subjects and awaken you to know the importance of this type of commandment [of the heart] above the other type [physical] and the importance of physical science and the science of ethics and the science of logic above the wisdom of the Torah .” This study in his days was confined to Aristotle and Plato and their commentaries, and in particular Averroes.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

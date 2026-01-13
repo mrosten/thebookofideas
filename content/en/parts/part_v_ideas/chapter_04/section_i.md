@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The Divine Presence functions like a massive gravitational field. Where there is a high concentration of spiritual energy, the "Place" and "Length" of experience become shorter. This mirrors General Relativity, where time dilates and space contracts in the presence of intense mass-energy density.</p>
             <span class="status-badge badge-reward">Relativistic Holiness</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="time-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

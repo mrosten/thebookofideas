@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The Messiah son of David (Royalty/Malchut) represents the final completion of the process. His role is to establish the Kingdom of God on earth, uniting all branches of the spiritual tree under a single, unified law of Truth. This stage requires the stable vessels built during the preliminary "Joseph" phase.</p>
             <span class="status-badge badge-reward">Final Unity</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="ben-joseph-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

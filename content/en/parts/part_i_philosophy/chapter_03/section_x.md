@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>This is based on the Ramchal, together with the beginning of the Eitz Chayim, and the Lekutei Moharan — but with a bit of integration. The idea is: God fills all worlds and surrounds all worlds — so one must unite the sparks of holiness in everything with the infinite presence of God himself by choosing God in everything he does, says, or thinks, or desires — and thus uniting himself and all creation with God. When one is united with God than he too can create Godliness, and this is the 1st commandment in the Torah of being fruitful and to multiply, and children and ideas, and music.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

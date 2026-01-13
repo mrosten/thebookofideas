@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>Repentance (<em>Teshuvah</em>) is an exponential function. The first act of repentance brings inspiration, which increases awareness of God's greatness, requiring a second, deeper repentance. This creates a feedback loop: <em>Inspiration(next) = Inspiration(current) </em> k*. With each cycle, the quality of the light increases exponentially.</p>
             <span class="status-badge badge-reward">Exponential Ascent</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="regression-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

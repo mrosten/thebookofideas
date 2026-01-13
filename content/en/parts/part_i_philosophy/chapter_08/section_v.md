@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>sun really is ready to rise it is already so bright that it is almost irrelevant if you can see the sun or not. When the whole world will be filled with the brightness and glory of God then I will know that messiah is near . Until then I will just have to wait. Since in every level of creation there are two Strange Loops : o ne that takes one up and the other that takes one down to the lower level [like the double helix of the DNA], thus, to come to the redemption one needs to find the Strange Loop for the present level. But the present level consists of ten sephirot.</p>
@@ -18,14 +16,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

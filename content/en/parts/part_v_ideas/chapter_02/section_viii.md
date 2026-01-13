@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>concept in Kabbalah). (To the photons themselves time doesn't move, all space is one point, and its equivalent mass at that velocity is undefined.) (It's also well known that the 3 middle ones refer to the directions of space.) The first 100 elements are divided into the 10 sephirot of rulership of the physical universe e.g., hydrogen is rulership of rulership. Helium is the foundation of rulership. But after the correction helium is rulership of foundation, etc., and the order is vertical, not horizontal (as Rabbi Sar Shalom Sharabi explains in Nahar Shalom ) 7 rows of the periodic table correspond to the seven levels surrounding royalty, and the four orbitals (s, p, d, f) are the four letters of the Ineffable Name.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

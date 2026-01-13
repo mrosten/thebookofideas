@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>pleasurable or not. All that matters is that it should be against the Torah. It's the evil angel that wrestled with Jacob that appeared to him as a Torah sage because that particular evil angel knows the law very well and put pleasure into things that would have no physical or emotional satisfaction except for the fact that this imp knows it is forbidden . The oral law is like a brick of gold that stretches from Moses until the center of the empty space [vertically]. [Prayer is going back up]. The Oral Law as contained in the Talmud is only one small horizontal slice. Since the Talmud stretches vertically this would apply also to the written law or prophecy and Kabbalah etc. Thus, we find a continuation after the Talmud of the light of the Talmud in the Geonim and later authorities.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

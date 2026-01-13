@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <div class="justice-balance">
@@ -31,7 +29,7 @@ next: ""
             <p><strong>Result:</strong> Revealing hidden patterns, breaking mental constraints, and finding the "Shadow Light" behind the words.</p>
             <span class="status-badge badge-reward">Paradox</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="mirror-study"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -52,14 +50,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

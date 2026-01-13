@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -39,7 +37,7 @@ next: ""
             <p>Practical application of the Oral Law. Whether strict or lenient, both approaches are valid as they provide the vessels for Divine service in the world of Action.</p>
             <span class="status-badge badge-reward">Vessel Creation</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="talmud-study"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -65,14 +63,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

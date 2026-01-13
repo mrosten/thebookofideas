@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -34,7 +32,7 @@ next: ""
             <p>The prohibition of adultery (<em>ds/dt = 0</em>) is the law of zero entropy. In a holy union, the information and energy of the soul remain constant. Diverting this flow creates a "leak" in the spiritual manifold, increasing the disorder of the world's vessels.</p>
             <span class="status-badge badge-reward">Disorder Guard</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="covenant-logic"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -59,14 +57,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

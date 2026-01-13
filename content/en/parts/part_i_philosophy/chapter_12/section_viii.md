@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>reason Dinosaurs with larger brains never developed. Since the head and the heart are almost always in opposition, and heart is more in tune with the Divine, if you know what your head is saying but don't know what your heart says then do the opposite of the head. What makes sense -- don't do. The reason is if the heart and head were together then you would know what your heart says. Since you don't know there is therefore a conflict, and for sure your heart says something else and therefore it is not what the head says — but your head and logic are drowning out the message from your heart.</p>
@@ -20,14 +18,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

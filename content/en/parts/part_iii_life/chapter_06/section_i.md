@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -18,7 +16,7 @@ next: ""
             <div class="visual-placeholder-icon">📐</div>
             <div class="visual-placeholder-text">The Geometry of Destiny</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Tzelem of Greatness</h4>
             <p>Every person is born with a certain <em>Tzelem</em> (Form)—a unique world-line in time and space that they are destined to fill. Real success is not about imposing an external order on your life, but about discovering and honoring that internal form. Most people waste years trying to force themselves into a mold that was never meant for them. As Christopher Morley said: "There is only one success—to be able to spend your life in your own way."</p>
             <div class="concept-box">
@@ -32,7 +30,7 @@ next: ""
             <li>Punishing friends while trying to appease enemies.</li>
             <li>Ignoring the acquisition of vertical skills.</li>
             </ul>
-            <p></div></p>
+            </div>
             <div>
             <h5>The Winner's Way (Accumulation)</h5>
             <ul>
@@ -40,7 +38,7 @@ next: ""
             <li>The Noam Elimelech Way: A little bit of everything, every day.</li>
             <li>The Michelangelo Obsession: Satisfying the Art, not the clock.</li>
             </ul>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <h4>The Hunger for Perfection</h4>
             <p>Success requires an obsession with truth. When Pope Julius II asked Michelangelo when the Sistine Chapel would be done, he replied: "When I shall have done all that I believe required to satisfy art." This is the same spirit that drove the production of <em>Titanic</em>—not a concern for deadlines or cost, but a sacred goal to honor the facts without compromise. Success is the outer light that surrounds a person when they have polished their inner details to match the higher vision.</p>
             <div class="concept-box">
@@ -56,14 +54,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

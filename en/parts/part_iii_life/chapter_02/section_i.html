@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">HE</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">Part iii life</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">HE</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">Part iii life</a>
+        <a href="../../../../en/parts/part_iii_life/chapter_01/section_i.html" class="active">Part iii life</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 02</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class='active'>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class=''>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 2: Marriage — Secti...</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class='active' title='Chapter 2: Marriage — Section I'>Chapter 2: Marriage — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_ii.html' class='' title='Chapter 2: Marriage — Section II'>Chapter 2: Marriage — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_iii.html' class='' title='Chapter 2: Marriage — Section III'>Chapter 2: Marriage — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_iv.html' class='' title='Chapter 2: Marriage — Section IV'>Chapter 2: Marriage — Section IV</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_v.html' class='' title='Chapter 2: Marriage — Section V'>Chapter 2: Marriage — Section V</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_vi.html' class='' title='Chapter 2: Marriage — Section VI'>Chapter 2: Marriage — Section VI</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html'>Part iii life</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_i.html' class=''>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_i.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class='active'>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_i.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_i.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_i.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 02</a><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_01/section_i.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class='active'>Chapter 02</a><a href='../../../../en/parts/part_iii_life/chapter_03/section_i.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_iii_life/chapter_04/section_i.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_iii_life/chapter_05/section_i.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_iii_life/chapter_06/section_i.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_iii_life/chapter_07/section_i.html' class=''>Chapter 07</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 2: Marriage — Secti...</span><div class='dropdown-content'><a href='../../../../en/parts/part_iii_life/chapter_02/section_i.html' class='active' title='Chapter 2: Marriage — Section I'>Chapter 2: Marriage — Section I</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_ii.html' class='' title='Chapter 2: Marriage — Section II'>Chapter 2: Marriage — Section II</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_iii.html' class='' title='Chapter 2: Marriage — Section III'>Chapter 2: Marriage — Section III</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_iv.html' class='' title='Chapter 2: Marriage — Section IV'>Chapter 2: Marriage — Section IV</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_v.html' class='' title='Chapter 2: Marriage — Section V'>Chapter 2: Marriage — Section V</a><a href='../../../../en/parts/part_iii_life/chapter_02/section_vi.html' class='' title='Chapter 2: Marriage — Section VI'>Chapter 2: Marriage — Section VI</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>Chapter 2: Marriage — Section I</h3>
@@ -64,7 +71,7 @@
             <div class="visual-placeholder-icon">💍</div>
             <div class="visual-placeholder-text">The Union of Lights</div>
             </div>
-            <p></div></p>
+            </div>
             <div class="concept-box">
             <strong>The Marriage of World-Views</strong>
             The current era involves a profound spiritual process: combining the <em>Straight</em> and <em>Circular</em> Sephirot. This represents the merging of the vessels of "Correction" (Tikun) with the intense "Light of Chaos" (Tohu). This spiritual dynamic explains why many connections today cross traditional boundaries—they are attempting to integrate these two divergent lights into a single, unified Name of 72.
@@ -77,7 +84,7 @@
             <ul>
             <li><strong>The Marriage Dance:</strong> Men naturally exert a tremendous burst of energy during the "wooing" process. Once married, they often regress to their original internal state. This is not deception; it is a law of nature, similar to the mating dance of bees.</li>
             </ul>
-            <p></div></p>
+            </div>
             <blockquote class="fancy-quote">
             “My bounty is as boundless as the sea, my love as deep; the more I give to thee, the more I have, for both are infinite.” — Juliet
             </blockquote>
@@ -87,15 +94,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -103,8 +102,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../en/parts/part_iii_life/chapter_01/section_v.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 1: Family — Section V</div></a>
+            <a href='../../../../en/parts/part_iii_life/chapter_02/section_ii.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 2: Marriage — Section II</div></a>
         </div>
     </main>
 

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -18,7 +16,7 @@ next: ""
             <div class="visual-placeholder-icon">🏔️</div>
             <div class="visual-placeholder-text">The Three Peaks of Ascent</div>
             </div>
-            <p></div></p>
+            </div>
             <h4>The Uncertainty of the Saint</h4>
             <p>The greater a Saint is, the less we can logically "prove" their status. This is the <strong>Spiritual Uncertainty Principle</strong>: the more you attempt to analyze a Saint's actions through the lens of human criticism, the less you are aware of the Divine frequency they operate on. Their writings and influence withstand the test of time, but their immediate presence is often a paradox that defies conventional judgment.</p>
             <div class="concept-box">
@@ -37,7 +35,7 @@ next: ""
             <h5>Unifications (Yichudim)</h5>
             <p><strong>Connection:</strong> Wisdom. Meditating on the Divine Names aligns the internal radio to the frequencies of the Upper Intellect, polishing the Mind.</p>
             </div>
-            <p></div> </div></p>
+            </div> </div>
             <h4>The Shadow Side</h4>
             <p>In the architecture of the soul, every Saint is born with a corresponding "evil side" in another person. This is why the righteous must pray for those who hate them—because that shadow is technically a part of their own soul’s infrastructure that was "lucky" enough to be born elsewhere. To deny a righteous person completely is to cut off the very flow of energy that might have reached you.</p>
             <div class="concept-box">
@@ -55,14 +53,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <blockquote class="fancy-quote">
@@ -32,13 +30,13 @@ next: ""
             <li><strong>מדענים:</strong> הבנת התוכנית.</li>
             <li><strong>למדני תלמוד:</strong> ידע טכני של הקוד.</li>
             </ol>
-            <p><span class="status-badge badge-reward">התעלות</span> </div></p>
+            <p><span class="status-badge badge-reward">התעלות</span> </div>
             <div id="panel-vessel" style="display:none">
             <h5>מעשים ואור</h5>
             <p>מעשי תורה (מצוות) יוצרים את הכלים, אך מדע ופילוסופיה מושכים את האור לתוכם. ביחס ישר לידיעתו של אדם את טבע העולם, כך העולם כפוף לרצונו.</p>
             <span class="status-badge badge-reward">שליטה</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="science-view"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -63,14 +61,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

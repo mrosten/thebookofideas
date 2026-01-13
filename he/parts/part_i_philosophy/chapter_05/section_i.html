@@ -26,30 +26,37 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="../../../../search.html" id="search-link" aria-label="Search">🔍</a>
-        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
-        <button id="lang-toggle" aria-label="Switch Language">
-            <span class="lang-icon">🌐</span>
-            <span class="lang-text">EN</span>
-        </button>
-        <div>
+        <!-- Branding Left -->
+        <div class="branding">
             <h1>The Torah Book of Ideas</h1>
             <p class="subtitle">חלק א' — פילוסופיה</p>
         </div>
+
+        <!-- Header Actions Right -->
+        <div class="header-actions">
+            <a href="../../../../search.html" class="icon-btn" aria-label="Search" title="Search">🔍</a>
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-icon">🌐</span>
+                <span class="lang-text">EN</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
         <a href="../../../../index.html">Home</a>
         <a href="../../../../contents.html">Contents</a>
-        <a href="../../../../parts/index.html" class="active">חלק א' — פילוסופיה</a>
+        <a href="../../../../he/parts/part_i_philosophy/chapter_01/section_i.html" class="active">חלק א' — פילוסופיה</a>
+        <!-- Add more links here if needed -->
     </nav>
 
     <!-- Main Content -->
     <main class="container">
         <!-- Breadcrumbs -->
-        <!-- Breadcrumbs -->
-        <div class='breadcrumb-item'><a href='../../../../he/index.html'>ראשי</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html'>חלק א' — פילוסופיה</a><div class='dropdown-content'><a href='../../../../he/index.html' class=''>בית</a><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class='active'>חלק א' — פילוסופיה</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class=''>חלק ב' — הלכה</a><a href='../../../../he/contents.html' class=''>תוכן</a><a href='../../../../he/parts/part_iii_life/chapter_01/section_i.html' class=''>part iii life</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>פרק 5</a><div class='dropdown-content'><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class=''>פרק 1</a><a href='../../../../he/parts/part_i_philosophy/chapter_10/section_i.html' class=''>פרק 10</a><a href='../../../../he/parts/part_i_philosophy/chapter_11/section_i.html' class=''>פרק 11</a><a href='../../../../he/parts/part_i_philosophy/chapter_12/section_i.html' class=''>פרק 12</a><a href='../../../../he/parts/part_i_philosophy/chapter_02/section_i.html' class=''>פרק 2</a><a href='../../../../he/parts/part_i_philosophy/chapter_03/section_i.html' class=''>פרק 3</a><a href='../../../../he/parts/part_i_philosophy/chapter_04/section_i.html' class=''>פרק 4</a><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_i.html' class='active'>פרק 5</a><a href='../../../../he/parts/part_i_philosophy/chapter_06/section_i.html' class=''>פרק 6</a><a href='../../../../he/parts/part_i_philosophy/chapter_07/section_i.html' class=''>פרק 7</a><a href='../../../../he/parts/part_i_philosophy/chapter_08/section_i.html' class=''>פרק 8</a><a href='../../../../he/parts/part_i_philosophy/chapter_09/section_i.html' class=''>פרק 9</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>פרק 5: שמחה — סעיף I</span><div class='dropdown-content'><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_i.html' class='active' title='פרק 5: שמחה — סעיף I'>פרק 5: שמחה — סעיף I</a><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_ii.html' class='' title='פרק 5: שמחה — סעיף II'>פרק 5: שמחה — סעיף II</a><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_iii.html' class='' title='פרק 5: שמחה — סעיף III'>פרק 5: שמחה — סעיף III</a></div></div>
+        <div class="breadcrumb">
+            <div class='breadcrumb-item'><a href='../../../../he/index.html'>ראשי</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html'>חלק א' — פילוסופיה</a><div class='dropdown-content'><a href='../../../../he/index.html' class=''>בית</a><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class='active'>חלק א' — פילוסופיה</a><a href='../../../../he/parts/part_ii_halacha/chapter_01/section_i.html' class=''>חלק ב' — הלכה</a><a href='../../../../he/contents.html' class=''>תוכן</a><a href='../../../../he/parts/part_iii_life/chapter_01/section_i.html' class=''>part iii life</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>פרק 5</a><div class='dropdown-content'><a href='../../../../he/parts/part_i_philosophy/chapter_01/section_i.html' class=''>פרק 1</a><a href='../../../../he/parts/part_i_philosophy/chapter_10/section_i.html' class=''>פרק 10</a><a href='../../../../he/parts/part_i_philosophy/chapter_11/section_i.html' class=''>פרק 11</a><a href='../../../../he/parts/part_i_philosophy/chapter_12/section_i.html' class=''>פרק 12</a><a href='../../../../he/parts/part_i_philosophy/chapter_02/section_i.html' class=''>פרק 2</a><a href='../../../../he/parts/part_i_philosophy/chapter_03/section_i.html' class=''>פרק 3</a><a href='../../../../he/parts/part_i_philosophy/chapter_04/section_i.html' class=''>פרק 4</a><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_i.html' class='active'>פרק 5</a><a href='../../../../he/parts/part_i_philosophy/chapter_06/section_i.html' class=''>פרק 6</a><a href='../../../../he/parts/part_i_philosophy/chapter_07/section_i.html' class=''>פרק 7</a><a href='../../../../he/parts/part_i_philosophy/chapter_08/section_i.html' class=''>פרק 8</a><a href='../../../../he/parts/part_i_philosophy/chapter_09/section_i.html' class=''>פרק 9</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>פרק 5: שמחה — סעיף I</span><div class='dropdown-content'><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_i.html' class='active' title='פרק 5: שמחה — סעיף I'>פרק 5: שמחה — סעיף I</a><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_ii.html' class='' title='פרק 5: שמחה — סעיף II'>פרק 5: שמחה — סעיף II</a><a href='../../../../he/parts/part_i_philosophy/chapter_05/section_iii.html' class='' title='פרק 5: שמחה — סעיף III'>פרק 5: שמחה — סעיף III</a></div></div>
+        </div>
 
         <div class="content-card">
             <h3>פרק 5: שמחה — סעיף I</h3>
@@ -85,7 +92,7 @@
             <p>עונג גדול עולה לעיתים קרובות בקנה אחד עם כאב גדול כדי לשמר את האיזון הגלובלי. כל דבר "עצום" שנכנס לחיי תמותה מביא איתו לעיתים קרובות את הצל שלו.</p>
             <span class="status-badge badge-punish">אור צל</span>
             </div>
-            <p></div> </div> </div></p>
+            </div> </div> </div>
             <script>
             document.querySelectorAll('input[name="joy-thermo"]').forEach(radio => {
             radio.addEventListener('change', () => {
@@ -105,7 +112,7 @@
             <li><strong>הייזנברג:</strong> כישלונו בבחינת הדוקטורט בנושא רזולוציית מיקרו הוביל אותו לפתח את עקרון אי-הוודאות.</li>
             <li><strong>הגברת הראשונה:</strong> אישה (ברברה בוש) ששמה הטוב נהרס בעבר על ידי שמועות שווא, אך ההגנה שבאה בעקבות כך הובילה אותה לפגוש ולהינשא לנשיא לעתיד.</li>
             </ul>
-            <p>דינים (חוסר אושר) מגיעים לעיתים קרובות ממקור גבוה יותר מאשר ברכות פשוטות. כאשר הם משולבים דרך דבקות באל, דינים אלו הופכים להשראות הגדולות ביותר. </div></p>
+            <p>דינים (חוסר אושר) מגיעים לעיתים קרובות ממקור גבוה יותר מאשר ברכות פשוטות. כאשר הם משולבים דרך דבקות באל, דינים אלו הופכים להשראות הגדולות ביותר. </div>
             <blockquote class="fancy-quote">
             "שום דבר עצום לא נכנס לחיי בני תמותה ללא קללה." — סופוקלס
             </blockquote>
@@ -115,15 +122,7 @@
 
 </div>
 
-<!-- Section Nav -->
-
 </div>
-
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
 
 
 
@@ -131,8 +130,8 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            
-            
+            <a href='../../../../he/parts/part_i_philosophy/chapter_04/section_iii.html' class='nav-card prev'><div class='label'>הקודם</div><div class='title'>פרק 4: חסידות — סעיף III</div></a>
+            <a href='../../../../he/parts/part_i_philosophy/chapter_05/section_ii.html' class='nav-card next'><div class='label'>הבא</div><div class='title'>פרק 5: שמחה — סעיף II</div></a>
         </div>
     </main>
 

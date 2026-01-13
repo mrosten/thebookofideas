@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>was saved’”. [This is the literal translation.] Later, the Prophet Hoshea said about this that God appeared to him and served him. [ Hoshea 12:3-6] Now, the sages have a different idea of what happened there, and said it referred to the angel of Esau — which really isn't a problem, for the simple explanation is that God contains all aspects good and evil for there is nothing besides him. Now, if that was God in human form, who we usually refer to as Jesus, it is in fact interesting that Jesus became the intercessor of Esau [Rome]. It is assumed in general that God refers in general to the aspect of God that is above all time and space, but also to each individual level that is one step  higher that the previous, which contains the light of God relative to that previous level.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+

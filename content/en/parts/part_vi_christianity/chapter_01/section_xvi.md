@@ -6,8 +6,6 @@ prev: ""
 next: ""
 ---
 
-
-
             
 
 <p>because we don't know the exact first calculation for Rosh Chodesh [the new moon]. Thus if we did, we would take it in despite of the rabbinical decree of Rabbah, of ‘perhaps he will carry it four amot in a public domain’”. The Rif states the Gemara in Succah for the halacha, so he holds the same way. See the Ritvah in chapter 4 of Rosh Hashanah. The Greek word for picking corn also implies rubbing it between one’s fingers, which is permitted on the Shabbat. It just seems like Jesus and his disciples encountered on the Shabbat ultra-religious Jews who were ignorant of the halachah as happens all the time with people that are super religious — they always keep on adding restriction upon restriction. I have seen many times people doing perfectly permitted things on the Sabbath and getting  attacked by the ultra-orthodox, who simply didn't know the halachah — and even when the Shulchan Aruch [Code of Jewish Law] was brought out to show them, they wouldn't believe it.</p>
@@ -19,14 +17,7 @@ next: ""
 
 </div>
 
-<!-- Section Nav -->
-
-</div>
-
-<!-- Section Nav -->
-
-
-
         </div>
 
-        <!-- Section Nav -->
+        
+
