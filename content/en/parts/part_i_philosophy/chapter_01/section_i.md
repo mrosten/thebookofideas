@@ -3,12 +3,7 @@ title: "Section I — God — The Song of God"
 part: "Part I — Philosophy"
 chapter: "Chapter 01"
 ---
-title: "Section I — God — The Song of God"
-part: "Part I — Philosophy"
-chapter: "Chapter 01"
-prev: ""
-next: ""
----
+
 
             
 
