@@ -18,7 +18,27 @@ function Convert-MarkdownToHTML {
         $markdown = $markdown -replace "(?s)^---\s*`r?`n.*?`r?`n---\s*(`r?`n|$)", ""
     }
 
-    # 2. Basic Markdown Parsing (Regex-based)
+    # 2. Extract and protect <style> and <script> blocks before processing
+    $protectedBlocks = @{}
+    $blockIndex = 0
+    
+    # Protect <style>...</style> blocks
+    while ($markdown -match "(?s)(<style[^>]*>.*?</style>)") {
+        $placeholder = "___PROTECTED_BLOCK_${blockIndex}___"
+        $protectedBlocks[$placeholder] = $matches[1]
+        $markdown = $markdown -replace [regex]::Escape($matches[1]), $placeholder
+        $blockIndex++
+    }
+    
+    # Protect <script>...</script> blocks  
+    while ($markdown -match "(?s)(<script[^>]*>.*?</script>)") {
+        $placeholder = "___PROTECTED_BLOCK_${blockIndex}___"
+        $protectedBlocks[$placeholder] = $matches[1]
+        $markdown = $markdown -replace [regex]::Escape($matches[1]), $placeholder
+        $blockIndex++
+    }
+
+    # 3. Basic Markdown Parsing (Regex-based)
     # NOTE: This is a lightweight parser. For complex needs, we expect Raw HTML in the MD.
     
     # Headers
@@ -39,33 +59,26 @@ function Convert-MarkdownToHTML {
     # Horizontal Rule
     $markdown = $markdown -replace '(?m)^---$', '<hr class="divider">'
 
-    # Paragraphs (Double newline -> <p>)
-    # Strategy: Split by double newline, wrap non-HTML blocks in <p>
-    # Note: If line starts with <, assume it's HTML and don't wrap? 
-    # For now, simple approach:
-    # We will use a unique token for line breaks to avoid messing up HTML tags
-    
-    # Actually, simpler for Hybrid: 
-    # IF the user pastes HTML, they likely won't use Markdown headers inside it.
-    # So we mainly needed to support the specific ease-of-use things for NEW writing.
-    # Let's assume content is mostly HTML-ready if cut/pasted, or simple MD.
-    
-    # Convert newlines to <br> or wrap paragraphs?
-    # Let's wrap blocks separated by empty lines in <p> ONLY if they don't start with <
+    # 4. Paragraph wrapping
     $blocks = $markdown -split "`r?`n`r?`n"
     $htmlOut = ""
     foreach ($block in $blocks) {
         if ([string]::IsNullOrWhiteSpace($block)) { continue }
         
         $block = $block.Trim()
-        if ($block -match "^<") {
-            # Assumed raw HTML block (div, p, ul, etc.)
+        if ($block -match "^<" -or $block -match "^___PROTECTED_BLOCK_") {
+            # Assumed raw HTML block or protected block
             $htmlOut += "$block`n`n"
         }
         else {
             # Text block, wrap in paragraph
             $htmlOut += "<p>$block</p>`n`n"
         }
+    }
+    
+    # 5. Restore protected blocks
+    foreach ($placeholder in $protectedBlocks.Keys) {
+        $htmlOut = $htmlOut -replace [regex]::Escape($placeholder), $protectedBlocks[$placeholder]
     }
     
     return $htmlOut

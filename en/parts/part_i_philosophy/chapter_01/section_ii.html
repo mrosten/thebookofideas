@@ -152,22 +152,22 @@ next: ""
     position: relative;
 }
 
-<p>.game-instructions {
+.game-instructions {
     text-align: center;
     font-style: italic;
     color: var(--text-muted);
     margin-bottom: 2rem;
-}</p>
+}
 
-<p>.loop-container {
+.loop-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin: 2rem 0;
     position: relative;
-}</p>
+}
 
-<p>.axiom-node {
+.axiom-node {
     background: white;
     padding: 1.5rem;
     border-radius: var(--radius-md);
@@ -180,28 +180,28 @@ next: ""
     flex-direction: column;
     align-items: center;
     text-align: center;
-}</p>
+}
 
-<p>.axiom-node:hover {
+.axiom-node:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     border-color: var(--accent-gold);
-}</p>
+}
 
-<p>.axiom-node.active {
+.axiom-node.active {
     background: linear-gradient(135deg, var(--accent-gold-light), var(--accent-gold));
     border-color: var(--accent-gold);
     color: var(--primary-deep);
     animation: pulse 0.5s ease;
-}</p>
+}
 
-<p>.axiom-node.completed {
+.axiom-node.completed {
     background: var(--primary-deep);
     color: white;
     border-color: var(--primary-deep);
-}</p>
+}
 
-<p>.axiom-number {
+.axiom-number {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -213,20 +213,20 @@ next: ""
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-}</p>
+}
 
-<p>.axiom-node.completed .axiom-number {
+.axiom-node.completed .axiom-number {
     background: white;
     color: var(--primary-deep);
-}</p>
+}
 
-<p>.axiom-node p {
+.axiom-node p {
     margin: 0;
     font-size: 0.9rem;
     line-height: 1.4;
-}</p>
+}
 
-<p>.conclusion-node {
+.conclusion-node {
     grid-column: 1 / -1;
     background: var(--primary-deep);
     color: white;
@@ -236,46 +236,46 @@ next: ""
     opacity: 0;
     transform: scale(0.8);
     transition: all 0.5s ease;
-}</p>
+}
 
-<p>.conclusion-node.revealed {
+.conclusion-node.revealed {
     opacity: 1;
     transform: scale(1);
     animation: glow 2s ease-in-out infinite;
-}</p>
+}
 
-<p>.conclusion-symbol {
+.conclusion-symbol {
     font-size: 3rem;
     margin-bottom: 1rem;
     color: var(--accent-gold);
-}</p>
+}
 
-<p>.conclusion-node p {
+.conclusion-node p {
     margin: 0.5rem 0;
     font-size: 1.2rem;
-}</p>
+}
 
-<p>.sub-text {
+.sub-text {
     font-size: 0.9rem !important;
     font-style: italic;
     opacity: 0.8;
-}</p>
+}
 
-<p>.progress-indicator {
+.progress-indicator {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
     padding-top: 1rem;
     border-top: 2px solid rgba(255,255,255,0.3);
-}</p>
+}
 
-<p>.progress-text {
+.progress-text {
     font-weight: 600;
     color: var(--primary-deep);
-}</p>
+}
 
-<p>.reset-btn {
+.reset-btn {
     background: var(--primary-deep);
     color: white;
     border: none;
@@ -284,35 +284,35 @@ next: ""
     cursor: pointer;
     font-weight: 600;
     transition: all 0.2s;
-}</p>
+}
 
-<p>.reset-btn:hover {
+.reset-btn:hover {
     background: var(--primary-royal);
     transform: translateY(-2px);
-}</p>
+}
 
-<p>@keyframes pulse {
+@keyframes pulse {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.05); }
-}</p>
+}
 
-<p>@keyframes glow {
+@keyframes glow {
     0%, 100% { box-shadow: 0 0 20px rgba(197, 160, 89, 0.3); }
     50% { box-shadow: 0 0 40px rgba(197, 160, 89, 0.6); }
-}</p>
+}
 
-<p>@media (max-width: 768px) {
+@media (max-width: 768px) {
     .loop-container {
         grid-template-columns: 1fr;
     }
 }
-</style></p>
+</style>
 
 <script>
 let currentStep = 0;
 const totalSteps = 7;
 
-<p>document.querySelectorAll('.axiom-node').forEach((node, index) => {
+document.querySelectorAll('.axiom-node').forEach((node, index) => {
     node.addEventListener('click', function() {
         const step = parseInt(this.dataset.step);
         
@@ -333,9 +333,9 @@ const totalSteps = 7;
             }
         }
     });
-});</p>
+});
 
-<p>function resetLoop() {
+function resetLoop() {
     currentStep = 0;
     document.getElementById('loop-progress').textContent = '0';
     document.querySelectorAll('.axiom-node').forEach(node => {
@@ -343,7 +343,7 @@ const totalSteps = 7;
     });
     document.querySelector('.conclusion-node').classList.remove('revealed');
 }
-</script></p>
+</script>
 
 <h3>The Self-Referential Nature</h3>
 
