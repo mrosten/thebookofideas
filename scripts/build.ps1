@@ -3,6 +3,7 @@ param (
     [string]$ContentDir = "$PSScriptRoot/../content",
     [string]$TemplateDir = "$PSScriptRoot/../templates",
     [string]$OutputDir = "$PSScriptRoot/..",
+    [string]$SingleFile = "",  # Optional: build only this one file
     [switch]$Watch,
     [switch]$RebuildSitemap
 )
@@ -239,7 +240,20 @@ if ($RebuildSitemap -or -not (Test-Path $SitemapPath)) {
 }
 $Sitemap = Get-Content $SitemapPath | ConvertFrom-Json
 
-$Files = Get-ChildItem -Path $ContentDir -Recurse -Filter *.md
+# Get files to build (single file or all)
+if ($SingleFile -ne "") {
+    if (Test-Path $SingleFile) {
+        $Files = @(Get-Item $SingleFile)
+        Write-Host "Single-file mode: Building $SingleFile"
+    }
+    else {
+        Write-Error "File not found: $SingleFile"
+        exit 1
+    }
+}
+else {
+    $Files = Get-ChildItem -Path $ContentDir -Recurse -Filter *.md
+}
 
 foreach ($file in $Files) {
     Write-Host "Building: $($file.Name)"

@@ -105,7 +105,7 @@ next: ""
             On the level of <strong>Zeir Anpin</strong> (the specific emotional attributes of God, often associated with "Beauty"), we find a library of works that balance the intellect and the heart. The books which emanate from the <strong>Beauty of Atzilut</strong> (Emanation) include:
             <ul>
             <li><strong>Crown:</strong> <em>Sipurai Maasiot</em> (Rabbi Nachman's Stories) - The highest, simplest, yet deepest level.</li>
-            <li><strong>Wisdom:</strong> <em>Tanya</em> - The intellectual approach to Divine service.</li>
+            <li><strong>Wisdom:</strong> <em>Chassidic Musar Works</em> - The intellectual approach to Divine service.</li>
             <li><strong>Understanding:</strong> <em>Noam Elimelech</em> - The emotional depth of the righteous.</li>
             <li><strong>Malchut & The Six Attributes:</strong> <em>Likutai Moharan</em> and <em>Sefer HaMidot</em>.</li>
             </ul>

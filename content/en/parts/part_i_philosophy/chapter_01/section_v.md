@@ -133,10 +133,10 @@ chapter: "Chapter 01"
 
 <h3>Concentration and Curvature</h3>
 
-<p>When one truly concentrates on the idea that nothing exists besides God, that thought achieves its maximum power. The author draws a beautiful analogy to physics:</p>
+<p>When one truly concentrates on the idea that nothing exists besides God, that thought achieves its maximum power. Consider this analogy:</p>
 
 <blockquote class="fancy-quote">
     "Just as matter cannot curve space unless it is in a concentrated area, this thought cannot draw the light of God unless one really works at it."
 </blockquote>
 
-<p>However, as <strong>Rabbi Dov Ber</strong> (the son of the Baal HaTanya) cautioned: one still needs to channel this light properly into the "vessels" of understanding—through studying works like the <em>Eitz Chayim</em>. Otherwise, the light, being too intense, simply breaks one's vessels. The goal is not merely to draw down light, but to draw it <em>into knowledge</em> that can be contained and integrated.</p>
+<p>However, the Kabbalists caution: one still needs to channel this light properly into the "vessels" of understanding—through studying works like the <em>Eitz Chayim</em>. Otherwise, the light, being too intense, simply breaks one's vessels. The goal is not merely to draw down light, but to draw it <em>into knowledge</em> that can be contained and integrated.</p>
