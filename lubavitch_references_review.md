@@ -193,4 +193,9 @@ This document shows all remaining references to Lubavitch/Chabad figures and pro
 
 ---
 
-**Instructions:** Click the checkbox next to your choice for each reference, then save the file. Let me know when done! (do not change)
+**Instructions:**
+1. **In VS Code:** Press `Ctrl+Shift+V` to open Preview mode, then checkboxes become clickable
+2. **In Edit mode:** Manually change `- [ ]` to `- [x]` to mark as checked
+3. Save the file and let me know when done!
+
+*(Markdown checkboxes are only interactive in Preview mode, not in the text editor)*
