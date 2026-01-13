@@ -147,32 +147,34 @@ This document shows all remaining references to Lubavitch/Chabad figures and pro
 ## Your Decisions (click checkboxes)
 
 ### Reference 1: Chabad/Messiah business (chapter_08/section_i.md)
-- [ ] ✅ Approve: "some groups commercialized the Messianic expectation"
+- [x] ✅ Approve: "some groups commercialized the Messianic expectation"
 - [ ] ✅ Approve: Remove sentence entirely
 - [ ] ❌ Keep original
 
 ### Reference 2: Baal HaTanya theology (chapter_08/section_ii.md)
-- [ ] ✅ Approve: Replace with "Certain later Chassidic schools"
+- [x] ✅ Approve: Replace with "Certain later Chassidic schools"
 - [ ] ❌ Keep original
 
 ### Reference 3: Saint list (chapter_08/section_iv.md)
-- [ ] ✅ Approve: Remove from list
+- [x] ✅ Approve: Remove from list
 - [ ] ❌ Keep original
 
 ### Reference 4: Rabbi Shneur Zalman meditation (chapter_04/section_vi.md)
 - [ ] ✅ Approve: Replace with "certain Chassidic works"
 - [ ] ❌ Keep original
+remove any reference here to shneur zalman - just keep whatever it says about rabbi nachman
 
 ### Reference 5: Baal HaTanya point of view (chapter_04/section_xv.md)
 - [ ] ✅ Approve: Replace with "a certain Chassidic point of view"
 - [ ] ❌ Keep original
+- discuss the subject without referencing people. 
 
 ### Reference 6: Gra conflict (chapter_11/section_i.md)
-- [ ] ✅ Approve: Remove "specifically the Baal HaTanya"
+- [x] ✅ Approve: Remove "specifically the Baal HaTanya"
 - [ ] ❌ Keep original
 
 ### Reference 7: Politics/chaos-order (part_iv/section_v.md)
-- [ ] ✅ Approve: Replace with "a Kabbalistic principle"
+- [x] ✅ Approve: Replace with "a Kabbalistic principle"
 - [ ] ❌ Keep original
 
 ### Reference 8: Kabbalah ideas (part_v/ch01/section_xix.md)
