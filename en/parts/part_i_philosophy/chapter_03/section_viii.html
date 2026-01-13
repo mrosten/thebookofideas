@@ -61,12 +61,242 @@
         <div class="content-card">
             <h3>Chapter 3: The Song Of Philosophy — Section VIII</h3>
 
-            <p>To Hegel, by dialect, one can come to knowledge, by an infinite progression of dialect until one comes to the Absolute. [Dialect is the process by which every logical reality is shown to be implicitly self-contradictory and thus imply the need for a new, wider category that contains them and resolves them until one comes to the Absolute Idea. So, if we take the limit as the dialect approaches infinity, we get to God. Aristotle's proof of God is that even if we would believe it possible for there to be an infinite progression of causes so you could never get to the first cause, still, by that same reasoning nothing could move for it would need to go back to an infinite number of causes to finally get to move. [This seems to me to be like Zeno's paradox]. Thus, there has to be a Prime Mover. But if it were moving then it also would need a mover. Thus, the prime mover must move things without being moved itself. That is, by causing motion by attraction rather than by propulsion. Attractive causes operate on intelligences, so it is an intelligence that keeps a star in motion. So, the intelligence causes the star to move by means of its moving toward the prime mover. Now to move and not be moved, that Prime Mover must not be matter. Now, all matter have to have form but not all form needs to have matter. Thus, the prime mover is form without matter. If we substitute existence instead of motion, we get a more modern proof that works along Hegel's lines of God being the Prime Idea that combines the opposites of Being and non-Being, i.e., Becoming — which answers the infinitesimal problem (for Becoming can only be on an infinitesimal level, one dx at a time.) This is Spinoza's proof that God is one. Here Spinoza limits the Creator of each universe, physical, spiritual, spiritual of spiritual etc., [horizontally], and the first cause [vertically] to One, by the fact that only one substance can be conceived with infinite attributes. That is, there is only one First Cause of all the sets. The immediate level of spirituality above every level is referred to as God in a borrowed way, since it is the manifestation of God, but not really God, who is outside the set of all causes, but also the set of all causes and the set of all the sets of all causes, etc...</p>
-            <p>PROP. XIV. Besides God no substance can be granted or conceived. Proof. -- As God is a being absolutely infinite, of whom no essence that must exist can be denied [ God is a being absolutely infinite--that is, a substance consisting in infinite attributes, of which each expresses eternal and infinite essentiality.] [ An attribute is that which the intellect perceives as constituting the essence of substance.] and he necessarily exists (by Prop. xi.) [ God, or substance, consisting of infinite attributes, of which each expresses eternal and infinite essentiality, necessarily exists.] if any substance besides God were granted it would have to be explained by some attribute of God, and thus two substances with the same attribute would exist, which (by Prop. v.) [There cannot exist in the universe two or more substances having the same nature or attribute.] is absurd therefore, besides God no substance can be granted, or consequently, be conceived. If it could be conceived, it would necessarily have to be conceived as existent, but this (by the first part of this proof) is absurd. Therefore, besides God no substance can be granted or conceived. Q.E.D.</p>
-            <p>Corollary I.--Clearly, therefore: 1. God is one, that is only one substance can be granted in the universe, and that substance is absolutely infinite. Corollary II.--It follows: 2. That extension and thought are either attributes of God or (by Ax. i.) accidents (affections) of the attributes of God. PROP. XV. Whatsoever is, is in God, and without God nothing can be, or be conceived. Proof. -- Besides God, no substance is granted or can be conceived (by Prop. xiv.)[By God, I mean a being absolutely infinite--that is, a substance consisting in infinite attributes, of which each expresses eternal and infinite essentiality.], that is (by Def. iii.) nothing which is in itself and is conceived through itself. But modes (by Def. v.) [Things which have nothing in common cannot be understood, the one by means of the other the conception of one does not involve the conception of the other.] can neither be, nor be conceived without substance wherefore they can only be in the divine nature and can only through it be conceived. But substances and modes form the sum total of existence (by Ax. i.), therefore, without God nothing can be, or be conceived. Q.E.D.</p>
-            
-            
+            <h2>Hegel, Spinoza, and the Absolute</h2>
+
+<p>To Hegel, we reach knowledge through dialectic—an infinite progression showing every reality to be self-contradictory until it resolves in the <strong>Absolute Idea</strong>.</p>
+
+<div class="concept-box">
+    <strong>The Prime Mover (Aristotle)</strong>
+    <p>Even if an infinite chain of causes were possible (Zeno), nothing would ever <em>move</em>. Motion requires a <strong>Prime Mover</strong> who moves things by <strong>Attraction</strong> (Love), not propulsion.</p>
+</div>
+
+<!-- Visual Element: Spinoza's Ocean -->
+<div class="interactive-element spinoza-visual">
+    <h3>🌊 The Substance & The Modes</h3>
+    
+    <div class="ocean-container">
+        <div class="sky">
+            <div class="sun">ONE SUBSTANCE</div>
         </div>
+        <div class="ocean">
+            <div class="wave w1"></div>
+            <div class="wave w2"></div>
+            <div class="wave w3"></div>
+            <div class="mode-label m1">Me</div>
+            <div class="mode-label m2">You</div>
+            <div class="mode-label m3">Tree</div>
+        </div>
+    </div>
+    
+    <div class="spinoza-controls">
+        <button class="control-btn active" id="view-surface">Surface View (Modes)</button>
+        <button class="control-btn" id="view-depth">Depth View (Substance)</button>
+    </div>
+    
+    <div id="spinoza-desc" class="spinoza-desc">
+        <strong>Surface View:</strong> We see separate waves (Modes). Each appears distinct.
+    </div>
+</div>
+
+<style>
+.spinoza-visual {
+    background: linear-gradient(180deg, #38bdf8 0%, #0284c7 50%, #0c4a6e 100%);
+    padding: 0; /* Full bleed inside container */
+    border-radius: var(--radius-lg);
+    margin: 3rem 0;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+}
+
+.spinoza-visual h3 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 10;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.ocean-container {
+    height: 100%;
+    position: relative;
+}
+
+.sky {
+    height: 40%;
+    background: linear-gradient(180deg, #bae6fd 0%, #7dd3fc 100%);
+    position: relative;
+    transition:  top 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sun {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fbbf24;
+    color: #78350f;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 30px #fbbf24;
+    opacity: 0; /* Hidden in mode view */
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
+}
+
+.ocean {
+    height: 60%;
+    background: transparent;
+    position: relative;
+    margin-top: -20px;
+}
+
+/* Waves */
+.wave {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 40%;
+    animation: wave-motion 6s linear infinite;
+    top: 0;
+    left: -50%;
+}
+
+.w1 { animation-duration: 7s; opacity: 0.7; z-index: 3; }
+.w2 { animation-duration: 5s; opacity: 0.5; z-index: 2; top: 10px; }
+.w3 { animation-duration: 9s; opacity: 0.3; z-index: 1; top: 20px; }
+
+@keyframes wave-motion {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Mode Labels */
+.mode-label {
+    position: absolute;
+    background: white;
+    color: #0c4a6e;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    z-index: 4;
+    animation: float-label 3s ease-in-out infinite;
+}
+
+.m1 { top: 40%; left: 20%; animation-delay: 0s; }
+.m2 { top: 50%; left: 50%; animation-delay: 1s; }
+.m3 { top: 35%; left: 80%; animation-delay: 2s; }
+
+@keyframes float-label {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Controls */
+.spinoza-controls {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 20;
+}
+
+.control-btn {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.4);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+
+.control-btn.active, .control-btn:hover {
+    background: white;
+    color: #0c4a6e;
+}
+
+.spinoza-desc {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    font-size: 0.9rem;
+    z-index: 20;
+}
+
+/* Depth View Logice */
+.spinoza-visual.depth-mode .sky {
+    /* Pull sky up */
+    top: -20%; 
+}
+.spinoza-visual.depth-mode .sun {
+    opacity: 1;
+    transform: translateY(0);
+}
+.spinoza-visual.depth-mode .mode-label {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+.spinoza-visual.depth-mode .wave {
+    opacity: 0.1; /* Fade waves to show unity */
+}
+.spinoza-visual.depth-mode .ocean {
+    background: #0284c7; /* Solid unity color */
+}
+</style>
+
+<script>
+    const btnSurf = document.getElementById('view-surface');
+    const btnDepth = document.getElementById('view-depth');
+    const visual = document.querySelector('.spinoza-visual');
+    const desc = document.getElementById('spinoza-desc');
+
+    btnSurf.addEventListener('click', () => {
+        visual.classList.remove('depth-mode');
+        btnSurf.classList.add('active');
+        btnDepth.classList.remove('active');
+        desc.innerHTML = "<strong>Surface View:</strong> We see separate waves (Modes). Each appears distinct.";
+    });
+
+    btnDepth.addEventListener('click', () => {
+        visual.classList.add('depth-mode');
+        btnDepth.classList.add('active');
+        btnSurf.classList.remove('active');
+        desc.innerHTML = "<strong>Depth View:</strong> The waves are just movements of the One Substance (God). Separation is an illusion.";
+    });
+</script>
+
+<h3>Spinoza's Proof</h3>
+
+<div class="concept-grid">
+    <div class="concept-box">
+        <strong>Prop XIV</strong>
+        <p>"Besides God, no substance can be granted or conceived."</p>
+        <p class="tiny-text">If there were another substance, it would limit God's infinity. But God is infinite, so nothing can be outside Him.</p>
+    </div>
+    <div class="concept-box">
+        <strong>Prop XV</strong>
+        <p>"Whatsoever is, is in God, and without God nothing can be, or be conceived."</p>
+        <p class="tiny-text">We are not separate entities; we are "Modes" (expressions) of the Divine Substance.</p>
+    </div>
+</div>
+
+<p>Spinoza limits the Creator to <strong>One</strong> by the fact that only one substance can be conceived with infinite attributes. The "God" we speak of usually is just a manifestation; the Real God is the Set of All Sets.</p>
+
+</div>
 
 </div>
 

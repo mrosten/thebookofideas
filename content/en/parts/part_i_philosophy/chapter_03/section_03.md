@@ -28,6 +28,155 @@ chapter: "Chapter 03"
     </ul>
 </div>
 
+<!-- Visual Element: Zeno vs Quantum -->
+<div class="interactive-element zeno-visual">
+    <h3>🏃 Zeno vs. The Quantum Leap</h3>
+    
+    <div class="zeno-track-container">
+        <!-- Zeno Mode -->
+        <div class="track-row" id="track-zeno">
+            <div class="track-label">Smooth Space (Infinite Regress)</div>
+            <div class="track-line">
+                <div class="runner zeno-runner"></div>
+                <div class="finish-line"></div>
+            </div>
+            <div class="status-text">Halving distance... never arrives.</div>
+        </div>
+
+        <!-- Quantum Mode -->
+        <div class="track-row" id="track-quantum">
+            <div class="track-label">Quantized Space (Discrete Steps)</div>
+            <div class="track-line">
+                <div class="grid-marks">
+                    <span>|</span><span>|</span><span>|</span><span>|</span><span>|</span><span>|</span><span>|</span><span>|</span><span>|</span><span>|</span>
+                </div>
+                <div class="runner quantum-runner"></div>
+                <div class="finish-line"></div>
+            </div>
+            <div class="status-text success">Jumps Planck lengths... Arrives!</div>
+        </div>
+    </div>
+    
+    <p class="caption">"Logic gets stuck in the middle. Faith (and Quantum Physics) makes the leap."</p>
+</div>
+
+<style>
+.zeno-visual {
+    background: #0f172a;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    margin: 2rem 0;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.zeno-visual h3 {
+    color: var(--accent-gold);
+    margin-bottom: 2rem;
+}
+
+.zeno-track-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.track-row {
+    position: relative;
+    padding: 0 1rem;
+}
+
+.track-label {
+    text-align: left;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.track-line {
+    height: 40px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.finish-line {
+    position: absolute;
+    right: 20px;
+    height: 100%;
+    width: 4px;
+    background: #ef4444;
+    box-shadow: 0 0 10px #ef4444;
+}
+
+.runner {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    box-shadow: 0 0 10px currentColor;
+}
+
+/* Zeno Animation: Decelerate exponentially */
+.zeno-runner {
+    background: #fbbf24;
+    color: #fbbf24;
+    animation: zeno-run 4s cubic-bezier(0, 1, 0, 1) infinite;
+}
+
+@keyframes zeno-run {
+    0% { left: 20px; }
+    100% { left: 85%; } /* Never quite hits 100% of the relative space to finish */
+}
+
+/* Quantum Animation: Steps */
+.quantum-runner {
+    background: #10b981;
+    color: #10b981;
+    animation: quantum-jump 4s steps(10, end) infinite;
+}
+
+@keyframes quantum-jump {
+    0% { left: 20px; }
+    100% { left: calc(100% - 40px); } /* Hits the end */
+}
+
+.grid-marks {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.status-text {
+    text-align: right;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-family: monospace;
+    color: #fbbf24;
+}
+
+.status-text.success {
+    color: #10b981;
+}
+
+.caption {
+    font-style: italic;
+    opacity: 0.8;
+}
+</style>
+
 <h3>The Proofs of God</h3>
 
 <!-- Visual Element: Philosophy Comparison Cards -->
