@@ -122,7 +122,7 @@ function Build-Sitemap {
     param($ContentDir, $OutputFile)
     Write-Host "Rebuilding Sitemap..." -ForegroundColor Cyan
     $entries = @()
-    $files = Get-ChildItem -Path $ContentDir -Recurse -Filter *.md
+    $files = Get-ChildItem -Path $ContentDir -Recurse -Filter *.md | Sort-Object FullName
     foreach ($file in $files) {
         $content = Get-Content $file.FullName -Raw
         # Strip frontmatter for parsing if needed, but Parse-Frontmatter handles it.
@@ -132,12 +132,50 @@ function Build-Sitemap {
         $relPath = $file.FullName.Substring((Get-Item $ContentDir).FullName.Length + 1).Replace('\', '/')
         if ($relPath -match "^(en|he)/") {
             $lang = $matches[1]
+            
+            # --- NORMALIZATION LOGIC ---
+            $rawPart = if ($meta.ContainsKey('part')) { $meta['part'] } else { "Home" }
+            $rawChapter = if ($meta.ContainsKey('chapter')) { $meta['chapter'] } else { "" }
+            $rawTitle = if ($meta.ContainsKey('title')) { $meta['title'] } else { $file.Name }
+            
+            # 1. Cleaning Part Names
+            $cleanPart = $rawPart
+            # Map known ugly parts to nice ones
+            $partMap = @{
+                "Part iii life"     = "Part III — Life";
+                "Part iii politics" = "Part IV — Politics";
+                "Part iv"           = "Part V — Ideas"; 
+                "Part iv politics"  = "Part IV — Politics"; # Just in case
+                "Part v ideas"      = "Part V — Ideas";
+            }
+            if ($partMap.ContainsKey($rawPart)) { 
+                $cleanPart = $partMap[$rawPart] 
+            }
+            else {
+                # Auto-capitalization fallback if not in map
+                if ($cleanPart -match "^part\s+([ivx]+)\s+(?:[-—]\s*)?(.*)$") {
+                    $num = $matches[1].ToUpper()
+                    $name = (Get-Culture).TextInfo.ToTitleCase($matches[2])
+                    $cleanPart = "Part $num — $name"
+                    # Write-Host "DEBUG: Auto-capitalized part to '$cleanPart'" -ForegroundColor Cyan
+                }
+            }
+
+            # 2. Enhancing Chapter Titles
+            # If chapter is just "Chapter 01", try to get "Chapter 1: Family" from title "Chapter 1: Family — Section I"
+            $cleanChapter = $rawChapter
+            if ($rawTitle -match "^(Chapter \d+: .*?) — Section") {
+                $cleanChapter = $matches[1]
+            }
+            elseif ($rawTitle -match "^(Chapter \d+: [^—]+)$") {
+                $cleanChapter = $matches[1]
+            }
             $entries += @{
                 path    = $relPath -replace '\.md$', '.html'
                 lang    = $lang
-                part    = if ($meta.ContainsKey('part')) { $meta['part'] } else { "Home" }
-                chapter = if ($meta.ContainsKey('chapter')) { $meta['chapter'] } else { "" }
-                title   = if ($meta.ContainsKey('title')) { $meta['title'] } else { $file.Name }
+                part    = $cleanPart
+                chapter = $cleanChapter
+                title   = $rawTitle
             }
         }
     }
@@ -214,8 +252,9 @@ function Get-BreadcrumbHTML {
                 foreach ($s in $sections) {
                     $url = "${AssetPath}$($s.path)"
                     $cls = if ($s.title -eq $CurrentEntry.title) { "active" } else { "" }
-                    $shortTitle = if ($s.title.Length -gt 40) { $s.title.Substring(0, 37) + "..." } else { $s.title }
-                    $sectDropdown += "<a href='$url' class='$cls' title='$($s.title)'>$shortTitle</a>"
+                    # Simplify title for dropdown: Remove "Chapter X: ... — " prefix
+                    $cleanLabel = $s.title -replace "^.*—\s*", ""
+                    $sectDropdown += "<a href='$url' class='$cls' title='$($s.title)'>$cleanLabel</a>"
                 }
                 $sectDropdown += "</div>"
             }
