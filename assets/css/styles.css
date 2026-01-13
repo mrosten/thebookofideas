@@ -581,17 +581,145 @@ footer {
     }
 }
 
-/* Dark Mode Support (Basic) */
+/* Dark Mode Support (Comprehensive) */
 body.dark-mode {
     --bg-paper: #0F172A;
     --bg-card: #1E293B;
+    --bg-subtle: #334155;
     --text-main: #E2E8F0;
     --text-muted: #94A3B8;
-    --glass-bg: rgba(15, 23, 42, 0.85);
+    --glass-bg: rgba(15, 23, 42, 0.9);
     --primary-deep: #F8FAFC;
-    /* Invert for text */
+    --primary-royal: #CBD5E1;
+    --primary-light: #94A3B8;
+    --accent-gold: #F59E0B;
+    --accent-gold-light: #FCD34D;
 }
 
 body.dark-mode .content-card {
+    background: var(--bg-card);
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .content-card::before {
+    background: var(--accent-gold);
+    opacity: 0.7;
+}
+
+body.dark-mode .concept-box {
+    background: var(--bg-subtle);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .concept-box strong {
+    color: var(--accent-gold-light);
+}
+
+body.dark-mode blockquote {
+    background: var(--bg-subtle);
+    color: var(--text-main);
+    border-left-color: var(--accent-gold);
+}
+
+body.dark-mode blockquote::before {
+    color: var(--accent-gold);
+    opacity: 0.4;
+}
+
+body.dark-mode .nav-card {
+    background: var(--bg-card);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+
+body.dark-mode .nav-card .title {
+    color: var(--text-main);
+}
+
+body.dark-mode .nav-card:hover {
+    border-color: var(--accent-gold);
+    box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.2);
+}
+
+body.dark-mode nav.main-nav {
+    background: #1E293B;
+}
+
+body.dark-mode nav.main-nav a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+body.dark-mode nav.main-nav a:hover,
+body.dark-mode nav.main-nav a.active {
+    color: white;
+}
+
+body.dark-mode .breadcrumb-item a {
+    color: var(--text-muted);
+}
+
+body.dark-mode .breadcrumb-item a:hover {
+    color: var(--accent-gold);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .dropdown-content {
+    background: var(--bg-card);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .dropdown-content a {
+    color: var(--text-main);
+}
+
+body.dark-mode .dropdown-content a:hover {
+    background: var(--bg-subtle);
+}
+
+/* Dark mode for interactive game elements */
+body.dark-mode .strange-loop-game {
+    background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
+}
+
+body.dark-mode .axiom-node {
+    background: var(--bg-card);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--text-main);
+}
+
+body.dark-mode .axiom-node:hover {
+    border-color: var(--accent-gold);
+}
+
+body.dark-mode .axiom-node.completed {
+    background: var(--accent-gold);
+    color: var(--bg-paper);
+}
+
+body.dark-mode .conclusion-node {
+    background: var(--accent-gold);
+    color: var(--bg-paper);
+}
+
+body.dark-mode .conclusion-symbol {
+    color: var(--bg-paper);
+}
+
+body.dark-mode .progress-text {
+    color: var(--text-main);
+}
+
+body.dark-mode .reset-btn {
+    background: var(--accent-gold);
+    color: var(--bg-paper);
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: var(--text-main);
+}
+
+body.dark-mode h2 {
+    border-bottom-color: var(--accent-gold);
 }
