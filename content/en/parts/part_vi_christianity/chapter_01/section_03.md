@@ -2,44 +2,12 @@
 title: "Chapter 1: Jesus Christ — Section III"
 part: "Part VI — Christianity"
 chapter: "Chapter 01"
+section_title: "The Savior's Requirement"
 prev: ""
 next: ""
-section_title: "The Isaiah Discrepancy"
 ---
 
             
-
-<blockquote class="fancy-quote">
-            "A savior cannot do his job unless he is believed in." — The Moses Parallel.
-            </blockquote>
-            <h4>The Isaiah Discrepancy</h4>
-            <p>The "Dead Sea Scrolls" and historical references suggest that certain verses of Isaiah—absent from the modern Masoretic text—predicted a Messiah who would be killed by the "Kittim" (the Romans) with the sanction of the high priest. This finding provides a missing link to the claims of Jesus and Paul, who referenced scriptures that no longer appeared in the common Bible of their day. Furthermore, the debate over the "Virgin Birth" often centers on the word <em>Almah</em> (young woman), which the Jewish commentator Ibn Ezra notes can equally mean "virgin." These historical and linguistic anomalies suggest that the Christian narrative is not a complete departure from the Biblical tradition, but a specific manifestation of its hidden potentials.</p>
-            <div class="justice-balance">
-            <input type="radio" name="verify-logic" id="view-success" class="balance-toggle" checked>
-            <input type="radio" name="verify-logic" id="view-struggle" class="balance-toggle">
-            <div class="balance-controls">
-            <label for="view-success" class="balance-label label-righteous">Practical Success</label>
-            <label for="view-struggle" class="balance-label label-righteous">The Talmudic Question</label>
-            </div>
-            <div class="consequence-grid">
-            <div class="consequence-box earth-box" style="grid-column: span 2;">
-            <div id="panel-success">
-            <h5>The 2000-Year Proof</h5>
-            <p>If a spiritual system's validity is measured by its effects, Christianity has an undeniable record of taming violent civilizations and inspiring countless hospitals, orphanages, and acts of charity. This "Practical Verification" demonstrates that the name of Jesus carries a frequency of holiness that effectively tames the human animal.</p>
-            <span class="status-badge badge-reward">Observable Good</span>
-            </div>
-            <div id="panel-struggle" style="display:none">
-            <h5>The Authority Crisis</h5>
-            <p>While the Talmud possesses the authority to interpret the Law, the moral state of those who study it sometimes raises questions about its "Practical Validity." Unlike a physics experiment that yields the predicted result, the spiritual experiment of the Yeshiva often fails to produce the "Good Person" it promises, leading to a search for a more potent Divine inspiration.</p>
-            <span class="status-badge badge-reward">Internal Struggle</span>
-            </div>
-            </div> </div> </div>
-            <script>
-            document.querySelectorAll('input[name="verify-logic"]').forEach(radio => {
-            radio.addEventListener('change', () => {
-            const isStrug = document.getElementById('view-struggle').checked;
-            document.getElementById('panel-success').style.display = isStrug ? 'none' : 'block';
-            document.getElementById('panel-struggle').style.display = isStrug ? 'block' : 'none';
             });
             });
             </script>

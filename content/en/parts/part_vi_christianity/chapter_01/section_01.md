@@ -2,9 +2,9 @@
 title: "Chapter 1: Jesus Christ — Section I"
 part: "Part VI — Christianity"
 chapter: "Chapter 01"
+section_title: "The Discrepancy of Seder Olam"
 prev: ""
 next: ""
-section_title: "The Discrepancy of Seder Olam"
 ---
 
             
@@ -55,22 +55,22 @@ section_title: "The Discrepancy of Seder Olam"
             </div>
             
             <style>
-            .timeline-visual { background: var(--primary-deep); border-radius: var(--radius-lg); padding: 2.5rem; margin: 3rem 0; border: 1px solid rgba(197, 160, 89, 0.2); text-align: center; }
+            .timeline-visual { background: var(--bg-surface-2); border-radius: var(--radius-lg); padding: 2.5rem; margin: 3rem 0; border: 1px solid var(--accent-gold); text-align: center; box-shadow: var(--shadow-lg); }
             
             .timeline-track-container { position: relative; width: 100%; margin: 2rem 0; padding: 0 10px; }
             
-            .timeline-year-markers { display: flex; justify-content: space-between; font-family: monospace; color: #64748b; font-size: 0.8rem; margin-bottom: 0.5rem; }
+            .timeline-year-markers { display: flex; justify-content: space-between; font-family: monospace; color: var(--text-muted); font-size: 0.8rem; margin-bottom: 0.5rem; }
             
-            .timeline-slider { -webkit-appearance: none; width: 100%; height: 6px; background: #334155; border-radius: 3px; outline: none; z-index: 5; position: relative; }
+            .timeline-slider { -webkit-appearance: none; width: 100%; height: 6px; background: var(--bg-surface-1); border-radius: 3px; outline: none; z-index: 5; position: relative; }
             .timeline-slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 20px; height: 20px; background: #f1f5f9; border-radius: 50%; cursor: pointer; box-shadow: 0 0 10px rgba(255,255,255,0.5); transition: transform 0.2s; }
             .timeline-slider::-webkit-slider-thumb:hover { transform: scale(1.2); }
             
             .event-marker { position: absolute; top: 20px; transform: translateX(-50%); font-size: 1.5rem; cursor: help; pointer-events: none; opacity: 0.7; }
             
-            .timeline-readout { font-family: monospace; color: #cbd5e1; margin-bottom: 1.5rem; }
+            .timeline-readout { font-family: monospace; color: var(--text-body); margin-bottom: 1.5rem; }
             
             .info-panels { min-height: 140px; }
-            .info-panel { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md); padding: 1.5rem; transition: all 0.3s ease; }
+            .info-panel { background: var(--bg-surface-1); border: 1px solid var(--border-dim); border-radius: var(--radius-md); padding: 1.5rem; transition: all 0.3s ease; }
             
             .status-badge { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 99px; font-size: 0.8rem; font-family: monospace; margin-top: 0.5rem; font-weight: 700; }
             </style>

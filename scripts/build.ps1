@@ -406,6 +406,7 @@ foreach ($file in $Files) {
     $pageHtml = $pageHtml.Replace("{{PART_TITLE}}", $meta['part'])
     $pageHtml = $pageHtml.Replace("{{CHAPTER_TITLE}}", $meta['chapter'])
     $pageHtml = $pageHtml.Replace("{{SECTION_TITLE}}", $meta['title']) # Reuse title for H3
+    $pageHtml = $pageHtml.Replace("{{CONTENT_BODY}}", $bodyHtml)
     $pageHtml = $pageHtml.Replace("{{ASSET_PATH}}", $assetPath)
     
 
@@ -419,7 +420,6 @@ foreach ($file in $Files) {
     }
     $pageHtml = $pageHtml.Replace("{{PART_INDEX_LINK}}", $partIndexUrl)
 
-    $pageHtml = $pageHtml.Replace("{{CONTENT_BODY}}", $bodyHtml)
     
     # Auto-Calculate Prev/Next from Sitemap
     $prevBtn = ""
