@@ -4,6 +4,7 @@ part: "Part I — Philosophy"
 chapter: "Chapter 06"
 prev: ""
 next: ""
+section_title: "The Mathematics of Merit"
 ---
 
             
@@ -82,4 +83,5 @@ next: ""
         </div>
 
         
+
 

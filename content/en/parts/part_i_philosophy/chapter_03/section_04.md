@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section IV"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "Quantum Theology"
 ---
 
 <div class="concept-box prominent">
@@ -206,3 +207,4 @@ chapter: "Chapter 03"
     <br><br>
     "The bricks of the universe are beauty, and its blueprint is God. Beauty is the substance and God is the concept."
 </blockquote>
+

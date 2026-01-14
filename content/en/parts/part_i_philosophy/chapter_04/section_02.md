@@ -4,6 +4,7 @@ part: "Part I — Philosophy"
 chapter: "Chapter 04"
 prev: ""
 next: ""
+section_title: "Meditation and Hints"
 ---
 
             
@@ -79,4 +80,5 @@ next: ""
         </div>
 
         
+
 

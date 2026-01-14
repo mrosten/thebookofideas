@@ -9,6 +9,8 @@ section_title: "The General Theory of Sephirot"
 
             
 
+
+<h3 class="section-title">The General Theory of Sephirot</h3>
 <blockquote class="fancy-quote">
             "Curvature describes the circular sephirot; energy describes the straight ones." — The Einsteinian Parallel.
             </blockquote>
@@ -39,18 +41,69 @@ section_title: "The General Theory of Sephirot"
             </div>
             
             <style>
-            .manifold-lab { background: var(--primary-deep); border-radius: var(--radius-lg); padding: 2.5rem; margin: 3rem 0; border: 1px solid rgba(197, 160, 89, 0.2); text-align: center; }
+            .manifold-lab { 
+                background: var(--bg-card); 
+                border-radius: var(--radius-lg); 
+                padding: 2.5rem; 
+                margin: 3rem 0; 
+                border: 1px solid var(--accent-gold); 
+                text-align: center; 
+                box-shadow: var(--shadow-lg);
+            }
             
-            .manifold-canvas-container { background: #020617; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 2rem; border: 1px solid #1e293b; box-shadow: inset 0 0 50px rgba(0,0,0,0.5); }
+            .manifold-canvas-container { 
+                background: var(--bg-subtle); 
+                border-radius: var(--radius-md); 
+                overflow: hidden; 
+                margin-bottom: 2rem; 
+                border: 1px solid rgba(197, 160, 89, 0.1); 
+                box-shadow: inset 0 0 20px rgba(0,0,0,0.05); 
+            }
             
             .manifold-controls { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
             
-            .physics-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #cbd5e1; padding: 0.75rem 1.5rem; border-radius: var(--radius-md); cursor: pointer; transition: all 0.3s; font-family: monospace; }
-            .physics-btn:hover { background: rgba(255,255,255,0.1); }
-            .physics-btn.active { background: var(--accent-gold); color: #020617; border-color: var(--accent-gold); font-weight: 700; }
+            .physics-btn { 
+                background: var(--bg-subtle); 
+                border: 1px solid var(--primary-light); 
+                color: var(--text-muted); 
+                padding: 0.75rem 1.5rem; 
+                border-radius: var(--radius-md); 
+                cursor: pointer; 
+                transition: all 0.3s; 
+                font-family: monospace; 
+            }
+            .physics-btn:hover { 
+                background: var(--button-hover, #e2e8f0); 
+                color: var(--primary-deep);
+            }
+            .physics-btn.active { 
+                background: var(--accent-gold); 
+                color: #020617; 
+                border-color: var(--accent-gold); 
+                font-weight: 700; 
+            }
             
-            .info-panel { min-height: 120px; transition: height 0.3s; }
-            .info-panel h5 { margin-bottom: 0.5rem; font-family: 'Cinzel', serif; }
+            .info-panel { min-height: 120px; transition: height 0.3s; color: var(--text-main); }
+            .info-panel h5 { margin-bottom: 0.5rem; font-family: 'Cinzel', serif; color: var(--primary-deep); }
+            
+            /* Dark Mode Overrides for this component */
+            body.dark-mode .manifold-lab {
+                border-color: rgba(197, 160, 89, 0.2);
+            }
+            body.dark-mode .physics-btn {
+                background: rgba(255,255,255,0.05);
+                border-color: rgba(255,255,255,0.1);
+                color: #cbd5e1;
+            }
+            body.dark-mode .physics-btn:hover {
+                background: rgba(255,255,255,0.1);
+            }
+            body.dark-mode .info-panel h5 { color: var(--accent-gold); }
+            body.dark-mode .manifold-canvas-container {
+                background: #020617; /* Restore deep space look in dark mode */
+                box-shadow: inset 0 0 50px rgba(0,0,0,0.5);
+                border-color: rgba(255,255,255,0.1);
+            }
             
             /* Canvas is controlled by JS */
             </style>
@@ -88,8 +141,14 @@ section_title: "The General Theory of Sephirot"
                     const cx = canvas.width / 2;
                     const cy = canvas.height / 2;
                     
+                    // Get adaptive colors
+                    const style = getComputedStyle(document.body);
+                    const colorPrimary = style.getPropertyValue('--primary-light').trim();
+                    const colorAccent = style.getPropertyValue('--accent-gold').trim();
+                    const colorBlue = '#60a5fa'; // Keep blue for "Curvature" mode distinctness
+                    
                     // Draw Grid
-                    ctx.strokeStyle = (mode === 'curvature') ? '#60a5fa' : '#334155';
+                    ctx.strokeStyle = (mode === 'curvature') ? colorBlue : colorPrimary;
                     ctx.lineWidth = 1;
                     
                     for(let r = 0; r <= rows; r++) {

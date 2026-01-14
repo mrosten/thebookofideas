@@ -4,20 +4,107 @@ part: "Part iii politics"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "The Final Redemption"
 ---
 
             
 
-<p>everybody needs someone to talk to that won't be judgmental, will listen without interrupting, and just render impartial advice as best they can, [that is the reason there were Catholic priests]. The Devil couldn't destroy America all by himself since he is only one angel, so he sent the psycho therapists to do his work for him. There can't be spiritual growth in New York, since the city is the root of the broken vessels which don't connect with each other. Growth can only be in a friendly atmosphere. You can be a saint in NY, but I don't think you can grow.</p>
-            <p>The political chaos that ensues at the breakup of the family is what destroyed the Roman Empire, Renaissance, Italy and, unless we wake up, America. The reason for the breakup of the family is the erosion of the place of the father. What could save it is to nullify the idea of separation church and state — which in fact is not in the constitution. All it says is there shall not be a national church. OK, then let each state choose its own State Church. The only countries in Europe that stood up to the Nazis were the ones that never had division of church and state, as has been noted by others. In fact, the Jews had a relatively good time in Germany for 2000 years until they threw out Jesus in the 1800's. Einstein noted that only the churches in Germany stood up to the Nazis, not the intellectuals, or the universities. [I assume he meant the Lutheran churches, which were the ones that spoke against the Nazis as far as I know.] It has been noted that the Pope of that time chose diplomacy over courage, but it has been shown that he saved the Jews of Italy by choosing carefully with which issues to confront the Nazis. Edith Stein was killed because the nuns of her Catholic Church did in fact stand up to the Nazis. The run of the mill Lutheran pastors talked against the Nazis then were threatened to be gassed and then some kept talking until they were gassed, and others shut up. I wonder today when millions of people were being wiped out in Rwanda, how many of you shed a tear, or even barely noticed? The effect of the scientist on society isn't by what he says but by what people think he says.</p>
-            <p>People have always been killing each other for all types of reasons. It used to be territory or plunder. Then for religion. Then for nationalism. Then for the struggle between communism and democracy. If it won't be for one reason it will be for another until the final redemption of mankind comes. Anything that matters a lot to people they will kill for. The only time people will stop killing each other is when nothing makes any difference to them anymore. Now, at some point in our history religion mattered. However, religion hasn't mattered to people for a long time. Now that secularism has lost it potency, religion will again become the reason people do good or evil.</p>
+<blockquote class="fancy-quote">
+            "The effect of the scientist on society isn't by what he says but by what people think he says." — The Filter of Perception.
+            </blockquote>
             
+            <!-- Interactive Visual: The Church & State Shield -->
+            <div class="interactive-element shield-visual">
+                <div class="shield-container">
+                    <canvas id="shieldCanvas" width="500" height="250"></canvas>
+                </div>
+                
+                <div class="shield-controls">
+                    <button class="shield-btn active" onclick="setShield('unified')" id="btn-unified">Unified (Church/State)</button>
+                    <button class="shield-btn" onclick="setShield('separated')" id="btn-separated">Separated (Secular)</button>
+                </div>
+                
+                <div class="shield-readout" id="shield-status">State: UNIFIED. Moral Check on Power.</div>
+            </div>
             
-        </div>
-
-</div>
-
-        </div>
-
-        
-
+            <style>
+            .shield-visual { background: var(--primary-deep); border-radius: var(--radius-lg); padding: 2.5rem; margin: 3rem 0; border: 1px solid rgba(197, 160, 89, 0.2); text-align: center; }
+            
+            .shield-container { background: #020617; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 2rem; border: 1px solid #334155; position: relative; }
+            
+            .shield-controls { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; }
+            
+            .shield-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #cbd5e1; padding: 0.75rem 1.5rem; border-radius: var(--radius-md); cursor: pointer; transition: all 0.3s; font-family: monospace; }
+            .shield-btn:hover { background: rgba(255,255,255,0.1); }
+            .shield-btn.active { background: var(--accent-gold); color: #020617; border-color: var(--accent-gold); font-weight: 700; }
+            
+            .shield-readout { font-family: monospace; color: #94a3b8; font-size: 0.9rem; }
+            </style>
+            
+            <script>
+            (function(){
+                const canvas = document.getElementById('shieldCanvas');
+                const ctx = canvas.getContext('2d');
+                let mode = 'unified';
+                
+                function draw() {
+                    ctx.clearRect(0,0, canvas.width, canvas.height);
+                    const cx = canvas.width / 2;
+                    const cy = canvas.height / 2;
+                    
+                    // State Power (Sword)
+                    ctx.fillStyle = '#94a3b8';
+                    ctx.fillRect(cx-10, 50, 20, 100);
+                    ctx.fillRect(cx-30, 150, 60, 10);
+                    ctx.fillRect(cx-10, 160, 20, 40); // Handle
+                    ctx.fillText("STATE POWER", cx-40, 40);
+                    
+                    if(mode === 'unified') {
+                        // Church Shield Blocking/Checking the Sword
+                        ctx.beginPath();
+                        ctx.arc(cx, 100, 60, 0, Math.PI*2);
+                        ctx.strokeStyle = '#fbbf24'; ctx.lineWidth = 4; ctx.stroke();
+                        ctx.fillStyle = 'rgba(251, 191, 36, 0.2)'; ctx.fill();
+                        
+                        ctx.fillStyle = '#fbbf24'; ctx.fillText("MORAL CHECK (Church)", cx-60, 220);
+                        
+                        // Light radiating
+                        ctx.beginPath(); ctx.moveTo(cx, 100); ctx.lineTo(cx-100, 100); ctx.strokeStyle = 'rgba(255,255,255,0.5)'; ctx.stroke();
+                        ctx.beginPath(); ctx.moveTo(cx, 100); ctx.lineTo(cx+100, 100); ctx.stroke();
+                        
+                    } else {
+                        // Shield removed. Sword Unchecked.
+                        ctx.fillStyle = '#f87171';
+                        ctx.fillText("NO MORAL CHECK", cx-50, 220);
+                        
+                        // Sword glowing red
+                        ctx.shadowBlur = 20; ctx.shadowColor = '#f87171';
+                        ctx.fillStyle = '#f87171'; ctx.fillRect(cx-10, 50, 20, 100); ctx.shadowBlur = 0;
+                    }
+                    
+                    requestAnimationFrame(draw);
+                }
+                
+                window.setShield = function(m) {
+                    mode = m;
+                    document.querySelectorAll('.shield-btn').forEach(b => b.classList.remove('active'));
+                    if(m === 'unified') {
+                        document.getElementById('btn-unified').classList.add('active');
+                        document.getElementById('shield-status').innerText = "State: UNIFIED. Church provides moral check on State power.";
+                        document.getElementById('shield-status').style.color = "#fbbf24";
+                    } else {
+                        document.getElementById('btn-separated').classList.add('active');
+                        document.getElementById('shield-status').innerText = "State: SEPARATED. State power unchecked by higher law.";
+                        document.getElementById('shield-status').style.color = "#f87171";
+                    }
+                };
+                
+                draw();
+            })();
+            </script>
+            
+            <h4>The Moral Shield</h4>
+            <p>The only countries in Europe that effectively stood up to the Nazis were those where there was no separation of Church and State (e.g., Denmark, Bulgaria). When the State is the ultimate authority, there is no moral check on its power. The Church provides a rival authority—a "shield"—rooted in Divine Law.</p>
+            
+            <h4>The Return of Religion</h4>
+            <p>People kill for what matters to them: territory, nationalism, communism. Now that secularism has lost its potency and failed to provide meaning, religion will return as the primary driver of history. We will see people once again doing great good or great evil in the name of God, for the secular vacuum cannot sustain the human soul.</p>

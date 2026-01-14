@@ -1,7 +1,8 @@
 ---
-title: "Section V — The Two Modes of Light"
+title: "Chapter 1: The Song of God — Section V"
 part: "Part I — Philosophy"
 chapter: "Chapter 01"
+section_title: "The Unity"
 ---
 
 <h2>Circular and Straight</h2>

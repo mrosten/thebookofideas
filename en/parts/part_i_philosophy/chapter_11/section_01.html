@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Torah Book of Ideas - A journey through wisdom, faith, and understanding.">
+    <link rel="canonical" href="https://www.torahbookofideas.com/en/parts/part_i_philosophy/chapter_11/section_01.html">
+    <link rel="icon" type="image/png" href="../../../../images/icon-192.png">
+    <link rel="apple-touch-icon" href="../../../../images/icon-192.png">
     <title>Chapter 11: On Science — Section I</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +21,13 @@
     <link rel="manifest" href="../../../../manifest.json">
 
     <!-- Scripts -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../../../../assets/js/language_toggle.js" defer></script>
@@ -55,66 +66,193 @@
     <main class="container">
         <!-- Breadcrumbs -->
         <div class="breadcrumb">
-            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_01.html'>Part I — Philosophy</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_01.html' class='active'>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_01.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_01.html' class=''>Part iii life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_01.html' class=''>Part iii politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_01.html' class=''>Part iv</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_01.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><a href='#'>Chapter 11</a><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_01.html' class=''>Chapter 01</a><a href='../../../../en/parts/part_i_philosophy/chapter_02/section_01.html' class=''>Chapter 02</a><a href='../../../../en/parts/part_i_philosophy/chapter_03/section_01.html' class=''>Chapter 03</a><a href='../../../../en/parts/part_i_philosophy/chapter_04/section_01.html' class=''>Chapter 04</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_01.html' class=''>Chapter 05</a><a href='../../../../en/parts/part_i_philosophy/chapter_06/section_01.html' class=''>Chapter 06</a><a href='../../../../en/parts/part_i_philosophy/chapter_07/section_01.html' class=''>Chapter 07</a><a href='../../../../en/parts/part_i_philosophy/chapter_08/section_01.html' class=''>Chapter 08</a><a href='../../../../en/parts/part_i_philosophy/chapter_09/section_01.html' class=''>Chapter 09</a><a href='../../../../en/parts/part_i_philosophy/chapter_10/section_01.html' class=''>Chapter 10</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_01.html' class='active'>Chapter 11</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_01.html' class=''>Chapter 12</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item'><span>Chapter 11: On Science — Se...</span><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_01.html' class='active' title='Chapter 11: On Science — Section I'>Chapter 11: On Science — Section I</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_02.html' class='' title='Chapter 11: On Science — Section II'>Chapter 11: On Science — Section II</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_03.html' class='' title='Chapter 11: On Science — Section III'>Chapter 11: On Science — Section III</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_04.html' class='' title='Chapter 11: On Science — Section IV'>Chapter 11: On Science — Section IV</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_05.html' class='' title='Chapter 11: On Science — Section V'>Chapter 11: On Science — Section V</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_06.html' class='' title='Chapter 11: On Science — Section VI'>Chapter 11: On Science — Section VI</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_07.html' class='' title='Chapter 11: On Science — Section VII'>Chapter 11: On Science — Section VII</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_08.html' class='' title='Chapter 11: On Science — Section VIII'>Chapter 11: On Science — Section VIII</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_09.html' class='' title='Chapter 11: On Science — Section IX'>Chapter 11: On Science — Section IX</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_10.html' class='' title='Chapter 11: On Science — Section X'>Chapter 11: On Science — Section X</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_11.html' class='' title='Chapter 11: On Science — Section XI'>Chapter 11: On Science — Section XI</a></div></div>
+            <div class='breadcrumb-item'><a href='../../../../en/index.html'>Home</a></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item dropdown'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_01.html'>Part I — Philosophy</a><div class='dropdown-content'><a href='../../../../en/contents.html' class=''>Contents</a><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_01.html' class='active'>Part I — Philosophy</a><a href='../../../../en/parts/part_ii_halacha/chapter_01/section_01.html' class=''>Part II — Halachah</a><a href='../../../../en/parts/part_iii_life/chapter_01/section_01.html' class=''>Part III — Life</a><a href='../../../../en/parts/part_iv_politics/chapter_01/section_01.html' class=''>Part IV — Politics</a><a href='../../../../en/parts/part_v_ideas/chapter_01/section_01.html' class=''>Part V — Ideas</a><a href='../../../../en/parts/part_vi_christianity/chapter_01/section_01.html' class=''>Part VI — Christianity</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item dropdown'><a href='#'>Chapter 11: On Science</a><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_01/section_01.html' class=''>1: The Song of God</a><a href='../../../../en/parts/part_i_philosophy/chapter_02/section_01.html' class=''>2: The Song Of Faith</a><a href='../../../../en/parts/part_i_philosophy/chapter_03/section_01.html' class=''>3: The Song Of Philosophy</a><a href='../../../../en/parts/part_i_philosophy/chapter_04/section_01.html' class=''>4: Piety</a><a href='../../../../en/parts/part_i_philosophy/chapter_05/section_01.html' class=''>5: Happiness</a><a href='../../../../en/parts/part_i_philosophy/chapter_06/section_01.html' class=''>6: Reward And Punishment</a><a href='../../../../en/parts/part_i_philosophy/chapter_07/section_01.html' class=''>7: Eras Of Man</a><a href='../../../../en/parts/part_i_philosophy/chapter_08/section_01.html' class=''>8: The Redemption</a><a href='../../../../en/parts/part_i_philosophy/chapter_09/section_01.html' class=''>9: On Learning Torah</a><a href='../../../../en/parts/part_i_philosophy/chapter_10/section_01.html' class=''>10: Gemarah</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_01.html' class='active'>11: On Science</a><a href='../../../../en/parts/part_i_philosophy/chapter_12/section_01.html' class=''>12: Decisions</a></div></div><span class='separator'>&rsaquo;</span><div class='breadcrumb-item dropdown'><span>Section I: The Sacred Geometry of Mind</span><div class='dropdown-content'><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_01.html' class='active' title='Chapter 11: On Science — Section I'>Section I: The Sacred Geometry of Mind</a><a href='../../../../en/parts/part_i_philosophy/chapter_11/section_02.html' class='' title='Chapter 11: On Science — Section II'>Section II: 🧬 The DNA of the Soul</a></div></div>
         </div>
 
         <div class="content-card">
             <h3>Chapter 11: On Science — Section I</h3>
 
             <blockquote class="fancy-quote">
-            "Investigation of the wisdom of the Creator is the closest path to clarity." — Duties of the Heart.
-            </blockquote>
-            <h4>The Hierarchy of Understanding</h4>
-            <p>The Rambam established a clear map of human proximity to the Divine Intellect. In this hierarchy, the simple study of the law (Royalty) is the foundation, but the investigation of physical science and logic (Understanding) is a higher spiritual office. To know the "Pardes"—the Orchard of physics, astronomy, and chemistry—is to behold the eternal power of the Creator through the things He has made.</p>
-            <div class="justice-balance">
-            <input type="radio" name="science-view" id="view-hierarchy" class="balance-toggle" checked>
-            <input type="radio" name="science-view" id="view-vessel" class="balance-toggle">
-            <div class="balance-controls">
-            <label for="view-hierarchy" class="balance-label label-righteous">Hierarchy</label>
-            <label for="view-vessel" class="balance-label label-righteous">The Vessel</label>
-            </div>
-            <div class="consequence-grid">
-            <div class="consequence-box earth-box" style="grid-column: span 2;">
-            <div id="panel-hierarchy">
-            <h5>Proximity to the King</h5>
-            <ol class="clean-list">
-            <li><strong>Prophets:</strong> Direct perception of the Crown.</li>
-            <li><strong>Philosophers:</strong> Intellectual verticality.</li>
-            <li><strong>Scientists:</strong> Understanding the Blueprint.</li>
-            <li><strong>Talmudists:</strong> Technical knowledge of the code.</li>
-            </ol>
-            <p><span class="status-badge badge-reward">Elevation</span> </div>
-            <div id="panel-vessel" style="display:none">
-            <h5>Deeds and Light</h5>
-            <p>Torah deeds (Mitzvot) create the vessels, but Science and Philosophy draw the Light into them. Proportionate to one's knowledge of the nature of the world, so the world is subjugated to their will.</p>
-            <span class="status-badge badge-reward">Mastery</span>
-            </div>
-            </div> </div> </div>
-            <script>
-            document.querySelectorAll('input[name="science-view"]').forEach(radio => {
-            radio.addEventListener('change', () => {
-            const isHierarchy = document.getElementById('view-hierarchy').checked;
-            document.getElementById('panel-hierarchy').style.display = isHierarchy ? 'block' : 'none';
-            document.getElementById('panel-vessel').style.display = isHierarchy ? 'none' : 'block';
-            });
-            });
-            </script>
-            <h4>The Shift of the Soul</h4>
-            <p>Historically, after the failure of the Bar Kochba revolt, the Jewish personality shifted from a broad, nationalistic search for truth toward an isolated, protective focus on the Oral Law. The Rambam’s project was a reversal of this trend. He reminded us that while the commandments are the necessary structure (Royalty), Science is the substance (Understanding). Just as Gold is worth more per ounce than Silver, a single word of deep scientific insight can carry more spiritual weight than volumes of technical legalism—provided the intent is to worship through curiosity.</p>
-            <div class="concept-box">
-            <strong>The Vertical Path</strong>
-            The Oral Law is a vertical brick of gold stretching from Sinai to the center of the Empty Space. Science is the investigation of the space itself. When both meet, the "World is handed over" to the seeker.
-            </div>
-            <blockquote class="fancy-quote">
-            “Behold the works of the Lord; this is the highest form of worship.”
-            </blockquote>
-            
-            
+"Investigation of the wisdom of the Creator is the closest path to clarity." — Duties of the Heart.
+</blockquote>
+
+<h4>The Sacred Geometry of Mind</h4>
+<div class="interactive-game-container">
+    <div class="game-header">
+        <div class="game-title">THE PARDES ORCHARD</div>
+        <div class="game-subtitle">Navigate the fractal branches of Divine Science.</div>
+    </div>
+    
+    <div class="game-canvas-wrapper" style="height: 400px;">
+        <canvas id="fractalCanvas"></canvas>
+    </div>
+    
+    <div class="control-panel">
+        <div class="button-group">
+            <button class="orchard-btn" onclick="growTree()">GROW KNOWLEDGE</button>
+            <button class="orchard-btn harvest" onclick="harvestApples()">HARVEST HOLY APPLES</button>
         </div>
-
+        <div id="orchard-status" style="margin-top:15px; font-weight:bold; color:#a855f7;">
+            STATUS: SEED PLANTED.
+        </div>
+    </div>
 </div>
 
+<style>
+    .interactive-game-container {
+        background: #020617;
+        border: 1px solid #1e293b;
+        border-radius: 16px;
+        padding: 20px;
+        margin: 40px 0;
+        box-shadow: 0 0 50px rgba(0,0,0,0.5);
+        font-family: 'Courier New', monospace;
+    }
+    .game-header { text-align: center; margin-bottom: 20px; }
+    .game-title { color: #4ade80; font-size: 1.5rem; font-weight: bold; letter-spacing: 2px; text-shadow: 0 0 10px rgba(74, 222, 128, 0.4); }
+    .game-subtitle { color: #94a3b8; font-size: 0.9rem; margin-top: 5px; }
+    
+    .game-canvas-wrapper {
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid #14532d;
+        background: linear-gradient(180deg, #020617 0%, #064e3b 100%);
+        position: relative;
+    }
+    
+    .control-panel {
+        margin-top: 20px; padding: 15px; background: #0f172a;
+        border-radius: 12px; border: 1px solid #1e293b; text-align: center;
+    }
+    .button-group { display: flex; justify-content: center; gap: 15px; }
+    .orchard-btn {
+        background: #1e293b; color: #e2e8f0; border: 1px solid #475569;
+        padding: 10px 20px; cursor: pointer; border-radius: 4px;
+        transition: 0.3s; font-weight: bold;
+    }
+    .orchard-btn:hover { border-color: #4ade80; color: #4ade80; }
+    .orchard-btn.harvest { border-color: #facc15; color: #facc15; }
+    .orchard-btn.harvest:hover { background: #422006; }
+</style>
+
+<script>
+(function() {
+    const canvas = document.getElementById('fractalCanvas');
+    const ctx = canvas.getContext('2d');
+    const status = document.getElementById('orchard-status');
+    let width, height;
+    let particles = [];
+    let treeData = [];
+    
+    function resize() {
+        width = canvas.parentElement.offsetWidth;
+        height = canvas.parentElement.offsetHeight;
+        canvas.width = width;
+        canvas.height = height;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+    
+    function drawBranch(x, y, len, angle, depth) {
+        if(depth === 0) return;
+        
+        const x2 = x + Math.cos(angle) * len;
+        const y2 = y + Math.sin(angle) * len;
+        
+        treeData.push({x1:x, y1:y, x2:x2, y2:y2, depth:depth, age:0});
+        
+        drawBranch(x2, y2, len * 0.7, angle - 0.5, depth - 1);
+        drawBranch(x2, y2, len * 0.7, angle + 0.5, depth - 1);
+    }
+    
+    window.growTree = function() {
+        treeData = [];
+        particles = [];
+        drawBranch(width/2, height, 90, -Math.PI/2, 9);
+        status.innerHTML = "STATUS: PARDES REVEALED. BRANCHES OF WISDOM.";
+        status.style.color = "#4ade80";
+    };
+    
+    window.harvestApples = function() {
+        if(treeData.length === 0) {
+            status.innerHTML = "STATUS: NO TREE. PLANT FIRST.";
+            return;
+        }
+        status.innerHTML = "STATUS: HARVESTING THE HOLY APPLES (PHYSICS & TORAH).";
+        status.style.color = "#facc15";
+        
+        // Convert tips to particles
+        treeData.forEach(b => {
+            if(b.depth <= 2) {
+                 particles.push({
+                     x: b.x2, y: b.y2, 
+                     vx: (Math.random()-0.5)*2, vy: Math.random()*2,
+                     life: 1.0, color: Math.random()>0.5 ? '#facc15' : '#ef4444'
+                 });
+            }
+        });
+    };
+    
+    function draw() {
+        ctx.fillStyle = 'rgba(2, 6, 23, 0.1)';
+        ctx.fillRect(0, 0, width, height);
+        
+        // Draw Tree
+        ctx.lineWidth = 2;
+        treeData.forEach(b => {
+             if(b.age < 1) b.age += 0.05;
+             ctx.strokeStyle = `rgba(74, 222, 128, ${b.age})`; // Green
+             ctx.beginPath();
+             ctx.moveTo(b.x1, b.y1);
+             ctx.lineTo(b.x1 + (b.x2-b.x1)*b.age, b.y1 + (b.y2-b.y1)*b.age);
+             ctx.stroke();
+             
+             // Apple at end
+             if(b.depth <= 2 && b.age >= 1) {
+                 ctx.fillStyle = b.depth === 1 ? '#ef4444' : '#facc15';
+                 ctx.beginPath();
+                 ctx.arc(b.x2, b.y2, 3, 0, Math.PI*2);
+                 ctx.fill();
+             }
+        });
+        
+        // Particles
+        particles.forEach(p => {
+            p.x += p.vx;
+            p.y += p.vy;
+            p.life -= 0.01;
+            
+            ctx.fillStyle = p.color;
+            ctx.globalAlpha = Math.max(0, p.life);
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, 4, 0, Math.PI*2);
+            ctx.fill();
+            ctx.globalAlpha = 1;
+        });
+        
+        requestAnimationFrame(draw);
+    }
+    draw();
+})();
+</script>
+
+<p class="geo-hint" style="text-align:center; color:#94a3b8; font-style:italic; margin-top:10px;">
+    Mathematics represents the Sealed Statement of Creation. Learning it with a fear of Heaven draws the "Surrounding Light" of wisdom directly into the human mind.
+</p>
+
+<h4>The Hierarchy of Understanding</h4>
+<p>The Rambam established a clear map of human proximity to the Divine Intellect. In this hierarchy, the simple study of the law (Royalty) is the foundation, but the investigation of physical science and logic (Understanding) is a higher spiritual office. To know the "Pardes"—the Orchard of physics, astronomy, and chemistry—is to behold the eternal power of the Creator through the things He has made.</p>
+
+<div class="concept-box">
+    <strong>The Vertical Path of Science</strong>
+    Physics and Mathematics are the "Harvest of the Holy Apples." They represent the Source Code of reality. Einstein, Kepler, and Copernicus were not merely solving equations; they were uncovering the "Superior Reasoning Power" that sustains the universe. Science provides the protective garment for Kabbalah, revealing the underlying Unity of all things.
 </div>
+
+<p>Historically, after the failure of the Bar Kochba revolt, the Jewish personality shifted from a broad search for truth toward an isolated, protective focus on the Oral Law. The Rambam’s project was a reversal of this trend. He reminded us that while the commandments are the necessary structure, Science is the substance. A single word of deep scientific insight can carry more spiritual weight than volumes of technical legalism—provided the intent is to worship through curiosity.</p>
+
+<blockquote class="fancy-quote">
+“Behold the works of the Lord; this is the highest form of worship. Proportionate to one's knowledge of the nature of the world, so the world is handed over to them.”
+</blockquote>
 
 
 
@@ -122,7 +260,7 @@
 
         <!-- Section Nav -->
         <div class="page-nav">
-            <a href='../../../../en/parts/part_i_philosophy/chapter_10/section_16.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 10: Gemarah — Section XVI</div></a>
+            <a href='../../../../en/parts/part_i_philosophy/chapter_10/section_04.html' class='nav-card prev'><div class='label'>Previous</div><div class='title'>Chapter 10: Gemarah — Section IV</div></a>
             <a href='../../../../en/parts/part_i_philosophy/chapter_11/section_02.html' class='nav-card next'><div class='label'>Next</div><div class='title'>Chapter 11: On Science — Section II</div></a>
         </div>
     </main>
@@ -157,6 +295,19 @@
                 toggleBtn.textContent = '🌙';
             }
         });
+
+        // PWA Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('../../../../service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('ServiceWorker registration failed: ', error);
+                    });
+            });
+        }
     </script>
 </body>
 

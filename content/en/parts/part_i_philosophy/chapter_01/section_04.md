@@ -1,7 +1,8 @@
 ---
-title: "Section IV — The Infinite Hiding"
+title: "Chapter 1: The Song of God — Section IV"
 part: "Part I — Philosophy"
 chapter: "Chapter 01"
+section_title: "The Purpose"
 ---
 
 <h2>The Receding God</h2>

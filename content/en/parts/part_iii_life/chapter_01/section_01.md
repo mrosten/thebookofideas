@@ -1,9 +1,10 @@
 ---
 title: "Chapter 1: Family — Section I"
-part: "Part iii life"
+part: "Part III — Life"
 chapter: "Chapter 01"
 prev: ""
 next: ""
+section_title: "🌳 The Fractal of Generations"
 ---
 
 
@@ -158,3 +159,5 @@ canvas {
     Just as marriage provides an outer light that wards off negative forces, the commitment of family members to stick together through "ups and downs" creates a spiritual field of protection. This commitment is the root from which all successful political systems—monarchy, democracy, even socialism—draw their spiritual energy.
 </div>
 <p>When the storm comes, the family must "accept and exist"—lower the head, allow the wave to pass, and remain rooted together. The temptation to separate is often a test; true growth occurs by staying firm and refining the common root beneath surface differences.</p>
+
+

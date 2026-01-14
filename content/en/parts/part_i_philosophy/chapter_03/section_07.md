@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section VII"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "Hegel's Dialectic"
 ---
 
 <h2>The Loop of Logic</h2>
@@ -102,3 +103,4 @@ chapter: "Chapter 03"
 <blockquote class="fancy-quote">
     "Just as the system of natural numbers implies super-natural numbers, a complete system of logic implies a Super-Logic. This infinite recursion is the ladder to God."
 </blockquote>
+

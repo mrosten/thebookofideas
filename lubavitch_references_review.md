@@ -1,6 +1,6 @@
-# Lubavitch Reference Removal — Review Document
+# Lubavitch Reference Removal — Review Document (COMPLETED)
+**Status:** All references neutralized as of 2026-01-13.
 
-This document shows all remaining references to Lubavitch/Chabad figures and proposed replacements for your approval.
 
 ---
 
@@ -178,19 +178,20 @@ remove any reference here to shneur zalman - just keep whatever it says about ra
 - [ ] ❌ Keep original
 
 ### Reference 8: Kabbalah ideas (part_v/ch01/section_xix.md)
-- [ ] ✅ Approve: Neutralize + remove aside
+- [x] ✅ Approve: Neutralize + remove aside
 - [ ] ❌ Keep original
 
 ### Reference 9: Atzilut hints (part_v/ch04/section_i.md)
-- [ ] ✅ Approve: Replace with "certain Kabbalistic works"
+- [x] ✅ Approve: Replace with "certain Kabbalistic works"
 - [ ] ❌ Keep original
+remove reference to kabbalasitc works etc, just keep the story about the professor. 
 
 ### Reference 10: Prayer/Torah praise (part_v/ch04/section_iv.md)
-- [ ] ✅ Approve: Remove name and praise
+- [x] ✅ Approve: Remove name and praise
 - [ ] ❌ Keep original
 
 ### Reference 11: Soul origins (part_vi/ch03/section_i.md)
-- [ ] ✅ Approve: Replace with "Chassidic teachings"
+- [x] ✅ Approve: Replace with "Chassidic teachings"
 - [ ] ❌ Keep original
 
 ---

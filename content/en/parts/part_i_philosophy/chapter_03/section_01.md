@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section I"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "Reciprocity and Oneness"
 ---
 
 <h2>The Purpose of Creation</h2>
@@ -141,3 +142,4 @@ chapter: "Chapter 03"
         <li>This refutes the Aristotelian idea that "existence" is a separate property shared by things. God <em>is</em> Existence.</li>
     </ul>
 </div>
+

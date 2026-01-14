@@ -1,9 +1,10 @@
 ---
 title: "Chapter 4: Final Ideas — Section I"
-part: "Part iv"
+part: "Part V"
 chapter: "Chapter 04"
 prev: ""
 next: ""
+section_title: "The Shear Wave of Time"
 ---
 
             
@@ -43,7 +44,7 @@ next: ""
             });
             </script>
             <h4>The Periodic Levels of Wisdom</h4>
-            <p>The teachings of the Likutei Moharan work on infinite levels simultaneously. In each specific world, the text reveals a different frequency of truth. While the Baal HaTanya provided the hints necessary to decipher these ideas in the world of <em>Atzilut</em> (Emanation), the professor on the way to Uman revealed that the consistency of these teachings remains valid across every possible level of logic. The goal of the student is not to find a "fixed" meaning, but to identify the specific level of the text that resonates with their current spiritual world.</p>
+            <p>The teachings of the Likutei Moharan work on infinite levels simultaneously. In each specific world, the text reveals a different frequency of truth. A professor on the way to Uman revealed that the consistency of these teachings remains valid across every possible level of logic. The goal of the student is not to find a "fixed" meaning, but to identify the specific level of the text that resonates with their current spiritual world.</p>
             <div class="concept-box">
             <strong>Sinai vs. The Uprooter of Mountains</strong>
             The Talmudic debate between "Sinai" (the one who remembers the consolidated truth) and the "Uprooter of Mountains" (the dialectic genius) is resolved by the speed of learning. While the Sinai path is considered "better" for maintaining the vessels of tradition, the quick learning method recommended by Rabbi Nachman allows the mind to skip across the surface of the text until it finds the resonance frequency of the underlying Light.
@@ -60,4 +61,6 @@ next: ""
         </div>
 
         
+
+
 

@@ -1,9 +1,10 @@
 ---
 title: "Chapter 2: Marriage — Section II"
-part: "Part iii life"
+part: "Part III — Life"
 chapter: "Chapter 02"
 prev: ""
 next: ""
+section_title: "The Soul-Mate Percentage"
 ---
 
             
@@ -65,4 +66,6 @@ next: ""
         </div>
 
         
+
+
 

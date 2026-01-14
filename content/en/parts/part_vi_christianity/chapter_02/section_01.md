@@ -4,6 +4,7 @@ part: "Part VI — Christianity"
 chapter: "Chapter 02"
 prev: ""
 next: ""
+section_title: "The Synthesis of the Manifold"
 ---
 
             
@@ -60,4 +61,5 @@ next: ""
         </div>
 
         
+
 

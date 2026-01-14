@@ -4,6 +4,7 @@ part: "Part I — Philosophy"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "🌊 The Substance & The Modes"
 ---
 
             
@@ -252,4 +253,5 @@ next: ""
         </div>
 
         
+
 

@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section V"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "Historical Reincarnation"
 ---
 
 <h2>The Cycles of History</h2>
@@ -152,3 +153,4 @@ chapter: "Chapter 03"
     <h4>The Wave Pattern</h4>
     <p>The constant flux between these poles creates the wave pattern of Western civilization. Einstein united forces; Rambam united Reason and Revelation; Spinoza united Philosophy and Math. This creates the <strong>Integrated Soul</strong>.</p>
 </div>
+

@@ -17,4 +17,11 @@
 
 ---
 
+### 3. Dark Mode Readability - Ch01 Sec 05
+**Location:** `part_i_philosophy/chapter_01/section_05.md`
+**Problem:** User reported "certain text from the activity become unreadable" in dark mode.
+**Action Needed:** Audit the CSS for the interactive element in this section and add dark mode overrides.
+**Status:** Pending
+
+---
 *Last Updated: 2026-01-13*

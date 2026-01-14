@@ -1,2375 +1,2418 @@
 [
   {
-    "chapter": "",
-    "lang": "en",
     "title": "Table of Contents",
+    "section_title": null,
+    "path": "en/contents.html",
+    "lang": "en",
     "part": "Contents",
-    "path": "en/contents.html"
+    "chapter": ""
   },
   {
-    "chapter": "",
-    "lang": "en",
     "title": "The Torah Book of Ideas",
+    "section_title": null,
+    "path": "en/index.html",
+    "lang": "en",
     "part": "Home",
-    "path": "en/index.html"
+    "chapter": ""
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 1: The Song of God — Section I",
+    "section_title": "The Paradox of Infinity",
+    "path": "en/parts/part_i_philosophy/chapter_01/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Family — Section I",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_01/section_01.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Family — Section II",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_01/section_02.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Family — Section III",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_01/section_03.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Family — Section IV",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_01/section_04.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Family — Section V",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_01/section_05.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Marriage — Section I",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_02/section_01.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Marriage — Section II",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_02/section_02.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Marriage — Section III",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_02/section_03.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Marriage — Section IV",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_02/section_04.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Marriage — Section V",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_02/section_05.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Marriage — Section VI",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_02/section_06.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: Sex — Section I",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_03/section_01.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: Sex — Section II",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_03/section_02.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: Sex — Section III",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_03/section_03.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section I",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_01.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section II",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_02.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section III",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_03.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section IV",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_04.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section V",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_05.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section VI",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_06.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section VII",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_07.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section VIII",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_08.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section IX",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_09.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section X",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_10.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Ways Of Life — Section XI",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_04/section_11.html"
-  },
-  {
-    "chapter": "Chapter 05",
-    "lang": "en",
-    "title": "Chapter 5: Friendship — Section I",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_05/section_01.html"
-  },
-  {
-    "chapter": "Chapter 06",
-    "lang": "en",
-    "title": "Chapter 6: Success — Section I",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_06/section_01.html"
-  },
-  {
-    "chapter": "Chapter 06",
-    "lang": "en",
-    "title": "Chapter 6: Success — Section II",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_06/section_02.html"
-  },
-  {
-    "chapter": "Chapter 06",
-    "lang": "en",
-    "title": "Chapter 6: Success — Section III",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_06/section_03.html"
-  },
-  {
-    "chapter": "Chapter 06",
-    "lang": "en",
-    "title": "Chapter 6: Success — Section IV",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_06/section_04.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Saints — Section I",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_07/section_01.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Saints — Section II",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_07/section_02.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Saints — Section III",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_07/section_03.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Saints — Section IV",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_07/section_04.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Saints — Section V",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_07/section_05.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Saints — Section VI",
-    "part": "Part iii life",
-    "path": "en/parts/part_iii_life/chapter_07/section_06.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Principles Of Halacha — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_01/section_01.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Principles Of Halacha — Section II",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_01/section_02.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Principles Of Halacha — Section III",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_01/section_03.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Prayer — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_02/section_01.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Prayer — Section II",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_02/section_02.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: Prayer — Section III",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_02/section_03.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: Shabbat — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_03/section_01.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: Shabbat — Section II",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_03/section_02.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: Shabbat — Section III",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_03/section_03.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
-    "title": "Chapter 4: Festivals — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_04/section_01.html"
-  },
-  {
-    "chapter": "Chapter 05",
-    "lang": "en",
-    "title": "Chapter 5: Kashrut — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_05/section_01.html"
-  },
-  {
-    "chapter": "Chapter 06",
-    "lang": "en",
-    "title": "Chapter 6: Israel — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_06/section_01.html"
-  },
-  {
-    "chapter": "Chapter 06",
-    "lang": "en",
-    "title": "Chapter 6: Israel — Section II",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_06/section_02.html"
-  },
-  {
-    "chapter": "Chapter 06",
-    "lang": "en",
-    "title": "Chapter 6: Israel — Section III",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_06/section_03.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Marriage And Family — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_07/section_01.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Marriage And Family — Section II",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_07/section_02.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Marriage And Family — Section III",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_07/section_03.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Marriage And Family — Section IV",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_07/section_04.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Marriage And Family — Section V",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_07/section_05.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Marriage And Family — Section VI",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_07/section_06.html"
-  },
-  {
-    "chapter": "Chapter 07",
-    "lang": "en",
-    "title": "Chapter 7: Marriage And Family — Section VII",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_07/section_07.html"
-  },
-  {
-    "chapter": "Chapter 08",
-    "lang": "en",
-    "title": "Chapter 8: Learning Torah — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_08/section_01.html"
-  },
-  {
-    "chapter": "Chapter 09",
-    "lang": "en",
-    "title": "Chapter 9: Converts — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_09/section_01.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Non Jews — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_10/section_01.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: The Argument — Section I",
-    "part": "Part II — Halachah",
-    "path": "en/parts/part_ii_halacha/chapter_11/section_01.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section I",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_01.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section II",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_02.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section III",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_03.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section IV",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_04.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section V",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_05.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section VI",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_06.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section VII",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_07.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section VIII",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_08.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section IX",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_09.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Chapter 1: Politics And The Torah — Section X",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_01/section_10.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: The Baal Teshuva Movement — Section I",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_02/section_01.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: The Baal Teshuva Movement — Section II",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_02/section_02.html"
-  },
-  {
-    "chapter": "Chapter 02",
-    "lang": "en",
-    "title": "Chapter 2: The Baal Teshuva Movement — Section III",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_02/section_03.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: The Usa — Section I",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_03/section_01.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: The Usa — Section II",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_03/section_02.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: The Usa — Section III",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_03/section_03.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: The Usa — Section IV",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_03/section_04.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: The Usa — Section V",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_03/section_05.html"
-  },
-  {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: The Usa — Section VI",
-    "part": "Part iii politics",
-    "path": "en/parts/part_iv_politics/chapter_03/section_06.html"
-  },
-  {
-    "chapter": "Chapter 01",
-    "lang": "en",
-    "title": "Section I — God — The Song of God",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_01/section_01.html"
+    "chapter": "Chapter 1: The Song of God"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 1: The Song of God — Section II",
+    "section_title": "The Logic of Existence",
+    "path": "en/parts/part_i_philosophy/chapter_01/section_02.html",
     "lang": "en",
-    "title": "Section II — Spinoza's Proof of God",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_01/section_02.html"
+    "chapter": "Chapter 1: The Song of God"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 1: The Song of God — Section III",
+    "section_title": "The Three Forces",
+    "path": "en/parts/part_i_philosophy/chapter_01/section_03.html",
     "lang": "en",
-    "title": "Section III — The Critics and the Strange Loop",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_01/section_03.html"
+    "chapter": "Chapter 1: The Song of God"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 1: The Song of God — Section IV",
+    "section_title": "The Purpose",
+    "path": "en/parts/part_i_philosophy/chapter_01/section_04.html",
     "lang": "en",
-    "title": "Section IV — The Infinite Hiding",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_01/section_04.html"
+    "chapter": "Chapter 1: The Song of God"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 1: The Song of God — Section V",
+    "section_title": "The Unity",
+    "path": "en/parts/part_i_philosophy/chapter_01/section_05.html",
     "lang": "en",
-    "title": "Section V — The Two Modes of Light",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_01/section_05.html"
+    "chapter": "Chapter 1: The Song of God"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: The Song Of Faith — Section I",
+    "section_title": "Faith and Reason",
+    "path": "en/parts/part_i_philosophy/chapter_02/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_02/section_01.html"
+    "chapter": "Chapter 2: The Song Of Faith"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: The Song Of Faith — Section II",
+    "section_title": "Freedom vs. Religion",
+    "path": "en/parts/part_i_philosophy/chapter_02/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_02/section_02.html"
+    "chapter": "Chapter 2: The Song Of Faith"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: The Song Of Faith — Section III",
+    "section_title": null,
+    "path": "en/parts/part_i_philosophy/chapter_02/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_02/section_03.html"
+    "chapter": "Chapter 2: The Song Of Faith"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section I",
+    "section_title": "Reciprocity and Oneness",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_01.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section II",
+    "section_title": "The Mechanics of Holiness",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_02.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section III",
+    "section_title": "Reason and Revelation",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_03.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section IV",
+    "section_title": "Quantum Theology",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_04.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_04.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section V",
+    "section_title": "Historical Reincarnation",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_05.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_05.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section VI",
+    "section_title": "The Logic of Existence",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_06.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_06.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section VII",
+    "section_title": "Hegel's Dialectic",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_07.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_07.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section VIII",
+    "section_title": "🌊 The Substance & The Modes",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_08.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_08.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section IX",
+    "section_title": "The Purpose of Reincarnation",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_09.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_09.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section X",
+    "section_title": "✨ The Unification of Sparks",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_10.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_10.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section XI",
+    "section_title": "The Sanhedrin Paradox",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_11.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_11.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: The Song Of Philosophy — Section XII",
+    "section_title": "The Nature of Genius",
+    "path": "en/parts/part_i_philosophy/chapter_03/section_12.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_12.html"
+    "chapter": "Chapter 3: The Song Of Philosophy"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
-    "title": "Chapter 3: The Song Of Philosophy — Section XIII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_03/section_13.html"
-  },
-  {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section I",
+    "section_title": "🌀 The Orbit of Piety",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_01.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section II",
+    "section_title": "Meditation and Hints",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_02.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section III",
+    "section_title": "Tolerance and the Infinite",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_03.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section IV",
+    "section_title": "The Geometry of Prayer",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_04.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_04.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section V",
+    "section_title": "The Gravitational Bond",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_05.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_05.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section VI",
+    "section_title": "📡 Tuning the Soul",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_06.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_06.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section VII",
+    "section_title": "⚡ The RLC Circuit of Prophecy",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_07.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_07.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section VIII",
+    "section_title": null,
+    "path": "en/parts/part_i_philosophy/chapter_04/section_08.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_08.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section IX",
+    "section_title": "⚖️ The Spectrum of Trust",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_09.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_09.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section X",
+    "section_title": "The Crown of Intuition",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_10.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_10.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section XI",
+    "section_title": "🏺 The Vessel and the Light",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_11.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_11.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section XII",
+    "section_title": "🫧 The Bubble of Strictness",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_12.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_12.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section XIII",
+    "section_title": "🧬 The Conscience Scanner",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_13.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_13.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section XIV",
+    "section_title": "🌳 The Tree of Intention",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_14.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_14.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section XV",
+    "section_title": "⛩️ The Gatekeepers",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_15.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_15.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Piety — Section XVI",
+    "section_title": "🔑 The Keys of the Besht",
+    "path": "en/parts/part_i_philosophy/chapter_04/section_16.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_04/section_16.html"
+    "chapter": "Chapter 4: Piety"
   },
   {
-    "chapter": "Chapter 05",
-    "lang": "en",
     "title": "Chapter 5: Happiness — Section I",
+    "section_title": "🔥 The Thermodynamics of Joy",
+    "path": "en/parts/part_i_philosophy/chapter_05/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_05/section_01.html"
+    "chapter": "Chapter 5: Happiness"
   },
   {
-    "chapter": "Chapter 05",
-    "lang": "en",
     "title": "Chapter 5: Happiness — Section II",
+    "section_title": "🌀 The Strange Spiral of Needs",
+    "path": "en/parts/part_i_philosophy/chapter_05/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_05/section_02.html"
+    "chapter": "Chapter 5: Happiness"
   },
   {
-    "chapter": "Chapter 05",
-    "lang": "en",
     "title": "Chapter 5: Happiness — Section III",
+    "section_title": "🔡 The Names of History",
+    "path": "en/parts/part_i_philosophy/chapter_05/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_05/section_03.html"
+    "chapter": "Chapter 5: Happiness"
   },
   {
-    "chapter": "Chapter 06",
-    "lang": "en",
     "title": "Chapter 6: Reward And Punishment — Section I",
+    "section_title": "🌌 The Red Shift of Divine Distance",
+    "path": "en/parts/part_i_philosophy/chapter_06/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_06/section_01.html"
+    "chapter": "Chapter 6: Reward And Punishment"
   },
   {
-    "chapter": "Chapter 06",
-    "lang": "en",
     "title": "Chapter 6: Reward And Punishment — Section II",
+    "section_title": "The Mathematics of Merit",
+    "path": "en/parts/part_i_philosophy/chapter_06/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_06/section_02.html"
+    "chapter": "Chapter 6: Reward And Punishment"
   },
   {
-    "chapter": "Chapter 06",
-    "lang": "en",
     "title": "Chapter 6: Reward And Punishment — Section III",
+    "section_title": "⚖️ The Soul's Ledger",
+    "path": "en/parts/part_i_philosophy/chapter_06/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_06/section_03.html"
+    "chapter": "Chapter 6: Reward And Punishment"
   },
   {
-    "chapter": "Chapter 07",
-    "lang": "en",
     "title": "Chapter 7: Eras Of Man — Section I",
+    "section_title": "⏳ The Millennial Clock",
+    "path": "en/parts/part_i_philosophy/chapter_07/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_07/section_01.html"
+    "chapter": "Chapter 7: Eras Of Man"
   },
   {
-    "chapter": "Chapter 07",
-    "lang": "en",
     "title": "Chapter 7: Eras Of Man — Section II",
+    "section_title": "〰️ The Harmonic Motion of History",
+    "path": "en/parts/part_i_philosophy/chapter_07/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_07/section_02.html"
+    "chapter": "Chapter 7: Eras Of Man"
   },
   {
-    "chapter": "Chapter 07",
-    "lang": "en",
     "title": "Chapter 7: Eras Of Man — Section III",
+    "section_title": "🧬 The Periodic Table of History",
+    "path": "en/parts/part_i_philosophy/chapter_07/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_07/section_03.html"
+    "chapter": "Chapter 7: Eras Of Man"
   },
   {
-    "chapter": "Chapter 07",
-    "lang": "en",
     "title": "Chapter 7: Eras Of Man — Section IV",
+    "section_title": "🚀 The Velocity of History",
+    "path": "en/parts/part_i_philosophy/chapter_07/section_04.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_07/section_04.html"
+    "chapter": "Chapter 7: Eras Of Man"
   },
   {
-    "chapter": "Chapter 07",
-    "lang": "en",
     "title": "Chapter 7: Eras Of Man — Section V",
+    "section_title": null,
+    "path": "en/parts/part_i_philosophy/chapter_07/section_05.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_07/section_05.html"
+    "chapter": "Chapter 7: Eras Of Man"
   },
   {
-    "chapter": "Chapter 07",
-    "lang": "en",
     "title": "Chapter 7: Eras Of Man — Section VI",
+    "section_title": null,
+    "path": "en/parts/part_i_philosophy/chapter_07/section_06.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_07/section_06.html"
+    "chapter": "Chapter 7: Eras Of Man"
   },
   {
-    "chapter": "Chapter 08",
-    "lang": "en",
     "title": "Chapter 8: The Redemption — Section I",
+    "section_title": "🌊 The Overflowing Well",
+    "path": "en/parts/part_i_philosophy/chapter_08/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_08/section_01.html"
+    "chapter": "Chapter 8: The Redemption"
   },
   {
-    "chapter": "Chapter 08",
-    "lang": "en",
     "title": "Chapter 8: The Redemption — Section II",
+    "section_title": "☀️ The Ray within the Sun (Bittul)",
+    "path": "en/parts/part_i_philosophy/chapter_08/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_08/section_02.html"
+    "chapter": "Chapter 8: The Redemption"
   },
   {
-    "chapter": "Chapter 08",
-    "lang": "en",
     "title": "Chapter 8: The Redemption — Section III",
+    "section_title": "🕰️ The Timeline of Redemption",
+    "path": "en/parts/part_i_philosophy/chapter_08/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_08/section_03.html"
+    "chapter": "Chapter 8: The Redemption"
   },
   {
-    "chapter": "Chapter 08",
-    "lang": "en",
     "title": "Chapter 8: The Redemption — Section IV",
+    "section_title": "🌀 The Strange Loop of DNA & Spirit",
+    "path": "en/parts/part_i_philosophy/chapter_08/section_04.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_08/section_04.html"
+    "chapter": "Chapter 8: The Redemption"
   },
   {
-    "chapter": "Chapter 08",
-    "lang": "en",
-    "title": "Chapter 8: The Redemption — Section V",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_08/section_05.html"
-  },
-  {
-    "chapter": "Chapter 09",
-    "lang": "en",
     "title": "Chapter 9: On Learning Torah — Section I",
+    "section_title": "⚡ The Flow of Wisdom (Subconscious Learning)",
+    "path": "en/parts/part_i_philosophy/chapter_09/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_01.html"
+    "chapter": "Chapter 9: On Learning Torah"
   },
   {
-    "chapter": "Chapter 09",
-    "lang": "en",
     "title": "Chapter 9: On Learning Torah — Section II",
+    "section_title": "🌌 The Sephirotic Map of Wisdom",
+    "path": "en/parts/part_i_philosophy/chapter_09/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_02.html"
+    "chapter": "Chapter 9: On Learning Torah"
   },
   {
-    "chapter": "Chapter 09",
-    "lang": "en",
     "title": "Chapter 9: On Learning Torah — Section III",
+    "section_title": "☀️ The Morning Connection",
+    "path": "en/parts/part_i_philosophy/chapter_09/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_03.html"
+    "chapter": "Chapter 9: On Learning Torah"
   },
   {
-    "chapter": "Chapter 09",
-    "lang": "en",
-    "title": "Chapter 9: On Learning Torah — Section IV",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_04.html"
-  },
-  {
-    "chapter": "Chapter 09",
-    "lang": "en",
-    "title": "Chapter 9: On Learning Torah — Section V",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_05.html"
-  },
-  {
-    "chapter": "Chapter 09",
-    "lang": "en",
-    "title": "Chapter 9: On Learning Torah — Section VI",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_06.html"
-  },
-  {
-    "chapter": "Chapter 09",
-    "lang": "en",
-    "title": "Chapter 9: On Learning Torah — Section VII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_07.html"
-  },
-  {
-    "chapter": "Chapter 09",
-    "lang": "en",
-    "title": "Chapter 9: On Learning Torah — Section VIII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_08.html"
-  },
-  {
-    "chapter": "Chapter 09",
-    "lang": "en",
-    "title": "Chapter 9: On Learning Torah — Section IX",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_09/section_09.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
     "title": "Chapter 10: Gemarah — Section I",
+    "section_title": "🌌 The 4th Dimension of Law",
+    "path": "en/parts/part_i_philosophy/chapter_10/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_01.html"
+    "chapter": "Chapter 10: Gemarah"
   },
   {
-    "chapter": "Chapter 10",
-    "lang": "en",
     "title": "Chapter 10: Gemarah — Section II",
+    "section_title": "🌊 The Wave Collapse of Law",
+    "path": "en/parts/part_i_philosophy/chapter_10/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_02.html"
+    "chapter": "Chapter 10: Gemarah"
   },
   {
-    "chapter": "Chapter 10",
-    "lang": "en",
     "title": "Chapter 10: Gemarah — Section III",
+    "section_title": "👑 Facing the King (Vector Field of Intent)",
+    "path": "en/parts/part_i_philosophy/chapter_10/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_03.html"
+    "chapter": "Chapter 10: Gemarah"
   },
   {
-    "chapter": "Chapter 10",
-    "lang": "en",
     "title": "Chapter 10: Gemarah — Section IV",
+    "section_title": "🌉 The Sephirotic Bridge: Reason & Revelation",
+    "path": "en/parts/part_i_philosophy/chapter_10/section_04.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_04.html"
+    "chapter": "Chapter 10: Gemarah"
   },
   {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section V",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_05.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section VI",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_06.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section VII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_07.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section VIII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_08.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section IX",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_09.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section X",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_10.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section XI",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_11.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section XII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_12.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section XIII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_13.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section XIV",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_14.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section XV",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_15.html"
-  },
-  {
-    "chapter": "Chapter 10",
-    "lang": "en",
-    "title": "Chapter 10: Gemarah — Section XVI",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_10/section_16.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
     "title": "Chapter 11: On Science — Section I",
+    "section_title": "The Sacred Geometry of Mind",
+    "path": "en/parts/part_i_philosophy/chapter_11/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_01.html"
+    "chapter": "Chapter 11: On Science"
   },
   {
-    "chapter": "Chapter 11",
-    "lang": "en",
     "title": "Chapter 11: On Science — Section II",
+    "section_title": "🧬 The DNA of the Soul",
+    "path": "en/parts/part_i_philosophy/chapter_11/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_02.html"
+    "chapter": "Chapter 11: On Science"
   },
   {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section III",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_03.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section IV",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_04.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section V",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_05.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section VI",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_06.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section VII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_07.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section VIII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_08.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section IX",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_09.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section X",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_10.html"
-  },
-  {
-    "chapter": "Chapter 11",
-    "lang": "en",
-    "title": "Chapter 11: On Science — Section XI",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_11/section_11.html"
-  },
-  {
-    "chapter": "Chapter 12",
-    "lang": "en",
     "title": "Chapter 12: Decisions — Section I",
+    "section_title": "The Strategy of Decision",
+    "path": "en/parts/part_i_philosophy/chapter_12/section_01.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_01.html"
+    "chapter": "Chapter 12: Decisions"
   },
   {
-    "chapter": "Chapter 12",
-    "lang": "en",
     "title": "Chapter 12: Decisions — Section II",
+    "section_title": "The Architecture of Balance",
+    "path": "en/parts/part_i_philosophy/chapter_12/section_02.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_02.html"
+    "chapter": "Chapter 12: Decisions"
   },
   {
-    "chapter": "Chapter 12",
-    "lang": "en",
     "title": "Chapter 12: Decisions — Section III",
+    "section_title": "🕊️ The Forgiveness Release",
+    "path": "en/parts/part_i_philosophy/chapter_12/section_03.html",
+    "lang": "en",
     "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_03.html"
+    "chapter": "Chapter 12: Decisions"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 1: Principles Of Halacha — Section I",
+    "section_title": "🧭 The Halachic Gyroscope",
+    "path": "en/parts/part_ii_halacha/chapter_01/section_01.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section IV",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_04.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 1: Principles Of Halacha"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 1: Principles Of Halacha — Section II",
+    "section_title": "🛡️ Kinetic Shield Generator",
+    "path": "en/parts/part_ii_halacha/chapter_01/section_02.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section V",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_05.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 1: Principles Of Halacha"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 1: Principles Of Halacha — Section III",
+    "section_title": "🏛️ The Holographic Structure",
+    "path": "en/parts/part_ii_halacha/chapter_01/section_03.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section VI",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_06.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 1: Principles Of Halacha"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 2: Prayer — Section I",
+    "section_title": "🌌 Quantum Ascent",
+    "path": "en/parts/part_ii_halacha/chapter_02/section_01.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section VII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_07.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 2: Prayer"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 2: Prayer — Section II",
+    "section_title": "⏳ The Causality Slider",
+    "path": "en/parts/part_ii_halacha/chapter_02/section_02.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section VIII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_08.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 2: Prayer"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 2: Prayer — Section III",
+    "section_title": "↩️ The Karmic Rebound",
+    "path": "en/parts/part_ii_halacha/chapter_02/section_03.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section IX",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_09.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 2: Prayer"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 3: Laws of the Sabbath — Section I",
+    "section_title": "🌌 The Horizon Engine",
+    "path": "en/parts/part_ii_halacha/chapter_03/section_01.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section X",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_10.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 3: Laws of the Sabbath"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 3: Laws of the Sabbath — Section II",
+    "section_title": "⚡ The Cyber-Halachah Grid",
+    "path": "en/parts/part_ii_halacha/chapter_03/section_02.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section XI",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_11.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 3: Laws of the Sabbath"
   },
   {
-    "chapter": "Chapter 12",
+    "title": "Chapter 3: Laws of the Sabbath — Section III",
+    "section_title": "The Architecture of Holiness",
+    "path": "en/parts/part_ii_halacha/chapter_03/section_03.html",
     "lang": "en",
-    "title": "Chapter 12: Decisions — Section XII",
-    "part": "Part I — Philosophy",
-    "path": "en/parts/part_i_philosophy/chapter_12/section_12.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 3: Laws of the Sabbath"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 4: Festivals — Section I",
+    "section_title": "🔥 The Signal Topology",
+    "path": "en/parts/part_ii_halacha/chapter_04/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section I",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_01.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 4: Festivals"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 4: Festivals — Section II",
+    "section_title": "⚕️ The Bio-Halachic Monitor",
+    "path": "en/parts/part_ii_halacha/chapter_04/section_02.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section II",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_02.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 4: Festivals"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 5: Kashrut — Section I",
+    "section_title": "⚗️ The Molecular Mixture Lab",
+    "path": "en/parts/part_ii_halacha/chapter_05/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section III",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_03.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 5: Kashrut"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 6: Israel — Section I",
+    "section_title": "🔐 The Oath Mechanism",
+    "path": "en/parts/part_ii_halacha/chapter_06/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section IV",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_04.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 6: Israel"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 6: Israel — Section II",
+    "section_title": "🏔️ The Topography of Kedusha",
+    "path": "en/parts/part_ii_halacha/chapter_06/section_02.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section V",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_05.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 6: Israel"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 6: Israel — Section III",
+    "section_title": "🗺️ The Map of Compacts",
+    "path": "en/parts/part_ii_halacha/chapter_06/section_03.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section VI",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_06.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 6: Israel"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 7: Marriage And Family — Section I",
+    "section_title": "The Science of Purity",
+    "path": "en/parts/part_ii_halacha/chapter_07/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section VII",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_07.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 7: Marriage And Family"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 7: Marriage And Family — Section II",
+    "section_title": "The Mistress vs. The Covenant",
+    "path": "en/parts/part_ii_halacha/chapter_07/section_02.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section VIII",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_08.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 7: Marriage And Family"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 7: Marriage And Family — Section III",
+    "section_title": "The Validity of the Exit",
+    "path": "en/parts/part_ii_halacha/chapter_07/section_03.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section IX",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_09.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 7: Marriage And Family"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 7: Marriage And Family — Section IV",
+    "section_title": "The Scandal of the Throne",
+    "path": "en/parts/part_ii_halacha/chapter_07/section_04.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section X",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_10.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 7: Marriage And Family"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 7: Marriage And Family — Section V",
+    "section_title": "The Dangerous Logic of Solomon",
+    "path": "en/parts/part_ii_halacha/chapter_07/section_05.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section XI",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_11.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 7: Marriage And Family"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 7: Marriage And Family — Section VI",
+    "section_title": "THE HIDDEN PERMISSION",
+    "path": "en/parts/part_ii_halacha/chapter_07/section_06.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section XII",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_12.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 7: Marriage And Family"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 7: Marriage And Family — Section VII",
+    "section_title": "The Counter-Intuitive Truth",
+    "path": "en/parts/part_ii_halacha/chapter_07/section_07.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section XIII",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_13.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 7: Marriage And Family"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 8: Learning Torah — Section I",
+    "section_title": "Torah for its Own Sake",
+    "path": "en/parts/part_ii_halacha/chapter_08/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section XIV",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_14.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 8: Learning Torah"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 9: Converts — Section I",
+    "section_title": "The Essence of Conversion",
+    "path": "en/parts/part_ii_halacha/chapter_09/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section XV",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_15.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 9: Converts"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 10: Non Jews — Section I",
+    "section_title": "The Category of the Nations",
+    "path": "en/parts/part_ii_halacha/chapter_10/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section XVI",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_16.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 10: Non Jews"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 11: The Argument — Section I",
+    "section_title": "The Great Conflict",
+    "path": "en/parts/part_ii_halacha/chapter_11/section_01.html",
     "lang": "en",
-    "title": "Chapter 1: Jesus Christ — Section XVII",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_01/section_17.html"
+    "part": "Part II — Halachah",
+    "chapter": "Chapter 11: The Argument"
   },
   {
-    "chapter": "Chapter 02",
+    "title": "Chapter 1: Family — Section I",
+    "section_title": "🌳 The Fractal of Generations",
+    "path": "en/parts/part_iii_life/chapter_01/section_01.html",
     "lang": "en",
-    "title": "Chapter 2: Christianity — Section I",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_02/section_01.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 1: Family"
   },
   {
-    "chapter": "Chapter 02",
+    "title": "Chapter 1: Family — Section II",
+    "section_title": "The Flow of Intelligence",
+    "path": "en/parts/part_iii_life/chapter_01/section_02.html",
     "lang": "en",
-    "title": "Chapter 2: Christianity — Section II",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_02/section_02.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 1: Family"
   },
   {
-    "chapter": "Chapter 02",
+    "title": "Chapter 1: Family — Section III",
+    "section_title": "The Taylor Series of Life",
+    "path": "en/parts/part_iii_life/chapter_01/section_03.html",
     "lang": "en",
-    "title": "Chapter 2: Christianity — Section III",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_02/section_03.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 1: Family"
   },
   {
-    "chapter": "Chapter 02",
+    "title": "Chapter 1: Family — Section IV",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_01/section_04.html",
     "lang": "en",
-    "title": "Chapter 2: Christianity — Section IV",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_02/section_04.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 1: Family"
   },
   {
-    "chapter": "Chapter 02",
+    "title": "Chapter 1: Family — Section V",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_01/section_05.html",
     "lang": "en",
-    "title": "Chapter 2: Christianity — Section V",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_02/section_05.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 1: Family"
   },
   {
-    "chapter": "Chapter 03",
+    "title": "Chapter 2: Marriage — Section I",
+    "section_title": "The Foundation of Youth",
+    "path": "en/parts/part_iii_life/chapter_02/section_01.html",
     "lang": "en",
-    "title": "Chapter 3: Jesus And Judaism — Section I",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_03/section_01.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 2: Marriage"
   },
   {
-    "chapter": "Chapter 03",
+    "title": "Chapter 2: Marriage — Section II",
+    "section_title": "The Soul-Mate Percentage",
+    "path": "en/parts/part_iii_life/chapter_02/section_02.html",
     "lang": "en",
-    "title": "Chapter 3: Jesus And Judaism — Section II",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_03/section_02.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 2: Marriage"
   },
   {
-    "chapter": "Chapter 03",
+    "title": "Chapter 2: Marriage — Section III",
+    "section_title": "The Alchemy of Love",
+    "path": "en/parts/part_iii_life/chapter_02/section_03.html",
     "lang": "en",
-    "title": "Chapter 3: Jesus And Judaism — Section III",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_03/section_03.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 2: Marriage"
   },
   {
-    "chapter": "Chapter 03",
+    "title": "Chapter 2: Marriage — Section IV",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_02/section_04.html",
     "lang": "en",
-    "title": "Chapter 3: Jesus And Judaism — Section IV",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_03/section_04.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 2: Marriage"
   },
   {
-    "chapter": "Chapter 03",
+    "title": "Chapter 2: Marriage — Section V",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_02/section_05.html",
     "lang": "en",
-    "title": "Chapter 3: Jesus And Judaism — Section V",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_03/section_05.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 2: Marriage"
   },
   {
-    "chapter": "Chapter 03",
+    "title": "Chapter 2: Marriage — Section VI",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_02/section_06.html",
     "lang": "en",
-    "title": "Chapter 3: Jesus And Judaism — Section VI",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_03/section_06.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 2: Marriage"
   },
   {
-    "chapter": "Chapter 03",
+    "title": "Chapter 3: Sex — Section I",
+    "section_title": "The Spiritual Reaction",
+    "path": "en/parts/part_iii_life/chapter_03/section_01.html",
     "lang": "en",
-    "title": "Chapter 3: Jesus And Judaism — Section VII",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_03/section_07.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 3: Sex"
   },
   {
-    "chapter": "Chapter 03",
+    "title": "Chapter 3: Sex — Section II",
+    "section_title": "The Substance of Matter",
+    "path": "en/parts/part_iii_life/chapter_03/section_02.html",
     "lang": "en",
-    "title": "Chapter 3: Jesus And Judaism — Section VIII",
-    "part": "Part VI — Christianity",
-    "path": "en/parts/part_vi_christianity/chapter_03/section_08.html"
+    "part": "Part III — Life",
+    "chapter": "Chapter 3: Sex"
   },
   {
-    "chapter": "Chapter 01",
+    "title": "Chapter 3: Sex — Section III",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_03/section_03.html",
     "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 3: Sex"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section I",
+    "section_title": "The Uncertainty Principle of Faith",
+    "path": "en/parts/part_iii_life/chapter_04/section_01.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section II",
+    "section_title": "The Paradox of the Enemy",
+    "path": "en/parts/part_iii_life/chapter_04/section_02.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section III",
+    "section_title": "The Supreme Individual",
+    "path": "en/parts/part_iii_life/chapter_04/section_03.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section IV",
+    "section_title": "The Discovery of Letting Go",
+    "path": "en/parts/part_iii_life/chapter_04/section_04.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section V",
+    "section_title": "The Multidimensional Self",
+    "path": "en/parts/part_iii_life/chapter_04/section_05.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section VI",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_04/section_06.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section VII",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_04/section_07.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section VIII",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_04/section_08.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section IX",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_04/section_09.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section X",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_04/section_10.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 4: Ways Of Life — Section XI",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_04/section_11.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 4: Ways Of Life"
+  },
+  {
+    "title": "Chapter 5: Friendship — Section I",
+    "section_title": "The Test of the Half-Friend",
+    "path": "en/parts/part_iii_life/chapter_05/section_01.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 5: Friendship"
+  },
+  {
+    "title": "Chapter 6: Success — Section I",
+    "section_title": "The Tzelem of Greatness",
+    "path": "en/parts/part_iii_life/chapter_06/section_01.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 6: Success"
+  },
+  {
+    "title": "Chapter 6: Success — Section II",
+    "section_title": "The Geography of Light",
+    "path": "en/parts/part_iii_life/chapter_06/section_02.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 6: Success"
+  },
+  {
+    "title": "Chapter 6: Success — Section III",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_06/section_03.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 6: Success"
+  },
+  {
+    "title": "Chapter 6: Success — Section IV",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_06/section_04.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 6: Success"
+  },
+  {
+    "title": "Chapter 7: Saints — Section I",
+    "section_title": "The Necessity of Connection",
+    "path": "en/parts/part_iii_life/chapter_07/section_01.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 7: Saints"
+  },
+  {
+    "title": "Chapter 7: Saints — Section II",
+    "section_title": "The Uncertainty of the Saint",
+    "path": "en/parts/part_iii_life/chapter_07/section_02.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 7: Saints"
+  },
+  {
+    "title": "Chapter 7: Saints — Section III",
+    "section_title": "The Mediator Paradox",
+    "path": "en/parts/part_iii_life/chapter_07/section_03.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 7: Saints"
+  },
+  {
+    "title": "Chapter 7: Saints — Section IV",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_07/section_04.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 7: Saints"
+  },
+  {
+    "title": "Chapter 7: Saints — Section V",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_07/section_05.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 7: Saints"
+  },
+  {
+    "title": "Chapter 7: Saints — Section VI",
+    "section_title": null,
+    "path": "en/parts/part_iii_life/chapter_07/section_06.html",
+    "lang": "en",
+    "part": "Part III — Life",
+    "chapter": "Chapter 7: Saints"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section I",
+    "section_title": "The Republic of the Intellectuals",
+    "path": "en/parts/part_iv_politics/chapter_01/section_01.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section II",
+    "section_title": "The Monarchy of Strategy",
+    "path": "en/parts/part_iv_politics/chapter_01/section_02.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section III",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_01/section_03.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section IV",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_01/section_04.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section V",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_01/section_05.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section VI",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_01/section_06.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section VII",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_01/section_07.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section VIII",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_01/section_08.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section IX",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_01/section_09.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 1: Politics And The Torah — Section X",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_01/section_10.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 1: Politics And The Torah"
+  },
+  {
+    "title": "Chapter 2: The Baal Teshuva Movement — Section I",
+    "section_title": "The Magic Helper",
+    "path": "en/parts/part_iv_politics/chapter_02/section_01.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 2: The Baal Teshuva Movement"
+  },
+  {
+    "title": "Chapter 2: The Baal Teshuva Movement — Section II",
+    "section_title": "The Spiritual Root",
+    "path": "en/parts/part_iv_politics/chapter_02/section_02.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 2: The Baal Teshuva Movement"
+  },
+  {
+    "title": "Chapter 2: The Baal Teshuva Movement — Section III",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_02/section_03.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 2: The Baal Teshuva Movement"
+  },
+  {
+    "title": "Chapter 3: The Usa — Section I",
+    "section_title": "The Rights of the Individual",
+    "path": "en/parts/part_iv_politics/chapter_03/section_01.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 3: The Usa"
+  },
+  {
+    "title": "Chapter 3: The Usa — Section II",
+    "section_title": "The Decay of Rulership",
+    "path": "en/parts/part_iv_politics/chapter_03/section_02.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 3: The Usa"
+  },
+  {
+    "title": "Chapter 3: The Usa — Section III",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_03/section_03.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 3: The Usa"
+  },
+  {
+    "title": "Chapter 3: The Usa — Section IV",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_03/section_04.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 3: The Usa"
+  },
+  {
+    "title": "Chapter 3: The Usa — Section V",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_03/section_05.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 3: The Usa"
+  },
+  {
+    "title": "Chapter 3: The Usa — Section VI",
+    "section_title": null,
+    "path": "en/parts/part_iv_politics/chapter_03/section_06.html",
+    "lang": "en",
+    "part": "Part IV — Politics",
+    "chapter": "Chapter 3: The Usa"
+  },
+  {
     "title": "Chapter 1: Ideas In Kabbalah — Section I",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_01.html"
+    "section_title": "The Gematria of Reality",
+    "path": "en/parts/part_v_ideas/chapter_01/section_01.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section II",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_02.html"
+    "section_title": "The General Theory of Sephirot",
+    "path": "en/parts/part_v_ideas/chapter_01/section_02.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section III",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_03.html"
+    "section_title": "The Fluid Dynamics of the Commandment",
+    "path": "en/parts/part_v_ideas/chapter_01/section_03.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section IV",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_04.html"
+    "section_title": "The Infinite Singularity",
+    "path": "en/parts/part_v_ideas/chapter_01/section_04.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section V",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_05.html"
+    "section_title": "The Divine Current-Bearing Conductor",
+    "path": "en/parts/part_v_ideas/chapter_01/section_05.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section VI",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_06.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_06.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section VII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_07.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_07.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section VIII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_08.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_08.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section IX",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_09.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_09.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section X",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_10.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_10.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XI",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_11.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_11.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_12.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_12.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XIII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_13.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_13.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XIV",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_14.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_14.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XV",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_15.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_15.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XVI",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_16.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_16.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XVII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_17.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_17.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XVIII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_18.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_18.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XIX",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_19.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_19.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 01",
-    "lang": "en",
     "title": "Chapter 1: Ideas In Kabbalah — Section XX",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_01/section_20.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_01/section_20.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 1: Ideas In Kabbalah"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section I",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_01.html"
+    "section_title": "The Inner Model of Physics",
+    "path": "en/parts/part_v_ideas/chapter_02/section_01.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section II",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_02.html"
+    "section_title": "The Hierarchy of Infinities",
+    "path": "en/parts/part_v_ideas/chapter_02/section_02.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section III",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_03.html"
+    "section_title": "The Alchemy of the Vessels",
+    "path": "en/parts/part_v_ideas/chapter_02/section_03.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section IV",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_04.html"
+    "section_title": "The Fourth Dimension of Faith",
+    "path": "en/parts/part_v_ideas/chapter_02/section_04.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section V",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_05.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_05.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section VI",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_06.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_06.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section VII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_07.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_07.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section VIII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_08.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_08.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section IX",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_09.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_09.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section X",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_10.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_10.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XI",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_11.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_11.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_12.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_12.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XIII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_13.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_13.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XIV",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_14.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_14.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XV",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_15.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_15.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XVI",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_16.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_16.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XVII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_17.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_17.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XVIII",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_18.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_18.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XIX",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_19.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_19.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 02",
-    "lang": "en",
     "title": "Chapter 2: Roots Of Science — Section XX",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_02/section_20.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_02/section_20.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 2: Roots Of Science"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: Rav Nachman — Section I",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_03/section_01.html"
+    "section_title": "The Metric of Longevity",
+    "path": "en/parts/part_v_ideas/chapter_03/section_01.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 3: Rav Nachman"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: Rav Nachman — Section II",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_03/section_02.html"
+    "section_title": "The Regression of Holiness",
+    "path": "en/parts/part_v_ideas/chapter_03/section_02.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 3: Rav Nachman"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: Rav Nachman — Section III",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_03/section_03.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_03/section_03.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 3: Rav Nachman"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: Rav Nachman — Section IV",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_03/section_04.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_03/section_04.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 3: Rav Nachman"
   },
   {
-    "chapter": "Chapter 03",
-    "lang": "en",
     "title": "Chapter 3: Rav Nachman — Section V",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_03/section_05.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_03/section_05.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 3: Rav Nachman"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Final Ideas — Section I",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_04/section_01.html"
+    "section_title": "The Shear Wave of Time",
+    "path": "en/parts/part_v_ideas/chapter_04/section_01.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 4: Final Ideas"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Final Ideas — Section II",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_04/section_02.html"
+    "section_title": "The Coordinates of the Soul",
+    "path": "en/parts/part_v_ideas/chapter_04/section_02.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 4: Final Ideas"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Final Ideas — Section III",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_04/section_03.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_04/section_03.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 4: Final Ideas"
   },
   {
-    "chapter": "Chapter 04",
-    "lang": "en",
     "title": "Chapter 4: Final Ideas — Section IV",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_04/section_04.html"
-  },
-  {
-    "chapter": "Chapter 04",
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_04/section_04.html",
     "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 4: Final Ideas"
+  },
+  {
     "title": "Chapter 4: Final Ideas — Section V",
-    "part": "Part iv",
-    "path": "en/parts/part_v_ideas/chapter_04/section_05.html"
+    "section_title": null,
+    "path": "en/parts/part_v_ideas/chapter_04/section_05.html",
+    "lang": "en",
+    "part": "Part V — Ideas",
+    "chapter": "Chapter 4: Final Ideas"
   },
   {
-    "chapter": "",
-    "lang": "he",
+    "title": "Chapter 1: Jesus Christ — Section I",
+    "section_title": "The Discrepancy of Seder Olam",
+    "path": "en/parts/part_vi_christianity/chapter_01/section_01.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section II",
+    "section_title": "The Foundation of the Fall",
+    "path": "en/parts/part_vi_christianity/chapter_01/section_02.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section III",
+    "section_title": "The Isaiah Discrepancy",
+    "path": "en/parts/part_vi_christianity/chapter_01/section_03.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section IV",
+    "section_title": "The Scaling of the Divine",
+    "path": "en/parts/part_vi_christianity/chapter_01/section_04.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section V",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_05.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section VI",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_06.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section VII",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_07.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section VIII",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_08.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section IX",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_09.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section X",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_10.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section XI",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_11.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section XII",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_12.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section XIII",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_13.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section XIV",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_14.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section XV",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_15.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section XVI",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_16.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 1: Jesus Christ — Section XVII",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_01/section_17.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 1: Jesus Christ"
+  },
+  {
+    "title": "Chapter 2: Christianity — Section I",
+    "section_title": "The Synthesis of the Manifold",
+    "path": "en/parts/part_vi_christianity/chapter_02/section_01.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 2: Christianity"
+  },
+  {
+    "title": "Chapter 2: Christianity — Section II",
+    "section_title": "The Cost of the New Age",
+    "path": "en/parts/part_vi_christianity/chapter_02/section_02.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 2: Christianity"
+  },
+  {
+    "title": "Chapter 2: Christianity — Section III",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_02/section_03.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 2: Christianity"
+  },
+  {
+    "title": "Chapter 2: Christianity — Section IV",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_02/section_04.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 2: Christianity"
+  },
+  {
+    "title": "Chapter 2: Christianity — Section V",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_02/section_05.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 2: Christianity"
+  },
+  {
+    "title": "Chapter 3: Jesus And Judaism — Section I",
+    "section_title": "The Celestial Origin",
+    "path": "en/parts/part_vi_christianity/chapter_03/section_01.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 3: Jesus And Judaism"
+  },
+  {
+    "title": "Chapter 3: Jesus And Judaism — Section II",
+    "section_title": "The Messiah of the Machine",
+    "path": "en/parts/part_vi_christianity/chapter_03/section_02.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 3: Jesus And Judaism"
+  },
+  {
+    "title": "Chapter 3: Jesus And Judaism — Section III",
+    "section_title": "The Bridge of Mathematics",
+    "path": "en/parts/part_vi_christianity/chapter_03/section_03.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 3: Jesus And Judaism"
+  },
+  {
+    "title": "Chapter 3: Jesus And Judaism — Section IV",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_03/section_04.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 3: Jesus And Judaism"
+  },
+  {
+    "title": "Chapter 3: Jesus And Judaism — Section V",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_03/section_05.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 3: Jesus And Judaism"
+  },
+  {
+    "title": "Chapter 3: Jesus And Judaism — Section VI",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_03/section_06.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 3: Jesus And Judaism"
+  },
+  {
+    "title": "Chapter 3: Jesus And Judaism — Section VII",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_03/section_07.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 3: Jesus And Judaism"
+  },
+  {
+    "title": "Chapter 3: Jesus And Judaism — Section VIII",
+    "section_title": null,
+    "path": "en/parts/part_vi_christianity/chapter_03/section_08.html",
+    "lang": "en",
+    "part": "Part VI — Christianity",
+    "chapter": "Chapter 3: Jesus And Judaism"
+  },
+  {
     "title": "תוכן העניינים",
+    "section_title": null,
+    "path": "he/contents.html",
+    "lang": "he",
     "part": "תוכן",
-    "path": "he/contents.html"
+    "chapter": ""
   },
   {
-    "chapter": "",
-    "lang": "he",
     "title": "ספר רעיונות התורה",
+    "section_title": null,
+    "path": "he/index.html",
+    "lang": "he",
     "part": "בית",
-    "path": "he/index.html"
+    "chapter": ""
   },
   {
-    "chapter": "פרק 1",
-    "lang": "he",
-    "title": "פרק 1: Family — סעיף I",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_01/section_01.html"
-  },
-  {
-    "chapter": "פרק 1",
-    "lang": "he",
-    "title": "פרק 1: Family — סעיף II",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_01/section_02.html"
-  },
-  {
-    "chapter": "פרק 1",
-    "lang": "he",
-    "title": "פרק 1: Family — סעיף III",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_01/section_03.html"
-  },
-  {
-    "chapter": "פרק 2",
-    "lang": "he",
-    "title": "פרק 2: Marriage — סעיף I",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_02/section_01.html"
-  },
-  {
-    "chapter": "פרק 2",
-    "lang": "he",
-    "title": "פרק 2: Marriage — סעיף II",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_02/section_02.html"
-  },
-  {
-    "chapter": "פרק 2",
-    "lang": "he",
-    "title": "פרק 2: Marriage — סעיף III",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_02/section_03.html"
-  },
-  {
-    "chapter": "פרק 3",
-    "lang": "he",
-    "title": "פרק 3: Sex — סעיף I",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_03/section_01.html"
-  },
-  {
-    "chapter": "פרק 3",
-    "lang": "he",
-    "title": "פרק 3: Sex — סעיף II",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_03/section_02.html"
-  },
-  {
-    "chapter": "פרק 4",
-    "lang": "he",
-    "title": "פרק 4: Ways Of Life — סעיף I",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_04/section_01.html"
-  },
-  {
-    "chapter": "פרק 4",
-    "lang": "he",
-    "title": "פרק 4: Ways Of Life — סעיף II",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_04/section_02.html"
-  },
-  {
-    "chapter": "פרק 4",
-    "lang": "he",
-    "title": "פרק 4: Ways Of Life — סעיף III",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_04/section_03.html"
-  },
-  {
-    "chapter": "פרק 4",
-    "lang": "he",
-    "title": "פרק 4: Ways Of Life — סעיף IV",
-    "part": "part iii life",
-    "path": "he/parts/part_iii_life/chapter_04/section_04.html"
-  },
-  {
-    "chapter": "פרק 1",
-    "lang": "he",
-    "title": "פרק 1: עקרונות ההלכה — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_01/section_01.html"
-  },
-  {
-    "chapter": "פרק 1",
-    "lang": "he",
-    "title": "פרק 1: עקרונות ההלכה — סעיף II",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_01/section_02.html"
-  },
-  {
-    "chapter": "פרק 1",
-    "lang": "he",
-    "title": "Chapter 1: Principles Of Halacha — סעיף III",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_01/section_03.html"
-  },
-  {
-    "chapter": "פרק 2",
-    "lang": "he",
-    "title": "פרק 2: תפילה — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_02/section_01.html"
-  },
-  {
-    "chapter": "פרק 2",
-    "lang": "he",
-    "title": "Chapter 2: Prayer — סעיף II",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_02/section_02.html"
-  },
-  {
-    "chapter": "פרק 2",
-    "lang": "he",
-    "title": "Chapter 2: Prayer — סעיף III",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_02/section_03.html"
-  },
-  {
-    "chapter": "פרק 3",
-    "lang": "he",
-    "title": "פרק 3: שבת — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_03/section_01.html"
-  },
-  {
-    "chapter": "פרק 3",
-    "lang": "he",
-    "title": "Chapter 3: Shabbat — סעיף II",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_03/section_02.html"
-  },
-  {
-    "chapter": "פרק 4",
-    "lang": "he",
-    "title": "פרק 4: חגים — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_04/section_01.html"
-  },
-  {
-    "chapter": "פרק 5",
-    "lang": "he",
-    "title": "פרק 5: כשרות — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_05/section_01.html"
-  },
-  {
-    "chapter": "פרק 6",
-    "lang": "he",
-    "title": "פרק 6: ישראל — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_06/section_01.html"
-  },
-  {
-    "chapter": "פרק 6",
-    "lang": "he",
-    "title": "Chapter 6: Israel — סעיף II",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_06/section_02.html"
-  },
-  {
-    "chapter": "פרק 7",
-    "lang": "he",
-    "title": "פרק 7: נישואין ומשפחה — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_07/section_01.html"
-  },
-  {
-    "chapter": "פרק 7",
-    "lang": "he",
-    "title": "Chapter 7: Marriage And Family — סעיף II",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_07/section_02.html"
-  },
-  {
-    "chapter": "פרק 7",
-    "lang": "he",
-    "title": "Chapter 7: Marriage And Family — סעיף III",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_07/section_03.html"
-  },
-  {
-    "chapter": "פרק 7",
-    "lang": "he",
-    "title": "Chapter 7: Marriage And Family — סעיף IV",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_07/section_04.html"
-  },
-  {
-    "chapter": "פרק 7",
-    "lang": "he",
-    "title": "Chapter 7: Marriage And Family — סעיף V",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_07/section_05.html"
-  },
-  {
-    "chapter": "פרק 7",
-    "lang": "he",
-    "title": "Chapter 7: Marriage And Family — סעיף VI",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_07/section_06.html"
-  },
-  {
-    "chapter": "פרק 7",
-    "lang": "he",
-    "title": "Chapter 7: Marriage And Family — סעיף VII",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_07/section_07.html"
-  },
-  {
-    "chapter": "פרק 8",
-    "lang": "he",
-    "title": "פרק 8: לימוד תורה — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_08/section_01.html"
-  },
-  {
-    "chapter": "פרק 9",
-    "lang": "he",
-    "title": "פרק 9: גיור — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_09/section_01.html"
-  },
-  {
-    "chapter": "פרק 10",
-    "lang": "he",
-    "title": "פרק 10: Non Jews — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_10/section_01.html"
-  },
-  {
-    "chapter": "פרק 11",
-    "lang": "he",
-    "title": "פרק 11: המחלוקת — סעיף I",
-    "part": "חלק ב' — הלכה",
-    "path": "he/parts/part_ii_halacha/chapter_11/section_01.html"
-  },
-  {
-    "chapter": "פרק 1",
-    "lang": "he",
     "title": "סעיף I — אלוהים — שירת האלוהים",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_01/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_01/section_01.html"
+    "chapter": "פרק 1"
   },
   {
-    "chapter": "פרק 1",
-    "lang": "he",
     "title": "סעיף II — הוכחת אלוהים של שפינוזה",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_01/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_01/section_02.html"
+    "chapter": "פרק 1"
   },
   {
-    "chapter": "פרק 1",
-    "lang": "he",
     "title": "סעיף III",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_01/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_01/section_03.html"
+    "chapter": "פרק 1"
   },
   {
-    "chapter": "פרק 1",
-    "lang": "he",
     "title": "סעיף IV",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_01/section_04.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_01/section_04.html"
+    "chapter": "פרק 1"
   },
   {
-    "chapter": "פרק 1",
-    "lang": "he",
     "title": "סעיף V",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_01/section_05.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_01/section_05.html"
+    "chapter": "פרק 1"
   },
   {
-    "chapter": "פרק 2",
-    "lang": "he",
     "title": "פרק 2: שירת האמונה — סעיף I",
+    "section_title": "אמונה וחוכמה",
+    "path": "he/parts/part_i_philosophy/chapter_02/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_02/section_01.html"
+    "chapter": "פרק 2"
   },
   {
-    "chapter": "פרק 2",
-    "lang": "he",
     "title": "פרק 2: שירת האמונה — סעיף II",
+    "section_title": "חירות מול דת",
+    "path": "he/parts/part_i_philosophy/chapter_02/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_02/section_02.html"
+    "chapter": "פרק 2"
   },
   {
-    "chapter": "פרק 2",
-    "lang": "he",
     "title": "פרק 2: שירת האמונה — סעיף III",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_02/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_02/section_03.html"
+    "chapter": "פרק 2"
   },
   {
-    "chapter": "פרק 3",
-    "lang": "he",
     "title": "פרק 3: שירת הפילוסופיה — סעיף I",
+    "section_title": "החיסרון האלוהי",
+    "path": "he/parts/part_i_philosophy/chapter_03/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_03/section_01.html"
+    "chapter": "פרק 3"
   },
   {
-    "chapter": "פרק 3",
-    "lang": "he",
     "title": "פרק 3: שירת הפילוסופיה — סעיף II",
+    "section_title": "האלכימיה של הכוונה",
+    "path": "he/parts/part_i_philosophy/chapter_03/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_03/section_02.html"
+    "chapter": "פרק 3"
   },
   {
-    "chapter": "פרק 3",
-    "lang": "he",
     "title": "פרק 3: שירת הפילוסופיה — סעיף III",
+    "section_title": "גבולות הלוגיקה",
+    "path": "he/parts/part_i_philosophy/chapter_03/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_03/section_03.html"
+    "chapter": "פרק 3"
   },
   {
-    "chapter": "פרק 3",
-    "lang": "he",
     "title": "פרק 3: שירת הפילוסופיה — סעיף IV",
+    "section_title": "מערכות מסתובבות",
+    "path": "he/parts/part_i_philosophy/chapter_03/section_04.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_03/section_04.html"
+    "chapter": "פרק 3"
   },
   {
-    "chapter": "פרק 3",
-    "lang": "he",
     "title": "פרק 3: שירת הפילוסופיה — סעיף V",
+    "section_title": "מיתוס מאוחד",
+    "path": "he/parts/part_i_philosophy/chapter_03/section_05.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_03/section_05.html"
+    "chapter": "פרק 3"
   },
   {
-    "chapter": "פרק 4",
-    "lang": "he",
     "title": "פרק 4: חסידות — סעיף I",
+    "section_title": "נוכחות קוונטית",
+    "path": "he/parts/part_i_philosophy/chapter_04/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_04/section_01.html"
+    "chapter": "פרק 4"
   },
   {
-    "chapter": "פרק 4",
-    "lang": "he",
     "title": "פרק 4: חסידות — סעיף II",
+    "section_title": "מדיטציה ורמזים",
+    "path": "he/parts/part_i_philosophy/chapter_04/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_04/section_02.html"
+    "chapter": "פרק 4"
   },
   {
-    "chapter": "פרק 4",
-    "lang": "he",
     "title": "פרק 4: חסידות — סעיף III",
+    "section_title": "המצפון כמצפן",
+    "path": "he/parts/part_i_philosophy/chapter_04/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_04/section_03.html"
+    "chapter": "פרק 4"
   },
   {
-    "chapter": "פרק 5",
-    "lang": "he",
     "title": "פרק 5: שמחה — סעיף I",
+    "section_title": "התרמודינמיקה של השמחה",
+    "path": "he/parts/part_i_philosophy/chapter_05/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_05/section_01.html"
+    "chapter": "פרק 5"
   },
   {
-    "chapter": "פרק 5",
-    "lang": "he",
     "title": "פרק 5: שמחה — סעיף II",
+    "section_title": "צרכים מול רצונות",
+    "path": "he/parts/part_i_philosophy/chapter_05/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_05/section_02.html"
+    "chapter": "פרק 5"
   },
   {
-    "chapter": "פרק 5",
-    "lang": "he",
     "title": "פרק 5: שמחה — סעיף III",
+    "section_title": "מעבר לחירות",
+    "path": "he/parts/part_i_philosophy/chapter_05/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_05/section_03.html"
+    "chapter": "פרק 5"
   },
   {
-    "chapter": "פרק 6",
-    "lang": "he",
     "title": "פרק 6: שכר ועונש — סעיף I",
+    "section_title": "גלגול השורשים",
+    "path": "he/parts/part_i_philosophy/chapter_06/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_06/section_01.html"
+    "chapter": "פרק 6"
   },
   {
-    "chapter": "פרק 6",
-    "lang": "he",
     "title": "פרק 6: שכר ועונש — סעיף II",
+    "section_title": "המתמטיקה של הזכות",
+    "path": "he/parts/part_i_philosophy/chapter_06/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_06/section_02.html"
+    "chapter": "פרק 6"
   },
   {
-    "chapter": "פרק 7",
-    "lang": "he",
     "title": "פרק 7: תקופות האדם — סעיף I",
+    "section_title": "כיוון ההיסטוריה",
+    "path": "he/parts/part_i_philosophy/chapter_07/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_07/section_01.html"
+    "chapter": "פרק 7"
   },
   {
-    "chapter": "פרק 7",
-    "lang": "he",
     "title": "פרק 7: תקופות האדם — סעיף II",
+    "section_title": "רוח שנות ה-60",
+    "path": "he/parts/part_i_philosophy/chapter_07/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_07/section_02.html"
+    "chapter": "פרק 7"
   },
   {
-    "chapter": "פרק 7",
-    "lang": "he",
     "title": "פרק 7: תקופות האדם — סעיף III",
+    "section_title": "מתנות אברהם",
+    "path": "he/parts/part_i_philosophy/chapter_07/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_07/section_03.html"
+    "chapter": "פרק 7"
   },
   {
-    "chapter": "פרק 8",
-    "lang": "he",
     "title": "פרק 8: הגאולה — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_08/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_08/section_01.html"
+    "chapter": "פרק 8"
   },
   {
-    "chapter": "פרק 8",
-    "lang": "he",
     "title": "פרק 8: הגאולה — סעיף II",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_08/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_08/section_02.html"
+    "chapter": "פרק 8"
   },
   {
-    "chapter": "פרק 9",
-    "lang": "he",
     "title": "פרק 9: על לימוד תורה — סעיף I",
+    "section_title": "הדינמיקה של הלימוד",
+    "path": "he/parts/part_i_philosophy/chapter_09/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_09/section_01.html"
+    "chapter": "פרק 9"
   },
   {
-    "chapter": "פרק 9",
-    "lang": "he",
     "title": "פרק 9: על לימוד תורה — סעיף II",
+    "section_title": "📚 חקר אינטראקטיבי: התאמת ספירות לנושאי לימוד",
+    "path": "he/parts/part_i_philosophy/chapter_09/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_09/section_02.html"
+    "chapter": "פרק 9"
   },
   {
-    "chapter": "פרק 9",
-    "lang": "he",
     "title": "פרק 9: על לימוד תורה — סעיף III",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_09/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_09/section_03.html"
+    "chapter": "פרק 9"
   },
   {
-    "chapter": "פרק 10",
-    "lang": "he",
     "title": "פרק 10: גמרא — סעיף I",
+    "section_title": "מקור התורה שבעל פה",
+    "path": "he/parts/part_i_philosophy/chapter_10/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_10/section_01.html"
+    "chapter": "פרק 10"
   },
   {
-    "chapter": "פרק 10",
-    "lang": "he",
     "title": "פרק 10: גמרא — סעיף II",
+    "section_title": "הדינמיקה של הכאוס",
+    "path": "he/parts/part_i_philosophy/chapter_10/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_10/section_02.html"
+    "chapter": "פרק 10"
   },
   {
-    "chapter": "פרק 10",
-    "lang": "he",
     "title": "פרק 10: גמרא — סעיף III",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_10/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_10/section_03.html"
+    "chapter": "פרק 10"
   },
   {
-    "chapter": "פרק 11",
-    "lang": "he",
     "title": "פרק 11: על המדע — סעיף I",
+    "section_title": "ההיררכיה של ההבנה",
+    "path": "he/parts/part_i_philosophy/chapter_11/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_11/section_01.html"
+    "chapter": "פרק 11"
   },
   {
-    "chapter": "פרק 11",
-    "lang": "he",
     "title": "פרק 11: על המדע — סעיף II",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_11/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_11/section_02.html"
+    "chapter": "פרק 11"
   },
   {
-    "chapter": "פרק 11",
-    "lang": "he",
     "title": "פרק 11: על המדע — סעיף III",
+    "section_title": "הגאומטריה המקודשת של המוח",
+    "path": "he/parts/part_i_philosophy/chapter_11/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_11/section_03.html"
+    "chapter": "פרק 11"
   },
   {
-    "chapter": "פרק 12",
-    "lang": "he",
     "title": "פרק 12: החלטות — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_12/section_01.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_12/section_01.html"
+    "chapter": "פרק 12"
   },
   {
-    "chapter": "פרק 12",
-    "lang": "he",
     "title": "פרק 12: החלטות — סעיף II",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_12/section_02.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_12/section_02.html"
+    "chapter": "פרק 12"
   },
   {
-    "chapter": "פרק 12",
-    "lang": "he",
     "title": "פרק 12: החלטות — סעיף III",
+    "section_title": null,
+    "path": "he/parts/part_i_philosophy/chapter_12/section_03.html",
+    "lang": "he",
     "part": "חלק א' — פילוסופיה",
-    "path": "he/parts/part_i_philosophy/chapter_12/section_03.html"
+    "chapter": "פרק 12"
+  },
+  {
+    "title": "פרק 1: עקרונות ההלכה — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_01/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 1"
+  },
+  {
+    "title": "פרק 1: עקרונות ההלכה — סעיף II",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_01/section_02.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 1"
+  },
+  {
+    "title": "Chapter 1: Principles Of Halacha — סעיף III",
+    "section_title": "The Three Pillars of Law",
+    "path": "he/parts/part_ii_halacha/chapter_01/section_03.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 1"
+  },
+  {
+    "title": "פרק 2: תפילה — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_02/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 2"
+  },
+  {
+    "title": "Chapter 2: Prayer — סעיף II",
+    "section_title": "The Echo of the Curse",
+    "path": "he/parts/part_ii_halacha/chapter_02/section_02.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 2"
+  },
+  {
+    "title": "Chapter 2: Prayer — סעיף III",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_02/section_03.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 2"
+  },
+  {
+    "title": "פרק 3: שבת — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_03/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 3"
+  },
+  {
+    "title": "Chapter 3: Shabbat — סעיף II",
+    "section_title": "Modern Melachah: The Digital Sabbath",
+    "path": "he/parts/part_ii_halacha/chapter_03/section_02.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 3"
+  },
+  {
+    "title": "פרק 4: חגים — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_04/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 4"
+  },
+  {
+    "title": "פרק 5: כשרות — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_05/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 5"
+  },
+  {
+    "title": "פרק 6: ישראל — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_06/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 6"
+  },
+  {
+    "title": "Chapter 6: Israel — סעיף II",
+    "section_title": "The Overlapping Covenants",
+    "path": "he/parts/part_ii_halacha/chapter_06/section_02.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 6"
+  },
+  {
+    "title": "פרק 7: נישואין ומשפחה — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_07/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 7"
+  },
+  {
+    "title": "Chapter 7: Marriage And Family — סעיף II",
+    "section_title": "The Mistress vs. The Covenant",
+    "path": "he/parts/part_ii_halacha/chapter_07/section_02.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 7"
+  },
+  {
+    "title": "Chapter 7: Marriage And Family — סעיף III",
+    "section_title": "The Validity of the Exit",
+    "path": "he/parts/part_ii_halacha/chapter_07/section_03.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 7"
+  },
+  {
+    "title": "Chapter 7: Marriage And Family — סעיף IV",
+    "section_title": "The Scandal of the Throne",
+    "path": "he/parts/part_ii_halacha/chapter_07/section_04.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 7"
+  },
+  {
+    "title": "Chapter 7: Marriage And Family — סעיף V",
+    "section_title": "The Dangerous Logic of Solomon",
+    "path": "he/parts/part_ii_halacha/chapter_07/section_05.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 7"
+  },
+  {
+    "title": "Chapter 7: Marriage And Family — סעיף VI",
+    "section_title": "The Scope of Intimacy",
+    "path": "he/parts/part_ii_halacha/chapter_07/section_06.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 7"
+  },
+  {
+    "title": "Chapter 7: Marriage And Family — סעיף VII",
+    "section_title": "The Field and the Owner",
+    "path": "he/parts/part_ii_halacha/chapter_07/section_07.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 7"
+  },
+  {
+    "title": "פרק 8: לימוד תורה — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_08/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 8"
+  },
+  {
+    "title": "פרק 9: גיור — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_09/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 9"
+  },
+  {
+    "title": "פרק 10: Non Jews — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_10/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 10"
+  },
+  {
+    "title": "פרק 11: המחלוקת — סעיף I",
+    "section_title": null,
+    "path": "he/parts/part_ii_halacha/chapter_11/section_01.html",
+    "lang": "he",
+    "part": "חלק ב' — הלכה",
+    "chapter": "פרק 11"
+  },
+  {
+    "title": "פרק 1: Family — סעיף I",
+    "section_title": "השורש הרוחני",
+    "path": "he/parts/part_iii_life/chapter_01/section_01.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 1"
+  },
+  {
+    "title": "פרק 1: Family — סעיף II",
+    "section_title": "זרימת האינטליגנציה",
+    "path": "he/parts/part_iii_life/chapter_01/section_02.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 1"
+  },
+  {
+    "title": "פרק 1: Family — סעיף III",
+    "section_title": "טור טיילור של החיים",
+    "path": "he/parts/part_iii_life/chapter_01/section_03.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 1"
+  },
+  {
+    "title": "פרק 2: Marriage — סעיף I",
+    "section_title": "יסוד הנעורים",
+    "path": "he/parts/part_iii_life/chapter_02/section_01.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 2"
+  },
+  {
+    "title": "פרק 2: Marriage — סעיף II",
+    "section_title": "אחוז ההתאמה לזיווג",
+    "path": "he/parts/part_iii_life/chapter_02/section_02.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 2"
+  },
+  {
+    "title": "פרק 2: Marriage — סעיף III",
+    "section_title": "האלכימיה של האהבה",
+    "path": "he/parts/part_iii_life/chapter_02/section_03.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 2"
+  },
+  {
+    "title": "פרק 3: Sex — סעיף I",
+    "section_title": "התגובה הרוחנית",
+    "path": "he/parts/part_iii_life/chapter_03/section_01.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 3"
+  },
+  {
+    "title": "פרק 3: Sex — סעיף II",
+    "section_title": "מהות החומר",
+    "path": "he/parts/part_iii_life/chapter_03/section_02.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 3"
+  },
+  {
+    "title": "פרק 4: Ways Of Life — סעיף I",
+    "section_title": "עקרון אי-הוודאות של האמונה",
+    "path": "he/parts/part_iii_life/chapter_04/section_01.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 4"
+  },
+  {
+    "title": "פרק 4: Ways Of Life — סעיף II",
+    "section_title": "פרדוקס האויב",
+    "path": "he/parts/part_iii_life/chapter_04/section_02.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 4"
+  },
+  {
+    "title": "פרק 4: Ways Of Life — סעיף III",
+    "section_title": "היחיד העליון",
+    "path": "he/parts/part_iii_life/chapter_04/section_03.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 4"
+  },
+  {
+    "title": "פרק 4: Ways Of Life — סעיף IV",
+    "section_title": "התגלית של ההרפיה",
+    "path": "he/parts/part_iii_life/chapter_04/section_04.html",
+    "lang": "he",
+    "part": "Part III — Life",
+    "chapter": "פרק 4"
   }
 ]

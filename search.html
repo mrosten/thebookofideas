@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search The Torah Book of Ideas">
+    <title>Search — The Torah Book of Ideas</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+        .search-container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            font-size: 1.1rem;
+            border: 2px solid var(--accent-gold);
+            border-radius: var(--radius-md);
+            background: var(--bg-card);
+            color: var(--text-main);
+            font-family: 'Lora', serif;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.3);
+            background: var(--bg-subtle);
+        }
+
+        .search-stats {
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .result {
+            background: var(--bg-card);
+            border: 1px solid rgba(197, 160, 89, 0.15);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .result:hover {
+            border-color: var(--accent-gold);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .result-title {
+            font-size: 1.2rem;
+            margin: 0 0 0.25rem 0;
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        .result-title a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .result-title a:hover {
+            text-decoration: underline;
+        }
+
+        .result-meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .result-snippet {
+            color: var(--text-main);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .highlight {
+            background-color: rgba(251, 191, 36, 0.25);
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: 600;
+            color: var(--accent-gold);
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-muted);
+        }
+
+        .no-results h3 {
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+        }
+
+        /* Dark mode overrides */
+        body.dark-mode .search-input {
+            background: var(--primary-royal);
+            color: var(--text-light);
+            border-color: var(--accent-gold-dim);
+        }
+
+        body.dark-mode .search-input:focus {
+            background: var(--primary-light);
+            border-color: var(--accent-gold);
+        }
+
+        body.dark-mode .result {
+            background: var(--primary-royal);
+            border-color: rgba(197, 160, 89, 0.2);
+        }
+
+        body.dark-mode .result:hover {
+            border-color: var(--accent-gold);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        body.dark-mode .result-snippet,
+        body.dark-mode .no-results h3 {
+            color: var(--text-light);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="branding">
+            <h1><a href="index.html" style="color: inherit; text-decoration: none;">The Torah Book of Ideas</a></h1>
+            <p class="subtitle">Search</p>
+        </div>
+
+        <div class="header-actions">
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+        </div>
+    </header>
+
+    <!-- Search Container -->
+    <main class="search-container">
+        <div class="search-box">
+            <input type="text" id="searchInput" class="search-input"
+                placeholder="Search for ideas, concepts, or keywords..." autofocus>
+        </div>
+
+        <div id="searchStats" class="search-stats"></div>
+        <div id="searchResults"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 The Torah Book of Ideas. All rights reserved.</p>
+    </footer>
+
+    <!-- Load search index -->
+    <script src="search_index.js"></script>
+
+    <script>
+        let searchIndex = SEARCH_INDEX || [];
+        let searchTimeout;
+
+        // Search index loaded via search_index.js
+        console.log(`Loaded ${searchIndex.length} searchable entries`);
+
+        // Search function
+        function performSearch(query) {
+            const resultsContainer = document.getElementById('searchResults');
+            const statsContainer = document.getElementById('searchStats');
+
+            if (!query.trim()) {
+                resultsContainer.innerHTML = '';
+                statsContainer.innerHTML = '';
+                return;
+            }
+
+            const queryLower = query.toLowerCase();
+            const searchTerms = queryLower.split(/\s+/).filter(term => term.length > 2);
+
+            // Filter and rank results
+            const results = searchIndex
+                .map(entry => {
+                    let score = 0;
+                    const titleLower = entry.title.toLowerCase();
+                    const contentLower = entry.content.toLowerCase();
+
+                    searchTerms.forEach(term => {
+                        // Title matches are worth more
+                        if (titleLower.includes(term)) score += 10;
+                        // Content matches
+                        const matches = (contentLower.match(new RegExp(term, 'g')) || []).length;
+                        score += matches;
+                    });
+
+                    // Extract part number for sorting
+                    let partNum = 999;
+                    if (entry.part && entry.part.match(/Part ([IVX]+)/i)) {
+                        const roman = entry.part.match(/Part ([IVX]+)/i)[1];
+                        const romanMap = { 'I': 1, 'II': 2, 'III': 3, 'IV': 4, 'V': 5, 'VI': 6 };
+                        partNum = romanMap[roman] || 999;
+                    }
+
+                    // Extract chapter number for sorting
+                    let chapterNum = 999;
+                    if (entry.chapter && entry.chapter.match(/Chapter\s+(\d+)/i)) {
+                        chapterNum = parseInt(entry.chapter.match(/Chapter\s+(\d+)/i)[1]);
+                    }
+
+                    return { ...entry, score, partNum, chapterNum };
+                })
+                .filter(entry => entry.score > 0)
+                .sort((a, b) => {
+                    // Primary sort: by score (descending)
+                    if (b.score !== a.score) return b.score - a.score;
+                    // Secondary sort: by part number (ascending)
+                    if (a.partNum !== b.partNum) return a.partNum - b.partNum;
+                    // Tertiary sort: by chapter number (ascending)
+                    return a.chapterNum - b.chapterNum;
+                })
+                .slice(0, 50); // Limit to top 50 results
+
+            // Display stats
+            statsContainer.innerHTML = `Found ${results.length} result${results.length !== 1 ? 's' : ''} for "${query}"`;
+
+            // Display results
+            if (results.length === 0) {
+                resultsContainer.innerHTML = `
+                    <div class="no-results">
+                        <h3>No results found</h3>
+                        <p>Try different keywords or check your spelling.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            resultsContainer.innerHTML = results.map(result => {
+                // Create snippet with context
+                const snippet = createSnippet(result.content, searchTerms);
+                const highlightedSnippet = highlightTerms(snippet, searchTerms);
+                const highlightedTitle = highlightTerms(result.title, searchTerms);
+
+                // Build breadcrumb: Part › Chapter
+                let breadcrumb = '';
+                if (result.part) {
+                    breadcrumb = result.part;
+                }
+                if (result.chapter) {
+                    breadcrumb += ` › ${result.chapter}`;
+                }
+
+                return `
+                    <div class="result">
+                        ${breadcrumb ? `<div class="result-meta">${breadcrumb}</div>` : ''}
+                        <h2 class="result-title">
+                            <a href="${result.url}">${highlightedTitle}</a>
+                        </h2>
+                        <div class="result-snippet">${highlightedSnippet}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Create snippet with context around search terms
+        function createSnippet(content, terms) {
+            const maxLength = 300;
+            let bestPosition = 0;
+            let bestScore = 0;
+
+            // Find best position (where most terms appear)
+            for (let i = 0; i < content.length - maxLength; i += 50) {
+                const segment = content.substring(i, i + maxLength).toLowerCase();
+                const score = terms.reduce((sum, term) =>
+                    sum + (segment.includes(term) ? 1 : 0), 0);
+
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestPosition = i;
+                }
+            }
+
+            let snippet = content.substring(bestPosition, bestPosition + maxLength);
+
+            // Clean up snippet
+            if (bestPosition > 0) snippet = '...' + snippet;
+            if (bestPosition + maxLength < content.length) snippet = snippet + '...';
+
+            return snippet;
+        }
+
+        // Highlight search terms in text
+        function highlightTerms(text, terms) {
+            let result = text;
+            terms.forEach(term => {
+                const regex = new RegExp(`(${term})`, 'gi');
+                result = result.replace(regex, '<span class="highlight">$1</span>');
+            });
+            return result;
+        }
+
+        // Debounced search on input
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                performSearch(e.target.value);
+            }, 300);
+        });
+
+        // Handle URL params for direct search
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+        if (query) {
+            document.getElementById('searchInput').value = query;
+            performSearch(query);
+        }
+
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+
+        // Apply theme on load
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeToggle.textContent = '☀️';
+        } else {
+            document.body.classList.remove('dark-mode');
+            themeToggle.textContent = '🌙';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const isDark = document.body.classList.contains('dark-mode');
+
+            if (isDark) {
+                document.body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light');
+                themeToggle.textContent = '🌙';
+            } else {
+                document.body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark');
+                themeToggle.textContent = '☀️';
+            }
+        });
+    </script>
+</body>
+
+</html>

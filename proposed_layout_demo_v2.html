@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal V2: Functional Premium - The Torah Book of Ideas</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Frank+Ruhl+Libre:wght@300;400;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            /* Palette - Premium Dark Mode Default */
+            --bg-deep: #020617;
+            --bg-glass: rgba(2, 6, 23, 0.8);
+            --bg-subtle: #0f172a;
+
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+
+            --accent-gold: #fbbf24;
+            --accent-glow: rgba(251, 191, 36, 0.15);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+
+            /* Typography */
+            --font-serif: 'Frank Ruhl Libre', serif;
+            --font-display: 'Cinzel', serif;
+            --font-sans: 'Inter', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-main);
+            font-family: var(--font-serif);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- Top Bar: Breadcrumbs (Above Header) --- */
+        .system-top-bar {
+            background: #000;
+            color: var(--text-muted);
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            padding: 0.5rem 2rem;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            letter-spacing: 0.05em;
+        }
+
+        .breadcrumb-trail a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .breadcrumb-trail a:hover {
+            color: #fff;
+        }
+
+        .breadcrumb-separator {
+            margin: 0 0.5rem;
+            color: #475569;
+        }
+
+        /* --- Main Header: Sticky, Glassy --- */
+        header.main-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--bg-glass);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 0.75rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .brand-logo {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, var(--accent-gold), #d97706);
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            color: #000;
+            font-weight: 700;
+            font-family: var(--font-display);
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+
+        .brand-text {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            color: #fff;
+            letter-spacing: 0.05em;
+        }
+
+        /* Nav & Tools Wrapper */
+        .nav-tools-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-family: var(--font-sans);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: color 0.3s;
+        }
+
+        .nav-links a.active,
+        .nav-links a:hover {
+            color: #fff;
+        }
+
+        .toolbar {
+            display: flex;
+            gap: 0.75rem;
+            padding-left: 2rem;
+            border-left: 1px solid var(--border-subtle);
+        }
+
+        .tool-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            font-size: 1.1rem;
+            transition: all 0.2s;
+        }
+
+        .tool-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        .tool-btn.highlight {
+            color: var(--accent-gold);
+        }
+
+        .lang-switch {
+            font-family: var(--font-sans);
+            font-weight: 600;
+            font-size: 0.8rem;
+            width: auto;
+            padding: 0 0.75rem;
+            border-radius: 20px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            padding: 5rem 2rem 3rem;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Subtle Glow Behind Title */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.1), transparent 70%);
+            z-index: -1;
+            filter: blur(60px);
+        }
+
+        .chapter-label {
+            font-family: var(--font-sans);
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            opacity: 0.9;
+        }
+
+        .main-title {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            line-height: 1.1;
+            color: #fff;
+            margin-bottom: 2rem;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .lead-text {
+            font-size: 1.25rem;
+            font-style: italic;
+            color: #cbd5e1;
+            max-width: 700px;
+            margin: 0 auto 3rem;
+            position: relative;
+        }
+
+        .divider-icon {
+            color: var(--accent-gold);
+            font-size: 1.5rem;
+            opacity: 0.8;
+        }
+
+        /* --- Content Layout --- */
+        main {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 0 2rem 8rem;
+        }
+
+        p {
+            margin-bottom: 1.75rem;
+            font-size: 1.2rem;
+            color: #d1d5db;
+            line-height: 1.9;
+        }
+
+        h3.section-header {
+            font-family: var(--font-display);
+            color: #fff;
+            margin-top: 4rem;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            border-left: 2px solid var(--accent-gold);
+            padding-left: 1rem;
+        }
+
+        /* --- Interactive Visual (Premium) --- */
+        .visual-wrapper {
+            margin: 3rem -3rem;
+            /* Break out of column */
+            background: #0f172a;
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .visual-display {
+            height: 350px;
+            background: radial-gradient(circle at 50% 120%, #1e293b, #020617);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-gold);
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            letter-spacing: 0.1em;
+        }
+
+        .visual-ui {
+            background: rgba(0, 0, 0, 0.3);
+            border-top: 1px solid var(--border-subtle);
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .ui-status {
+            font-family: var(--font-sans);
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 1. System/Breadcrumb Bar (Top on top) -->
+    <div class="system-top-bar">
+        <div class="breadcrumb-trail">
+            <a href="#">Home</a>
+            <span class="breadcrumb-separator">/</span>
+            <a href="#">Part V: Ideas</a>
+            <span class="breadcrumb-separator">/</span>
+            <a href="#">Chapter 1</a>
+            <span class="breadcrumb-separator">/</span>
+            <span style="color: #fff;">Section XII</span>
+        </div>
+        <div class="system-status">
+            <!-- Maybe reading time or progress here? -->
+            <span style="opacity: 0.5;">5 min read</span>
+        </div>
+    </div>
+
+    <!-- 2. Main Header with Full Tools -->
+    <header class="main-header">
+        <div class="brand">
+            <div class="brand-logo">א</div>
+            <div class="brand-text">The Torah Book of Ideas</div>
+        </div>
+
+        <div class="nav-tools-wrapper">
+            <!-- Navigation -->
+            <nav class="nav-links">
+                <a href="#">Contents</a>
+                <a href="#" class="active">Read</a>
+                <a href="#">About</a>
+            </nav>
+
+            <!-- Tools: Search, Audio, Theme, Lang -->
+            <div class="toolbar">
+                <button class="tool-btn" title="Search">🔍</button>
+                <button class="tool-btn highlight" title="Listen to Article">🎧</button> <!-- Audio Highlighted -->
+                <button class="tool-btn" title="Toggle Theme">🌙</button>
+                <button class="tool-btn lang-switch" title="Switch Language">עב / EN</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. Hero Section (Cardless) -->
+    <div class="hero">
+        <div class="chapter-label">Chapter 1 &middot; Section XII</div>
+        <h1 class="main-title">The Taylor Series of Marriage</h1>
+        <div class="lead-text">
+            "Since the whole universe is analytic it can be expanded into a Taylor series... that's why one needs to get
+            married."
+        </div>
+        <div class="divider-icon">❖</div>
+    </div>
+
+    <!-- 4. Content Flow -->
+    <main>
+
+        <h3 class="section-header">The Physics of Interactions</h3>
+
+        <p>Wisdom possesses <strong>integer-spin</strong>, similar to Photons. Since bosons carry all interactions, we
+            must ask: where are the left-handed interactions from the Sephirot of Power? The answer lies in the
+            <strong>Four Fundamental Interactions</strong>, corresponding to the Divine Names: 72 (Right), 63 (Left), 45
+            (Right), and 52 (Left).</p>
+
+        <!-- Dynamic Visual -->
+        <div class="visual-wrapper">
+            <div class="visual-display">
+                [ Interactive: The Analytic Union ]
+            </div>
+            <div class="visual-ui">
+                <div class="ui-status">Status: <strong>Disconnected</strong></div>
+                <button
+                    style="background: var(--accent-gold); border:none; padding: 0.5rem 1.5rem; border-radius: 20px; cursor: pointer; font-weight: 600;">Initiate
+                    union</button>
+            </div>
+        </div>
+
+        <p>When Royalty and Beauty rotate on their axes, they form a closed system. This requires constant energy input
+            to maintain oscillation; otherwise, they would dissipate as Name-72 radiation waves. This dynamic stability
+            is the essence of the "Married State."</p>
+
+        <h3 class="section-header">Typographical Number Theory</h3>
+
+        <p><strong>TNT (Typographical Number Theory)</strong> suggests that since the universe is analytic, it can be
+            expanded into a <strong>Taylor Series</strong>. This provides a mystical proof for the necessity of
+            marriage: a single point (an individual) has limited derivatives and cannot truly expand. Marriage connects
+            two points, creating a function that is differentiable and analytic, allowing for an infinite series
+            expansion into the future.</p>
+
+    </main>
+
+</body>
+
+</html>

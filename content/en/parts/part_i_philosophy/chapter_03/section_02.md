@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section II"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "The Mechanics of Holiness"
 ---
 
 <div class="concept-box prominent">
@@ -292,3 +293,4 @@ input:checked + .slider:before {
         <p>Revelation reveals truths beyond human reach. It guides thought toward the infinite (Yechida), setting a boundary where human reasoning meets Divine Light.</p>
     </div>
 </div>
+

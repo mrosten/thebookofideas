@@ -3,13 +3,12 @@ const CACHE_NAME = 'tboi-v2';
 const ASSETS_TO_CACHE = [
     './',
     'index.html',
-    'styles.css',
-    'sidebar.js',
-    'search.js',
-    'glossary_tooltip.js',
-    'audio.js',
-    'bookmarks.js',
-    'breadcrumb_mobile.js',
+    'assets/css/styles.css',
+    'assets/js/search.js',
+    'assets/js/glossary_tooltip.js',
+    'assets/js/audio.js',
+    'assets/js/bookmarks.js',
+    'assets/js/language_toggle.js',
     'images/icon-192.png',
     'images/icon-512.png'
 ];

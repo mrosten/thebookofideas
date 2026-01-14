@@ -1,7 +1,8 @@
 ---
-title: "Section II — Spinoza's Proof of God"
+title: "Chapter 1: The Song of God — Section II"
 part: "Part I — Philosophy"
 chapter: "Chapter 01"
+section_title: "The Logic of Existence"
 ---
 
             

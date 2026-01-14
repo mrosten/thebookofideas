@@ -1,9 +1,10 @@
 ---
 title: "Chapter 3: Rav Nachman — Section I"
-part: "Part iv"
+part: "Part V"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "The Metric of Longevity"
 ---
 
             
@@ -60,4 +61,6 @@ next: ""
         </div>
 
         
+
+
 

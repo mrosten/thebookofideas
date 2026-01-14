@@ -4,6 +4,7 @@ part: "Part I — Philosophy"
 chapter: "Chapter 02"
 prev: ""
 next: ""
+section_title: "Freedom vs. Religion"
 ---
 
             
@@ -63,4 +64,5 @@ next: ""
         </div>
 
         
+
 

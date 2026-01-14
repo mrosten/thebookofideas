@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section XII"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "The Nature of Genius"
 ---
 
 <h2>The Architecture of Thought</h2>
@@ -250,3 +251,4 @@ chapter: "Chapter 03"
         <p>True thinkers think with concepts, not words. Pure thinking is a free interplay of concepts between mind and soul, with only intuition to choose the good from the bad.</p>
     </div>
 </div>
+

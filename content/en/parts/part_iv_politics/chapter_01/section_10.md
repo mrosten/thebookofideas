@@ -4,20 +4,112 @@ part: "Part iii politics"
 chapter: "Chapter 01"
 prev: ""
 next: ""
+section_title: "The Great Betrayal"
 ---
 
             
 
-<p>who were Chassidim and the Jews of Bessarabia, who were traditionalist, and the Jews of Old Romany who were assimilated. They were all wiped out except for the assimilated Jews of Old Romany, and all the non­religious Jews who didn't listen to the rabbis and emigrated to America or became Zionists and went to Israel. It has been said to me that the rebbes wanted their Chasidim to die righteous in Europe and not unrighteous in America or Israel, but then why did Rabbi Wasserman try to escape – it is only because the axle of his wagon broke that he went back (as he said himself). Did the axle decide the halachah?!? First the halachah was the Jews should live, and then the axle determined that they should die? Some have tried to say that the Gerer Rebbe urged his chassidim to leave, yet Rabbi Shimon Huberband wrote in the Warsaw Ghetto “The Rebbe of Ger, like the majority of Polish rebbes, opposed settlement in the land of Israel.</p>
-            <p>If the Rebbe of Ger had ordered his chassidim, among whom were thousands of very rich industrialists, to make Aliyah to Eretz Israel , the situation of both the communities in Israel and in Poland would have been different”. They killed European Jewry by the hopes they inspired in them. [The Sages of the Talmud in fact say (Shabbat, page 139A) “If you see a generation in which judgments have come upon it, go out and inspect the judges of Israel, for all retributions that come into the world come because of the judges of Israel.” All this should be enough to disprove the religious view that the Jews of Europe were wiped out because they weren't religious enough. It would seem the opposite is true.</p>
-            <p>We Learn from Gödel’s second theorem that the only versions of formal number theory which assert their own consistency are inconsistent. This is a general problem for all humankind; for in fact how can anyone know if they themselves are sane? Don't they have to use their own logic to figure that out, but how can they trust their own logic if they are insane? Therefore, the majority of people are used as a guide to what is sane. Yet see where the majority of people have gotten us! The majority of people are selfish, cruel, and stupid. The world's history is that of war, crime, violence, and cruelty. [And the psychologists who determine what is normal behavior have the highest divorce rate of any group in America.] [Also, I noticed something strange about those who go into psychiatry. They are usually the particularly weird ones that have a need to fit in. And invariably they are the ones that the studies in university are done on. So, you have a neurotic group of people dictating to the rest of humankind the standards of normal behavior and they have their studies on their own neurotic group to back up their claims.]  Throughout history it has always been the ones who refused to fit in that have contributed the ideas necessary to making the world any better.</p>
+<blockquote class="fancy-quote">
+            "How can anyone know if they themselves are sane? ...any system asserting its own consistency is likely inconsistent." — Gödel.
+            </blockquote>
             
+            <!-- Interactive Visual: Gödel's Loop -->
+            <div class="interactive-element loop-visual">
+                <div class="loop-container">
+                    <canvas id="godelCanvas" width="500" height="250"></canvas>
+                </div>
+                
+                <div class="loop-controls">
+                    <button class="loop-btn active" onclick="setLoop('internal')" id="btn-internal">Self-Reference (Internal)</button>
+                    <button class="loop-btn" onclick="setLoop('external')" id="btn-external">External Axiom (Truth)</button>
+                </div>
+                
+                <div class="loop-readout" id="loop-status">Status: LOOPING. System cannot prove its own sanity. Error accumulation.</div>
+            </div>
             
-        </div>
-
-</div>
-
-        </div>
-
-        
-
+            <style>
+            .loop-visual { background: var(--primary-deep); border-radius: var(--radius-lg); padding: 2.5rem; margin: 3rem 0; border: 1px solid rgba(197, 160, 89, 0.2); text-align: center; }
+            
+            .loop-container { background: #020617; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 2rem; border: 1px solid #334155; position: relative; }
+            
+            .loop-controls { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; }
+            
+            .loop-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #cbd5e1; padding: 0.75rem 1.5rem; border-radius: var(--radius-md); cursor: pointer; transition: all 0.3s; font-family: monospace; }
+            .loop-btn:hover { background: rgba(255,255,255,0.1); }
+            .loop-btn.active { background: var(--accent-gold); color: #020617; border-color: var(--accent-gold); font-weight: 700; }
+            
+            .loop-readout { font-family: monospace; color: #94a3b8; font-size: 0.9rem; }
+            </style>
+            
+            <script>
+            (function(){
+                const canvas = document.getElementById('godelCanvas');
+                const ctx = canvas.getContext('2d');
+                let mode = 'internal';
+                let t = 0;
+                
+                function draw() {
+                    ctx.clearRect(0,0, canvas.width, canvas.height);
+                    const cx = canvas.width / 2;
+                    const cy = canvas.height / 2;
+                    
+                    t += 0.05;
+                    
+                    if(mode === 'internal') {
+                        // Drawing a spiral that collapses
+                        ctx.beginPath();
+                        for(let i=0; i<100; i++) {
+                            let ang = i * 0.2 + t;
+                            let r = 100 - i;
+                            let x = cx + Math.cos(ang) * r;
+                            let y = cy + Math.sin(ang) * r;
+                            if(i==0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+                        }
+                        ctx.strokeStyle = '#f87171'; ctx.lineWidth = 3; ctx.stroke();
+                        
+                        ctx.fillStyle = '#f87171'; ctx.fillText('SELF-REFERENTIAL LOOP', cx-70, cy);
+                        
+                    } else {
+                        // Drawing a stable connection to point above
+                        ctx.beginPath();
+                        ctx.moveTo(cx, cy+80); // Base
+                        ctx.lineTo(cx, cy-80); // Top
+                        ctx.strokeStyle = '#4ade80'; ctx.lineWidth = 4; ctx.stroke();
+                        
+                        // Radiating lines from top
+                        for(let i=0; i<8; i++) {
+                            let ang = (i/8)*Math.PI + Math.PI;
+                            ctx.beginPath(); ctx.moveTo(cx, cy-80);
+                            ctx.lineTo(cx + Math.cos(ang)*30, cy-80+Math.sin(ang)*30);
+                            ctx.stroke();
+                        }
+                        
+                        ctx.fillStyle = '#4ade80'; ctx.fillText('EXTERNAL AXIOM (TRUTH)', cx-70, cy);
+                    }
+                    
+                    requestAnimationFrame(draw);
+                }
+                
+                window.setLoop = function(m) {
+                    mode = m;
+                    document.querySelectorAll('.loop-btn').forEach(b => b.classList.remove('active'));
+                    if(m === 'internal') {
+                        document.getElementById('btn-internal').classList.add('active');
+                        document.getElementById('loop-status').innerText = "Status: LOOPING. System cannot prove its own sanity. Inconsistent.";
+                        document.getElementById('loop-status').style.color = "#f87171";
+                    } else {
+                        document.getElementById('btn-external').classList.add('active');
+                        document.getElementById('loop-status').innerText = "Status: GROUNDED. Sanity authenticated by external Truth.";
+                        document.getElementById('loop-status').style.color = "#4ade80";
+                    }
+                };
+                
+                draw();
+            })();
+            </script>
+            
+            <h4>The Axle of History</h4>
+            <p>Why were the most pious communities in Europe wiped out? Rabbi Wasserman tried to escape, but "the axle of his wagon broke" and he returned. Did the axle decide the Halacha? First, the law was that Jews should live; then, a broken axle determined they should die? No. They died because they deferred their survival to a leadership that feared the "freedom" of America and Israel more than the shadow of Europe.</p>
+            
+            <h4>Gödel’s Sanity Check</h4>
+            <p>Kurt Gödel proved that any system asserting its own consistency is likely inconsistent. This applies to human sanity. If you ask a madman if he is sane, he will use his own logic to prove he is. Measuring oneself by the majority is equally flawed, for "the majority is often selfish, cruel, and stupid." The only way to be "sane" is to ground one's logic in a source <em>outside</em> the system—the Infinite Light of the Torah, uncorrupted by the neuroses of the group.</p>

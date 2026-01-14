@@ -2,6 +2,7 @@
 title: "Chapter 4: Piety — Section I"
 part: "Part I — Philosophy"
 chapter: "Chapter 04"
+section_title: "🌀 The Orbit of Piety"
 ---
 
 <blockquote class="fancy-quote">
@@ -107,3 +108,4 @@ chapter: "Chapter 04"
 
 <h4>The State of Solitude</h4>
 <p>Praying alone (or meditating in a closet like Descartes) allows the soul to return to its <strong>Wave State</strong>. When observed or fixed in community, spiritual energy "collapses" into a particle—a vessel with specific time and space. Solitude preserves the wave-like connection to the Infinite.</p>
+

@@ -1,7 +1,8 @@
 ---
-title: "Section III — The Critics and the Strange Loop"
+title: "Chapter 1: The Song of God — Section III"
 part: "Part I — Philosophy"
 chapter: "Chapter 01"
+section_title: "The Three Forces"
 ---
 
 <h2>Responding to Criticism</h2>
@@ -65,6 +66,12 @@ chapter: "Chapter 01"
     padding: 2rem;
     border-radius: var(--radius-lg);
     margin: 3rem 0;
+    color: var(--text-main);
+}
+
+[data-theme="dark"] .philosophy-battle {
+    background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
+    border: 1px solid #475569;
 }
 
 .battle-container {
@@ -76,11 +83,16 @@ chapter: "Chapter 01"
 }
 
 .philosopher-card {
-    background: white;
+    background: var(--bg-card);
     padding: 1.5rem;
     border-radius: var(--radius-md);
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+[data-theme="dark"] .philosopher-card {
+    background: var(--primary-light);
+    color: var(--text-light);
 }
 
 .philosopher-card.critic {

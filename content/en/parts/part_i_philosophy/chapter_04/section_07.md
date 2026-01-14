@@ -2,6 +2,7 @@
 title: "Chapter 4: Piety — Section VII"
 part: "Part I — Philosophy"
 chapter: "Chapter 04"
+section_title: "⚡ The RLC Circuit of Prophecy"
 ---
 
 <h4>Prophecy and the Crown</h4>
@@ -63,3 +64,4 @@ chapter: "Chapter 04"
 <div class="concept-box">
     <p>This helps to answer Nietzsche's objection to the saints of old that afflicted themselves to come to spiritual levels. Rabbi Nachman also mentions in Likutei Moharan (Vol. 1, Ch. 24) that the crown prevents the mind from reaching the infinite light, and thus by hitting against the constraint of the crown, vessels are made to receive the light.</p>
 </div>
+

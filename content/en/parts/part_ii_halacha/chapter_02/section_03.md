@@ -173,13 +173,13 @@ It seems better to omit the blessing for cursing slanderers if one's intent is p
 .rebound-stage {
     position: relative;
     height: 180px;
-    background: #020617;
+    background: var(--bg-subtle);
     border-radius: var(--radius-md);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 60px;
-    border: 1px solid rgba(255,255,255,0.05);
+    border: 1px solid rgba(197, 160, 89, 0.1);
 }
 .entity {
     display: flex;
@@ -258,6 +258,39 @@ It seems better to omit the blessing for cursing slanderers if one's intent is p
     45% { left: calc(100% - 110px); transform: scale(1.2); opacity: 1; filter: hue-rotate(90deg); }
     50% { left: calc(100% - 110px); transform: scale(1.3) rotate(180deg); }
     100% { left: 80px; transform: scale(2); opacity: 0; color: #ef4444; }
+}
+
+/* Theme Adaptive Styles */
+.spine-visual, .karmic-rebound-premium {
+    background: var(--bg-card);
+    border: 1px solid var(--accent-gold); 
+    box-shadow: var(--shadow-md);
+}
+
+.spine-container {
+    background: var(--bg-subtle);
+}
+
+.vertebra {
+    background: var(--primary-light);
+}
+
+body.dark-mode .spine-visual, 
+body.dark-mode .karmic-rebound-premium {
+    border-color: rgba(197, 160, 89, 0.2);
+    box-shadow: var(--shadow-lg);
+}
+
+body.dark-mode .spine-container {
+    background: rgba(0,0,0,0.3);
+}
+
+body.dark-mode .vertebra {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .rebound-readout {
+    color: var(--accent-gold-light);
 }
 </style>
 

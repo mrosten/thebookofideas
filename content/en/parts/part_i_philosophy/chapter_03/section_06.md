@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section VI"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "The Logic of Existence"
 ---
 
 <h2>Hegel vs. Kant: The Reality of Logic</h2>
@@ -173,3 +174,4 @@ chapter: "Chapter 03"
 .status-indicator.success { color: #10b981; }
 
 </style>
+

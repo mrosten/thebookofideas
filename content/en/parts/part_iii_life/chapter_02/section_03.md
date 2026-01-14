@@ -1,9 +1,10 @@
 ---
 title: "Chapter 2: Marriage — Section III"
-part: "Part iii life"
+part: "Part III — Life"
 chapter: "Chapter 02"
 prev: ""
 next: ""
+section_title: "The Alchemy of Love"
 ---
 
             
@@ -42,4 +43,6 @@ next: ""
         </div>
 
         
+
+
 

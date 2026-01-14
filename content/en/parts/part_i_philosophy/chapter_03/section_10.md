@@ -4,6 +4,7 @@ part: "Part I — Philosophy"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "✨ The Unification of Sparks"
 ---
 
             
@@ -220,4 +221,5 @@ next: ""
         </div>
 
         
+
 

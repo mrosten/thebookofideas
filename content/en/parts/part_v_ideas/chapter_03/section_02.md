@@ -1,9 +1,10 @@
 ---
 title: "Chapter 3: Rav Nachman — Section II"
-part: "Part iv"
+part: "Part V"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "The Regression of Holiness"
 ---
 
             
@@ -60,4 +61,6 @@ next: ""
         </div>
 
         
+
+
 

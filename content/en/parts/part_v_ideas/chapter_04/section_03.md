@@ -1,6 +1,6 @@
 ---
 title: "Chapter 4: Final Ideas — Section III"
-part: "Part iv"
+part: "Part V"
 chapter: "Chapter 04"
 prev: ""
 next: ""
@@ -19,4 +19,5 @@ next: ""
         </div>
 
         
+
 

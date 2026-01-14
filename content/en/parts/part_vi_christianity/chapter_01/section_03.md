@@ -4,6 +4,7 @@ part: "Part VI — Christianity"
 chapter: "Chapter 01"
 prev: ""
 next: ""
+section_title: "The Isaiah Discrepancy"
 ---
 
             
@@ -60,4 +61,5 @@ next: ""
         </div>
 
         
+
 

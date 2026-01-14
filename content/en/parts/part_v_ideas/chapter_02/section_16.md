@@ -1,23 +1,131 @@
 ---
 title: "Chapter 2: Roots Of Science — Section XVI"
-part: "Part iv"
+part: "Part V"
 chapter: "Chapter 02"
 prev: ""
 next: ""
+section_title: "The Estrogenic Matrix"
 ---
 
             
 
-<p>day (the 3 rd trait Beauty — the 3 rd day when the Torah was given) Esther (the Divine Presence) stood before the inner house of the King (the singularity of infinite light in the center of the empty space). She was wearing the surrounding light so the King was pleased with her. He reached out with the golden rod (the thin beam of his infinite light). She touched it and was saved. Every verse in the Torah is a matrix by which the subject of that verse comes into being. A matrix is an array of numbers, each representing the value of a variable. These variables can be algebraic, here I mean the term to be applied to spiritual variables and variable equations in the creation.</p>
-            <p>On Rosh HaShanah there is a new Big Bang due to the reversing of Einstein's equations for a black hole. On Yom Kippur time stands still because the light from Rosh HaShanah gets to the bottom of the empty space where there is the singularity. So, as a result of repentance one should experience a new birth. The days of creation are actually the 7 divine traits and not time at all. Only in the lower garden of Eden did time pass. In the upper garden of Eden it is still Friday, the day Adam was thrown out. After Adam was thrown out he began to measure time at the rate of the physical universe. This is not dependent on the ‘Shemita opinion.’ It's just that in the higher and lower worlds time passes at different rates — and in Atzilus there is no time at all. However, this can go along with the Shemita opinion — for as time went slowly in Gan Eden, billions of years passed in the physical universe.</p>
-            <p>(The Shemita opinion puts us in the 4th cycle of 7000 year periods each of which has a 1000 year day. This is the opinion of Rabbi Issaac of Acco who lived about 800 years ago. It's interesting that this opinion corresponds to modern astronomy). However, if we accept that Rabbi Nachman objected to the Shemita principle then it is possible that the time axis of the physical universe was simply folded up into a little ball of string where theoretically you could have miles of string in the distance of a few inches. The Shemita idea seems to be supported by the fact that the Torah says that first God created heaven and earth without saying how long that took. Then it goes through a different world of creation in which there was a spiritual garden of Eden that Adam was placed in. This isn't in the physical universe at all. Then, it says he was thrown out of the garden of Eden and into the physical world which had been created before that. So, an honest look at the Torah shows that it never even implies anywhere</p>
+<blockquote class="fancy-quote">
+            "Esther (The Divine Presence) stood before the Singular Point... Every verse in the Torah is a matrix." — The Code of Salvation.
+            </blockquote>
             
+            <!-- Interactive Visual: The Torah Matrix -->
+            <div class="interactive-element matrix-visual">
+                <div class="matrix-container">
+                    <canvas id="matrixCanvas" width="500" height="300"></canvas>
+                </div>
+                
+                <div class="matrix-controls">
+                    <button class="matrix-btn active" onclick="setMatrix('code')" id="btn-code">The Code (Verses)</button>
+                    <button class="matrix-btn" onclick="setMatrix('esther')" id="btn-esth">The Interaction (Esther)</button>
+                </div>
+                
+                <div class="matrix-readout" id="matrix-status">View: THE CODE. Streaming Verses generating reality.</div>
+            </div>
             
-        </div>
-
-</div>
-
-        </div>
-
-        
+            <style>
+            .matrix-visual { background: var(--primary-deep); border-radius: var(--radius-lg); padding: 2.5rem; margin: 3rem 0; border: 1px solid rgba(197, 160, 89, 0.2); text-align: center; }
+            
+            .matrix-container { background: #020617; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 2rem; border: 1px solid #334155; position: relative; }
+            
+            .matrix-controls { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; }
+            
+            .matrix-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #cbd5e1; padding: 0.75rem 1.5rem; border-radius: var(--radius-md); cursor: pointer; transition: all 0.3s; font-family: monospace; }
+            .matrix-btn:hover { background: rgba(255,255,255,0.1); }
+            .matrix-btn.active { background: var(--accent-gold); color: #020617; border-color: var(--accent-gold); font-weight: 700; }
+            
+            .matrix-readout { font-family: monospace; color: #94a3b8; font-size: 0.9rem; }
+            </style>
+            
+            <script>
+            (function(){
+                const canvas = document.getElementById('matrixCanvas');
+                const ctx = canvas.getContext('2d');
+                let mode = 'code';
+                let t = 0;
+                
+                function draw() {
+                    ctx.clearRect(0,0, canvas.width, canvas.height);
+                    const cx = canvas.width / 2;
+                    const cy = canvas.height / 2;
+                    t += 0.05;
+                    
+                    if(mode === 'code') {
+                        // Matrix Rain / Verses
+                        let cols = 15;
+                        let colW = canvas.width / cols;
+                        for(let i=0; i<cols; i++) {
+                            for(let j=0; j<20; j++) {
+                                let y = (t*20 + j*20 + i*50) % 350 - 20;
+                                let char = String.fromCharCode(0x05D0 + Math.floor(Math.random()*27)); // Hebrew
+                                
+                                ctx.font = "14px monospace";
+                                ctx.fillStyle = `rgba(74, 222, 128, ${1 - y/350})`;
+                                ctx.fillText(char, i*colW + colW/2, y);
+                            }
+                        }
+                        
+                         ctx.fillStyle = '#4ade80'; ctx.textAlign = "center";
+                         ctx.fillText("The Living Matrix of Torah", cx, 30);
+                         
+                    } else {
+                        // Esther touching the Rod
+                        // Central beam (King)
+                        let beamW = 2 + Math.sin(t*2)*2;
+                        
+                        // Golden Rod
+                        ctx.beginPath(); 
+                        ctx.moveTo(cx, 0); ctx.lineTo(cx, 200);
+                        ctx.lineWidth = beamW; ctx.strokeStyle = '#fbbf24'; 
+                        ctx.shadowBlur = 20; ctx.shadowColor = '#fbbf24'; 
+                        ctx.stroke(); ctx.shadowBlur = 0;
+                        
+                        // Esther (Light interacting)
+                        let ex = cx + Math.sin(t)*50 + 20; 
+                        let ey = 200;
+                        
+                        ctx.beginPath(); ctx.arc(cx, 200, 10, 0, Math.PI*2); // Connection point
+                        ctx.fillStyle = '#fff'; ctx.fill();
+                        
+                        ctx.strokeStyle = '#60a5fa'; ctx.lineWidth = 2;
+                        ctx.beginPath(); ctx.arc(cx, 200, 40 + Math.sin(t)*5, 0, Math.PI, false); // Aura
+                        ctx.stroke();
+                        
+                        ctx.fillStyle = '#fbbf24'; ctx.textAlign = "center";
+                        ctx.fillText("Esther (Shechina) receives the Infinite Beam", cx, 280);
+                    }
+                    
+                    requestAnimationFrame(draw);
+                }
+                
+                window.setMatrix = function(m) {
+                    mode = m;
+                    document.querySelectorAll('.matrix-btn').forEach(b => b.classList.remove('active'));
+                    if(m === 'code') {
+                        document.getElementById('btn-code').classList.add('active');
+                        document.getElementById('matrix-status').innerText = "View: THE CODE. Streaming Verses generating reality.";
+                        document.getElementById('matrix-status').style.color = "#4ade80";
+                    } else {
+                        document.getElementById('btn-esth').classList.add('active');
+                        document.getElementById('matrix-status').innerText = "View: INTERACTION. The Golden Rod of the Infinite.";
+                        document.getElementById('matrix-status').style.color = "#fbbf24";
+                    }
+                };
+                
+                draw();
+            })();
+            </script>
+            
+            <h4>The Light of Esther</h4>
+            <p>On the **3rd Day** (Tiferet/Beauty), Esther stood before the inner house of the King. This represents the **Singularity of Infinite Light** in the center of the Empty Space.</p>
+            <p>Every verse in the Torah is a **Matrix**—an array of spiritual variables by which the subject of that verse comes into being.</p>
+            
+            <h4>The New Big Bang</h4>
+            <p>On **Rosh HaShanah**, there is a new "Big Bang" due to the reversing of Einstein's equations for a black hole.
+            On **Yom Kippur**, time stands still because the light reaches the singularity.
+            The "Days of Creation" are the 7 Divine Traits, not time at all. Time as we know it began only after the expulsion from Eden.</p>
 

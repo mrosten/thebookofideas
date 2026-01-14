@@ -2,6 +2,7 @@
 title: "Chapter 4: Piety — Section III"
 part: "Part I — Philosophy"
 chapter: "Chapter 04"
+section_title: "Tolerance and the Infinite"
 ---
 
 <div class="concept-box prominent">
@@ -76,3 +77,4 @@ chapter: "Chapter 04"
         <li>The "Way of the Word": Learning by saying words quickly, without repetition, to maintain the flow of energy.</li>
     </ol>
 </div>
+

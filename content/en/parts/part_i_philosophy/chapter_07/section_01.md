@@ -4,6 +4,7 @@ part: "Part I — Philosophy"
 chapter: "Chapter 07"
 prev: ""
 next: ""
+section_title: "⏳ The Millennial Clock"
 ---
 
             
@@ -11,9 +12,100 @@ next: ""
 <blockquote class="fancy-quote">
             “Not only the body, but also the soul whose habits, tempers, opinions, desires, pleasures, fears never remain the same… and this is equally true of knowledge.” — Plato (Symposium)
             </blockquote>
-            <div class="feature-image">
-            <img src="../../../../images/era_of_wisdom.png" alt="The Era of Wisdom Visual">
-            </div>
+
+<div class="interactive-element millennial-clock">
+    <h3>⏳ The Millennial Clock</h3>
+    <div class="clock-face">
+        <div class="clock-hand" id="era-hand"></div>
+        <div class="clock-markers">
+            <span style="transform: rotate(0deg)">1000<br>Creation</span>
+            <span style="transform: rotate(60deg)">2000<br>Torah</span>
+            <span style="transform: rotate(120deg)">3000<br>Temple</span>
+            <span style="transform: rotate(180deg)">4000<br>Exile</span>
+            <span style="transform: rotate(240deg)">5000<br>Kabbalah</span>
+            <span style="transform: rotate(300deg)">6000<br>Messiah</span>
+        </div>
+    </div>
+    <input type="range" id="era-slider" min="0" max="6000" value="5784" oninput="updateEra(this.value)">
+    <div id="era-info" class="era-info">
+        <strong>Current Era (5780s):</strong> The Friday Afternoon of history. Just before the Sabbath (Year 6000). The rush of technology is the "Preparation for Shabbat."
+    </div>
+</div>
+
+<style>
+.millennial-clock {
+    background: #1e1b4b;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    margin: 2rem 0;
+    text-align: center;
+    color: white;
+}
+
+.clock-face {
+    width: 250px;
+    height: 250px;
+    border: 4px solid var(--accent-gold);
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    background: radial-gradient(circle, #312e81, #1e1b4b);
+}
+
+.clock-hand {
+    width: 4px;
+    height: 110px;
+    background: #ef4444;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+    transform: rotate(340deg); /* Approx 5700/6000 */
+    transition: transform 0.2s;
+    box-shadow: 0 0 10px #ef4444;
+}
+
+.clock-markers span {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 80px;
+    margin-left: -40px;
+    margin-top: -120px; /* Radius */
+    text-align: center;
+    font-size: 0.7rem;
+    color: #94a3b8;
+    transform-origin: 50% 120px;
+}
+
+.era-info {
+    min-height: 4rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+}
+</style>
+
+<script>
+function updateEra(val) {
+    // 6000 years = 360 degrees
+    const deg = (val / 6000) * 360;
+    document.getElementById('era-hand').style.transform = `rotate(${deg}deg)`;
+    
+    let msg = "";
+    if(val < 1000) msg = "<strong>The Era of Chaos (Tohu):</strong> Humanity without Law. Ends with the Flood.";
+    else if(val < 2000) msg = "<strong>The Era of Roots:</strong> The Patriarchs (Abraham, Isaac, Jacob) plant the seeds of faith.";
+    else if(val < 3000) msg = "<strong>The Era of Torah:</strong> Revelation at Sinai. The First Temple. Prophecy is active.";
+    else if(val < 4000) msg = "<strong>The Era of Mishna:</strong> The Oral Law is written down. Exile begins. The groundwork of survival.";
+    else if(val < 5000) msg = "<strong>The Era of Rishonim:</strong> Philosophy and Codification (Rambam, Rashi). The intellect flourishes.";
+    else if(val < 5500) msg = "<strong>The Era of Acharonim:</strong> The spread of Kabbalah (Arizal) and Chassidut (Besht).";
+    else msg = "<strong>The Era of Footsteps (Ikveta):</strong> The final acceleration. Technology explodes. The 'Friday Afternoon' rush before the Cosmic Sabbath.";
+    
+    document.getElementById('era-info').innerHTML = msg;
+}
+</script>
+
             <h4>The Direction of History</h4>
             <p>History is not a linear drift, but a purposeful progression. Mankind drifted "downward" from the heights of direct revelation until hitting the <strong>Origin</strong>. At that point, the trajectory reversed—we are now progressing back towards the Light from the other side.</p>
             <div class="concept-box">
@@ -66,4 +158,5 @@ next: ""
         </div>
 
         
+
 

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal: Premium Layout - The Torah Book of Ideas</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Frank+Ruhl+Libre:wght@300;400;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            /* Palette - Premium Dark Mode Default */
+            --bg-deep: #020617;
+            --bg-subtle: #0f172a;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --accent-gold: #fbbf24;
+            --accent-glow: rgba(251, 191, 36, 0.15);
+            --border-subtle: rgba(255, 255, 255, 0.05);
+
+            /* Typography */
+            --font-serif: 'Frank Ruhl Libre', serif;
+            --font-display: 'Cinzel', serif;
+            --font-sans: 'Inter', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-main);
+            font-family: var(--font-serif);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- Header: Clean, Minimal, Unified --- */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(2, 6, 23, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .brand h1 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            color: #fff;
+            letter-spacing: 0.05em;
+            font-weight: 400;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+            transition: color 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.8rem;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent-gold);
+        }
+
+        /* --- Hero Section: Immersive Title --- */
+        .hero {
+            padding: 6rem 2rem 4rem;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .metadata-eyebrow {
+            font-family: var(--font-sans);
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+            border-bottom: 1px solid rgba(251, 191, 36, 0.3);
+            padding-bottom: 0.5rem;
+        }
+
+        .main-title {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            line-height: 1.2;
+            color: #fff;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+        }
+
+        .intro-lead {
+            font-size: 1.35rem;
+            color: var(--text-muted);
+            font-weight: 300;
+            max-width: 700px;
+            margin: 0 auto;
+            border-left: 3px solid var(--accent-gold);
+            padding-left: 1.5rem;
+            text-align: left;
+            font-style: italic;
+        }
+
+        /* --- Content Layout: Expansive, No "Box" --- */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem 6rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.15rem;
+            color: #cbd5e1;
+        }
+
+        /* --- Components --- */
+        .interactive-visual {
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem -2rem;
+            /* Wider than text */
+            box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .interactive-visual::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+            opacity: 0.5;
+        }
+
+        .visual-placeholder {
+            height: 300px;
+            background: radial-gradient(circle at center, #1e293b, #020617);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            color: var(--accent-gold);
+            font-family: var(--font-sans);
+            letter-spacing: 0.1em;
+        }
+
+        h3.section-header {
+            font-family: var(--font-display);
+            color: #fff;
+            margin-top: 4rem;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        h3.section-header::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, var(--border-subtle), transparent);
+        }
+
+        /* Mock UI for Visual */
+        .mock-controls {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .mock-btn {
+            background: transparent;
+            border: 1px solid var(--text-muted);
+            color: var(--text-muted);
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            font-family: var(--font-sans);
+            font-size: 0.8rem;
+            cursor: pointer;
+        }
+
+        .mock-btn.active {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+            box-shadow: 0 0 15px rgba(251, 191, 36, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="brand">
+            <!-- Simple Logo, no subtitle underneath -->
+            <div
+                style="width: 30px; height: 30px; background: var(--accent-gold); border-radius: 50%; display: grid; place-items: center; color: #000; font-weight: bold; font-family: var(--font-display);">
+                א</div>
+            <h1>The Torah Book of Ideas</h1>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Contents</a>
+            <!-- 'Part V' is only here in the nav, not repeated in header/breadcrumbs -->
+            <a href="#" class="active">Part V: Ideas</a>
+            <a href="#">Search</a>
+        </nav>
+    </header>
+
+    <!-- Hero / Title Section -->
+    <div class="hero">
+        <!-- Metadata is small and subtle -->
+        <div class="metadata-eyebrow">Part V &middot; Chapter 1 &middot; Section XII</div>
+
+        <!-- Main Title is HUGE and Dominant -->
+        <h2 class="main-title">The Taylor Series of Marriage</h2>
+
+        <!-- Elegant Lead Quote -->
+        <div class="intro-lead">
+            "Since the whole universe is analytic it can be expanded into a Taylor series... that's why one needs to get
+            married. To continue the series."
+        </div>
+    </div>
+
+    <!-- Content -->
+    <main>
+        <h3 class="section-header">The Physics of Interactions</h3>
+
+        <p>Wisdom possesses <strong>integer-spin</strong>, similar to Photons. Since bosons carry all interactions, we
+            must ask: where are the left-handed interactions from the Sephirot of Power? Symmetry is preserved until a
+            spiritual "Higgs field" breaks it.</p>
+
+        <p>When Royalty and Beauty rotate on their axes, they form a closed system. This requires constant energy input
+            to maintain oscillation; otherwise, they would dissipate as Name-72 radiation waves.</p>
+
+        <!-- Premium Visual Container -->
+        <div class="interactive-visual">
+            <div class="visual-placeholder">
+                [ INTERACTIVE: THE ANALYTIC UNION ]
+            </div>
+            <div class="mock-controls">
+                <button class="mock-btn">Disconnected</button>
+                <button class="mock-btn active">Initiate Union</button>
+            </div>
+            <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: var(--accent-gold);">
+                Status: ANALYTIC CONTINUATION (Infinite Series)
+            </p>
+        </div>
+
+        <h3 class="section-header">Typographical Number Theory</h3>
+
+        <p><strong>TNT (Typographical Number Theory)</strong> suggests that since the universe is analytic, it can be
+            expanded into a <strong>Taylor Series</strong>. This provides a mystical proof for the necessity of
+            marriage: a single point (an individual) has limited derivatives and cannot truly expand.</p>
+
+        <p>The circular sephirot are analytic—smooth, continuous, and infinite. The straight sephirot initially appear
+            discrete, but through the "cylinder" of the worlds, they too participate in this analytic geometry.</p>
+
+    </main>
+
+</body>
+
+</html>

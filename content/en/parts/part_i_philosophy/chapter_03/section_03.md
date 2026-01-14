@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section III"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "Reason and Revelation"
 ---
 
 <h2>The Two Universities of the Soul</h2>
@@ -281,3 +282,4 @@ chapter: "Chapter 03"
 <blockquote class="fancy-quote">
     "Spinoza proved God logically. But as Rabbi Nachman hints, the more we prove Him, the more He hides in the 'Empty Space' of the spiritual universe."
 </blockquote>
+

@@ -4,6 +4,7 @@ param (
     [string]$TemplateDir = "$PSScriptRoot/../templates",
     [string]$OutputDir = "$PSScriptRoot/..",
     [string]$SingleFile = "",  # Optional: build only this one file
+    [string]$BaseUrl = "https://www.torahbookofideas.com",
     [switch]$Watch,
     [switch]$RebuildSitemap
 )
@@ -124,7 +125,7 @@ function Build-Sitemap {
     $entries = @()
     $files = Get-ChildItem -Path $ContentDir -Recurse -Filter *.md | Sort-Object FullName
     foreach ($file in $files) {
-        $content = Get-Content $file.FullName -Raw
+        $content = Get-Content $file.FullName -Raw -Encoding UTF8
         # Strip frontmatter for parsing if needed, but Parse-Frontmatter handles it.
         $meta = Parse-Frontmatter -content $content
         
@@ -162,24 +163,45 @@ function Build-Sitemap {
             }
 
             # 2. Enhancing Chapter Titles
-            # If chapter is just "Chapter 01", try to get "Chapter 1: Family" from title "Chapter 1: Family — Section I"
+            # Flexible dash matching: [—–-] matches em-dash, en-dash, or hyphen
             $cleanChapter = $rawChapter
-            if ($rawTitle -match "^(Chapter \d+: .*?) — Section") {
+            if ($rawTitle -match "^(Chapter \d+: .*?) [—–-] Section") {
                 $cleanChapter = $matches[1]
             }
-            elseif ($rawTitle -match "^(Chapter \d+: [^—]+)$") {
+            elseif ($rawTitle -match "^(Chapter \d+: [^—–-]+)$") {
                 $cleanChapter = $matches[1]
             }
+            # Extract Section Title: Prefer frontmatter, fallback to first H4
+            $sectionTitle = if ($meta.ContainsKey('section_title')) { $meta['section_title'] } 
+            elseif ($content -match "<h4>(.*?)</h4>") { $matches[1] } 
+            else { $null }
+
             $entries += @{
-                path    = $relPath -replace '\.md$', '.html'
-                lang    = $lang
-                part    = $cleanPart
-                chapter = $cleanChapter
-                title   = $rawTitle
+                path          = $relPath -replace '\.md$', '.html'
+                lang          = $lang
+                part          = $cleanPart
+                chapter       = $cleanChapter
+                title         = $rawTitle
+                section_title = $sectionTitle
             }
         }
     }
     $entries | ConvertTo-Json -Depth 4 | Set-Content -Path $OutputFile -Encoding UTF8
+
+    # Generate XML Sitemap
+    $xmlPath = $OutputFile.Replace(".json", ".xml")
+    $xmlContent = '<?xml version="1.0" encoding="UTF-8"?>' + "`n"
+    $xmlContent += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "`n"
+    foreach ($e in $entries) {
+        # Construct URL (ensure forward slashes)
+        $url = "https://www.torahbookofideas.com/" + $e.path
+        $xmlContent += "  <url>`n"
+        $xmlContent += "    <loc>$url</loc>`n"
+        # Optional: <lastmod> if we track file mod time
+        $xmlContent += "  </url>`n"
+    }
+    $xmlContent += '</urlset>'
+    Set-Content -Path $xmlPath -Value $xmlContent -Encoding UTF8
 }
 
 function Get-BreadcrumbHTML {
@@ -187,9 +209,6 @@ function Get-BreadcrumbHTML {
 
     $lang = $CurrentEntry.lang
     $homeText = if ($lang -eq 'he') { "ראשי" } else { "Home" }
-    $homeLink = "${AssetPath}index.html" # Assuming index.html is at root of en/he? No, AssetPath is to src/tboi. 
-    # But wait, index.html is in src/tboi/en/index.html? 
-    # If AssetPath is ../../, then ${AssetPath}en/index.html works.
     $homeUrl = "${AssetPath}${lang}/index.html" 
     
     # 1. Home
@@ -199,13 +218,20 @@ function Get-BreadcrumbHTML {
     if ($CurrentEntry.part -ne "Home" -and $CurrentEntry.part -ne $null) {
         
         # 2. Part Dropdown
-        $parts = $Sitemap | Where-Object { $_.lang -eq $lang -and $_.part -ne "Home" } | Group-Object part
+        $parts = @($Sitemap | Where-Object { $_.lang -eq $lang -and $_.part -ne "Home" })
+        $groupedParts = $parts | Group-Object part
         
         $partItems = @()
-        foreach ($g in $parts) { $partItems += @{ label = $g.Name; path = $g.Group[0].path } }
+        foreach ($g in $groupedParts) { 
+            if ($g.Group.Count -gt 0) {
+                $partItems += @{ label = $g.Name; path = $g.Group[0].path } 
+            }
+        }
         
         $partDropdown = ""
+        $hasDropdown = $false
         if ($partItems.Count -gt 0) {
+            $hasDropdown = $true
             $partDropdown = "<div class='dropdown-content'>"
             foreach ($item in $partItems) {
                 $url = "${AssetPath}$($item.path)"
@@ -215,53 +241,78 @@ function Get-BreadcrumbHTML {
             $partDropdown += "</div>"
         }
         
-        # Use first part link as main HREF or #? Let's use # to prevent accidental click if expecting dropdown
         $currPartUrl = "#" 
-        # Find current part path
         $currPartObj = $partItems | Where-Object { $_.label -eq $CurrentEntry.part } | Select-Object -First 1
         if ($currPartObj) { $currPartUrl = "${AssetPath}$($currPartObj.path)" }
 
-        $html += "<div class='breadcrumb-item'><a href='$currPartUrl'>$($CurrentEntry.part)</a>$partDropdown</div>"
+        # Add 'dropdown' class to parent if needed
+        $parentClass = "breadcrumb-item" + $(if ($hasDropdown) { " dropdown" } else { "" })
+        $html += "<div class='$parentClass'><a href='$currPartUrl'>$($CurrentEntry.part)</a>$partDropdown</div>"
         $html += "<span class='separator'>&rsaquo;</span>"
         
         # 3. Chapter Dropdown
         if ($CurrentEntry.chapter) {
-            $chapters = $Sitemap | Where-Object { $_.lang -eq $lang -and $_.part -eq $CurrentEntry.part -and $_.chapter } | Group-Object chapter
+            $chapters = @($Sitemap | Where-Object { $_.lang -eq $lang -and $_.part -eq $CurrentEntry.part -and $_.chapter })
+            $groupedChapters = $chapters | Group-Object chapter
+            
             $chapItems = @()
-            foreach ($g in $chapters) { $chapItems += @{ label = $g.Name; path = $g.Group[0].path } }
+            foreach ($g in $groupedChapters) { 
+                if ($g.Group.Count -gt 0) {
+                    $chapItems += @{ label = $g.Name; path = $g.Group[0].path } 
+                }
+            }
+            
+            # Sort numerically
+            $chapItems = $chapItems | Sort-Object { 
+                if ($_.label -match "(\d+)") { [int]$matches[1] } else { 999 } 
+            }
              
             $chapDropdown = ""
+            $hasChapDropdown = $false
             if ($chapItems.Count -gt 0) {
+                $hasChapDropdown = $true
                 $chapDropdown = "<div class='dropdown-content'>"
                 foreach ($item in $chapItems) {
                     $url = "${AssetPath}$($item.path)"
                     $cls = if ($item.label -eq $CurrentEntry.chapter) { "active" } else { "" }
-                    $chapDropdown += "<a href='$url' class='$cls'>$($item.label)</a>"
+                    $cleanLabel = $item.label -replace "^Chapter\s*", ""
+                    $chapDropdown += "<a href='$url' class='$cls'>$cleanLabel</a>"
                 }
                 $chapDropdown += "</div>"
             }
              
-            $html += "<div class='breadcrumb-item'><a href='#'>$($CurrentEntry.chapter)</a>$chapDropdown</div>"
+            $parentClass = "breadcrumb-item" + $(if ($hasChapDropdown) { " dropdown" } else { "" })
+            $html += "<div class='$parentClass'><a href='#'>$($CurrentEntry.chapter)</a>$chapDropdown</div>"
             $html += "<span class='separator'>&rsaquo;</span>"
              
             # 4. Section Dropdown
-            $sections = $Sitemap | Where-Object { $_.lang -eq $lang -and $_.part -eq $CurrentEntry.part -and $_.chapter -eq $CurrentEntry.chapter }
+            $sections = @($Sitemap | Where-Object { $_.lang -eq $lang -and $_.part -eq $CurrentEntry.part -and $_.chapter -eq $CurrentEntry.chapter })
+            
             $sectDropdown = ""
-            if ($sections) {
+            $hasSectDropdown = $false
+            if ($sections.Count -gt 0) {
+                $hasSectDropdown = $true
                 $sectDropdown = "<div class='dropdown-content'>"
                 foreach ($s in $sections) {
                     $url = "${AssetPath}$($s.path)"
                     $cls = if ($s.title -eq $CurrentEntry.title) { "active" } else { "" }
-                    # Simplify title for dropdown: Remove "Chapter X: ... — " prefix
                     $cleanLabel = $s.title -replace "^.*—\s*", ""
+                    if ($s.section_title) {
+                        $cleanLabel = "${cleanLabel}: $($s.section_title)"
+                    }
                     $sectDropdown += "<a href='$url' class='$cls' title='$($s.title)'>$cleanLabel</a>"
                 }
                 $sectDropdown += "</div>"
             }
              
-            # Display current title (truncated?)
-            $dispTitle = if ($CurrentEntry.title.Length -gt 30) { $CurrentEntry.title.Substring(0, 27) + "..." } else { $CurrentEntry.title }
-            $html += "<div class='breadcrumb-item'><span>$dispTitle</span>$sectDropdown</div>"
+            $cleanTitle = $CurrentEntry.title -replace "^.*—\s*", ""
+            if ($CurrentEntry.section_title) {
+                $cleanTitle = "${cleanTitle}: $($CurrentEntry.section_title)"
+            }
+            $dispTitle = if ($cleanTitle.Length -gt 40) { $cleanTitle.Substring(0, 37) + "..." } else { $cleanTitle }
+            
+            $parentClass = "breadcrumb-item" + $(if ($hasSectDropdown) { " dropdown" } else { "" })
+            $html += "<div class='$parentClass'><span>$dispTitle</span>$sectDropdown</div>"
         }
     }
     return $html
@@ -341,6 +392,15 @@ foreach ($file in $Files) {
     $pageHtml = $pageHtml.Replace("{{LANG_CODE}}", $lang)
     $pageHtml = $pageHtml.Replace("{{DIR}}", $(if ($lang -eq 'he') { 'rtl' }else { 'ltr' }))
     $pageHtml = $pageHtml.Replace("{{PAGE_TITLE}}", $meta['title'])
+    
+    # SEO Meta
+    $pageDesc = if ($meta.ContainsKey('description')) { $meta['description'] } else { "The Torah Book of Ideas - A journey through wisdom, faith, and understanding." }
+    $pageHtml = $pageHtml.Replace("{{PAGE_DESCRIPTION}}", $pageDesc)
+    
+    # Canonical URL
+    $canonicalUrl = $BaseUrl + "/" + $relativePath.Trim('\', '/').Replace('\', '/').Replace('.md', '.html')
+    $pageHtml = $pageHtml.Replace("{{CANONICAL_URL}}", $canonicalUrl)
+
     $pageHtml = $pageHtml.Replace("{{BREADCRUMB_HTML}}", $breadcrumbHtml)
 
     $pageHtml = $pageHtml.Replace("{{PART_TITLE}}", $meta['part'])

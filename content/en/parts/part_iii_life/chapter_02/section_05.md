@@ -1,6 +1,6 @@
 ---
 title: "Chapter 2: Marriage — Section V"
-part: "Part iii life"
+part: "Part III — Life"
 chapter: "Chapter 02"
 prev: ""
 next: ""
@@ -20,4 +20,5 @@ next: ""
         </div>
 
         
+
 

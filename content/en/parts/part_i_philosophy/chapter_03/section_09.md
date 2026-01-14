@@ -4,6 +4,7 @@ part: "Part I — Philosophy"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "The Purpose of Reincarnation"
 ---
 
 <h2>The Sifting of History</h2>
@@ -234,3 +235,4 @@ next: ""
     <li><strong>The Problem:</strong> Receiving a free gift ("Bread of Shame") creates separation, as the receiver feels unlike the Giver.</li>
     <li><strong>The Solution (Free Will):</strong> By choosing good over evil, man earns his connection. He moves from "Receiving" (Malchut) to "Earning" (partners with the Giver).</li>
 </ul>
+

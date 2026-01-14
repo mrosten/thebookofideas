@@ -2,6 +2,7 @@
 title: "Chapter 3: The Song Of Philosophy — Section XI"
 part: "Part I — Philosophy"
 chapter: "Chapter 03"
+section_title: "The Sanhedrin Paradox"
 ---
 
 <h2>The Fusion of Perspectives</h2>
@@ -181,3 +182,4 @@ chapter: "Chapter 03"
     <li><strong>Spinoza/Aquinas:</strong> High Energy. Multiple axioms revolving to create a stable structure.</li>
     <li><strong>Madregat HaAdam/Rav Shik:</strong> Low Energy. Built on a single axiom (e.g., "Only God Exists"). While true, without the tension of opposing forces revolving around a center, the energy dissipates quickly.</li>
 </ul>
+

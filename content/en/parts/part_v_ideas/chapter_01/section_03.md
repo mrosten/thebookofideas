@@ -9,6 +9,8 @@ section_title: "The Fluid Dynamics of the Commandment"
 
             
 
+
+<h3 class="section-title">The Fluid Dynamics of the Commandment</h3>
 <blockquote class="fancy-quote">
             "The Laws of the Torah are the first laws of Thermodynamics regarding the Soul."
             </blockquote>

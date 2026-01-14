@@ -1,7 +1,8 @@
 ---
-title: "Section I — God — The Song of God"
+title: "Chapter 1: The Song of God — Section I"
 part: "Part I — Philosophy"
 chapter: "Chapter 01"
+section_title: "The Paradox of Infinity"
 ---
 
 

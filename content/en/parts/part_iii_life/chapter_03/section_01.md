@@ -1,9 +1,10 @@
 ---
 title: "Chapter 3: Sex — Section I"
-part: "Part iii life"
+part: "Part III — Life"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "The Spiritual Reaction"
 ---
 
             
@@ -70,4 +71,6 @@ next: ""
         </div>
 
         
+
+
 

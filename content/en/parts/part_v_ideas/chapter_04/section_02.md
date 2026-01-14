@@ -1,9 +1,10 @@
 ---
 title: "Chapter 4: Final Ideas — Section II"
-part: "Part iv"
+part: "Part V"
 chapter: "Chapter 04"
 prev: ""
 next: ""
+section_title: "The Coordinates of the Soul"
 ---
 
             
@@ -60,4 +61,6 @@ next: ""
         </div>
 
         
+
+
 
