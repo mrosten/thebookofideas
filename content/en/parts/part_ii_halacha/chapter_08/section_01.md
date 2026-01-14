@@ -4,41 +4,278 @@ part: "Part II — Halachah"
 chapter: "Chapter 08"
 prev: ""
 next: ""
+section_title: "Torah for its Own Sake"
 ---
 
-            
-
 <blockquote class="fancy-quote">
-            "It is better for words of the Torah to be burned than to be given into the hands of women." — The Severe Boundaries.
-            </blockquote>
-            <div class="feature-image">
-            <div class="visual-placeholder">
-            <div class="visual-placeholder-icon">📖</div>
-            <div class="visual-placeholder-text">The Unsold Wisdom</div>
-            </div>
-            </div>
-            <h4>Torah for its Own Sake</h4>
-            <p>The study of Torah is a communion with the Divine Mind, a process that requires absolute purity of intent. The Rambam draws a hard line: One is forbidden to learn Torah with the plan of using it to earn a living. The wisdom is a gift, a frequency of light that cannot be sold. While modern authorities like Rabbi Israel Salanter permitted being a functional Rabbi as a "need of the hour," the core principle remains: To turn the words of God into a spade to dig with is to desecrate the sanctity of the transmission.</p>
-            <div class="concept-box">
-            <strong>The Economics of Spirit</strong>
-            The tension between modern life and ancient law creates two distinct camps:
-            <ul>
-            <li><strong>The Rambam's Ideal:</strong> One must work for a living and learn for the soul. Receiving money for Torah turns a "Living Light" into a dead commodity. It risks losing one's portion in the World to Come.</li>
-            <li><strong>The Tashbatz's Reality:</strong> To preserve the tradition in a distracted world, a scholar may depend on the community. This is a "legal fiction" necessary for survival, but it changes the nature of the learning from pure communion to professional duty.</li>
-            </ul>
-            </div>
-            <h4>The Gender of Knowledge</h4>
-            <p>The Talmud records a jarring statement from Rabbi Eliezer: "It is better for words of the Torah to be burned than to be given into the hands of women." This is not about intelligence or capability. It is about the "Vessel." The Torah is "Fire." If Fire is placed in a vessel not designed to hold it (structurally), the vessel breaks. The "hands of women" represent a specific mode of reception (Binah/Understanding) that is different from the transmission mode (Chochmah/Wisdom) of the active study. The restriction is a safeguard for the integrity of the light itself.</p>
-            <blockquote class="fancy-quote">
-            “No Gra means no Torah.”
-            </blockquote>
-            
-            
-        </div>
+"It is better for words of the Torah to be burned than to be given into the hands of women." — The Severe Boundaries.
+</blockquote>
 
+<!-- Interactive Visual: The Wavelength of Wisdom -->
+<div class="interactive-element wisdom-frequency">
+    <div class="visual-header">
+        <h3 class="visual-title">The Wavelength of Wisdom</h3>
+        <p class="visual-subtitle">Torah as Pure Light vs. Commodity</p>
+    </div>
+    
+    <div class="frequency-display">
+        <canvas id="waveCanvas" width="600" height="200"></canvas>
+        <div class="mode-indicator" id="modeIndicator">Pure Transmission</div>
+    </div>
+    
+    <div class="mode-toggle-container">
+        <button class="mode-btn active" onclick="setMode('pure')" id="btn-pure">
+            <span class="icon">✨</span>
+            <span class="label">L'Shem Shamayim<br/><small>(For Its Own Sake)</small></span>
+        </button>
+        <button class="mode-btn" onclick="setMode('commodity')" id="btn-commodity">
+            <span class="icon">💰</span>
+            <span class="label">Torah as Business<br/><small>(Commodified)</small></span>
+        </button>
+    </div>
+    
+    <div class="frequency-stats" id="stats">
+        <div class="stat-card">
+            <div class="stat-label">Frequency</div>
+            <div class="stat-value" id="freq-val">∞ Hz</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">Amplitude</div>
+            <div class="stat-value" id="amp-val">Divine</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">Purity</div>
+            <div class="stat-value" id="purity-val">100%</div>
+        </div>
+    </div>
 </div>
 
-        </div>
+<style>
+.wisdom-frequency {
+    background: var(--primary-deep);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+    margin: 3rem 0;
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    box-shadow: var(--shadow-lg);
+    color: white;
+}
 
+.frequency-display {
+    position: relative;
+    background: #020617;
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+#waveCanvas {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mode-indicator {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: var(--font-ui);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent-gold-light);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.mode-toggle-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.mode-btn {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    font-family: var(--font-ui);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.mode-btn .icon {
+    font-size: 2rem;
+}
+
+.mode-btn .label {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.mode-btn.active {
+    background: rgba(197, 160, 89, 0.1);
+    border-color: var(--accent-gold);
+    box-shadow: 0 0 20px rgba(197, 160, 89, 0.2);
+}
+
+.mode-btn:hover:not(.active) {
+    background: rgba(255,255,255,0.05);
+    transform: translateY(-2px);
+}
+
+.frequency-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.stat-card {
+    background: rgba(0,0,0,0.3);
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    text-align: center;
+}
+
+.stat-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-gold-dim);
+    margin-bottom: 0.5rem;
+}
+
+.stat-value {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--accent-gold-light);
+    font-family: monospace;
+}
+
+@media (max-width: 640px) {
+    .mode-toggle-container {
+        grid-template-columns: 1fr;
+    }
+    .frequency-stats {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<script>
+(function() {
+    const canvas = document.getElementById('waveCanvas');
+    const ctx = canvas.getContext('2d');
+    let currentMode = 'pure';
+    let time = 0;
+    let animationId = null;
+
+    function setMode(mode) {
+        currentMode = mode;
+        document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById('btn-' + mode).classList.add('active');
         
+        const indicator = document.getElementById('modeIndicator');
+        const freqVal = document.getElementById('freq-val');
+        const ampVal = document.getElementById('amp-val');
+        const purityVal = document.getElementById('purity-val');
+        
+        if (mode === 'pure') {
+            indicator.innerText = 'Pure Transmission';
+            freqVal.innerText = '∞ Hz';
+            ampVal.innerText = 'Divine';
+            purityVal.innerText = '100%';
+        } else {
+            indicator.innerText = 'Corrupted Signal';
+            freqVal.innerText = '60 Hz';
+            ampVal.innerText = 'Limited';
+            purityVal.innerText = '23%';
+        }
+    }
 
+    function draw() {
+        const width = canvas.width;
+        const height = canvas.height;
+        const centerY = height / 2;
+
+        ctx.clearRect(0, 0, width, height);
+
+        // Draw center line
+        ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(0, centerY);
+        ctx.lineTo(width, centerY);
+        ctx.stroke();
+
+        if (currentMode === 'pure') {
+            // Pure wave - smooth, golden, coherent
+            ctx.strokeStyle = '#E6C87C';
+            ctx.lineWidth = 3;
+            ctx.shadowBlur = 15;
+            ctx.shadowColor = '#C5A059';
+            
+            ctx.beginPath();
+            for (let x = 0; x < width; x++) {
+                const y = centerY + Math.sin((x * 0.02) + time) * 60;
+                if (x === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+            ctx.shadowBlur = 0;
+        } else {
+            // Commodified wave - jagged, degraded, multiple conflicting frequencies
+            ctx.strokeStyle = '#94a3b8';
+            ctx.lineWidth = 2;
+            
+            ctx.beginPath();
+            for (let x = 0; x < width; x++) {
+                const base = Math.sin((x * 0.02) + time) * 40;
+                const noise = Math.random() * 20 - 10;
+                const distortion = Math.sin((x * 0.08) + time * 2) * 15;
+                const y = centerY + base + noise + distortion;
+                if (x === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+        }
+
+        time += 0.03;
+        animationId = requestAnimationFrame(draw);
+    }
+
+    window.setMode = setMode;
+    
+    // Start animation
+    draw();
+    
+    // Cleanup on unload
+    window.addEventListener('beforeunload', () => {
+        if (animationId) cancelAnimationFrame(animationId);
+    });
+})();
+</script>
+
+<h4>Torah for its Own Sake</h4>
+<p>The study of Torah is a communion with the Divine Mind, a process that requires absolute purity of intent. The Rambam draws a hard line: One is forbidden to learn Torah with the plan of using it to earn a living. The wisdom is a gift, a frequency of light that cannot be sold. While modern authorities like Rabbi Israel Salanter permitted being a functional Rabbi as a "need of the hour," the core principle remains: To turn the words of God into a spade to dig with is to desecrate the sanctity of the transmission.</p>
+
+<div class="concept-box">
+<strong>The Economics of Spirit</strong>
+The tension between modern life and ancient law creates two distinct camps:
+<ul>
+<li><strong>The Rambam's Ideal:</strong> One must work for a living and learn for the soul. Receiving money for Torah turns a "Living Light" into a dead commodity. It risks losing one's portion in the World to Come.</li>
+<li><strong>The Tashbatz's Reality:</strong> To preserve the tradition in a distracted world, a scholar may depend on the community. This is a "legal fiction" necessary for survival, but it changes the nature of the learning from pure communion to professional duty.</li>
+</ul>
+</div>
+
+<h4>The Gender of Knowledge</h4>
+<p>The Talmud records a jarring statement from Rabbi Eliezer: "It is better for words of the Torah to be burned than to be given into the hands of women." This is not about intelligence or capability. It is about the "Vessel." The Torah is "Fire." If Fire is placed in a vessel not designed to hold it (structurally), the vessel breaks. The "hands of women" represent a specific mode of reception (Binah/Understanding) that is different from the transmission mode (Chochmah/Wisdom) of the active study. The restriction is a safeguard for the integrity of the light itself.</p>
+
+<blockquote class="fancy-quote">
+"No Gra means no Torah."
+</blockquote>
