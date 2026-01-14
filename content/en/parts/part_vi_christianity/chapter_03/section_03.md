@@ -4,62 +4,34 @@ part: "Part VI — Christianity"
 chapter: "Chapter 03"
 prev: ""
 next: ""
-section_title: "The Bridge of Mathematics"
+section_title: "The Energy Fields of Holiness"
 ---
 
-            
+### The Energy Fields of Holiness
 
-<blockquote class="fancy-quote">
-            "One needs Faith and Reason, Malchus and Chachmah." — The Final Synthesis.
-            </blockquote>
-            <h4>The Bridge of Mathematics</h4>
-            <p>The place where Science and Faith touch is the world of Mathematics—the lowest Sepherah of the spiritual world and the highest of the physical. Mathematics revealed to the Zohar that "God loves the trait of Royalty (Mathematics) so much that He put the workings of His whole house into her hands." Every higher and lower world operates under these geometric principles. By recognizing that the Torah and Physics both predict their own limits (Gödel's Theorem on one side, and the Uncertainty Principle on the other), we find the overlap where a truly cohesive, organic whole can exist.</p>
-            <div class="justice-balance">
-            <input type="radio" name="unified-total-logic" id="view-faith" class="balance-toggle" checked>
-            <input type="radio" name="unified-total-logic" id="view-reason" class="balance-toggle">
-            <div class="balance-controls">
-            <label for="view-faith" class="balance-label label-righteous">Faith (Malchut)</label>
-            <label for="view-reason" class="balance-label label-righteous">Reason (Chokhmah)</label>
-            </div>
-            <div class="consequence-grid">
-            <div class="consequence-box earth-box" style="grid-column: span 2;">
-            <div id="panel-faith">
-            <h5>The Vessel of Acceptance</h5>
-            <p>Faith is the vessel of <em>Malchut</em>—the willingness to receive the Light of the Infinite without requiring exhaustive proof for every spark. It provides the grounding and the purpose that prevents the mind from spinning into the void of infinite recursion.</p>
-            <span class="status-badge badge-reward">Humble Reception</span>
-            </div>
-            <div id="panel-reason" style="display:none">
-            <h5>The Light of Wisdom</h5>
-            <p>Reason is the light of <em>Chokhmah</em>—the analytical force that identifies patterns, coordination, and logical consistency. Without reason, faith becomes superstition; without faith, reason becomes a cold tyranny of the machine.</p>
-            <span class="status-badge badge-reward">Analytical Clarity</span>
-            </div>
-            </div> </div> </div>
-            <script>
-            document.querySelectorAll('input[name="unified-total-logic"]').forEach(radio => {
-            radio.addEventListener('change', () => {
-            const isReason = document.getElementById('view-reason').checked;
-            document.getElementById('panel-faith').style.display = isReason ? 'none' : 'block';
-            document.getElementById('panel-reason').style.display = isReason ? 'block' : 'none';
-            });
-            });
-            </script>
-            <h4>The Revolution of the Heart</h4>
-            <p>Our final conclusion is that the future of humanity depends on these two Sephirot—Faith and Reason—revolving around each other like binary stars. This rotation produces the energy needed to make a "New World"—not one built on the destruction of the old, but one built on the "Correction of the Vessels." By bringing the "Light of the Circular Sephirot" (Universal Truth) into the "Vessels of the Straight Sephirot" (Personal Covenant), we create a unified manifold where God is not a distant object of study, but the living breath of the system itself.</p>
-            <div class="concept-box">
-            <strong>The Living Torah</strong>
-            The goal of "The Torah Book of Ideas" has been to map the coordinates of this revolution. Each idea—from the geometry of the cross to the regression of holiness—is a coordinate in the new manifold. As the user navigates these pages, they are not just reading a book; they are calibrating their soul to the frequency of the coming age, where the wall between the "Spiritual" and the "Physical" finally dissolves into the Light of the One.
-            </div>
-            <blockquote class="fancy-quote">
-            “The goal is a cohesive organic whole, capable of progress that neither science nor religion could do alone.”
-            </blockquote>
-            
-            
-        </div>
+At first non-Jews had a soul from the outside of the **kelipah**—even their good inclination is from the kelipah. But when they began to believe in the **One God**, they drew a higher holiness on themselves from their higher root. This applies to non-Jewish nations as a whole also, for every nation is like a whole person with some people representing the head and some the hands and others the heart and others the soul.
 
+### The Music of the Spheres
+
+The reason God brought **Bach, Beethoven, and Mozart** was to create music that would tie one's soul to the higher Sefirah (divine trait). That is:
+- **Bach** — Glory
+- **Mozart** — Kindness  
+- **Beethoven** — Judgment
+- **Handel** — Royalty
+
+Incidentally, Beethoven did intend his music to be specifically ethnic which for Germany and Austria is the trait of **judgment**, and it is only softened by the belief in Jesus. But after they threw out Jesus in the 1860s, the basic ethnic philosophy of Germany took its place, i.e., war and conquest.
+
+### The Sabbath Field
+
+The reason a non-Jew is not allowed to keep the Sabbath is that he is not affected by the **Shabbos-field energy**. Jews are affected only by the **straight Sefirot energy field**, and non-Jews are affected only by the **circular Sefirot field**.
+
+Each one of the 10 Sefirot has its own energy field. There are certain Sefirot that draw wisdom or children etc. And there are combinations of the fields of the Sefirot that draw different combinations of blessings. A field is usually created or drawn by what one occupies himself with. So if one for instance learns math he will usually draw upon himself the **math field energy**. Kindness draws a kindness field. Learning Gemara brings its particular field energy. Evil has its energy also.
+
+### The Electromagnetic Oscillation
+
+A place or country has its energy. Every day has its own energy. The reason to be by **Rabbi Nachman on Rosh Hashanah** is there is a certain energy field around a tzadik and every special day has its own energy field. So on Rosh Hashanah when the two combine and there is created an **electromagnetic oscillation** by the presence of the Hasidim, and a spiritual electromagnetic wave is created.
+
+<div class="concept-box">
+<strong>Intuition of the Heart</strong>
+Many times one can't help what type of field is drawn upon him or how he will be affected by it. He can just try his best to do what is right. But general principles can fail in specific situations and therefore God has given us a certain **intuition in the heart** to be able to detect energy fields not seen by the eye or detected by the mind.
 </div>
-
-        </div>
-
-        
-
-

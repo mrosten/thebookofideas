@@ -140,15 +140,19 @@
     <script src="../../../../assets/js/glossary_tooltip.js"></script>
     <script src="../../../../assets/js/audio.js"></script>
     <script src="../../../../assets/js/bookmarks.js"></script>
-    <!-- Theme Toggle Logic (Inline for speed) -->
     <script>
         const toggleBtn = document.getElementById('theme-toggle');
         const body = document.body;
-        if (localStorage.getItem('theme') === 'dark') {
+        // Default to dark mode
+        if (localStorage.getItem('theme') === 'light') {
+            toggleBtn.textContent = '🌙';
+        } else {
             body.classList.add('dark-mode');
             toggleBtn.textContent = '☀️';
-        } else {
-            toggleBtn.textContent = '🌙';
+            // Set dark as default if no preference stored
+            if (!localStorage.getItem('theme')) {
+                localStorage.setItem('theme', 'dark');
+            }
         }
         toggleBtn.addEventListener('click', () => {
             body.classList.toggle('dark-mode');

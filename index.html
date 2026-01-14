@@ -92,10 +92,39 @@
         html[dir="rtl"] .lang-options {
             flex-direction: row-reverse;
         }
+
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #0f172a;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode h1 {
+            color: #f1f5f9;
+        }
+
+        body.dark-mode .subtitle {
+            color: #94a3b8;
+        }
+
+        body.dark-mode .lang-card {
+            background: #1e293b;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .lang-card:hover {
+            background: #334155;
+            border-color: var(--primary-gold);
+        }
+
+        body.dark-mode .lang-card span {
+            color: #94a3b8;
+        }
     </style>
 </head>
 
-<body>
+<body class="dark-mode">
     <div class="container">
         <h1>The Torah Book of Ideas</h1>
         <p class="subtitle">A Journey Through Wisdom, Faith, and Understanding</p>
@@ -111,6 +140,17 @@
             </a>
         </div>
     </div>
+    
+    <script>
+        // Set dark mode as default
+        if (!localStorage.getItem('theme')) {
+            localStorage.setItem('theme', 'dark');
+        }
+        // Apply light mode if explicitly set
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.remove('dark-mode');
+        }
+    </script>
 </body>
 
 </html>

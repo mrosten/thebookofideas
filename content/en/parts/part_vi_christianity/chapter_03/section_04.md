@@ -4,21 +4,31 @@ part: "Part VI — Christianity"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "The Cultural Mirrors"
 ---
 
-            
+### The Cultural Mirrors
 
-<p>At first non-Jews had a soul from the outside of the klipah even their good inclination is from the klipah. But when they began to believe the one God they drew a higher holiness on themselves from their higher root. This applies to non-Jewish nations as a whole also, for every nation is like a whole person with some people representing the head and some the hands and others the heart and others the soul. The reason God brought Bach, Beethoven, and Mozart was to create music that would tie ones soul to the higher sephirah (divine trait). That is Bach - glory, Mozart - kindness, Beethoven - Judgment, Handel - Royalty.</p>
-            <p>Incidentally, Beethoven did intend his music to be specifically ethnic which for Germany and Austria is the trait of judgment and it is only softened by the belief in Jesus but after they threw out Jesus in the 1860s the basic ethnic philosophy of Germany took it's place, i.e., war and conquest. The reason a non-Jew is not allowed to keep the Sabbath is that he is not effected by the Shabbos-field energy. Jews are affected only by the straight sephirot energy field, and non-Jews are affected only by the circular sephirot field.</p>
-            <p>Each one of the 10 sephirot has its own energy field. There are certain sephirot that draw wisdom or children etc. And there are combinations of the fields of the sephirot that draw different combinations of blessings. A field is usually created or drawn by what one occupies himself with. So if one for instance learns math he will usually draw upon himself the math field energy. Kindness draws a kindness field. Learning Gemarah brings its particular field energy. Evil has its energy also. A place or country has its energy. Every day has its own energy. The reason to be by Rabbi Nachman on Rosh Hashanah is there is a certain energy field around a tzadik and every special day has it's own energy field. So on Rosh Hashanah when the two combine and there is created a electromagnetic oscillation by the presence of the chasidim, and a spiritual electro-magnetic wave is created.</p>
-            <p>Many times one can't help what type of field is drawn upon him or how he will be affected by it. He can just try his best to do what is right. But general principles can fail in specific situations and therefore God has given us a certain intuition in the heart to be able to detect energy fields not seen by the eye or detected by the mind.</p>
-            
-            
-        </div>
+It seems to me that the world points defined by place and time are only approximations as in **General Relativity**, and it's really only the properties of the **field around one** that determine his spirituality and closeness with God. As Rebbi said to Antoninus, **"Esau, but not all Esau"**, i.e., what the Torah says in general is only an approximation unless it says "all". Of course the idea of the mitzvot is to draw the field energy. Every family has its specific energy field around it.
 
+There is a disagreement among the first authorities if the Jewish and gentile soul is the same thing. The other authorities say there is a difference in the souls and this opinion I have followed in this book since it is of **Rabbi Luria** also.
+
+### The Parallel Paths
+
+Thought in Judaism follows a **parallel path** to that of their neighbors (but they add a Jewish touch and talent to it), since non-Jews are from **Tohu** which is above **Tikun** which is the root of the Jewish people.
+
+**Historical Examples:**
+- After the Romans codified their laws in **Justinian's reign**, the Jews codified theirs in the same period.
+- Since the western Catholic Church followed **rationalistic tendencies**, so did the Jews in western Europe and in Catholic lands like Poland and Lithuania. (The hard-headed rationalism of Jews from those areas is quite famous.)
+- Since the split of the Roman Empire, Constantinople and the Eastern Church followed **mystical tendencies**, and subsequently when the Muslims took over that area they incorporated the same ideas in the Sufi.
+
+And so we shouldn't be surprised to find **Sephardic Jewry** from Islamic lands and **Russian Jewry** (who lived in lands under the Eastern Church) having strong mystical tendencies. The **Kabbalah** originates in fact in Islamic Spain before it was conquered by the Christians.
+
+### The Reformation Echo
+
+When **Martin Luther** broke away from the church and said one needs only faith not reason, this same idea became the prevalent pattern in Western Jewry also until nowadays. The clear opinion of the authorities and even the great saints of Hasidut that one needs to combine **Faith and Reason** has been forgotten. **Rabbi Nachman** held Faith was the main thing, but he clearly held one needs reason also.
+
+<div class="concept-box">
+<strong>Cultural Absorption</strong>
+Jewish music from Islamic lands is totally Arabic in character. The yeshivot are the Jewish version of the monastery, and this is why they only existed in Catholic lands, not in Russia (except a brief attempt before World War I), or in Islamic lands. Jewish music of European Jewry is almost an exact duplicate of Ukrainian music.
 </div>
-
-        </div>
-
-        
-

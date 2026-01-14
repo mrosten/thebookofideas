@@ -4,20 +4,24 @@ part: "Part VI — Christianity"
 chapter: "Chapter 03"
 prev: ""
 next: ""
+section_title: "The Dialectic of Integration"
 ---
 
-            
+### The Power of Integration
 
-<p>It seems to me that the world points defined by place and time are only approximations as in General Relativity and it's really only the properties of the field around one determine his spirituality and closeness with God. As Rebbi said to Antoninus, “Esau, but not all Esau”, i.e., what the Torah says in general is only an approximation unless it says “all”. Of course the idea of the mitzvot is to draw the field energy. Every family has its specific energy field around it. There is a disagreement among the first authorities if the Jewish and gentile soul is the same thing. The other authorities say there is a difference in the souls and this opinion I have followed in this book since it is of Rabbi Luria also.</p>
-            <p>Thought in Judaism follows a parallel path to that of their neighbors (but they add a Jewish touch and talent to it), since non-Jews are from Tohu which is above Tikun which is the root of the Jewish people. For example after the Romans codified their laws in Justinian's reign, the Jews codified their's in the same period. Since the western Catholic Church followed rationalistic tendencies, so did the Jews in western Europe and in Catholic lands like Poland and Lithuania. (The hard headed rationalism of Jews from those areas is quite famous.) Since the split of the Roman Empire Constantinople and the Eastern Church followed mystical tendencies and subsequently when the Muslims took over that area they incorporated the same ideas in the Sufi. And so we shouldn't be surprised to find Sephardic Jewry from Islamic lands and Russian Jewry (who lived in lands under the Eastern Church) having strong mystical tendencies. The Kabbalah originates in fact in Islamic Spain before it was conquered by the Christians.When Martin Luther broke away from the church and said one needs only faith not reason, this same idea became the prevalent pattern in Western Jewry also until nowadays. The clear opinion of the authorities and even the great saints of Chasidut that one needs to combine Faith and reason has been forgotten. Rabbi Nachman held Faith was the main thing, but he clearly held one needs reason also.</p>
-            <p>Jewish music from Islamic lands is totally Arabic in character. The yeshivot are the Jewish version of the monastery, and this is why they only existed in Catholic lands, not in Russia (except a brief attempt before World War I), or in Islamic lands. Jewish music of European Jewry is almost an exact duplicate of Ukrainian music.</p>
-            
-            
-        </div>
+The ethical system of the **Duties of the Heart** (which is the basis of the ethical system of Judaism) is almost identical to the system of Christian authors who were about 200 years before it. (Those same authors provided the Islamic thinkers with their system also.) However this isn't to say that Jews aren't creative or original, but their special power is that of **integration**—i.e., the welding together of disparate ideas to come out with a result where the whole is more and better than the parts.
 
+### The Hegelian Dance
+
+It is obvious that we see a case of the **dialectics of Hegel**, i.e., the Jewish people representing one principle and each non-Jewish nation representing another principle and their interacting to create a new synthesis which then further interacts. But the Kabbalah would explain it differently—that the non-Jewish nations have fallen from their higher root in **Tohu** (which comes from the Divine Name of numerical value 63) and need to rise there, and the Jewish people need to draw that light of Tohu into their vessels.
+
+### Vertical and Horizontal Closeness
+
+**CONCLUSION**: Now science, I have been saying throughout this book, is on the level of understanding higher than any religion. However there also the degree of goodness is dependent on the **closeness to the origin**, not how high one can climb. This can however be the subject of debate. Some people may want to put Judaism at the top, others Christianity, others science, and still others Kabbalah. I don't want to enter that debate for I think it is irrelevant as to determine one's degree of good or evil or **horizontal closeness with God**. But it does determine **vertical closeness**.
+
+<div class="concept-box">
+<strong>The Vessels of Tohu</strong>
+I have in this put all systems to the left of the y axis and said goodness refers to closeness to the axis. However it is possible that in fact the column of infinite light is in the exact center between good and evil. I tend to think that is the case and that is the reason secular people tend to be closer to God than religious. In the vertical order I think the vessels of evangelical Christianity are on foundation of **Tohu** (since they are from Tohu/Chaos which is a higher level than the vessels of correction). But only if it stays pure—for the higher something is, if it falls, it falls lower than other things.
 </div>
 
-        </div>
-
-        
-
+The reason I think this is Jesus being a prelude to redemption contained a higher vessel than Judaism which remained one rung back. However in terms of the light, the **light of correction—Torah** is higher. But since the correction involves taking the broken vessels of Tohu and fixing them...
